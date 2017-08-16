@@ -1,0 +1,3856 @@
+
+/home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.elf:     file format elf32-tradlittlemips
+
+SYMBOL TABLE:
+9d0000f8 l    d  .image_ptr_table00000000 .image_ptr_table
+9d000180 l    d  .app_excpt00000000 .app_excpt
+9d001000 l    d  .reset00000000 .reset
+9d001018 l    d  .vectors00000000 .vectors
+9d00136c l    d  .startup00000000 .startup
+9d001540 l    d  .text00000000 .text
+9d0015c8 l    d  .init00000000 .init
+9d0015ec l    d  .fini00000000 .fini
+9d001608 l    d  .ctors00000000 .ctors
+9d001614 l    d  .dtors00000000 .dtors
+9d00161c l    d  .header_info00000000 .header_info
+80000380 l    d  .ram_exchange_data00000000 .ram_exchange_data
+9d001668 l    d  .rodata00000000 .rodata
+80000000 l    d  .dbg_data00000000 .dbg_data
+80000388 l    d  .jcr00000000 .jcr
+8000038c l    d  .eh_frame00000000 .eh_frame
+80000390 l    d  .sdata00000000 .sdata
+800006b4 l    d  .sbss00000000 .sbss
+00000000 l    d  .comment00000000 .comment
+00000000 l    d  .debug_aranges00000000 .debug_aranges
+00000000 l    d  .debug_info00000000 .debug_info
+00000000 l    d  .debug_abbrev00000000 .debug_abbrev
+00000000 l    d  .debug_line00000000 .debug_line
+00000000 l    d  .debug_frame00000000 .debug_frame
+00000000 l    d  .debug_str00000000 .debug_str
+00000000 l    d  .debug_loc00000000 .debug_loc
+00000000 l    d  .debug_ranges00000000 .debug_ranges
+00000000 l    d  .gnu.attributes00000000 .gnu.attributes
+bd0000a0 l    d  .tlb_init_values00000000 .tlb_init_values
+00000000 l    d  .reginfo00000000 .reginfo
+80002bd0 l    d  .stack00000000 .stack
+bf810540 l    d  .__vector_offset_BF810540_data00000000 .__vector_offset_BF810540_data
+bf8107a4 l    d  .__vector_offset_BF8107A4_data00000000 .__vector_offset_BF8107A4_data
+bf810740 l    d  .__vector_offset_BF810740_data00000000 .__vector_offset_BF810740_data
+bf8106f4 l    d  .__vector_offset_BF8106F4_data00000000 .__vector_offset_BF8106F4_data
+bf810874 l    d  .__vector_offset_BF810874_data00000000 .__vector_offset_BF810874_data
+bf8106d8 l    d  .__vector_offset_BF8106D8_data00000000 .__vector_offset_BF8106D8_data
+bf810858 l    d  .__vector_offset_BF810858_data00000000 .__vector_offset_BF810858_data
+bf810840 l    d  .__vector_offset_BF810840_data00000000 .__vector_offset_BF810840_data
+bf810850 l    d  .__vector_offset_BF810850_data00000000 .__vector_offset_BF810850_data
+bf810894 l    d  .__vector_offset_BF810894_data00000000 .__vector_offset_BF810894_data
+80000948 l    d  .bss._ZL4Chan.Chan00000000 .bss._ZL4Chan.Chan
+80001b08 l    d  .data.impure_data.impure_data00000000 .data.impure_data.impure_data
+80001f20 l    d  .data.__malloc_av_.__malloc_av_00000000 .data.__malloc_av_.__malloc_av_
+80002328 l    d  .bss.__malloc_current_mallinfo.__malloc_current_mallinfo00000000 .bss.__malloc_current_mallinfo.__malloc_current_mallinfo
+80002350 l    d  .bss00000000 .bss
+80002370 l    d  .bss.mem.1298.mem00000000 .bss.mem.1298.mem
+80002388 l    d  .data._ZN10__cxxabiv119__terminate_handlerE.__terminate_handler00000000 .data._ZN10__cxxabiv119__terminate_handlerE.__terminate_handler
+8000238c l    d  .libc.data.__fdlib_version00000000 .libc.data.__fdlib_version
+80002390 l    d  .libc.data._impure_ptr00000000 .libc.data._impure_ptr
+80002394 l    d  .data.__malloc_trim_threshold.__malloc_trim_threshold00000000 .data.__malloc_trim_threshold.__malloc_trim_threshold
+80002398 l    d  .bss.__malloc_top_pad.__malloc_top_pad00000000 .bss.__malloc_top_pad.__malloc_top_pad
+8000239c l    d  .data.__malloc_sbrk_base.__malloc_sbrk_base00000000 .data.__malloc_sbrk_base.__malloc_sbrk_base
+800023a0 l    d  .bss.errno.errno00000000 .bss.errno.errno
+800023a4 l    d  .bss._minbrk._minbrk00000000 .bss._minbrk._minbrk
+800023a8 l    d  .bss._maxbrk._maxbrk00000000 .bss._maxbrk._maxbrk
+800023ac l    d  .bss.curbrk.curbrk00000000 .bss.curbrk.curbrk
+9d001910 l    d  .dinit00000000 .dinit
+9d002a50 l    d  .rodata._ZN5Fonts8SinclairE.Sinclair00000000 .rodata._ZN5Fonts8SinclairE.Sinclair
+9d003358 l    d  .rodata._ZN5Fonts7DefaultE.Default00000000 .rodata._ZN5Fonts7DefaultE.Default
+9d003c54 l    d  .text.__ieee754_pow00000000 .text.__ieee754_pow
+9d0044d0 l    d  .text._ZN7SSD128912startDisplayEv00000000 .text._ZN7SSD128912startDisplayEv
+9d004b80 l    d  .text.initADC00000000 .text.initADC
+9d004f78 l    d  .text._ZN11DisplayCore8drawCharEiihtt00000000 .text._ZN11DisplayCore8drawCharEiihtt
+9d005344 l    d  .text.loop00000000 .text.loop
+9d005708 l    d  .text.pow00000000 .text.pow
+9d005a9c l    d  .text._ZN7SSD128916initializeDeviceEv00000000 .text._ZN7SSD128916initializeDeviceEv
+9d005db0 l    d  .text._ZN11DisplayCore12fillTriangleEiiiiiit00000000 .text._ZN11DisplayCore12fillTriangleEiiiiiit
+9d00607c l    d  .text._ZN11DisplayCore10fillBezierEiiiiiiiiit00000000 .text._ZN11DisplayCore10fillBezierEiiiiiiiiit
+9d006320 l    d  .text._ZN11DisplayCore10drawBezierEiiiiiiiiit00000000 .text._ZN11DisplayCore10drawBezierEiiiiiiiiit
+9d0065b4 l    d  .text._free_r00000000 .text._free_r
+9d006834 l    d  .text._ZN11DisplayCore10drawCircleEiiit00000000 .text._ZN11DisplayCore10drawCircleEiiit
+9d006aa8 l    d  .text00000000 .text
+9d006cf4 l    d  .text._Z14HandlePWMServom00000000 .text._Z14HandlePWMServom
+9d006f2c l    d  .text._ZN7SSD12897commandEt00000000 .text._ZN7SSD12897commandEt
+9d00715c l    d  .text._ZN7SSD12894dataEt00000000 .text._ZN7SSD12894dataEt
+9d00738c l    d  .text.__ieee754_sqrt00000000 .text.__ieee754_sqrt
+9d007594 l    d  .text._ZN11DisplayCore16drawCircleHelperEiiiit00000000 .text._ZN11DisplayCore16drawCircleHelperEiiiit
+9d007784 l    d  .text._ZN11DisplayCore13drawRoundRectEiiiiit00000000 .text._ZN11DisplayCore13drawRoundRectEiiiiit
+9d007954 l    d  .text._scheduleTask00000000 .text._scheduleTask
+9d007b04 l    d  .text._ZN11DisplayCore16fillCircleHelperEiiiiit00000000 .text._ZN11DisplayCore16fillCircleHelperEiiiiit
+9d007ca4 l    d  .text._ZN11DisplayCore8drawLineEiiiiit00000000 .text._ZN11DisplayCore8drawLineEiiiiit
+9d007e44 l    d  .text._ZN11DisplayCore12clipToScreenERiS0_S0_S0_00000000 .text._ZN11DisplayCore12clipToScreenERiS0_S0_S0_
+9d007fd0 l    d  .text.rint00000000 .text.rint
+9d008158 l    d  .text._ZN11DisplayCore5writeEh00000000 .text._ZN11DisplayCore5writeEh
+9d0082dc l    d  .text._ZN7SSD1289C2Ehhhhhhhhhhhhhhhhhhhhh00000000 .text._ZN7SSD1289C2Ehhhhhhhhhhhhhhhhhhhhh
+9d00845c l    d  .text._ZN11DisplayCore8drawLineEiiiit00000000 .text._ZN11DisplayCore8drawLineEiiiit
+9d0085cc l    d  .text._ZN7SSD128911setRotationEi00000000 .text._ZN7SSD128911setRotationEi
+9d008738 l    d  .text._ZN7SSD128913setAddrWindowEiiii00000000 .text._ZN7SSD128913setAddrWindowEiiii
+9d00889c l    d  .text._Z14regularStripesttmm00000000 .text._Z14regularStripesttmm
+9d0089fc l    d  .text.pinMode00000000 .text.pinMode
+9d008b5c l    d  .text._sbrk_init00000000 .text._sbrk_init
+9d008cb4 l    d  .text._Z21SoftPWMServoPinEnablemb00000000 .text._Z21SoftPWMServoPinEnablemb
+9d008e08 l    d  .text._ZN11DisplayCore10drawBitmapEiiPKhiit00000000 .text._ZN11DisplayCore10drawBitmapEiiPKhiit
+9d008f54 l    d  .text.scalbn00000000 .text.scalbn
+9d009084 l    d  .text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastElNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE00000000 .text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastElNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+9d0091ac l    d  .text._Z13randomStripestt00000000 .text._Z13randomStripestt
+9d0092d0 l    d  .text._ZL11CopyBuffersv00000000 .text._ZL11CopyBuffersv
+9d0093f0 l    d  .text._ZN11DisplayCore13fillRoundRectEiiiiit00000000 .text._ZN11DisplayCore13fillRoundRectEiiiiit
+9d00950c l    d  .text._malloc_trim_r00000000 .text._malloc_trim_r
+9d009628 l    d  .text._ZN11DisplayCore10fillCircleEiiit00000000 .text._ZN11DisplayCore10fillCircleEiiit
+9d009740 l    d  .rodata00000000 .rodata
+9d009840 l    d  .text._ZN11DisplayCore8drawRGBAEiiPKtiit00000000 .text._ZN11DisplayCore8drawRGBAEiiPKtiit
+9d00993c l    d  .text._ZN11DisplayCore13drawRectangleEiiiit00000000 .text._ZN11DisplayCore13drawRectangleEiiiit
+9d009a38 l    d  .text._ZN11DisplayCore12drawTriangleEiiiiiit00000000 .text._ZN11DisplayCore12drawTriangleEiiiiiit
+9d009b30 l    d  .text._ZN11DisplayCore7drawRGBEiiPKtii00000000 .text._ZN11DisplayCore7drawRGBEiiPKtii
+9d009c1c l    d  .text._Z3Addm00000000 .text._Z3Addm
+9d009d00 l    d  .text._ZN11DisplayCore20translateCoordinatesEPiS0_00000000 .text._ZN11DisplayCore20translateCoordinatesEPiS0_
+9d009de0 l    d  .text.digitalWrite00000000 .text.digitalWrite
+9d009ebc l    d  .text._ZN11DisplayCore13fillRectangleEiiiit00000000 .text._ZN11DisplayCore13fillRectangleEiiiit
+9d009f90 l    d  .text._ZN7SSD128913fillRectangleEiiiit00000000 .text._ZN7SSD128913fillRectangleEiiiit
+9d00a060 l    d  .text._ZN11DisplayCore9map3Dto2DER7point3d00000000 .text._ZN11DisplayCore9map3Dto2DER7point3d
+9d00a12c l    d  .text._Z16SoftPWMServoInitv00000000 .text._Z16SoftPWMServoInitv
+9d00a1f4 l    d  .text._Z20SoftPWMServoRawWritemmb00000000 .text._Z20SoftPWMServoRawWritemmb
+9d00a2bc l    d  .text._ZN11DisplayCore3mixEtti00000000 .text._ZN11DisplayCore3mixEtti
+9d00a378 l    d  .text._ZN11DisplayCore11stringWidthEPKc00000000 .text._ZN11DisplayCore11stringWidthEPKc
+9d00a434 l    d  .text._sbrk00000000 .text._sbrk
+9d00a4f0 l    d  .text._GLOBAL__sub_I_tft00000000 .text._GLOBAL__sub_I_tft
+9d00a5a8 l    d  .text._ZN7SSD128916drawVerticalLineEiiit00000000 .text._ZN7SSD128916drawVerticalLineEiiit
+9d00a658 l    d  .text.init00000000 .text.init
+9d00a708 l    d  .text._raise_r00000000 .text._raise_r
+9d00a7b8 l    d  .text._ZN7SSD128918drawHorizontalLineEiiit00000000 .text._ZN7SSD128918drawHorizontalLineEiiit
+9d00a864 l    d  .text._Z15setBorderSinglet00000000 .text._Z15setBorderSinglet
+9d00a90c l    d  .text._Z7silencem00000000 .text._Z7silencem
+9d00a9a8 l    d  .text._ZN11DisplayCoreC2Ev00000000 .text._ZN11DisplayCoreC2Ev
+9d00aa44 l    d  .text._ZN11DisplayCore18drawHorizontalLineEiiit00000000 .text._ZN11DisplayCore18drawHorizontalLineEiiit
+9d00aae0 l    d  .text._ZN11DisplayCore16drawVerticalLineEiiit00000000 .text._ZN11DisplayCore16drawVerticalLineEiiit
+9d00ab7c l    d  .text._ZN11DisplayCore10fillScreenEt00000000 .text._ZN11DisplayCore10fillScreenEt
+9d00ac18 l    d  .text._ZN11DisplayCore8setPixelEiiit00000000 .text._ZN11DisplayCore8setPixelEiiit
+9d00acb0 l    d  .text._ZN11DisplayCore10windowDataEt00000000 .text._ZN11DisplayCore10windowDataEt
+9d00ad48 l    d  .text.attachCoreTimerService00000000 .text.attachCoreTimerService
+9d00ade0 l    d  .text._ZNK10__cxxabiv117__class_type_info12__do_dyncastElNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE00000000 .text._ZNK10__cxxabiv117__class_type_info12__do_dyncastElNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+9d00ae74 l    d  .rodata.digital_pin_to_bit_mask_PGM.digital_pin_to_bit_mask_PGM00000000 .rodata.digital_pin_to_bit_mask_PGM.digital_pin_to_bit_mask_PGM
+9d00af04 l    d  .rodata.digital_pin_to_timer_PGM.digital_pin_to_timer_PGM00000000 .rodata.digital_pin_to_timer_PGM.digital_pin_to_timer_PGM
+9d00af94 l    d  .text._ZN7SSD12898setPixelEiit00000000 .text._ZN7SSD12898setPixelEiit
+9d00b018 l    d  .text._Z10loadHeaderm00000000 .text._Z10loadHeaderm
+9d00b098 l    d  .text._ZN11DisplayCore5writeEPKhm00000000 .text._ZN11DisplayCore5writeEPKhm
+9d00b118 l    d  .text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj00000000 .text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+9d00b194 l    d  .text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcElPKvPKNS_17__class_type_infoES2_00000000 .text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcElPKvPKNS_17__class_type_infoES2_
+9d00b210 l    d  .text._Z6Removem00000000 .text._Z6Removem
+9d00b288 l    d  .text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE00000000 .text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+9d00b2fc l    d  .text._ZN7SSD128910windowDataEPti00000000 .text._ZN7SSD128910windowDataEPti
+9d00b36c l    d  .text._ZN11DisplayCore10windowDataEPKti00000000 .text._ZN11DisplayCore10windowDataEPKti
+9d00b3dc l    d  .text.__fpclassifyd00000000 .text.__fpclassifyd
+9d00b448 l    d  .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv00000000 .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+9d00b4b0 l    d  .text.setup00000000 .text.setup
+9d00b514 l    d  .text.strcmp00000000 .text.strcmp
+9d00b578 l    d  .text._Z8loadBodym00000000 .text._Z8loadBodym
+9d00b5d8 l    d  .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE00000000 .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+9d00b634 l    d  .text.setIntPriority00000000 .text.setIntPriority
+9d00b68c l    d  .text.rand00000000 .text.rand
+9d00b6e4 l    d  .text._ZN11DisplayCore18getPortInformationEhPm00000000 .text._ZN11DisplayCore18getPortInformationEhPm
+9d00b738 l    d  .text.turnOffPWM00000000 .text.turnOffPWM
+9d00b78c l    d  .text._kill_r00000000 .text._kill_r
+9d00b7e0 l    d  .text._ZNKSt9type_info10__do_catchEPKS_PPvj00000000 .text._ZNKSt9type_info10__do_catchEPKS_PPvj
+9d00b830 l    d  .text._sbrk_r00000000 .text._sbrk_r
+9d00b880 l    d  .text.sbrk00000000 .text.sbrk
+9d00b8d0 l    d  .text._Z20SoftPWMServoPWMWritemh00000000 .text._Z20SoftPWMServoPWMWritemh
+9d00b91c l    d  .text.delay00000000 .text.delay
+9d00b968 l    d  .rodata00000000 .rodata
+9d00b9b0 l    d  .rodata.digital_pin_to_port_PGM.digital_pin_to_port_PGM00000000 .rodata.digital_pin_to_port_PGM.digital_pin_to_port_PGM
+9d00b9f8 l    d  .rodata.digital_pin_to_pps_out_PGM.digital_pin_to_pps_out_PGM00000000 .rodata.digital_pin_to_pps_out_PGM.digital_pin_to_pps_out_PGM
+9d00ba40 l    d  .text.setIntEnable00000000 .text.setIntEnable
+9d00ba88 l    d  .text._ZNKSt9type_infoeqERKS_.isra.000000000 .text._ZNKSt9type_infoeqERKS_.isra.0
+9d00bb18 l    d  .text00000000 .text
+9d00bb60 l    d  .text._bootstrap_exception_handler00000000 .text._bootstrap_exception_handler
+9d00bba8 l    d  .text.millisecondCoreTimerService00000000 .text.millisecondCoreTimerService
+9d00bbec l    d  .text._ZN7SSD128910fillScreenEt00000000 .text._ZN7SSD128910fillScreenEt
+9d00bc28 l    d  .text.setIntVector00000000 .text.setIntVector
+9d00bc64 l    d  .text._Z3clst00000000 .text._Z3clst
+9d00bc9c l    d  .text._ZN11DisplayCore12getRectangleEiiiiPt00000000 .text._ZN11DisplayCore12getRectangleEiiiiPt
+9d00bcd4 l    d  .text._configSystem00000000 .text._configSystem
+9d00bd0c l    d  .text._enableMultiVectorInterrupts00000000 .text._enableMultiVectorInterrupts
+9d00bd48 l    d  .rodata00000000 .rodata
+9d00bd80 l    d  .text.main_entry00000000 .text.main_entry
+9d00bdb4 l    d  .text._ZN11DisplayCore10openWindowEiiii00000000 .text._ZN11DisplayCore10openWindowEiiii
+9d00bde8 l    d  .rodata.port_to_tris_PGM.port_to_tris_PGM00000000 .rodata.port_to_tris_PGM.port_to_tris_PGM
+9d00be18 l    d  .text.main00000000 .text.main
+9d00be48 l    d  .text._ZN10__cxxabiv117__class_type_infoD0Ev00000000 .text._ZN10__cxxabiv117__class_type_infoD0Ev
+9d00be74 l    d  .text._ZN10__cxxabiv120__si_class_type_infoD0Ev00000000 .text._ZN10__cxxabiv120__si_class_type_infoD0Ev
+9d00bea0 l    d  .text.memcpy00000000 .text.memcpy
+9d00becc l    d  .text._stub_sbd_memlayout00000000 .text._stub_sbd_memlayout
+9d00bef8 l    d  .text.getPeripheralClock00000000 .text.getPeripheralClock
+9d00bf20 l    d  .text._ZdlPv00000000 .text._ZdlPv
+9d00bf48 l    d  .text.copysign00000000 .text.copysign
+9d00bf70 l    d  .text._initTaskManager00000000 .text._initTaskManager
+9d00bf94 l    d  .text._ZN10__cxxabiv117__class_type_infoD2Ev00000000 .text._ZN10__cxxabiv117__class_type_infoD2Ev
+9d00bfb8 l    d  .text._ZN10__cxxabiv120__si_class_type_infoD2Ev00000000 .text._ZN10__cxxabiv120__si_class_type_infoD2Ev
+9d00bfdc l    d  .text._ZNSt9type_infoD0Ev00000000 .text._ZNSt9type_infoD0Ev
+9d00c000 l    d  .text.free00000000 .text.free
+9d00c024 l    d  .text.raise00000000 .text.raise
+9d00c048 l    d  .text.memset00000000 .text.memset
+9d00c06c l    d  .text._ZN11DisplayCore8color565Ehhh00000000 .text._ZN11DisplayCore8color565Ehhh
+9d00c08c l    d  .text.getIntVector00000000 .text.getIntVector
+9d00c0b0 l    d  .rodata00000000 .rodata
+9d00c0d0 l    d  .text._ZN7SSD128910openWindowEiiii00000000 .text._ZN7SSD128910openWindowEiiii
+9d00c0ec l    d  .text._ZN11DisplayCore12stringHeightEPKc00000000 .text._ZN11DisplayCore12stringHeightEPKc
+9d00c108 l    d  .text.restoreInterrupts00000000 .text.restoreInterrupts
+9d00c124 l    d  .text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcElPKvPKS0_S2_00000000 .text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcElPKvPKS0_S2_
+9d00c140 l    d  .text._getpid_r00000000 .text._getpid_r
+9d00c15c l    d  .text._ZN10__cxxabiv111__terminateEPFvvE00000000 .text._ZN10__cxxabiv111__terminateEPFvvE
+9d00c174 l    d  .text.fabs00000000 .text.fabs
+9d00c18c l    d  .text.finite00000000 .text.finite
+9d00c1a4 l    d  .text.abort00000000 .text.abort
+9d00c1bc l    d  .text00000000 .text
+9d00c1ec l    d  .text._ZN11DisplayCore9getCursorEh00000000 .text._ZN11DisplayCore9getCursorEh
+9d00c200 l    d  .text._ZN11DisplayCore12setTextColorEtt00000000 .text._ZN11DisplayCore12setTextColorEtt
+9d00c214 l    d  .text._ZN11DisplayCore15invertTextColorEv00000000 .text._ZN11DisplayCore15invertTextColorEv
+9d00c228 l    d  .text._ZSt9terminatev00000000 .text._ZSt9terminatev
+9d00c23c l    d  .text.nan00000000 .text.nan
+9d00c250 l    d  .text._ZN7SSD128910windowDataEt00000000 .text._ZN7SSD128910windowDataEt
+9d00c260 l    d  .rodata00000000 .rodata
+9d00c270 l    d  .text._ZN11DisplayCore11closeWindowEv00000000 .text._ZN11DisplayCore11closeWindowEv
+9d00c280 l    d  .text._initCoreTimer00000000 .text._initCoreTimer
+9d00c290 l    d  .text._ZNSt9type_infoD2Ev00000000 .text._ZNSt9type_infoD2Ev
+9d00c2a0 l    d  .text.__cxa_pure_virtual00000000 .text.__cxa_pure_virtual
+9d00c2b0 l    d  .rodata.bp.bp00000000 .rodata.bp.bp
+9d00c2c0 l    d  .rodata.dp_h.dp_h00000000 .rodata.dp_h.dp_h
+9d00c2d0 l    d  .rodata.dp_l.dp_l00000000 .rodata.dp_l.dp_l
+9d00c2e0 l    d  .rodata.TWO52.TWO5200000000 .rodata.TWO52.TWO52
+9d00c2f0 l    d  .text._ZN11DisplayCore9setCursorEii00000000 .text._ZN11DisplayCore9setCursorEii
+9d00c2fc l    d  .text.millis00000000 .text.millis
+9d00c308 l    d  .text.disableInterrupts00000000 .text.disableInterrupts
+9d00c314 l    d  .text.readCoreTimer00000000 .text.readCoreTimer
+9d00c320 l    d  .text.__errno00000000 .text.__errno
+9d00c32c l    d  .text._ZN7SSD128913invertDisplayEh00000000 .text._ZN7SSD128913invertDisplayEh
+9d00c334 l    d  .text._ZN7SSD128911closeWindowEv00000000 .text._ZN7SSD128911closeWindowEv
+9d00c33c l    d  .text._ZN11DisplayCore8getWidthEv00000000 .text._ZN11DisplayCore8getWidthEv
+9d00c344 l    d  .text._ZN11DisplayCore9getHeightEv00000000 .text._ZN11DisplayCore9getHeightEv
+9d00c34c l    d  .text._ZN11DisplayCore7colorAtEii00000000 .text._ZN11DisplayCore7colorAtEii
+9d00c354 l    d  .text._ZN11DisplayCore10setCursorXEi00000000 .text._ZN11DisplayCore10setCursorXEi
+9d00c35c l    d  .text._ZN11DisplayCore10setCursorYEi00000000 .text._ZN11DisplayCore10setCursorYEi
+9d00c364 l    d  .text._ZN11DisplayCore10getCursorXEv00000000 .text._ZN11DisplayCore10getCursorXEv
+9d00c36c l    d  .text._ZN11DisplayCore10getCursorYEv00000000 .text._ZN11DisplayCore10getCursorYEv
+9d00c374 l    d  .text._ZN11DisplayCore12setTextColorEt00000000 .text._ZN11DisplayCore12setTextColorEt
+9d00c37c l    d  .text._ZN11DisplayCore11setTextWrapEh00000000 .text._ZN11DisplayCore11setTextWrapEh
+9d00c384 l    d  .text._ZN11DisplayCore7setFontEPKh00000000 .text._ZN11DisplayCore7setFontEPKh
+9d00c38c l    d  .text._ZN11DisplayCore12getTextColorEv00000000 .text._ZN11DisplayCore12getTextColorEv
+9d00c394 l    d  .text._ZN5Print5printEPKc00000000 .text._ZN5Print5printEPKc
+9d00c39c l    d  .text._ZNKSt9type_info14__is_pointer_pEv00000000 .text._ZNKSt9type_info14__is_pointer_pEv
+9d00c3a4 l    d  .text._ZNKSt9type_info15__is_function_pEv00000000 .text._ZNKSt9type_info15__is_function_pEv
+9d00c3ac l    d  .text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv00000000 .text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
+9d00c3b4 l    d  .text.matherr00000000 .text.matherr
+9d00c3bc l    d  .text.__malloc_lock00000000 .text.__malloc_lock
+9d00c3c4 l    d  .text.__malloc_unlock00000000 .text.__malloc_unlock
+9d00c3cc l    d  .text._on_reset00000000 .text._on_reset
+9d00c3d4 l    d  .text._on_bootstrap00000000 .text._on_bootstrap
+9d00c3dc l    d  .text._exit00000000 .text._exit
+9d00c3e4 l    d  .text.kill00000000 .text.kill
+9d00c3ec l    d  .text.getpid00000000 .text.getpid
+9d00bd44 l    d  .rodata00000000 .rodata
+00000000 l    df *ABS*00000000 /tmp/ccQkghE3.o
+9d001008 l       .reset00000000 0x80 __reset_micromips_isa
+9d00136c l     F .startup000001d4 _startup
+9d001010 l       .reset00000000 __reset_switch_isa
+9d00138c l       .startup00000000 _no_nmi
+9d001408 l       .startup00000000 _bss_check
+9d0013f4 l       .startup00000000 _bss_init
+00000000 l       *ABS*00000000 FMT_CLEAR
+00000001 l       *ABS*00000000 FMT_COPY
+9d001414 l       .startup00000000 _dinit_init
+9d00145c l       .startup00000000 _dinit_clear
+9d00143c l       .startup00000000 _dinit_copy
+9d00146c l       .startup00000000 _dinit_end
+9d001494 l       .startup00000000 _ramfunc_done
+9d00bd80 l     F .text.main_entry00000034 _main_entry
+9d000180 l     F .app_excpt00000010 _gen_exception
+00000000 l    df *ABS*00000000 /home/matt/.uecide/cores/chipkit/pic32/wiring.c
+9d00c2fc l       .text.millis00000000 L0
+9d00c2fc l       .text.millis00000000 L0
+9d00b91c l       .text.delay00000000 L0
+9d00b91c l       .text.delay00000000 L0
+9d00a658 l       .text.init00000000 L0
+9d00a658 l       .text.init00000000 L0
+80000890 l     O .sbss00000004 gLastBaseCount
+9d00ad48 l       .text.attachCoreTimerService00000000 L0
+9d00ad48 l       .text.attachCoreTimerService00000000 L0
+9d00bba8 l       .text.millisecondCoreTimerService00000000 L0
+80000894 l     O .sbss00000004 nextInt.22939
+9d00bba8 l       .text.millisecondCoreTimerService00000000 L0
+9d001018 l       .vectors00000000 L0
+9d001018 l       .vectors00000000 L0
+00000f34 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore.h
+9d001540 l       .text00000000 L0
+9d001540 l       .text00000000 L0
+9d001548 l       .text00000000 L0
+9d001548 l       .text00000000 L0
+9d001550 l       .text00000000 L0
+9d001550 l       .text00000000 L0
+9d001558 l       .text00000000 L0
+9d001558 l       .text00000000 L0
+9d001560 l       .text00000000 L0
+9d001560 l       .text00000000 L0
+9d001568 l       .text00000000 L0
+9d001568 l       .text00000000 L0
+9d001570 l       .text00000000 L0
+9d001570 l       .text00000000 L0
+9d0082dc l       .text._ZN7SSD1289C2Ehhhhhhhhhhhhhhhhhhhhh00000000 L0
+9d0082dc l       .text._ZN7SSD1289C2Ehhhhhhhhhhhhhhhhhhhhh00000000 L0
+9d006f2c l       .text._ZN7SSD12897commandEt00000000 L0
+9d006f2c l       .text._ZN7SSD12897commandEt00000000 L0
+9d00715c l       .text._ZN7SSD12894dataEt00000000 L0
+9d00715c l       .text._ZN7SSD12894dataEt00000000 L0
+9d005a9c l       .text._ZN7SSD128916initializeDeviceEv00000000 L0
+9d005a9c l       .text._ZN7SSD128916initializeDeviceEv00000000 L0
+9d0044d0 l       .text._ZN7SSD128912startDisplayEv00000000 L0
+9d0044d0 l       .text._ZN7SSD128912startDisplayEv00000000 L0
+9d008738 l       .text._ZN7SSD128913setAddrWindowEiiii00000000 L0
+9d008738 l       .text._ZN7SSD128913setAddrWindowEiiii00000000 L0
+9d00af94 l       .text._ZN7SSD12898setPixelEiit00000000 L0
+9d00af94 l       .text._ZN7SSD12898setPixelEiit00000000 L0
+9d00bbec l       .text._ZN7SSD128910fillScreenEt00000000 L0
+9d00bbec l       .text._ZN7SSD128910fillScreenEt00000000 L0
+9d009f90 l       .text._ZN7SSD128913fillRectangleEiiiit00000000 L0
+9d009f90 l       .text._ZN7SSD128913fillRectangleEiiiit00000000 L0
+9d00a7b8 l       .text._ZN7SSD128918drawHorizontalLineEiiit00000000 L0
+9d00a7b8 l       .text._ZN7SSD128918drawHorizontalLineEiiit00000000 L0
+9d00a5a8 l       .text._ZN7SSD128916drawVerticalLineEiiit00000000 L0
+9d00a5a8 l       .text._ZN7SSD128916drawVerticalLineEiiit00000000 L0
+9d0085cc l       .text._ZN7SSD128911setRotationEi00000000 L0
+9d0085cc l       .text._ZN7SSD128911setRotationEi00000000 L0
+9d00c32c l       .text._ZN7SSD128913invertDisplayEh00000000 L0
+9d00c32c l       .text._ZN7SSD128913invertDisplayEh00000000 L0
+9d00c0d0 l       .text._ZN7SSD128910openWindowEiiii00000000 L0
+9d00c0d0 l       .text._ZN7SSD128910openWindowEiiii00000000 L0
+9d00c250 l       .text._ZN7SSD128910windowDataEt00000000 L0
+9d00c250 l       .text._ZN7SSD128910windowDataEt00000000 L0
+9d00b2fc l       .text._ZN7SSD128910windowDataEPti00000000 L0
+9d00b2fc l       .text._ZN7SSD128910windowDataEPti00000000 L0
+9d00c334 l       .text._ZN7SSD128911closeWindowEv00000000 L0
+9d00c334 l       .text._ZN7SSD128911closeWindowEv00000000 L0
+000003c4 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/cores/chipkit/pic32/Print.h
+9d001578 l       .text00000000 L0
+9d001578 l       .text00000000 L0
+9d00c394 l       .text._ZN5Print5printEPKc00000000 L0
+9d00c394 l       .text._ZN5Print5printEPKc00000000 L0
+0000134c l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 crtstuff.c
+9d001608 l     O .ctors00000000 __CTOR_LIST__
+9d001614 l     O .dtors00000000 __DTOR_LIST__
+8000038c l     O .eh_frame00000000 __EH_FRAME_BEGIN__
+80000388 l     O .jcr00000000 __JCR_LIST__
+9d006aa8 l     F .text00000000 deregister_tm_clones
+9d006af4 l     F .text00000000 register_tm_clones
+9d006b4c l     F .text00000000 __do_global_dtors_aux
+80002350 l     O .bss00000000 completed.3276
+80002354 l     O .bss00000000 dtor_idx.3278
+9d006c40 l     F .text00000000 frame_dummy
+80002358 l     O .bss00000000 object.3288
+00000000 l    df *ABS*00000000 crti.S.o
+9d0015d0 l       .init00000000 L0
+9d0015ec l       .fini00000000 L0
+9d0015d0 l       .init00000000 L0
+9d0015d8 l       .init00000000 L0
+9d0015ec l       .fini00000000 L0
+9d0015f4 l       .fini00000000 L0
+9d0015d0 l       .init00000000 L0
+9d0015ec l       .fini00000000 L0
+00000000 l    df *ABS*00000000 crtstuff.c
+9d001610 l     O .ctors00000000 __CTOR_END__
+8000038c l     O .eh_frame00000000 __FRAME_END__
+80000388 l     O .jcr00000000 __JCR_END__
+9d00bb18 l     F .text00000000 __do_global_ctors_aux
+00000000 l    df *ABS*00000000 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/size/fpu64/crtn.o
+9d0015e0 l       .init00000000 init
+9d0015fc l       .fini00000000 fini
+00000000 l    df *ABS*00000000 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/Spectrum.ino
+9d00b4b0 l       .text.setup00000000 L0
+9d00b4b0 l       .text.setup00000000 L0
+9d00a864 l       .text._Z15setBorderSinglet00000000 L0
+9d00a864 l       .text._Z15setBorderSinglet00000000 L0
+9d0091ac l       .text._Z13randomStripestt00000000 L0
+9d0091ac l       .text._Z13randomStripestt00000000 L0
+9d00889c l       .text._Z14regularStripesttmm00000000 L0
+9d00889c l       .text._Z14regularStripesttmm00000000 L0
+9d00a90c l       .text._Z7silencem00000000 L0
+9d00a90c l       .text._Z7silencem00000000 L0
+9d00b018 l       .text._Z10loadHeaderm00000000 L0
+9d00b018 l       .text._Z10loadHeaderm00000000 L0
+9d00b578 l       .text._Z8loadBodym00000000 L0
+9d00b578 l       .text._Z8loadBodym00000000 L0
+9d00bc64 l       .text._Z3clst00000000 L0
+9d00bc64 l       .text._Z3clst00000000 L0
+9d005344 l       .text.loop00000000 L0
+9d005344 l       .text.loop00000000 L0
+9d00a4f0 l       .text._GLOBAL__sub_I_tft00000000 L0
+9d00a4f0 l     F .text._GLOBAL__sub_I_tft000000b8 _GLOBAL__sub_I_tft
+9d00a4f0 l       .text._GLOBAL__sub_I_tft00000000 L0
+00000000 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore.h
+9d006834 l       .text._ZN11DisplayCore10drawCircleEiiit00000000 L0
+9d006834 l       .text._ZN11DisplayCore10drawCircleEiiit00000000 L0
+9d009628 l       .text._ZN11DisplayCore10fillCircleEiiit00000000 L0
+9d009628 l       .text._ZN11DisplayCore10fillCircleEiiit00000000 L0
+9d007594 l       .text._ZN11DisplayCore16drawCircleHelperEiiiit00000000 L0
+9d007594 l       .text._ZN11DisplayCore16drawCircleHelperEiiiit00000000 L0
+9d007b04 l       .text._ZN11DisplayCore16fillCircleHelperEiiiiit00000000 L0
+9d007b04 l       .text._ZN11DisplayCore16fillCircleHelperEiiiiit00000000 L0
+0000079c l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /Users/m16417/work/chipKIT/workspace/chipKIT-cxx-master/chipKIT-cxx/src48x/gcc/libstdc++-v3/libsupc++/class_type_info.cc
+9d00bf94 l       .text._ZN10__cxxabiv117__class_type_infoD2Ev00000000 L0
+9d00bf94 l       .text._ZN10__cxxabiv117__class_type_infoD2Ev00000000 L0
+9d00be48 l       .text._ZN10__cxxabiv117__class_type_infoD0Ev00000000 L0
+9d00be48 l       .text._ZN10__cxxabiv117__class_type_infoD0Ev00000000 L0
+9d00b118 l       .text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj00000000 L0
+9d00b118 l       .text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj00000000 L0
+9d00b448 l       .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv00000000 L0
+9d00b448 l       .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv00000000 L0
+9d00c124 l       .text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcElPKvPKS0_S2_00000000 L0
+9d00c124 l       .text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcElPKvPKS0_S2_00000000 L0
+9d00ade0 l       .text._ZNK10__cxxabiv117__class_type_info12__do_dyncastElNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE00000000 L0
+9d00ade0 l       .text._ZNK10__cxxabiv117__class_type_info12__do_dyncastElNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE00000000 L0
+9d00b5d8 l       .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE00000000 L0
+9d00b5d8 l       .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE00000000 L0
+00001794 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /Users/m16417/work/chipKIT/workspace/chipKIT-cxx-master/chipKIT-cxx/src48x/gcc/libstdc++-v3/libsupc++/si_class_type_info.cc
+9d00bfb8 l       .text._ZN10__cxxabiv120__si_class_type_infoD2Ev00000000 L0
+9d00bfb8 l       .text._ZN10__cxxabiv120__si_class_type_infoD2Ev00000000 L0
+9d00be74 l       .text._ZN10__cxxabiv120__si_class_type_infoD0Ev00000000 L0
+9d00be74 l       .text._ZN10__cxxabiv120__si_class_type_infoD0Ev00000000 L0
+9d00b194 l       .text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcElPKvPKNS_17__class_type_infoES2_00000000 L0
+9d00b194 l       .text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcElPKvPKNS_17__class_type_infoES2_00000000 L0
+9d009084 l       .text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastElNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE00000000 L0
+9d009084 l       .text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastElNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE00000000 L0
+9d00b288 l       .text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE00000000 L0
+9d00b288 l       .text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE00000000 L0
+0000189c l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /Users/m16417/work/chipKIT/workspace/chipKIT-cxx-master/chipKIT-cxx/src48x/gcc/libstdc++-v3/libsupc++/tinfo.cc
+9d00c290 l       .text._ZNSt9type_infoD2Ev00000000 L0
+9d00c290 l       .text._ZNSt9type_infoD2Ev00000000 L0
+9d00bfdc l       .text._ZNSt9type_infoD0Ev00000000 L0
+9d00bfdc l       .text._ZNSt9type_infoD0Ev00000000 L0
+9d00c39c l       .text._ZNKSt9type_info14__is_pointer_pEv00000000 L0
+9d00c39c l       .text._ZNKSt9type_info14__is_pointer_pEv00000000 L0
+9d00c3a4 l       .text._ZNKSt9type_info15__is_function_pEv00000000 L0
+9d00c3a4 l       .text._ZNKSt9type_info15__is_function_pEv00000000 L0
+9d00b7e0 l       .text._ZNKSt9type_info10__do_catchEPKS_PPvj00000000 L0
+9d00b7e0 l       .text._ZNKSt9type_info10__do_catchEPKS_PPvj00000000 L0
+9d00c3ac l       .text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv00000000 L0
+9d00c3ac l       .text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv00000000 L0
+0000195c l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/Motor/chipkit/SoftPWMServo/SoftPWMServo.cpp
+80000948 l     O .bss._ZL4Chan.Chan000011c0 _ZL4Chan
+80000840 l     O .sbss00000008 _ZL10FirstChanP
+80000848 l     O .sbss00000001 _ZL19InactiveBufferReady
+80000390 l     O .sdata00000004 _ZL9FrameTime
+80000394 l     O .sdata00000004 _ZL11ServoFrames
+80000849 l     O .sbss00000001 _ZL10RisingEdge
+8000084c l     O .sbss00000004 _ZL11CurrentTime
+80000850 l     O .sbss00000004 _ZL12ActiveBuffer
+80000854 l     O .sbss00000004 _ZL13ISRFirstChanP
+80000858 l     O .sbss00000004 _ZL17ServoFrameCounter
+8000085c l     O .sbss00000004 _ZL14InactiveBuffer
+80000860 l     O .sbss00000001 _ZL10Initalized
+9d00a12c l       .text._Z16SoftPWMServoInitv00000000 L0
+9d00a12c l       .text._Z16SoftPWMServoInitv00000000 L0
+9d008cb4 l       .text._Z21SoftPWMServoPinEnablemb00000000 L0
+9d008cb4 l       .text._Z21SoftPWMServoPinEnablemb00000000 L0
+9d0092d0 l     F .text._ZL11CopyBuffersv00000120 _ZL11CopyBuffersv
+9d00a1f4 l       .text._Z20SoftPWMServoRawWritemmb00000000 L0
+9d00a1f4 l       .text._Z20SoftPWMServoRawWritemmb00000000 L0
+9d00b8d0 l       .text._Z20SoftPWMServoPWMWritemh00000000 L0
+9d00b8d0 l       .text._Z20SoftPWMServoPWMWritemh00000000 L0
+9d006cf4 l       .text._Z14HandlePWMServom00000000 L0
+9d006cf4 l       .text._Z14HandlePWMServom00000000 L0
+80000864 l     O .sbss00000004 _ZZ14HandlePWMServomE8CurChanP
+9d00b210 l       .text._Z6Removem00000000 L0
+9d00b210 l       .text._Z6Removem00000000 L0
+9d009c1c l       .text._Z3Addm00000000 L0
+9d009c1c l       .text._Z3Addm00000000 L0
+9d0092d0 l       .text._ZL11CopyBuffersv00000000 L0
+9d0092d0 l       .text._ZL11CopyBuffersv00000000 L0
+00000160 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/cores/chipkit/pic32/wiring_analog.c
+80000398 l     O .sdata00000004 analogWriteFrequency
+9d00b738 l       .text.turnOffPWM00000000 L0
+9d00b738 l       .text.turnOffPWM00000000 L0
+00000ec0 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/cores/chipkit/pic32/WSystem.c
+9d00c08c l       .text.getIntVector00000000 L0
+9d00c08c l       .text.getIntVector00000000 L0
+9d00bc28 l       .text.setIntVector00000000 L0
+9d00bc28 l       .text.setIntVector00000000 L0
+9d00c308 l       .text.disableInterrupts00000000 L0
+9d00c308 l       .text.disableInterrupts00000000 L0
+9d00c108 l       .text.restoreInterrupts00000000 L0
+9d00c108 l       .text.restoreInterrupts00000000 L0
+9d00ba40 l       .text.setIntEnable00000000 L0
+9d00ba40 l       .text.setIntEnable00000000 L0
+9d00b634 l       .text.setIntPriority00000000 L0
+9d00b634 l       .text.setIntPriority00000000 L0
+9d00bef8 l       .text.getPeripheralClock00000000 L0
+9d00bef8 l       .text.getPeripheralClock00000000 L0
+9d00c314 l       .text.readCoreTimer00000000 L0
+9d00c314 l       .text.readCoreTimer00000000 L0
+9d00bcd4 l       .text._configSystem00000000 L0
+9d00bcd4 l       .text._configSystem00000000 L0
+9d00bd0c l       .text._enableMultiVectorInterrupts00000000 L0
+9d00bd0c l       .text._enableMultiVectorInterrupts00000000 L0
+9d00c280 l       .text._initCoreTimer00000000 L0
+9d00c280 l       .text._initCoreTimer00000000 L0
+00001104 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 sbrk.o
+800023ac l     O .bss.curbrk.curbrk00000004 curbrk
+9d00becc l       .text._stub_sbd_memlayout00000000 L0
+80002370 l     O .bss.mem.1298.mem00000018 mem.1298
+9d008b5c l       .text._sbrk_init00000000 L0
+9d00a434 l       .text._sbrk00000000 L0
+9d00b880 l       .text.sbrk00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/boards/chipKIT/chipkit-wifire-fpu/EFADC.c
+9d004b80 l       .text.initADC00000000 L0
+9d004b80 l       .text.initADC00000000 L0
+00000130 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/Color.cpp
+9d00c06c l       .text._ZN11DisplayCore8color565Ehhh00000000 L0
+9d00c06c l       .text._ZN11DisplayCore8color565Ehhh00000000 L0
+9d00a2bc l       .text._ZN11DisplayCore3mixEtti00000000 L0
+9d00a2bc l       .text._ZN11DisplayCore3mixEtti00000000 L0
+00000614 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore.cpp
+9d00a9a8 l       .text._ZN11DisplayCoreC2Ev00000000 L0
+9d00a9a8 l       .text._ZN11DisplayCoreC2Ev00000000 L0
+000006ec l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore_Bezier.cpp
+9d006320 l       .text._ZN11DisplayCore10drawBezierEiiiiiiiiit00000000 L0
+9d006320 l       .text._ZN11DisplayCore10drawBezierEiiiiiiiiit00000000 L0
+9d00607c l       .text._ZN11DisplayCore10fillBezierEiiiiiiiiit00000000 L0
+9d00607c l       .text._ZN11DisplayCore10fillBezierEiiiiiiiiit00000000 L0
+0000070c l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore_Clipping.cpp
+9d007e44 l       .text._ZN11DisplayCore12clipToScreenERiS0_S0_S0_00000000 L0
+9d007e44 l       .text._ZN11DisplayCore12clipToScreenERiS0_S0_S0_00000000 L0
+0000089c l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore_Image.cpp
+9d008e08 l       .text._ZN11DisplayCore10drawBitmapEiiPKhiit00000000 L0
+9d008e08 l       .text._ZN11DisplayCore10drawBitmapEiiPKhiit00000000 L0
+9d009b30 l       .text._ZN11DisplayCore7drawRGBEiiPKtii00000000 L0
+9d009b30 l       .text._ZN11DisplayCore7drawRGBEiiPKtii00000000 L0
+9d009840 l       .text._ZN11DisplayCore8drawRGBAEiiPKtiit00000000 L0
+9d009840 l       .text._ZN11DisplayCore8drawRGBAEiiPKtiit00000000 L0
+000008f8 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore_Line.cpp
+9d00845c l       .text._ZN11DisplayCore8drawLineEiiiit00000000 L0
+9d00845c l       .text._ZN11DisplayCore8drawLineEiiiit00000000 L0
+9d007ca4 l       .text._ZN11DisplayCore8drawLineEiiiiit00000000 L0
+9d007ca4 l       .text._ZN11DisplayCore8drawLineEiiiiit00000000 L0
+9d00aa44 l       .text._ZN11DisplayCore18drawHorizontalLineEiiit00000000 L0
+9d00aa44 l       .text._ZN11DisplayCore18drawHorizontalLineEiiit00000000 L0
+9d00aae0 l       .text._ZN11DisplayCore16drawVerticalLineEiiit00000000 L0
+9d00aae0 l       .text._ZN11DisplayCore16drawVerticalLineEiiit00000000 L0
+00000980 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore_LowLevel.cpp
+9d009d00 l       .text._ZN11DisplayCore20translateCoordinatesEPiS0_00000000 L0
+9d009d00 l       .text._ZN11DisplayCore20translateCoordinatesEPiS0_00000000 L0
+9d00b6e4 l       .text._ZN11DisplayCore18getPortInformationEhPm00000000 L0
+9d00b6e4 l       .text._ZN11DisplayCore18getPortInformationEhPm00000000 L0
+9d00c33c l       .text._ZN11DisplayCore8getWidthEv00000000 L0
+9d00c33c l       .text._ZN11DisplayCore8getWidthEv00000000 L0
+9d00c344 l       .text._ZN11DisplayCore9getHeightEv00000000 L0
+9d00c344 l       .text._ZN11DisplayCore9getHeightEv00000000 L0
+9d00ac18 l       .text._ZN11DisplayCore8setPixelEiiit00000000 L0
+9d00ac18 l       .text._ZN11DisplayCore8setPixelEiiit00000000 L0
+00000a28 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore_Reading.cpp
+9d00c34c l       .text._ZN11DisplayCore7colorAtEii00000000 L0
+9d00c34c l       .text._ZN11DisplayCore7colorAtEii00000000 L0
+9d00bc9c l       .text._ZN11DisplayCore12getRectangleEiiiiPt00000000 L0
+9d00bc9c l       .text._ZN11DisplayCore12getRectangleEiiiiPt00000000 L0
+00000aa4 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore_Rectangle.cpp
+9d00993c l       .text._ZN11DisplayCore13drawRectangleEiiiit00000000 L0
+9d00993c l       .text._ZN11DisplayCore13drawRectangleEiiiit00000000 L0
+9d009ebc l       .text._ZN11DisplayCore13fillRectangleEiiiit00000000 L0
+9d009ebc l       .text._ZN11DisplayCore13fillRectangleEiiiit00000000 L0
+9d00ab7c l       .text._ZN11DisplayCore10fillScreenEt00000000 L0
+9d00ab7c l       .text._ZN11DisplayCore10fillScreenEt00000000 L0
+9d007784 l       .text._ZN11DisplayCore13drawRoundRectEiiiiit00000000 L0
+9d007784 l       .text._ZN11DisplayCore13drawRoundRectEiiiiit00000000 L0
+9d0093f0 l       .text._ZN11DisplayCore13fillRoundRectEiiiiit00000000 L0
+9d0093f0 l       .text._ZN11DisplayCore13fillRoundRectEiiiiit00000000 L0
+00000ad4 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore_Text.cpp
+9d00a378 l       .text._ZN11DisplayCore11stringWidthEPKc00000000 L0
+9d00a378 l       .text._ZN11DisplayCore11stringWidthEPKc00000000 L0
+9d00c0ec l       .text._ZN11DisplayCore12stringHeightEPKc00000000 L0
+9d00c0ec l       .text._ZN11DisplayCore12stringHeightEPKc00000000 L0
+9d00b098 l       .text._ZN11DisplayCore5writeEPKhm00000000 L0
+9d00b098 l       .text._ZN11DisplayCore5writeEPKhm00000000 L0
+9d008158 l       .text._ZN11DisplayCore5writeEh00000000 L0
+9d008158 l       .text._ZN11DisplayCore5writeEh00000000 L0
+9d004f78 l       .text._ZN11DisplayCore8drawCharEiihtt00000000 L0
+9d004f78 l       .text._ZN11DisplayCore8drawCharEiihtt00000000 L0
+9d00c2f0 l       .text._ZN11DisplayCore9setCursorEii00000000 L0
+9d00c2f0 l       .text._ZN11DisplayCore9setCursorEii00000000 L0
+9d00c354 l       .text._ZN11DisplayCore10setCursorXEi00000000 L0
+9d00c354 l       .text._ZN11DisplayCore10setCursorXEi00000000 L0
+9d00c35c l       .text._ZN11DisplayCore10setCursorYEi00000000 L0
+9d00c35c l       .text._ZN11DisplayCore10setCursorYEi00000000 L0
+9d00c364 l       .text._ZN11DisplayCore10getCursorXEv00000000 L0
+9d00c364 l       .text._ZN11DisplayCore10getCursorXEv00000000 L0
+9d00c36c l       .text._ZN11DisplayCore10getCursorYEv00000000 L0
+9d00c36c l       .text._ZN11DisplayCore10getCursorYEv00000000 L0
+9d00c1ec l       .text._ZN11DisplayCore9getCursorEh00000000 L0
+9d00c1ec l       .text._ZN11DisplayCore9getCursorEh00000000 L0
+9d00c374 l       .text._ZN11DisplayCore12setTextColorEt00000000 L0
+9d00c374 l       .text._ZN11DisplayCore12setTextColorEt00000000 L0
+9d00c200 l       .text._ZN11DisplayCore12setTextColorEtt00000000 L0
+9d00c200 l       .text._ZN11DisplayCore12setTextColorEtt00000000 L0
+9d00c214 l       .text._ZN11DisplayCore15invertTextColorEv00000000 L0
+9d00c214 l       .text._ZN11DisplayCore15invertTextColorEv00000000 L0
+9d00c37c l       .text._ZN11DisplayCore11setTextWrapEh00000000 L0
+9d00c37c l       .text._ZN11DisplayCore11setTextWrapEh00000000 L0
+9d00c384 l       .text._ZN11DisplayCore7setFontEPKh00000000 L0
+9d00c384 l       .text._ZN11DisplayCore7setFontEPKh00000000 L0
+9d00c38c l       .text._ZN11DisplayCore12getTextColorEv00000000 L0
+9d00c38c l       .text._ZN11DisplayCore12getTextColorEv00000000 L0
+00000ba0 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore_Triangle.cpp
+9d009a38 l       .text._ZN11DisplayCore12drawTriangleEiiiiiit00000000 L0
+9d009a38 l       .text._ZN11DisplayCore12drawTriangleEiiiiiit00000000 L0
+9d005db0 l       .text._ZN11DisplayCore12fillTriangleEiiiiiit00000000 L0
+9d005db0 l       .text._ZN11DisplayCore12fillTriangleEiiiiiit00000000 L0
+00000d00 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore_Util.cpp
+00000d60 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore_Window.cpp
+9d00bdb4 l       .text._ZN11DisplayCore10openWindowEiiii00000000 L0
+9d00bdb4 l       .text._ZN11DisplayCore10openWindowEiiii00000000 L0
+9d00acb0 l       .text._ZN11DisplayCore10windowDataEt00000000 L0
+9d00acb0 l       .text._ZN11DisplayCore10windowDataEt00000000 L0
+9d00b36c l       .text._ZN11DisplayCore10windowDataEPKti00000000 L0
+9d00b36c l       .text._ZN11DisplayCore10windowDataEPKti00000000 L0
+9d00c270 l       .text._ZN11DisplayCore11closeWindowEv00000000 L0
+9d00c270 l       .text._ZN11DisplayCore11closeWindowEv00000000 L0
+00000db8 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/boards/chipKIT/chipkit-wifire-fpu/Board_Defs.h
+00000000 l    df *ABS*00000000 /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore_3D_Mapping.cpp
+9d00a060 l       .text._ZN11DisplayCore9map3Dto2DER7point3d00000000 L0
+9d00a060 l       .text._ZN11DisplayCore9map3Dto2DER7point3d00000000 L0
+00000e20 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/boards/chipKIT/chipkit-wifire-fpu/Board_Defs.h
+00000000 l    df *ABS*00000000 /home/matt/.uecide/compilers/pic32-tools-pre/pic32mx/include/stdint.h
+00000000 l    df *ABS*00000000 /home/matt/.uecide/cores/chipkit/pic32/wiring_digital.c
+9d0089fc l       .text.pinMode00000000 L0
+9d0089fc l       .text.pinMode00000000 L0
+9d009de0 l       .text.digitalWrite00000000 L0
+9d009de0 l       .text.digitalWrite00000000 L0
+00000e50 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/cores/chipkit/pic32/WMath.cpp
+0000128c l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/cores/chipkit/pic32/main.cpp
+9d00be18 l       .text.main00000000 L0
+9d00be18 l       .text.main00000000 L0
+00001324 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/cores/chipkit/pic32/task_manager.c
+80000898 l     O .sbss000000a0 rgtaskTable
+80000938 l     O .sbss00000004 cntActiveTask
+8000093c l     O .sbss00000004 tmsNextEvent
+80000940 l     O .sbss00000004 tmsLastEvent
+9d00bf70 l       .text._initTaskManager00000000 L0
+9d00bf70 l       .text._initTaskManager00000000 L0
+9d007954 l       .text._scheduleTask00000000 L0
+9d007954 l       .text._scheduleTask00000000 L0
+000015d4 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /home/matt/.uecide/cores/chipkit/pic32/doprnt.cpp
+0000172c l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /Users/m16417/work/chipKIT/workspace/chipKIT-cxx-master/chipKIT-cxx/src48x/gcc/libstdc++-v3/libsupc++/del_op.cc
+9d00bf20 l       .text._ZdlPv00000000 L0
+9d00bf20 l       .text._ZdlPv00000000 L0
+00001870 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /Users/m16417/work/chipKIT/workspace/chipKIT-cxx-master/chipKIT-cxx/src48x/gcc/libstdc++-v3/libsupc++/pure.cc
+9d00c2a0 l       .text.__cxa_pure_virtual00000000 L0
+9d00c2a0 l       .text.__cxa_pure_virtual00000000 L0
+000019e0 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 /Users/m16417/work/chipKIT/workspace/chipKIT-cxx-master/chipKIT-cxx/src48x/gcc/libstdc++-v3/libsupc++/eh_terminate.cc
+9d00c15c l       .text._ZN10__cxxabiv111__terminateEPFvvE00000000 L0
+9d00c15c l       .text._ZN10__cxxabiv111__terminateEPFvvE00000000 L0
+9d00c228 l       .text._ZSt9terminatev00000000 L0
+9d00c228 l       .text._ZSt9terminatev00000000 L0
+00001a20 l       .debug_frame00000000 L0
+00000000 l    df *ABS*00000000 <built-in>
+00000000 l    df *ABS*00000000 <built-in>
+00000000 l    df *ABS*00000000 impure.c
+80001b08 l     O .data.impure_data.impure_data00000418 impure_data
+00000000 l    df *ABS*00000000 mallocr.c
+00000000 l    df *ABS*00000000 s_lib_ver.c
+00000000 l    df *ABS*00000000 data_init
+9d001910 l       .dinit00000000 .dinit
+00000000 l    df *ABS*00000000 e_pow.c
+9d00c2b0 l     O .rodata.bp.bp00000010 bp
+9d00c2c0 l     O .rodata.dp_h.dp_h00000010 dp_h
+9d00c2d0 l     O .rodata.dp_l.dp_l00000010 dp_l
+00000000 l    df *ABS*00000000 w_pow.c
+00000000 l    df *ABS*00000000 mallocr.c
+00000000 l    df *ABS*00000000 e_sqrt.c
+00000000 l    df *ABS*00000000 s_rint.c
+9d00c2e0 l     O .rodata.TWO52.TWO5200000010 TWO52
+00000000 l    df *ABS*00000000 s_scalbn.c
+00000000 l    df *ABS*00000000 signal.c
+00000000 l    df *ABS*00000000 s_fpclassify.c
+00000000 l    df *ABS*00000000 strcmp.c
+00000000 l    df *ABS*00000000 rand.c
+00000000 l    df *ABS*00000000 signalr.c
+00000000 l    df *ABS*00000000 sbrkr.c
+00000000 l    df *ABS*00000000 default-bootstrap-exception-handler.o
+9d00bb60 l       .text._bootstrap_exception_handler00000000 L0
+00000000 l    df *ABS*00000000 memcpy.c
+00000000 l    df *ABS*00000000 s_copysign.c
+00000000 l    df *ABS*00000000 malloc.c
+00000000 l    df *ABS*00000000 memset.c
+00000000 l    df *ABS*00000000 s_fabs.c
+00000000 l    df *ABS*00000000 s_finite.c
+00000000 l    df *ABS*00000000 abort.c
+00000000 l    df *ABS*00000000 strlen.c
+00000000 l    df *ABS*00000000 s_nan.c
+00000000 l    df *ABS*00000000 errno.c
+00000000 l    df *ABS*00000000 s_matherr.c
+00000000 l    df *ABS*00000000 mlock.c
+00000000 l    df *ABS*00000000 default-on-reset.o
+9d00c3cc l       .text._on_reset00000000 L0
+00000000 l    df *ABS*00000000 default-on-bootstrap.o
+9d00c3d4 l       .text._on_bootstrap00000000 L0
+00000000 l    df *ABS*00000000 _exit.o
+9d00c3dc l       .text._exit00000000 L0
+00000000 l    df *ABS*00000000 kill.o
+9d00c3e4 l       .text.kill00000000 L0
+00000000 l    df *ABS*00000000 getpid.o
+9d00c3ec l       .text.getpid00000000 L0
+00000000 l    df *ABS*00000000 
+00000000 l       *UND*00000000 _STRO
+00000000 l       *UND*00000000 U1CNFG1
+00000008 l       *ABS*00000000 _imageSplitFlashBootloader
+00080000 l       *ABS*00000000 _bmxdupba_address
+00000000 l       *UND*00000000 U1TOK
+00000000 l       *UND*00000000 BMXPFMSZ
+9d000000 l       *ABS*00000000 _SIMPLE_TLB_REFILL_EXCPT_ADDR
+00000017 l       *ABS*00000000 __pic32_init_ebi_kseg3_entrylo0_bitset
+0000001f l       *ABS*00000000 __pic32_init_ebi_kseg2_entrylo0_bitset
+00000000 l       *UND*00000000 AD1CSSLINV
+00000000 l       *UND*00000000 CHEMSKSET
+00000000 l       *UND*00000000 U1EP13
+00000000 l       *UND*00000000 U1EP14
+00000000 l       *UND*00000000 U1EP15
+00000000 l       *UND*00000000 BMXCONSET
+00000000 l       *UND*00000000 BMXDKPBACLR
+00000000 l       *UND*00000000 U1EP12
+30000000 l       *ABS*00000000 __pic32_init_sqi_kseg2_physical_base_addr
+00000000 l       *UND*00000000 U1EP11
+00000000 l       *UND*00000000 AD1CHSINV
+00000000 l       *UND*00000000 CNENCLR
+0080001f l       *ABS*00000000 __pic32_tlb_2_entrylo0
+00000180 l       *ABS*00000000 _GEN_EXCPT_OFFSET
+00800017 l       *ABS*00000000 __pic32_tlb_3_entrylo0
+00880017 l       *ABS*00000000 __pic32_tlb_3_entrylo1
+00000000 l       *UND*00000000 AD1CON1SET
+20000000 l       *ABS*00000000 __pic32_init_ebi_kseg3_physical_base_addr
+00000000 l       *UND*00000000 AD1PCFGSET
+9d001000 l       *ABS*00000000 _JUMP_ADDR
+00000000 l       *UND*00000000 AD1CSSL
+00000000 l       *UND*00000000 _DDPSTAT
+00000000 l       *UND*00000000 NVMDATA
+00000000 l       *UND*00000000 _APPOSET
+00000000 l       *UND*00000000 U1EP10
+00000000 l       *UND*00000000 BMXPUPBASET
+0088001f l       *ABS*00000000 __pic32_tlb_2_entrylo1
+00000000 l       *UND*00000000 AD1CON1CLR
+00000000 l       *UND*00000000 _STROCLR
+00000000 l       *UND*00000000 AD1CSSLCLR
+00c00017 l       *ABS*00000000 __pic32_tlb_1_entrylo0
+e0000000 l       *ABS*00000000 __pic32_tlb_3_entryhi
+00c80017 l       *ABS*00000000 __pic32_tlb_1_entrylo1
+00000000 l       *UND*00000000 AD1CON2SET
+00000000 l       *UND*00000000 CHECONSET
+00000000 l       *UND*00000000 CNCONSET
+00000000 l       *UND*00000000 CHEMSKCLR
+00000000 l       *UND*00000000 CHEACC
+00000000 l       *UND*00000000 AD1PCFGINV
+00000000 l       *UND*00000000 CNENINV
+00000000 l       *UND*00000000 BMXDRMSZ
+00000000 l       *UND*00000000 U1OTGIE
+00000000 l       *UND*00000000 U1OTGIR
+00000000 l       *UND*00000000 CNCONINV
+00000000 l       *UND*00000000 CNCON
+20000000 l       *ABS*00000000 __pic32_init_ebi_kseg2_physical_base_addr
+00000000 l       *UND*00000000 U1PWRC
+00000000 l       *UND*00000000 _APPOINV
+f0000000 l       *ABS*00000000 __pic32_init_sqi_kseg3_virtual_base_addr
+00000000 l       *UND*00000000 _APPOCLR
+02000000 l       *ABS*00000000 _imageExecutionJumpToFirstInFlash
+00080000 l       *ABS*00000000 _bmxdudba_address
+00080000 l       *ABS*00000000 _imageFullFlashErase
+00000000 l       *UND*00000000 U1EIR
+00000000 l       *UND*00000000 U1IE
+00000000 l       *UND*00000000 U1IR
+9d1fc000 l       *ABS*00000000 _EEPROM_ADDR
+bfc00480 l       *ABS*00000000 _DBG_EXCPT_ADDR
+00000000 l       *UND*00000000 ADC1BUF9
+00000000 l       *UND*00000000 U1CON
+00000000 l       *UND*00000000 ADC1BUF8
+000000fc l       *ABS*00000000 _IMAGE_HEADER_OFFSET
+00000000 l       *UND*00000000 CHEACCSET
+00040000 l       *ABS*00000000 _imageLinkerSpecifiedFlashErase
+00000000 l       *UND*00000000 BMXBOOTSZ
+bfc00380 l       *ABS*00000000 _BEV_EXCPT_ADDR
+00000000 l       *UND*00000000 AD1PCFGCLR
+c0000000 l       *ABS*00000000 __pic32_tlb_2_entryhi
+00000000 l       *UND*00000000 AD1CON3CLR
+00000000 l       *UND*00000000 ADC1BUF1
+d0000000 l       *ABS*00000000 __pic32_tlb_0_entryhi
+00000000 l       *UND*00000000 ADC1BUF0
+00000000 l       *UND*00000000 ADC1BUF3
+00000000 l       *UND*00000000 ADC1BUF2
+00000000 l       *UND*00000000 ADC1BUF5
+00000000 l       *UND*00000000 ADC1BUF4
+00000000 l       *UND*00000000 ADC1BUF7
+00000000 l       *UND*00000000 BMXDKPBA
+00000000 l       *UND*00000000 ADC1BUF6
+00000000 l       *UND*00000000 CHEACCCLR
+00000000 l       *UND*00000000 BMXDUDBA
+00000000 l       *UND*00000000 CHELRU
+00000000 l       *UND*00000000 AD1CHSCLR
+00000000 l       *UND*00000000 BMXPUPBAINV
+c0000000 l       *ABS*00000000 __pic32_init_ebi_kseg2_virtual_base_addr
+00000000 l       *UND*00000000 PR23
+00000017 l       *ABS*00000000 __pic32_init_sqi_kseg3_entrylo0_bitset
+9d0000f8 l       *ABS*00000000 _IMAGE_PTR_TABLE
+00000000 l       *UND*00000000 U1STAT
+00020000 l       *ABS*00000000 _imageJustInTimeFlashErase
+00000000 l       *UND*00000000 BMXDKPBASET
+00000000 l       *UND*00000000 CNENSET
+00000000 l       *UND*00000000 AD1CON3INV
+000000f8 l       *ABS*00000000 _IMAGE_PTR_TABLE_OFFSET
+d0000000 l       *ABS*00000000 __pic32_init_sqi_kseg2_virtual_base_addr
+00000000 l       *UND*00000000 AD1PCFG
+00000000 l       *UND*00000000 _APPO
+00000000 l       *UND*00000000 BMXDUPBACLR
+00000000 l       *UND*00000000 AD1CON3SET
+00000000 l       *UND*00000000 TMR45
+00000000 l       *UND*00000000 U1FRMH
+00000000 l       *UND*00000000 U1BDTP1
+00000000 l       *UND*00000000 CHETAGCLR
+800006b4 l       *ABS*00000000 _data_end
+00000000 l       *UND*00000000 AD1CON2
+00000000 l       *UND*00000000 CNEN
+00000000 l       *UND*00000000 U1FRML
+00000000 l       *UND*00000000 BMXDUPBASET
+00000000 l       *UND*00000000 ADC1BUFB
+00000000 l       *UND*00000000 ADC1BUFC
+00000000 l       *UND*00000000 AD1CON1
+00000000 l       *UND*00000000 ADC1BUFA
+00000000 l       *UND*00000000 ADC1BUFF
+e0000000 l       *ABS*00000000 __pic32_init_ebi_kseg3_virtual_base_addr
+00000000 l       *UND*00000000 ADC1BUFD
+00000000 l       *UND*00000000 ADC1BUFE
+00000000 l       *UND*00000000 BMXDUPBA
+0000001f l       *ABS*00000000 __pic32_init_sqi_kseg2_entrylo0_bitset
+00000000 l       *UND*00000000 _STROINV
+00000000 l       *UND*00000000 AD1CON1INV
+f0000000 l       *ABS*00000000 __pic32_tlb_1_entryhi
+00000000 l       *UND*00000000 CHEW0
+00000000 l       *UND*00000000 U1SOF
+00000000 l       *UND*00000000 _STROSET
+01020001 l       *ABS*00000000 _IMAGE_TYPE
+00000000 l       *UND*00000000 CHETAG
+00000000 l       *UND*00000000 AD1CHSSET
+00000000 l       *UND*00000000 BMXDUDBACLR
+00000000 l       *ABS*00000000 _imageReserved
+00000000 l       *UND*00000000 AD1CHS
+00000000 l       *UND*00000000 U1EP7
+001fc000 l       *ABS*00000000 _IMAGE_FLASH_SIZE
+9d000000 l       *ABS*00000000 __pic32_init_cache_program_base_addr
+00000000 l       *UND*00000000 U1EP4
+00000000 l       *UND*00000000 U1EP9
+00000000 l       *UND*00000000 CHETAGSET
+00000000 l       *UND*00000000 U1EP8
+00000000 l       *UND*00000000 AD1CON3
+00000000 l       *UND*00000000 U1BDTP3
+00000000 l       *UND*00000000 U1BDTP2
+01000000 l       *ABS*00000000 _imageExecutionJumpAddress
+00000000 l       *UND*00000000 CHEMIS
+00000000 l       *UND*00000000 U1EP2
+00000000 l       *UND*00000000 U1EP0
+bd0000a0 l       *ABS*00000000 _TLB_TABLE
+00000000 l       *UND*00000000 U1EP3
+00000000 l       *UND*00000000 U1EP6
+00000000 l       *UND*00000000 U1EP5
+00000000 l       *UND*00000000 U1EP1
+00000001 l       *ABS*00000000 _imageMPIDE
+00000002 l       *ABS*00000000 _imageBootFlashBootloader
+000000a0 l       *ABS*00000000 _TLB_TABLE_OFFSET
+00c8001f l       *ABS*00000000 __pic32_tlb_0_entrylo1
+00000000 l       *UND*00000000 DDPCON
+00000000 l       *UND*00000000 BMXCONINV
+00000000 l       *UND*00000000 CHETAGINV
+00c0001f l       *ABS*00000000 __pic32_tlb_0_entrylo0
+00000100 l       *ABS*00000000 _CACHE_ERR_EXCPT_OFFSET
+00010000 l       *ABS*00000000 _imageFullFlashEraseLess4KEEProm
+00000000 l       *UND*00000000 U1OTGSTAT
+00000000 l       *UND*00000000 AD1CON2CLR
+00000000 l       *UND*00000000 CNCONCLR
+00000000 l       *UND*00000000 CHECON
+00000000 l       *UND*00000000 CHEMSKINV
+00000000 l       *UND*00000000 BMXDUPBAINV
+00000000 l       *UND*00000000 BMXDKPBAINV
+00000000 l       *UND*00000000 CHEW1
+00000000 l       *UND*00000000 CHEW2
+80000000 l       *ABS*00000000 __pic32_init_cache_data_base_addr
+00000000 l       *UND*00000000 CHEW3
+9d001000 l       *ABS*00000000 _RESET_ADDR
+00000000 l       *UND*00000000 CHECONINV
+00000000 l       *ABS*00000000 _SIMPLE_TLB_REFILL_EXCPT_OFFSET
+00000800 l       *ABS*00000000 _min_stack_size
+00000000 l       *UND*00000000 BMXCON
+00000000 l       *UND*00000000 U1ADDR
+00000000 l       *UND*00000000 U1OTGCON
+00000000 l       *UND*00000000 CHEHIT
+9d000100 l       *ABS*00000000 _CACHE_ERR_EXCPT_ADDR
+00000000 l       *UND*00000000 BMXDUDBAINV
+00000000 l       *UND*00000000 BMXCONCLR
+30000000 l       *ABS*00000000 __pic32_init_sqi_kseg3_physical_base_addr
+00000000 l       *UND*00000000 AD1CON2INV
+00000000 l       *UND*00000000 AD1CSSLSET
+00000000 l       *UND*00000000 BMXPUPBA
+00000000 l       *UND*00000000 BMXDUDBASET
+00000000 l       *UND*00000000 CHEPFABT
+9d0000fc l       *ABS*00000000 _IMAGE_HEADER_ADDR
+00000000 l       *UND*00000000 PR45
+00000004 l       *ABS*00000000 _imageProgramFlashBootloader
+9d00161c l       .header_info00000000 _image_header_info
+00000000 l       *UND*00000000 CHECONCLR
+00000000 l       *UND*00000000 _APPI
+00000000 l       *UND*00000000 TMR23
+00000000 l       *UND*00000000 BMXPUPBACLR
+00000000 l       *UND*00000000 CHEACCINV
+00000000 l       *UND*00000000 U1EIE
+00000000 l       *UND*00000000 CHEMSK
+bf860630 g     O *ABS*00000000 LATG
+bf8015d0 g     O *ABS*00000000 RPD4R
+bf8822c4 g     O *ABS*00000000 EMACxMRDDCLR
+9d001668  w    O .rodata000000f4 _ZTV7SSD1289
+bf8e3080 g     O *ABS*00000000 USBE0TXA
+bf810068 g     O *ABS*00000000 IFS2SET
+9d00c214 g     F .text._ZN11DisplayCore15invertTextColorEv00000014 _ZN11DisplayCore15invertTextColorEv
+9d00be18 g     F .text.main00000030 main
+bfc0ffec g     O *ABS*00000000 DEVSIGN0
+bf81100c g     O *ABS*00000000 DMACONINV
+bf86014c g     O *ABS*00000000 ODCBINV
+bf811028 g     O *ABS*00000000 DMAADDRSET
+9d0018c0  w    O .rodata0000002c _ZTVN10__cxxabiv120__si_class_type_infoE
+bf811100 g     O *ABS*00000000 DCS0CPTR
+bf821240 g     O *ABS*00000000 SPI2CON2
+0000136c g       .vectors00000000 __vector_offset_77
+9d00a9a8 g     F .text._ZN11DisplayCoreC2Ev0000009c _ZN11DisplayCoreC1Ev
+0000136c g       .vectors00000000 __vector_offset_78
+bf8822d4 g     O *ABS*00000000 EMACxMINDCLR
+0000136c g       .vectors00000000 __vector_offset_33
+bf821a30 g     O *ABS*00000000 SPI6BRG
+bf8f9878 g     O *ABS*00000000 SBT6WR1
+bf860214 g     O *ABS*00000000 TRISCCLR
+9d00b830 g     F .text._sbrk_r00000050 _sbrk_r
+9d001910 g       *ABS*00000000 _dinit_addr
+bf882040 g     O *ABS*00000000 ETHHT0
+bf82e020 g     O *ABS*00000000 PMADDR
+0000136c g       .vectors00000000 __vector_offset_32
+bf82e004 g     O *ABS*00000000 PMCONCLR
+bf882044 g     O *ABS*00000000 ETHHT0CLR
+bf8015c0 g     O *ABS*00000000 RPD0R
+0000136c g       .vectors00000000 __vector_offset_34
+bf8e202c g     O *ABS*00000000 SQI1STAT1
+bf821420 g     O *ABS*00000000 SPI3BUF
+9d00ad48 g     F .text.attachCoreTimerService00000098 attachCoreTimerService
+bf8015e4 g     O *ABS*00000000 RPD9R
+bf84b280 g     O *ABS*00000000 ADCDATA32
+bf800600 g     O *ABS*00000000 NVMCON
+bfc6ff68 g     O *ABS*00000000 ABF2DEVSIGN1
+bf84b27c g     O *ABS*00000000 ADCDATA31
+0000136c g       .vectors00000000 __vector_offset_35
+bf800c58 g     O *ABS*00000000 ALRMDATESET
+bf882050 g     O *ABS*00000000 ETHHT1
+bf8fa828 g     O *ABS*00000000 SBT10ECON
+0000136c g       .vectors00000000 __vector_offset_213
+bf800c40 g     O *ABS*00000000 ALRMTIME
+bf860108 g     O *ABS*00000000 ANSELBSET
+0000136c g       .vectors00000000 __vector_offset_250
+bfc6ff6c g     O *ABS*00000000 ABF2DEVSIGN0
+bf81159c g     O *ABS*00000000 DCH6DATINV
+bf810424 g     O *ABS*00000000 IPC46CLR
+bf81040c g     O *ABS*00000000 IPC44INV
+bfc4ffec g     O *ABS*00000000 BF1DEVSIGN0
+0000136c g       .vectors00000000 __vector_offset_72
+bf811120 g     O *ABS*00000000 DCH1CON
+0000136c g       .vectors00000000 __vector_offset_71
+bf84b278 g     O *ABS*00000000 ADCDATA30
+bf822008 g     O *ABS*00000000 U1MODESET
+bf8e2030 g     O *ABS*00000000 SQI1STAT2
+9d000180 g       *ABS*00000000 _GEN_EXCPT_ADDR
+bfc6ff48 g     O *ABS*00000000 ABF2DEVCFG1
+bf8012f8 g     O *ABS*00000000 REFO4TRIMSET
+0000136c g       .vectors00000000 __vector_offset_252
+bfc6ff60 g     O *ABS*00000000 ABF2DEVSIGN3
+bf811224 g     O *ABS*00000000 DCH2DSACLR
+bf811560 g     O *ABS*00000000 DCH6DPTR
+bf8e3134 g     O *ABS*00000000 USBE3CSR1
+bf822418 g     O *ABS*00000000 UEFSTASET
+bfc6ff4c g     O *ABS*00000000 ABF2DEVCFG0
+bf8012e4 g     O *ABS*00000000 REFO4CONCLR
+bf842a10 g     O *ABS*00000000 IC6BUF
+bf8601a0 g     O *ABS*00000000 CNNEB
+bf8e6008 g     O *ABS*00000000 RNGPOLY1
+bfc6ff64 g     O *ABS*00000000 ABF2DEVSIGN2
+bf84b184 g     O *ABS*00000000 ADC1CFG
+bf882278 g     O *ABS*00000000 EMAC1TESTSET
+bf8822c0 g     O *ABS*00000000 EMAC1MRDD
+bf84101c g     O *ABS*00000000 TMR9INV
+9d00c354 g     F .text._ZN11DisplayCore10setCursorXEi00000008 _ZN11DisplayCore10setCursorXEi
+bf8602a0 g     O *ABS*00000000 CNNEC
+bf8f9c70 g     O *ABS*00000000 SBT7RD1
+0000136c g       .vectors00000000 __vector_offset_79
+bf8822dc g     O *ABS*00000000 EMACxMINDINV
+bf822048 g     O *ABS*00000000 U1BRGSET
+bf80144c g     O *ABS*00000000 IC6R
+bf811078 g     O *ABS*00000000 DCH0ECONSET
+bf8e600c g     O *ABS*00000000 RNGPOLY2
+9d00c320 g     F .text.__errno0000000c __errno
+bfc6ff44 g     O *ABS*00000000 ABF2DEVCFG2
+bf8fac38 g     O *ABS*00000000 SBT11ECLRM
+bf81102c g     O *ABS*00000000 DMAADDRINV
+0000136c g       .vectors00000000 __vector_offset_251
+bf860694 g     O *ABS*00000000 CNSTATGCLR
+bf82e00c g     O *ABS*00000000 PMCONINV
+bf843008 g     O *ABS*00000000 IC9CONSET
+bf882148 g     O *ABS*00000000 ETHFRMRXOKSET
+bf8603a0 g     O *ABS*00000000 CNNED
+bf860198 g     O *ABS*00000000 CNSTATBSET
+bf800c10 g     O *ABS*00000000 RTCALRM
+bf8f9c50 g     O *ABS*00000000 SBT7RD0
+bf810394 g     O *ABS*00000000 IPC37CLR
+bf84b288 g     O *ABS*00000000 ADCDATA34
+bf81037c g     O *ABS*00000000 IPC35INV
+bf820020 g     O *ABS*00000000 I2C1ADD
+bf844a28 g     O *ABS*00000000 OC6RSSET
+bf860388 g     O *ABS*00000000 CNENDSET
+bf8604a0 g     O *ABS*00000000 CNNEE
+bf8103c0 g     O *ABS*00000000 IPC40
+bf8e3130 g     O *ABS*00000000 USBE3CSR0
+0000136c g       .vectors00000000 __vector_offset_75
+bfc6ff40 g     O *ABS*00000000 ABF2DEVCFG3
+bf860600 g     O *ABS*00000000 ANSELG
+0000136c g       .vectors00000000 __vector_offset_76
+bf840c2c g     O *ABS*00000000 PR7INV
+bf84b284 g     O *ABS*00000000 ADCDATA33
+bd0000a0 g       *ABS*00000000 __pic32_tlb_init_values_begin
+bf801244 g     O *ABS*00000000 RCONCLR
+bf860200 g     O *ABS*00000000 ANSELC
+bf811068 g     O *ABS*00000000 DCH0CONSET
+bf82264c g     O *ABS*00000000 U4BRGINV
+bf860380 g     O *ABS*00000000 CNEND
+bfc6ff7c g     O *ABS*00000000 ABF2SEQ0
+bf821a44 g     O *ABS*00000000 SPI6CON2CLR
+bf80143c g     O *ABS*00000000 IC2R
+bf8110cc g     O *ABS*00000000 DCH0DSIZINV
+bf860300 g     O *ABS*00000000 ANSELD
+bf822414 g     O *ABS*00000000 U3STACLR
+bf80066c g     O *ABS*00000000 NVMDATA3INV
+bf811488 g     O *ABS*00000000 DCH5DSIZSET
+00001140 g       *ABS*00000000 _dinit_size
+bf821040 g     O *ABS*00000000 SPI1CON2
+bf82e048 g     O *ABS*00000000 PMDINSET
+bf860480 g     O *ABS*00000000 CNENE
+bf844428 g     O *ABS*00000000 OC3RSSET
+9d00c1a4 g     F .text.abort00000018 abort
+bf8103f0 g     O *ABS*00000000 IPC43
+bf860500 g     O *ABS*00000000 ANSELF
+800023a0 g     O .bss.errno.errno00000004 errno
+9d00bcd4 g     F .text._configSystem00000038 _configSystem
+bf811658 g     O *ABS*00000000 DCH7DATSET
+bf82e000 g     O *ABS*00000000 PMCON
+bf860580 g     O *ABS*00000000 CNENF
+bf800c48 g     O *ABS*00000000 ALRMTIMESET
+bf860414 g     O *ABS*00000000 TRISECLR
+bf88212c g     O *ABS*00000000 ETHSCOLFRMINV
+bf8e2028 g     O *ABS*00000000 SQI1RXDATA
+bf860400 g     O *ABS*00000000 ANSELE
+bf822018 g     O *ABS*00000000 UABSTASET
+bf82140c g     O *ABS*00000000 SPI3CONINV
+bf8012ec g     O *ABS*00000000 REFO4CONINV
+bf811390 g     O *ABS*00000000 DCH4SSA
+bf882288 g     O *ABS*00000000 EMACxMCFGSET
+bf81137c g     O *ABS*00000000 DCH4ECONINV
+bf8103e0 g     O *ABS*00000000 IPC42
+bf8113ec g     O *ABS*00000000 DCH4DPTRINV
+bf86031c g     O *ABS*00000000 TRISDINV
+bf84020c g     O *ABS*00000000 T2CONINV
+bf811584 g     O *ABS*00000000 DCS6CPTRCLR
+bf800030 g     O *ABS*00000000 SYSKEY
+bf86066c g     O *ABS*00000000 CNPDGINV
+bf811518 g     O *ABS*00000000 DCH6SSASET
+bf81034c g     O *ABS*00000000 IPC32INV
+bf8605bc g     O *ABS*00000000 CNFFINV
+bf820214 g     O *ABS*00000000 I2C2STATCLR
+bf8115d4 g     O *ABS*00000000 DCH7SSACLR
+bf860100 g     O *ABS*00000000 ANSELB
+bf800638 g     O *ABS*00000000 NVMDATA0SET
+bf81038c g     O *ABS*00000000 IPC36INV
+bf820038 g     O *ABS*00000000 I2C1MSKSET
+bf810400 g     O *ABS*00000000 IPC44
+bf820660 g     O *ABS*00000000 I2C4RCV
+bf84b0e4 g     O *ABS*00000000 ADC4TIME
+bf8605a0 g     O *ABS*00000000 CNNEF
+bf860208 g     O *ABS*00000000 ANSELCSET
+bf844618 g     O *ABS*00000000 OC4RSET
+9d00af94 g     F .text._ZN7SSD12898setPixelEiit00000084 _ZN7SSD12898setPixelEiit
+bf820654 g     O *ABS*00000000 I2C4TRNCLR
+bf8103d0 g     O *ABS*00000000 IPC41
+bf810198 g     O *ABS*00000000 IPC5SET
+9d001890  w    O .rodata0000002c _ZTVN10__cxxabiv117__class_type_infoE
+bf860000 g     O *ABS*00000000 ANSELA
+bf882310 g     O *ABS*00000000 EMAC1SA1
+9d00176c  w    O .rodata00000009 _ZTS7SSD1289
+bf800a20 g     O *ABS*00000000 DMTCLR
+bf88202c g     O *ABS*00000000 ETHTXSTINV
+0000136c g       .vectors00000000 __vector_offset_74
+bf811404 g     O *ABS*00000000 DCH4CPTRCLR
+0000136c g       .vectors00000000 __vector_offset_73
+9d00bdb4 g     F .text._ZN11DisplayCore10openWindowEiiii00000034 _ZN11DisplayCore10openWindowEiiii
+bf811648 g     O *ABS*00000000 DCH7CPTRSET
+bf8113cc g     O *ABS*00000000 DCH4DSIZINV
+bf8606a0 g     O *ABS*00000000 CNNEG
+bf82e068 g     O *ABS*00000000 PMSTATSET
+bf860398 g     O *ABS*00000000 CNSTATDSET
+bf882320 g     O *ABS*00000000 EMAC1SA2
+bf82100c g     O *ABS*00000000 SPI1CONINV
+9d00bc9c g     F .text._ZN11DisplayCore12getRectangleEiiiiPt00000038 _ZN11DisplayCore12getRectangleEiiiiPt
+bf860280 g     O *ABS*00000000 CNENC
+bf860080 g     O *ABS*00000000 CNENA
+bf840224 g     O *ABS*00000000 PR2CLR
+bf844018 g     O *ABS*00000000 OC1RSET
+bf860154 g     O *ABS*00000000 CNPUBCLR
+bf8103e8 g     O *ABS*00000000 IPC42SET
+bf8822b8 g     O *ABS*00000000 EMAC1MWTDSET
+bf8e30b4 g     O *ABS*00000000 USBE6RXA
+bf882300 g     O *ABS*00000000 EMAC1SA0
+bf844a10 g     O *ABS*00000000 OC6R
+9d00c3dc  w    F .text._exit00000008 _exit
+bf860180 g     O *ABS*00000000 CNENB
+bf8822a8 g     O *ABS*00000000 EMAC1MADRSET
+bf84501c g     O *ABS*00000000 OC9RINV
+bf8e3264 g     O *ABS*00000000 USBDMA7C
+bf8113a8 g     O *ABS*00000000 DCH4DSASET
+bf8114f4 g     O *ABS*00000000 DCH6ECONCLR
+bf88225c g     O *ABS*00000000 EMACxMAXFINV
+bf8100e8 g     O *ABS*00000000 IEC2SET
+bf86038c g     O *ABS*00000000 CNENDINV
+bf81041c g     O *ABS*00000000 IPC45INV
+bf842e10 g     O *ABS*00000000 IC8BUF
+0000136c g       .vectors00000000 __vector_offset_70
+bf882158 g     O *ABS*00000000 ETHFCSERRSET
+9d00b6e4 g     F .text._ZN11DisplayCore18getPortInformationEhPm00000054 _ZN11DisplayCore18getPortInformationEhPm
+bf882108 g     O *ABS*00000000 ETHRXOVFLOWSET
+bf82006c g     O *ABS*00000000 I2C1RCVINV
+9d009084 g     F .text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastElNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE00000128 _ZNK10__cxxabiv120__si_class_type_info12__do_dyncastElNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+bf8e3268 g     O *ABS*00000000 USBDMA7A
+bf840624 g     O *ABS*00000000 PR4CLR
+bf801310 g     O *ABS*00000000 PB2DIV
+bf820858 g     O *ABS*00000000 I2C5TRNSET
+bf811644 g     O *ABS*00000000 DCH7CPTRCLR
+bf811404 g     O *ABS*00000000 DCS4CPTRCLR
+bf8fac30 g     O *ABS*00000000 SBT11ECLRS
+bf86004c g     O *ABS*00000000 ODCAINV
+bf811410 g     O *ABS*00000000 DCH4DAT
+bf84420c g     O *ABS*00000000 OC2CONINV
+bf82284c g     O *ABS*00000000 U5BRGINV
+bf82023c g     O *ABS*00000000 I2C2MSKINV
+bf8103dc g     O *ABS*00000000 IPC41INV
+bf822248 g     O *ABS*00000000 U2BRGSET
+9d0089fc g     F .text.pinMode00000160 pinMode
+bf800664 g     O *ABS*00000000 NVMDATA3CLR
+bf86009c g     O *ABS*00000000 CNSTATAINV
+bf845014 g     O *ABS*00000000 OC9RCLR
+bf844420 g     O *ABS*00000000 OC3RS
+bf801620 g     O *ABS*00000000 RPE8R
+9d00b78c g     F .text._kill_r00000054 _kill_r
+bfc0ffe0 g     O *ABS*00000000 DEVSIGN3
+bf844210 g     O *ABS*00000000 OC2R
+bf822830 g     O *ABS*00000000 UJKRXREG
+bf8fb438 g     O *ABS*00000000 SBT13ECLRM
+bf8115f8 g     O *ABS*00000000 DCH7SSIZSET
+bf8e3098 g     O *ABS*00000000 USBE3TXA
+bf8606d8 g     O *ABS*00000000 SRCON1GSET
+bf811428 g     O *ABS*00000000 DCH5CONSET
+bf820800 g     O *ABS*00000000 I2C5CON
+9d005a9c g     F .text._ZN7SSD128916initializeDeviceEv00000314 _ZN7SSD128916initializeDeviceEv
+bf82086c g     O *ABS*00000000 I2C5RCVINV
+bf811480 g     O *ABS*00000000 DCH5DSIZ
+9d00c33c g     F .text._ZN11DisplayCore8getWidthEv00000008 _ZN11DisplayCore8getWidthEv
+bf800044 g     O *ABS*00000000 PMD1CLR
+bf810358 g     O *ABS*00000000 IPC33SET
+bf811340 g     O *ABS*00000000 DCH3CPTR
+bf8e3090 g     O *ABS*00000000 USBE2TXA
+bf811304 g     O *ABS*00000000 DCH3DSIZCLR
+bf810458 g     O *ABS*00000000 IPC49SET
+bf81064c g     O *ABS*00000000 OFF067
+bf81154c g     O *ABS*00000000 DCH6DSIZINV
+bf811264 g     O *ABS*00000000 DCH2DPTRCLR
+9d00c200 g     F .text._ZN11DisplayCore12setTextColorEtt00000014 _ZN11DisplayCore12setTextColorEtt
+bf810648 g     O *ABS*00000000 OFF066
+bf8105b4 g     O *ABS*00000000 OFF029
+bf8f9838 g     O *ABS*00000000 SBT6ECLRM
+bf810384 g     O *ABS*00000000 IPC36CLR
+bf810640 g     O *ABS*00000000 OFF064
+bf8105ac g     O *ABS*00000000 OFF027
+bf845000 g     O *ABS*00000000 OC9CON
+bf860228 g     O *ABS*00000000 PORTCSET
+bf810094 g     O *ABS*00000000 IFS5CLR
+00000800 g       *ABS*00000000 _min_heap_size
+bf821830 g     O *ABS*00000000 SPI5BRG
+bfc0ff68 g     O *ABS*00000000 ADEVSIGN1
+800006b4 g       *ABS*00000000 _bss_begin
+bf82244c g     O *ABS*00000000 UEFBRGINV
+bf810644 g     O *ABS*00000000 OFF065
+bf8105b0 g     O *ABS*00000000 OFF028
+bf860284 g     O *ABS*00000000 CNENCCLR
+bf820454 g     O *ABS*00000000 I2C3TRNCLR
+bf820854 g     O *ABS*00000000 I2C5TRNCLR
+bf81063c g     O *ABS*00000000 OFF063
+bf8105a8 g     O *ABS*00000000 OFF026
+bf8e3310 g     O *ABS*00000000 USBE4RPC
+bf821a04 g     O *ABS*00000000 SPI6CONCLR
+bf860558 g     O *ABS*00000000 CNPUFSET
+bfc0ff60 g     O *ABS*00000000 ADEVSIGN3
+bf860268 g     O *ABS*00000000 CNPDCSET
+bf8600a0 g     O *ABS*00000000 CNNEA
+bf8f9480 g     O *ABS*00000000 SBT5REG2
+bf8f9830 g     O *ABS*00000000 SBT6ECLRS
+bf810638 g     O *ABS*00000000 OFF062
+bf8105a4 g     O *ABS*00000000 OFF025
+bf842804 g     O *ABS*00000000 IC5CONCLR
+9d00a378 g     F .text._ZN11DisplayCore11stringWidthEPKc000000bc _ZN11DisplayCore11stringWidthEPKc
+bf84b06c g     O *ABS*00000000 ADCFLTR2
+bf82e02c g     O *ABS*00000000 PMADDRINV
+bf882204 g     O *ABS*00000000 EMAC1CFG1CLR
+bf844a04 g     O *ABS*00000000 OC6CONCLR
+bf820034 g     O *ABS*00000000 I2C1MSKCLR
+bf81113c g     O *ABS*00000000 DCH1ECONINV
+bf8f9440 g     O *ABS*00000000 SBT5REG0
+bf84b040 g     O *ABS*00000000 ADCCMPEN2
+bf84b068 g     O *ABS*00000000 ADCFLTR1
+bf81003c g     O *ABS*00000000 IPTMRINV
+bf8f8438 g     O *ABS*00000000 SBT1ECLRM
+bf811058 g     O *ABS*00000000 DCRCXORSET
+bf8110dc g     O *ABS*00000000 DCH0SPTRINV
+bf8f9460 g     O *ABS*00000000 SBT5REG1
+bf84b048 g     O *ABS*00000000 ADCCMPEN3
+bf860124 g     O *ABS*00000000 PORTBCLR
+bf81027c g     O *ABS*00000000 IPC19INV
+9d00b194 g     F .text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcElPKvPKNS_17__class_type_infoES2_0000007c _ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcElPKvPKNS_17__class_type_infoES2_
+bf88214c g     O *ABS*00000000 ETHFRMRXOKINV
+bf84b058 g     O *ABS*00000000 ADCCMPEN5
+bf8f8058 g     O *ABS*00000000 SBT0WR0
+bf8e3110 g     O *ABS*00000000 USBE1CSR0
+bf800658 g     O *ABS*00000000 NVMDATA2SET
+bf882218 g     O *ABS*00000000 EMACxCFG2SET
+0000136c g       .vectors00000000 __vector_offset_128
+bf8601c0 g     O *ABS*00000000 SRCON0B
+bf84b050 g     O *ABS*00000000 ADCCMPEN4
+bf81128c g     O *ABS*00000000 DCS2CPTRINV
+00000000 g       *ABS*00000000 _ramfunc_begin
+0000136c g       .vectors00000000 __vector_offset_default
+bf860008 g     O *ABS*00000000 ANSELASET
+bfc2ff48 g     O *ABS*00000000 AUBADEVCFG1
+bf822040 g     O *ABS*00000000 U1BRG
+bf811448 g     O *ABS*00000000 DCH5INTSET
+bf820838 g     O *ABS*00000000 I2C5MSKSET
+bf820404 g     O *ABS*00000000 I2C3CONCLR
+bf810414 g     O *ABS*00000000 IPC45CLR
+bfc2ff4c g     O *ABS*00000000 AUBADEVCFG0
+bf843000 g     O *ABS*00000000 IC9CON
+bf801324 g     O *ABS*00000000 PB3DIVCLR
+bf820668 g     O *ABS*00000000 I2C4RCVSET
+bf84c01c g     O *ABS*00000000 CM2CONINV
+0000136c g       .vectors00000000 __vector_offset_126
+bf821834 g     O *ABS*00000000 SPI5BRGCLR
+0000136c g       .vectors00000000 __vector_offset_127
+bf822a04 g     O *ABS*00000000 U6MODECLR
+bf86005c g     O *ABS*00000000 CNPUAINV
+bf86011c g     O *ABS*00000000 TRISBINV
+bf81007c g     O *ABS*00000000 IFS3INV
+bf860148 g     O *ABS*00000000 ODCBSET
+bf822a18 g     O *ABS*00000000 U6STASET
+bf820640 g     O *ABS*00000000 I2C4BRG
+bf801248 g     O *ABS*00000000 RCONSET
+bf8fa078 g     O *ABS*00000000 SBT8WR1
+0000136c g       .vectors00000000 __vector_offset_162
+bf81006c g     O *ABS*00000000 IFS2INV
+bf860344 g     O *ABS*00000000 ODCDCLR
+bf80153c g     O *ABS*00000000 RPA15R
+bf8606c0 g     O *ABS*00000000 SRCON0G
+9d00acb0 g     F .text._ZN11DisplayCore10windowDataEt00000098 _ZN11DisplayCore10windowDataEt
+bf8100d4 g     O *ABS*00000000 IEC1CLR
+0000136c g       .vectors00000000 __vector_offset_164
+800006b4 g       .sdata00000000 _sdata_end
+bf86048c g     O *ABS*00000000 CNENEINV
+bf84b038 g     O *ABS*00000000 ADCCMPEN1
+bf822404 g     O *ABS*00000000 UEFMODECLR
+bf882200 g     O *ABS*00000000 EMAC1CFG1
+bf8e30a4 g     O *ABS*00000000 USBE4RXA
+9d00c06c g     F .text._ZN11DisplayCore8color565Ehhh00000020 _ZN11DisplayCore8color565Ehhh
+bf8600c0 g     O *ABS*00000000 SRCON0A
+bf842a00 g     O *ABS*00000000 IC6CON
+bf81152c g     O *ABS*00000000 DCH6DSAINV
+bf8f8078 g     O *ABS*00000000 SBT0WR1
+0000136c g       .vectors00000000 __vector_offset_167
+0000136c g       .vectors00000000 __vector_offset_165
+bf860234 g     O *ABS*00000000 LATCCLR
+bf82281c g     O *ABS*00000000 U5STAINV
+bf821010 g     O *ABS*00000000 SPI1STAT
+bf860680 g     O *ABS*00000000 CNENG
+bf82020c g     O *ABS*00000000 I2C2CONINV
+9d00b8d0 g     F .text._Z20SoftPWMServoPWMWritemh0000004c _Z20SoftPWMServoPWMWritemh
+bf840c04 g     O *ABS*00000000 T7CONCLR
+bf801404 g     O *ABS*00000000 INT1R
+bf860190 g     O *ABS*00000000 CNSTATB
+bf811454 g     O *ABS*00000000 DCH5SSACLR
+9d00bf94 g     F .text._ZN10__cxxabiv117__class_type_infoD2Ev00000024 _ZN10__cxxabiv117__class_type_infoD1Ev
+bf88213c g     O *ABS*00000000 ETHMCOLFRMINV
+bf8822a4 g     O *ABS*00000000 EMACxMADRCLR
+bf8103ec g     O *ABS*00000000 IPC42INV
+bfc2ffec g     O *ABS*00000000 UBADEVSIGN0
+bf81101c g     O *ABS*00000000 DMASTATINV
+0000136c g       .vectors00000000 __vector_offset_123
+bf840c28 g     O *ABS*00000000 PR7SET
+bf821448 g     O *ABS*00000000 SPI3CON2SET
+bf84b07c g     O *ABS*00000000 ADCFLTR6
+bf8e3224 g     O *ABS*00000000 USBDMA3C
+bfc4ff48 g     O *ABS*00000000 ABF1DEVCFG1
+9d0082dc g     F .text._ZN7SSD1289C2Ehhhhhhhhhhhhhhhhhhhhh00000180 _ZN7SSD1289C1Ehhhhhhhhhhhhhhhhhhhhh
+bfc0ff64 g     O *ABS*00000000 ADEVSIGN2
+bf821400 g     O *ABS*00000000 SPI3CON
+bf811270 g     O *ABS*00000000 DCH2CSIZ
+9d00c37c g     F .text._ZN11DisplayCore11setTextWrapEh00000008 _ZN11DisplayCore11setTextWrapEh
+bf80063c g     O *ABS*00000000 NVMDATA0INV
+bf801650 g     O *ABS*00000000 RPF4R
+bf80154c g     O *ABS*00000000 RPB3R
+bf84b078 g     O *ABS*00000000 ADCFLTR5
+bf801430 g     O *ABS*00000000 T8CKR
+bf820814 g     O *ABS*00000000 I2C5STATCLR
+bfc0ffdc g     O *ABS*00000000 DEVCP0
+bf843004 g     O *ABS*00000000 IC9CONCLR
+bf860090 g     O *ABS*00000000 CNSTATA
+0000136c g       .vectors00000000 __vector_offset_122
+9d00c374 g     F .text._ZN11DisplayCore12setTextColorEt00000008 _ZN11DisplayCore12setTextColorEt
+0000136c g       .vectors00000000 __vector_offset_121
+bf8fa058 g     O *ABS*00000000 SBT8WR0
+bfc4ff44 g     O *ABS*00000000 ABF1DEVCFG2
+bf80141c g     O *ABS*00000000 T3CKR
+bf8e3228 g     O *ABS*00000000 USBDMA3A
+bfc2ffe4 g     O *ABS*00000000 UBADEVSIGN2
+bf84b074 g     O *ABS*00000000 ADCFLTR4
+bfc0ffd8 g     O *ABS*00000000 DEVCP1
+bf8601cc g     O *ABS*00000000 SRCON0BINV
+0000136c g       .vectors00000000 __vector_offset_166
+bf8113e4 g     O *ABS*00000000 DCH4DPTRCLR
+bf844620 g     O *ABS*00000000 OC4RS
+bf840e00 g     O *ABS*00000000 T8CON
+bf860308 g     O *ABS*00000000 ANSELDSET
+bf822044 g     O *ABS*00000000 U1BRGCLR
+bfc0ff6c g     O *ABS*00000000 ADEVSIGN0
+bf84b070 g     O *ABS*00000000 ADCFLTR3
+bf8113dc g     O *ABS*00000000 DCH4SPTRINV
+8000088c g     O .sbss00000001 ppsGlobalLock
+bf822848 g     O *ABS*00000000 U5BRGSET
+9d00c3b4 g     F .text.matherr00000008 matherr
+9d002a50 g     O .rodata._ZN5Fonts8SinclairE.Sinclair00000905 _ZN5Fonts8SinclairE
+9d000000 g       *ABS*00000000 _ebase_address
+bf810018 g     O *ABS*00000000 PRISSSET
+bf860128 g     O *ABS*00000000 PORTBSET
+bf822a08 g     O *ABS*00000000 ULMMODESET
+bf810154 g     O *ABS*00000000 IPC1CLR
+bf8111cc g     O *ABS*00000000 DCH1CPTRINV
+bf800698 g     O *ABS*00000000 NVMBWPSET
+9d0015ec g     F .fini00000000 _fini
+bfc2ffe8 g     O *ABS*00000000 UBADEVSIGN1
+0000136c g       .vectors00000000 __vector_offset_129
+bf8604c0 g     O *ABS*00000000 SRCON0E
+bf8012b4 g     O *ABS*00000000 REFO2TRIMCLR
+0000136c g       .vectors00000000 __vector_offset_125
+bf81035c g     O *ABS*00000000 IPC33INV
+9d001570  w    F .text00000008 _ZN7SSD128910displayOffEv
+9d001558  w    F .text00000008 _ZN11DisplayCore16disableBacklightEv
+bf84c06c g     O *ABS*00000000 CMSTATINV
+bfc2ffe0 g     O *ABS*00000000 UBADEVSIGN3
+bf8605c0 g     O *ABS*00000000 SRCON0F
+bf81110c g     O *ABS*00000000 DCH0CPTRINV
+bf80122c g     O *ABS*00000000 SPLLCONINV
+bf8115a0 g     O *ABS*00000000 DCH7CON
+bf882120 g     O *ABS*00000000 ETHSCOLFRM
+bf860444 g     O *ABS*00000000 ODCECLR
+bfc0ffd0 g     O *ABS*00000000 DEVCP3
+bf8fb430 g     O *ABS*00000000 SBT13ECLRS
+bf882220 g     O *ABS*00000000 EMAC1IPGT
+bf8822ac g     O *ABS*00000000 EMACxMADRINV
+bf800c24 g     O *ABS*00000000 RTCTIMECLR
+bf860044 g     O *ABS*00000000 ODCACLR
+bf8111e0 g     O *ABS*00000000 DCH2CON
+bfc0ffd4 g     O *ABS*00000000 DEVCP2
+bf844828 g     O *ABS*00000000 OC5RSSET
+bf8fa840 g     O *ABS*00000000 SBT10REG0
+bf810304 g     O *ABS*00000000 IPC28CLR
+bf822804 g     O *ABS*00000000 U5MODECLR
+bf8f8458 g     O *ABS*00000000 SBT1WR0
+bf8102d8 g     O *ABS*00000000 IPC25SET
+bfc4ff4c g     O *ABS*00000000 ABF1DEVCFG0
+bf811280 g     O *ABS*00000000 DCH2CPTR
+bf801560 g     O *ABS*00000000 RPB8R
+bf84081c g     O *ABS*00000000 TMR5INV
+bf882290 g     O *ABS*00000000 EMACxMCMD
+bf882230 g     O *ABS*00000000 EMAC1IPGR
+bf811210 g     O *ABS*00000000 DCH2SSA
+bf822240 g     O *ABS*00000000 U2BRG
+bf82204c g     O *ABS*00000000 U1BRGINV
+bf801218 g     O *ABS*00000000 OSCTUNSET
+bf801660 g     O *ABS*00000000 RPF8R
+bf80155c g     O *ABS*00000000 RPB7R
+bf81044c g     O *ABS*00000000 IPC48INV
+bf822804 g     O *ABS*00000000 UJKMODECLR
+bf8e326c g     O *ABS*00000000 USBDMA7N
+bf82224c g     O *ABS*00000000 UCDBRGINV
+bf840024 g     O *ABS*00000000 PR1CLR
+bf8111e4 g     O *ABS*00000000 DCH2CONCLR
+bf82103c g     O *ABS*00000000 SPI1BRGINV
+bf8107d8 g     O *ABS*00000000 OFF166
+bf8107e4 g     O *ABS*00000000 OFF169
+bf811170 g     O *ABS*00000000 DCH1SSIZ
+bf81133c g     O *ABS*00000000 DCH3CSIZINV
+bf86046c g     O *ABS*00000000 CNPDEINV
+bf8f84b8 g     O *ABS*00000000 SBT1WR3
+bf820218 g     O *ABS*00000000 I2C2STATSET
+bf811510 g     O *ABS*00000000 DCH6SSA
+0000136c g       .vectors00000000 __vector_offset_169
+bf8107d4 g     O *ABS*00000000 OFF165
+bf8f84f8 g     O *ABS*00000000 SBT1WR5
+bf844628 g     O *ABS*00000000 OC4RSSET
+bf8107cc g     O *ABS*00000000 OFF163
+bf810740 g     O *ABS*00000000 OFF128
+bf81017c g     O *ABS*00000000 IPC3INV
+bf810228 g     O *ABS*00000000 IPC14SET
+9d009d00 g     F .text._ZN11DisplayCore20translateCoordinatesEPiS0_000000e0 _ZN11DisplayCore20translateCoordinatesEPiS0_
+bf810254 g     O *ABS*00000000 IPC17CLR
+0000136c g       .vectors00000000 __vector_offset_168
+bf8100dc g     O *ABS*00000000 IEC1INV
+bf8107d0 g     O *ABS*00000000 OFF164
+bf810744 g     O *ABS*00000000 OFF129
+bf8f8498 g     O *ABS*00000000 SBT1WR2
+bf860088 g     O *ABS*00000000 CNENASET
+bf8110f4 g     O *ABS*00000000 DCH0CSIZCLR
+bf8112f8 g     O *ABS*00000000 DCH3SSIZSET
+bf8600cc g     O *ABS*00000000 SRCON0AINV
+bf800634 g     O *ABS*00000000 NVMDATA0CLR
+bf82e09c g     O *ABS*00000000 PMRDININV
+bf8107c8 g     O *ABS*00000000 OFF162
+9d001560  w    F .text00000008 _ZN11DisplayCore12setBacklightEi
+9d00c3ec g     F .text.getpid00000008 getpid
+9d00b514 g     F .text.strcmp00000064 strcmp
+0000136c g       .vectors00000000 __vector_offset_163
+80000878 g     O .sbss00000004 gCore_timer_micros
+bf8107c4 g     O *ABS*00000000 OFF161
+bf811118 g     O *ABS*00000000 DCH0DATSET
+bf820464 g     O *ABS*00000000 I2C3RCVCLR
+9d00c36c g     F .text._ZN11DisplayCore10getCursorYEv00000008 _ZN11DisplayCore10getCursorYEv
+80002394 g     O .data.__malloc_trim_threshold.__malloc_trim_threshold00000004 __malloc_trim_threshold
+bf8822c8 g     O *ABS*00000000 EMAC1MRDDSET
+9d009b30 g     F .text._ZN11DisplayCore7drawRGBEiiPKtii000000ec _ZN11DisplayCore7drawRGBEiiPKtii
+bf8f8518 g     O *ABS*00000000 SBT1WR6
+bf86024c g     O *ABS*00000000 ODCCINV
+bf8f8538 g     O *ABS*00000000 SBT1WR7
+bf8e3088 g     O *ABS*00000000 USBE1TXA
+0000136c g       .vectors00000000 __vector_offset_160
+bf800624 g     O *ABS*00000000 NVMADDRCLR
+bf811288 g     O *ABS*00000000 DCH2CPTRSET
+bf8e3170 g     O *ABS*00000000 USBE7CSR0
+bf842a0c g     O *ABS*00000000 IC6CONINV
+0000136c g       .vectors00000000 __vector_offset_161
+bfc6ffc4 g     O *ABS*00000000 BF2DEVCFG2
+bf821a34 g     O *ABS*00000000 SPI6BRGCLR
+bf8f84d8 g     O *ABS*00000000 SBT1WR4
+bf860594 g     O *ABS*00000000 CNSTATFCLR
+bf800054 g     O *ABS*00000000 PMD2CLR
+9d001624 g     O .header_info00000004 _verMPIDE_Stub
+bf8e2020 g     O *ABS*00000000 SQI1INTSTAT
+bf82044c g     O *ABS*00000000 I2C3BRGINV
+bf80126c g     O *ABS*00000000 RNMICONINV
+bf801494 g     O *ABS*00000000 U6CTSR
+bf8604bc g     O *ABS*00000000 CNFEINV
+bf800048 g     O *ABS*00000000 PMD1SET
+bfc6ffc0 g     O *ABS*00000000 BF2DEVCFG3
+bf86022c g     O *ABS*00000000 PORTCINV
+bf860698 g     O *ABS*00000000 CNSTATGSET
+bf8103bc g     O *ABS*00000000 IPC39INV
+bf840c24 g     O *ABS*00000000 PR7CLR
+bf81134c g     O *ABS*00000000 DCH3CPTRINV
+0000136c g       .vectors00000000 __vector_offset_226
+80000870 g     O .sbss00000004 gTimer0_millis
+bf8e330c g     O *ABS*00000000 USBE3RPC
+bf8e3064 g     O *ABS*00000000 USBFIFOA
+bf8e2004 g     O *ABS*00000000 SQI1XCON2
+9d00af04 g     O .rodata.digital_pin_to_timer_PGM.digital_pin_to_timer_PGM0000008e digital_pin_to_timer_PGM
+bf800a60 g     O *ABS*00000000 DMTPSCNT
+9d00bb60  w    F .text._bootstrap_exception_handler00000048 _bootstrap_exception_handler
+bf882014 g     O *ABS*00000000 ETHCON2CLR
+bf811368 g     O *ABS*00000000 DCH4CONSET
+80002390 g     O .libc.data._impure_ptr00000004 _impure_ptr
+bf860438 g     O *ABS*00000000 LATESET
+bf86060c g     O *ABS*00000000 ANSELGINV
+bf882274 g     O *ABS*00000000 EMAC1TESTCLR
+bf840608 g     O *ABS*00000000 T4CONSET
+bfc6ffcc g     O *ABS*00000000 BF2DEVCFG0
+bf811354 g     O *ABS*00000000 DCH3DATCLR
+bf8000e0 g     O *ABS*00000000 CFGPG
+bf8110e4 g     O *ABS*00000000 DCH0DPTRCLR
+bf860544 g     O *ABS*00000000 ODCFCLR
+bf820804 g     O *ABS*00000000 I2C5CONCLR
+bf88231c g     O *ABS*00000000 EMAC1SA1INV
+bf8111c0 g     O *ABS*00000000 DCH1CPTR
+bf81140c g     O *ABS*00000000 DCS4CPTRINV
+bf86047c g     O *ABS*00000000 CNCONEINV
+0000136c g       .vectors00000000 __vector_offset_224
+bf842800 g     O *ABS*00000000 IC5CON
+bf8f8558 g     O *ABS*00000000 SBT1WR8
+bf800688 g     O *ABS*00000000 NVMPWPSET
+bfc4ff5c g     O *ABS*00000000 ABF1DEVCP0
+bf8112e8 g     O *ABS*00000000 DCH3DSASET
+bf8e2068 g     O *ABS*00000000 SQI1XCON4
+0000136c g       .vectors00000000 __vector_offset_225
+bf810594 g     O *ABS*00000000 OFF021
+bfc6ffc8 g     O *ABS*00000000 BF2DEVCFG1
+bf82241c g     O *ABS*00000000 UEFSTAINV
+bf840208 g     O *ABS*00000000 T2CONSET
+bf800c04 g     O *ABS*00000000 RTCCONCLR
+bf840408 g     O *ABS*00000000 T3CONSET
+bf8012b0 g     O *ABS*00000000 REFO2TRIM
+bf8111bc g     O *ABS*00000000 DCH1CSIZINV
+bf810598 g     O *ABS*00000000 OFF022
+bf8113b4 g     O *ABS*00000000 DCH4SSIZCLR
+bf8e2000 g     O *ABS*00000000 SQI1XCON1
+bf8115c8 g     O *ABS*00000000 DCH7INTSET
+bf82161c g     O *ABS*00000000 SPI4STATINV
+bf843010 g     O *ABS*00000000 IC9BUF
+bf80124c g     O *ABS*00000000 RCONINV
+bf8e200c g     O *ABS*00000000 SQI1CON
+bf8114e8 g     O *ABS*00000000 DCH6CONSET
+bf844c0c g     O *ABS*00000000 OC7CONINV
+bf82241c g     O *ABS*00000000 U3STAINV
+bf8014c4 g     O *ABS*00000000 SS4R
+bf8601b0 g     O *ABS*00000000 CNFB
+bf8e2064 g     O *ABS*00000000 SQI1XCON3
+bf820028 g     O *ABS*00000000 I2C1ADDSET
+bf8601b8 g     O *ABS*00000000 CNFBSET
+bf810174 g     O *ABS*00000000 IPC3CLR
+bf8602b0 g     O *ABS*00000000 CNFC
+bf81115c g     O *ABS*00000000 DCH1SSAINV
+bf8016a0 g     O *ABS*00000000 RPG8R
+bf801584 g     O *ABS*00000000 RPC1R
+bf860688 g     O *ABS*00000000 CNENGSET
+9d00993c g     F .text._ZN11DisplayCore13drawRectangleEiiiit000000fc _ZN11DisplayCore13drawRectangleEiiiit
+bf800088 g     O *ABS*00000000 PMD5SET
+bf882210 g     O *ABS*00000000 EMAC1CFG2
+bf82000c g     O *ABS*00000000 I2C1CONINV
+9d00c048 g     F .text.memset00000024 memset
+0000136c g       .vectors00000000 __vector_offset_221
+00001018 g       .vectors00000000 __vector_offset_0
+bf8820d8 g     O *ABS*00000000 ETHIRQSET
+bf810650 g     O *ABS*00000000 OFF068
+bf882244 g     O *ABS*00000000 EMACxCLRTCLR
+bf8114dc g     O *ABS*00000000 DCH5DATINV
+bf8600b0 g     O *ABS*00000000 CNFA
+0000136c g       .vectors00000000 __vector_offset_2
+bf811104 g     O *ABS*00000000 DCS0CPTRCLR
+bf8822bc g     O *ABS*00000000 EMACxMWTDINV
+bf811618 g     O *ABS*00000000 DCH7SPTRSET
+bf860084 g     O *ABS*00000000 CNENACLR
+bf810654 g     O *ABS*00000000 OFF069
+bf801200 g     O *ABS*00000000 OSCCON
+0000136c g       .vectors00000000 __vector_offset_220
+0000136c g       .vectors00000000 __vector_offset_1
+bf810084 g     O *ABS*00000000 IFS4CLR
+bf810590 g     O *ABS*00000000 OFF020
+bf800e08 g     O *ABS*00000000 CVRCONSET
+bf810038 g     O *ABS*00000000 IPTMRSET
+bf811260 g     O *ABS*00000000 DCH2DPTR
+0000136c g       .vectors00000000 __vector_offset_228
+9d009840 g     F .text._ZN11DisplayCore8drawRGBAEiiPKtiit000000fc _ZN11DisplayCore8drawRGBAEiiPKtiit
+bf8605a8 g     O *ABS*00000000 CNNEFSET
+bf810444 g     O *ABS*00000000 IPC48CLR
+bf80064c g     O *ABS*00000000 NVMDATA1INV
+bf86007c g     O *ABS*00000000 CNCONAINV
+0000136c g       .vectors00000000 __vector_offset_3
+bf82e078 g     O *ABS*00000000 PMWADDRSET
+bf810194 g     O *ABS*00000000 IPC5CLR
+bf821848 g     O *ABS*00000000 SPI5CON2SET
+bf811184 g     O *ABS*00000000 DCH1DSIZCLR
+bf8e309c g     O *ABS*00000000 USBE3RXA
+bf8113b8 g     O *ABS*00000000 DCH4SSIZSET
+bf860324 g     O *ABS*00000000 PORTDCLR
+bf844e00 g     O *ABS*00000000 OC8CON
+0000136c g       .vectors00000000 __vector_offset_227
+9d00c08c g     F .text.getIntVector00000020 getIntVector
+bf82e038 g     O *ABS*00000000 PMDOUTSET
+0000136c g       .vectors00000000 __vector_offset_223
+9d00bfb8 g     F .text._ZN10__cxxabiv120__si_class_type_infoD2Ev00000024 _ZN10__cxxabiv120__si_class_type_infoD2Ev
+bf810634 g     O *ABS*00000000 OFF061
+bf8105a0 g     O *ABS*00000000 OFF024
+bf822440 g     O *ABS*00000000 U3BRG
+bf810168 g     O *ABS*00000000 IPC2SET
+bf801364 g     O *ABS*00000000 PB7DIVCLR
+bf822614 g     O *ABS*00000000 U4STACLR
+0000136c g       .vectors00000000 __vector_offset_229
+bf8111d4 g     O *ABS*00000000 DCH1DATCLR
+bf800674 g     O *ABS*00000000 NVMSRCADDRCLR
+bf810630 g     O *ABS*00000000 OFF060
+bf81059c g     O *ABS*00000000 OFF023
+9d007b04 g     F .text._ZN11DisplayCore16fillCircleHelperEiiiiit000001a0 _ZN11DisplayCore16fillCircleHelperEiiiiit
+bf844218 g     O *ABS*00000000 OC2RSET
+bf860368 g     O *ABS*00000000 CNPDDSET
+bf82281c g     O *ABS*00000000 UJKSTAINV
+bf810264 g     O *ABS*00000000 IPC18CLR
+bf882104 g     O *ABS*00000000 ETHRXOVFLOWCLR
+bf8601bc g     O *ABS*00000000 CNFBINV
+bf8103b4 g     O *ABS*00000000 IPC39CLR
+800003b4 g     O .sdata000002fc _isr_primary_install
+bf820818 g     O *ABS*00000000 I2C5STATSET
+bf84b00c g     O *ABS*00000000 ADCTRGMODE
+bf8820c4 g     O *ABS*00000000 ETHIENCLR
+bfc0ffcc g     O *ABS*00000000 DEVCFG0
+bfc0ffc8 g     O *ABS*00000000 DEVCFG1
+bfc6ff54 g     O *ABS*00000000 ABF2DEVCP2
+bfc6ff58 g     O *ABS*00000000 ABF2DEVCP1
+bf882280 g     O *ABS*00000000 EMAC1MCFG
+bf800654 g     O *ABS*00000000 NVMDATA2CLR
+bf860188 g     O *ABS*00000000 CNENBSET
+bf820228 g     O *ABS*00000000 I2C2ADDSET
+bf8822a4 g     O *ABS*00000000 EMAC1MADRCLR
+bf88201c g     O *ABS*00000000 ETHCON2INV
+bf8f9428 g     O *ABS*00000000 SBT5ECON
+bf811358 g     O *ABS*00000000 DCH3DATSET
+bf80147c g     O *ABS*00000000 U3CTSR
+9d003c54 g     F .text.__ieee754_pow0000087c __ieee754_pow
+bf860538 g     O *ABS*00000000 LATFSET
+0000136c g       .vectors00000000 __vector_offset_5
+bfc6ff50 g     O *ABS*00000000 ABF2DEVCP3
+bf81011c g     O *ABS*00000000 IEC5INV
+bf8112cc g     O *ABS*00000000 DCH3INTINV
+9d00950c g     F .text._malloc_trim_r0000011c _malloc_trim_r
+bf801450 g     O *ABS*00000000 IC7R
+bf844a24 g     O *ABS*00000000 OC6RSCLR
+bf8601dc g     O *ABS*00000000 SRCON1BINV
+bf822040 g     O *ABS*00000000 UABBRG
+bf81039c g     O *ABS*00000000 IPC37INV
+bf8f8030 g     O *ABS*00000000 SBT0ECLRS
+bf811278 g     O *ABS*00000000 DCH2CSIZSET
+bf820000 g     O *ABS*00000000 I2C1CON
+9d00ae74 g     O .rodata.digital_pin_to_bit_mask_PGM.digital_pin_to_bit_mask_PGM0000008e digital_pin_to_bit_mask_PGM
+0000136c g       .vectors00000000 __vector_offset_6
+9d00bde8 g     O .rodata.port_to_tris_PGM.port_to_tris_PGM00000030 port_to_tris_PGM
+bf801294 g     O *ABS*00000000 REFO1TRIMCLR
+bf82163c g     O *ABS*00000000 SPI4BRGINV
+0000136c g       .vectors00000000 __vector_offset_124
+bf842410 g     O *ABS*00000000 IC3BUF
+0000136c g       .vectors00000000 __vector_offset_4
+bfc0ffc4 g     O *ABS*00000000 DEVCFG2
+bf820220 g     O *ABS*00000000 I2C2ADD
+800023a4  w    O .bss._minbrk._minbrk00000004 _minbrk
+bf8103ac g     O *ABS*00000000 IPC38INV
+bf8014cc g     O *ABS*00000000 SDI5R
+0000136c g       .vectors00000000 __vector_offset_8
+bf810314 g     O *ABS*00000000 IPC29CLR
+bf844820 g     O *ABS*00000000 OC5RS
+bf800c00 g     O *ABS*00000000 RTCCON
+bf860244 g     O *ABS*00000000 ODCCCLR
+bf820068 g     O *ABS*00000000 I2C1RCVSET
+bf8fb030 g     O *ABS*00000000 SBT12ECLRS
+bf82e070 g     O *ABS*00000000 PMWADDR
+bf80062c g     O *ABS*00000000 NVMADDRINV
+0000136c g       .vectors00000000 __vector_offset_120
+0000136c g       .vectors00000000 __vector_offset_9
+bf810104 g     O *ABS*00000000 IEC4CLR
+0000136c g       .vectors00000000 __vector_offset_7
+bf860034 g     O *ABS*00000000 LATACLR
+bf86050c g     O *ABS*00000000 ANSELFINV
+bf88230c g     O *ABS*00000000 EMAC1SA0INV
+9d00b098 g     F .text._ZN11DisplayCore5writeEPKhm00000080 _ZN11DisplayCore5writeEPKhm
+bf8603b4 g     O *ABS*00000000 CNFDCLR
+bf84b0f4 g     O *ABS*00000000 ADCEIEN2
+bf840e1c g     O *ABS*00000000 TMR8INV
+bf80065c g     O *ABS*00000000 NVMDATA2INV
+bf8101c8 g     O *ABS*00000000 IPC8SET
+bf800c54 g     O *ABS*00000000 ALRMDATECLR
+bf8f9420 g     O *ABS*00000000 SBT5ELOG1
+bf882294 g     O *ABS*00000000 EMACxMCMDCLR
+bf8114f8 g     O *ABS*00000000 DCH6ECONSET
+bf882080 g     O *ABS*00000000 ETHPMCS
+bf84061c g     O *ABS*00000000 TMR4INV
+bf820834 g     O *ABS*00000000 I2C5MSKCLR
+bf840424 g     O *ABS*00000000 PR3CLR
+bfc0ffc0 g     O *ABS*00000000 DEVCFG3
+bf842000 g     O *ABS*00000000 IC1CON
+9d00c3a4 g     F .text._ZNKSt9type_info15__is_function_pEv00000008 _ZNKSt9type_info15__is_function_pEv
+bf8822dc g     O *ABS*00000000 EMAC1MINDINV
+bf8000cc g     O *ABS*00000000 CFGEBIAINV
+bf81043c g     O *ABS*00000000 IPC47INV
+bf84b0f0 g     O *ABS*00000000 ADCEIEN1
+bf81042c g     O *ABS*00000000 IPC46INV
+00000001 g       *ABS*00000000 _vector_spacing
+bf800c1c g     O *ABS*00000000 RTCALRMINV
+bf800644 g     O *ABS*00000000 NVMDATA1CLR
+bf811620 g     O *ABS*00000000 DCH7DPTR
+9d007ca4 g     F .text._ZN11DisplayCore8drawLineEiiiiit000001a0 _ZN11DisplayCore8drawLineEiiiiit
+bf811594 g     O *ABS*00000000 DCH6DATCLR
+bf8113a4 g     O *ABS*00000000 DCH4DSACLR
+bf8e30b8 g     O *ABS*00000000 USBE7TXA
+bf8606dc g     O *ABS*00000000 SRCON1GINV
+bf882264 g     O *ABS*00000000 EMAC1SUPPCLR
+bf810208 g     O *ABS*00000000 IPC12SET
+bf8101ac g     O *ABS*00000000 IPC6INV
+bf8102e4 g     O *ABS*00000000 IPC26CLR
+bf822448 g     O *ABS*00000000 UEFBRGSET
+bf882144 g     O *ABS*00000000 ETHFRMRXOKCLR
+00000000  w      *UND*00000000 _Jv_RegisterClasses
+bf8fb038 g     O *ABS*00000000 SBT12ECLRM
+bf810728 g     O *ABS*00000000 OFF122
+bf860054 g     O *ABS*00000000 CNPUACLR
+bf8115a4 g     O *ABS*00000000 DCH7CONCLR
+bf801640 g     O *ABS*00000000 RPF0R
+bf82e040 g     O *ABS*00000000 PMDIN
+bf82183c g     O *ABS*00000000 SPI5BRGINV
+bf811200 g     O *ABS*00000000 DCH2INT
+bf811578 g     O *ABS*00000000 DCH6CSIZSET
+bf81072c g     O *ABS*00000000 OFF123
+bf860484 g     O *ABS*00000000 CNENECLR
+9d00b68c g     F .text.rand00000058 rand
+bf8000a4 g     O *ABS*00000000 PMD7CLR
+bf8e323c g     O *ABS*00000000 USBDMA4N
+bf800c34 g     O *ABS*00000000 RTCDATECLR
+bf860264 g     O *ABS*00000000 CNPDCCLR
+bf860494 g     O *ABS*00000000 CNSTATECLR
+0000136c g       .vectors00000000 __vector_offset_29
+0000136c g       .vectors00000000 __vector_offset_27
+bf81160c g     O *ABS*00000000 DCH7DSIZINV
+bf844c28 g     O *ABS*00000000 OC7RSSET
+bf8602b8 g     O *ABS*00000000 CNFCSET
+bf88215c g     O *ABS*00000000 ETHFCSERRINV
+0000136c g       .vectors00000000 __vector_offset_28
+bf81015c g     O *ABS*00000000 IPC1INV
+bf845010 g     O *ABS*00000000 OC9R
+bf822818 g     O *ABS*00000000 UJKSTASET
+bf8f9424 g     O *ABS*00000000 SBT5ELOG2
+bf810234 g     O *ABS*00000000 IPC15CLR
+9d001000 g     F .reset00000018 _reset
+bf882110 g     O *ABS*00000000 ETHFRMTXOK
+bf822810 g     O *ABS*00000000 U5STA
+bf82200c g     O *ABS*00000000 U1MODEINV
+bf8820c0 g     O *ABS*00000000 ETHIEN
+bf811268 g     O *ABS*00000000 DCH2DPTRSET
+bf8107dc g     O *ABS*00000000 OFF167
+bf82e028 g     O *ABS*00000000 PMADDRSET
+bf821614 g     O *ABS*00000000 SPI4STATCLR
+bf8822b4 g     O *ABS*00000000 EMAC1MWTDCLR
+bf842c0c g     O *ABS*00000000 IC7CONINV
+bf840800 g     O *ABS*00000000 T5CON
+bf8101a4 g     O *ABS*00000000 IPC6CLR
+bf8107e0 g     O *ABS*00000000 OFF168
+bfc4ff58 g     O *ABS*00000000 ABF1DEVCP1
+bf810724 g     O *ABS*00000000 OFF121
+bf86043c g     O *ABS*00000000 LATEINV
+bf8015cc g     O *ABS*00000000 RPD3R
+bf860358 g     O *ABS*00000000 CNPUDSET
+bf821410 g     O *ABS*00000000 SPI3STAT
+bf860648 g     O *ABS*00000000 ODCGSET
+bf8820a8 g     O *ABS*00000000 ETHRXFCSET
+bf8110a8 g     O *ABS*00000000 DCH0DSASET
+bf84b028 g     O *ABS*00000000 ADCCSS1
+bf84300c g     O *ABS*00000000 IC9CONINV
+bf844a1c g     O *ABS*00000000 OC6RINV
+bf821a14 g     O *ABS*00000000 SPI6STATCLR
+bf810720 g     O *ABS*00000000 OFF120
+bf8102b8 g     O *ABS*00000000 IPC23SET
+bf8114c4 g     O *ABS*00000000 DCS5CPTRCLR
+bf811290 g     O *ABS*00000000 DCH2DAT
+bf84b044 g     O *ABS*00000000 ADCCMP2
+bf8113f0 g     O *ABS*00000000 DCH4CSIZ
+bf844800 g     O *ABS*00000000 OC5CON
+bf801314 g     O *ABS*00000000 PB2DIVCLR
+bf821804 g     O *ABS*00000000 SPI5CONCLR
+bf84b02c g     O *ABS*00000000 ADCCSS2
+bf820428 g     O *ABS*00000000 I2C3ADDSET
+bf860248 g     O *ABS*00000000 ODCCSET
+bf801214 g     O *ABS*00000000 OSCTUNCLR
+bf801670 g     O *ABS*00000000 RPF12R
+bf82e01c g     O *ABS*00000000 PMMODEINV
+0000136c g       .vectors00000000 __vector_offset_20
+bf8000d0 g     O *ABS*00000000 CFGEBIC
+bf84b034 g     O *ABS*00000000 ADCDSTAT2
+9d008e08 g     F .text._ZN11DisplayCore10drawBitmapEiiPKhiit0000014c _ZN11DisplayCore10drawBitmapEiiPKhiit
+bf8111a0 g     O *ABS*00000000 DCH1DPTR
+bf84b0ac g     O *ABS*00000000 ADCCMPCON4
+bf8f84d0 g     O *ABS*00000000 SBT1RD4
+bf822220 g     O *ABS*00000000 UCDTXREG
+800023b8 g       *ABS*00000000 _heap
+bf8f8450 g     O *ABS*00000000 SBT1RD0
+bf842208 g     O *ABS*00000000 IC2CONSET
+9d009de0 g     F .text.digitalWrite000000dc digitalWrite
+bf8107c0 g     O *ABS*00000000 OFF160
+bf810278 g     O *ABS*00000000 IPC19SET
+bf811630 g     O *ABS*00000000 DCH7CSIZ
+bf84b03c g     O *ABS*00000000 ADCCMP1
+bf84b0a8 g     O *ABS*00000000 ADCCMPCON3
+bf820064 g     O *ABS*00000000 I2C1RCVCLR
+bf88203c g     O *ABS*00000000 ETHRXSTINV
+bf821238 g     O *ABS*00000000 SPI2BRGSET
+bf8e3004 g     O *ABS*00000000 USBCSR1
+bf810730 g     O *ABS*00000000 OFF124
+9d001578  w    F .text00000050 _ZN5Print5writeEPKc
+bf844408 g     O *ABS*00000000 OC3CONSET
+bf81045c g     O *ABS*00000000 IPC49INV
+bf81158c g     O *ABS*00000000 DCH6CPTRINV
+bf860424 g     O *ABS*00000000 PORTECLR
+bf86012c g     O *ABS*00000000 PORTBINV
+bf860238 g     O *ABS*00000000 LATCSET
+bf8e10a0 g     O *ABS*00000000 EBIFTRPD
+bf8604b0 g     O *ABS*00000000 CNFE
+80000888 g     O .sbss00000004 gSoftPWMServoUpdate
+bf840a0c g     O *ABS*00000000 T6CONINV
+9d009ebc g     F .text._ZN11DisplayCore13fillRectangleEiiiit000000d4 _ZN11DisplayCore13fillRectangleEiiiit
+bf84b188 g     O *ABS*00000000 ADC2CFG
+bf8e3008 g     O *ABS*00000000 USBCSR2
+0000136c g       .vectors00000000 __vector_offset_26
+bf8603b0 g     O *ABS*00000000 CNFD
+bf86017c g     O *ABS*00000000 CNCONBINV
+bf8014f0 g     O *ABS*00000000 REFCLKI3R
+0000136c g       .vectors00000000 __vector_offset_25
+bf8100a4 g     O *ABS*00000000 IFS6CLR
+bf8606b0 g     O *ABS*00000000 CNFG
+bf82280c g     O *ABS*00000000 UJKMODEINV
+bf81119c g     O *ABS*00000000 DCH1SPTRINV
+bf81030c g     O *ABS*00000000 IPC28INV
+bf811060 g     O *ABS*00000000 DCH0CON
+bf8f8490 g     O *ABS*00000000 SBT1RD2
+bf81005c g     O *ABS*00000000 IFS1INV
+bf8f8890 g     O *ABS*00000000 SBT2RD2
+bf8e3000 g     O *ABS*00000000 USBCSR0
+bf8111c8 g     O *ABS*00000000 DCH1CPTRSET
+bf8f84b0 g     O *ABS*00000000 SBT1RD3
+0000136c g       .vectors00000000 __vector_offset_68
+bf8605b0 g     O *ABS*00000000 CNFF
+bf86051c g     O *ABS*00000000 TRISFINV
+bf84b0a0 g     O *ABS*00000000 ADCCMPCON1
+bf82e080 g     O *ABS*00000000 PMRADDR
+bf821a20 g     O *ABS*00000000 SPI6BUF
+bf8012f4 g     O *ABS*00000000 REFO4TRIMCLR
+bf8f8870 g     O *ABS*00000000 SBT2RD1
+0000136c g       .vectors00000000 __vector_offset_69
+0000136c g       .vectors00000000 __vector_offset_22
+bf8e3060 g     O *ABS*00000000 USBOTG
+bf84b0a4 g     O *ABS*00000000 ADCCMPCON2
+bf882214 g     O *ABS*00000000 EMACxCFG2CLR
+0000136c g       .vectors00000000 __vector_offset_21
+9d007594 g     F .text._ZN11DisplayCore16drawCircleHelperEiiiit000001f0 _ZN11DisplayCore16drawCircleHelperEiiiit
+bf811400 g     O *ABS*00000000 DCH4CPTR
+bf8000c0 g     O *ABS*00000000 CFGEBIA
+bfc4ff54 g     O *ABS*00000000 ABF1DEVCP2
+bf860568 g     O *ABS*00000000 CNPDFSET
+bf8f8c58 g     O *ABS*00000000 SBT3WR0
+bf8e300c g     O *ABS*00000000 USBCSR3
+9d007e44 g     F .text._ZN11DisplayCore12clipToScreenERiS0_S0_S0_0000018c _ZN11DisplayCore12clipToScreenERiS0_S0_S0_
+bfc4ffdc g     O *ABS*00000000 BF1DEVCP0
+bf822210 g     O *ABS*00000000 UCDSTA
+bf842400 g     O *ABS*00000000 IC3CON
+bf801488 g     O *ABS*00000000 U5RXR
+bf811608 g     O *ABS*00000000 DCH7DSIZSET
+9d00b2fc g     F .text._ZN7SSD128910windowDataEPti00000070 _ZN7SSD128910windowDataEPti
+bf8604a8 g     O *ABS*00000000 CNNEESET
+bf882088 g     O *ABS*00000000 ETHPMCSSET
+bf860524 g     O *ABS*00000000 PORTFCLR
+bf84b25c g     O *ABS*00000000 ADCDATA23
+bfc4ff50 g     O *ABS*00000000 ABF1DEVCP3
+0000136c g       .vectors00000000 __vector_offset_23
+bf811398 g     O *ABS*00000000 DCH4SSASET
+bf84b258 g     O *ABS*00000000 ADCDATA22
+bf8f8c78 g     O *ABS*00000000 SBT3WR1
+bf8f8c98 g     O *ABS*00000000 SBT3WR2
+0000136c g       .vectors00000000 __vector_offset_24
+bf8e313c g     O *ABS*00000000 USBE3CSR3
+bf8114d4 g     O *ABS*00000000 DCH5DATCLR
+bf842608 g     O *ABS*00000000 IC4CONSET
+bf81025c g     O *ABS*00000000 IPC17INV
+0000136c g       .vectors00000000 __vector_offset_222
+bf822020 g     O *ABS*00000000 U1TXREG
+bfc0ff7c g     O *ABS*00000000 ASEQ0
+bf8015f0 g     O *ABS*00000000 RPD12R
+0000136c g       .vectors00000000 __vector_offset_63
+bf840828 g     O *ABS*00000000 PR5SET
+bf8f8c38 g     O *ABS*00000000 SBT3ECLRM
+bf811640 g     O *ABS*00000000 DCS7CPTR
+0000136c g       .vectors00000000 __vector_offset_62
+bfc6ff5c g     O *ABS*00000000 ABF2DEVCP0
+bfc4ffd8 g     O *ABS*00000000 BF1DEVCP1
+bf8f8850 g     O *ABS*00000000 SBT2RD0
+bf8606ac g     O *ABS*00000000 CNNEGINV
+bf8103a0 g     O *ABS*00000000 IPC38
+bf8111a4 g     O *ABS*00000000 DCH1DPTRCLR
+bf84b254 g     O *ABS*00000000 ADCDATA21
+9d004f78 g     F .text._ZN11DisplayCore8drawCharEiihtt000003cc _ZN11DisplayCore8drawCharEiihtt
+bf8112d0 g     O *ABS*00000000 DCH3SSA
+bf8e3138 g     O *ABS*00000000 USBE3CSR2
+bf841000 g     O *ABS*00000000 T9CON
+bf811524 g     O *ABS*00000000 DCH6DSACLR
+bf82041c g     O *ABS*00000000 I2C3STATINV
+bf811420 g     O *ABS*00000000 DCH5CON
+bfc0ff78 g     O *ABS*00000000 ASEQ1
+bf8112dc g     O *ABS*00000000 DCH3SSAINV
+bf8103b0 g     O *ABS*00000000 IPC39
+bf822244 g     O *ABS*00000000 UCDBRGCLR
+bf800c2c g     O *ABS*00000000 RTCTIMEINV
+bf810380 g     O *ABS*00000000 IPC36
+bf88222c g     O *ABS*00000000 EMACxIPGTINV
+bf882154 g     O *ABS*00000000 ETHFCSERRCLR
+bf860590 g     O *ABS*00000000 CNSTATF
+bf84b250 g     O *ABS*00000000 ADCDATA20
+9d00becc g     F .text._stub_sbd_memlayout0000002c _stub_sbd_memlayout
+bf822620 g     O *ABS*00000000 U4TXREG
+bf82042c g     O *ABS*00000000 I2C3ADDINV
+bf845024 g     O *ABS*00000000 OC9RSCLR
+bf882134 g     O *ABS*00000000 ETHMCOLFRMCLR
+bfc0ff70 g     O *ABS*00000000 ASEQ3
+bf84b030 g     O *ABS*00000000 ADCDSTAT1
+bf860394 g     O *ABS*00000000 CNSTATDCLR
+bf810390 g     O *ABS*00000000 IPC37
+bf84b264 g     O *ABS*00000000 ADCDATA25
+bf860390 g     O *ABS*00000000 CNSTATD
+bf811308 g     O *ABS*00000000 DCH3DSIZSET
+bf801484 g     O *ABS*00000000 U4CTSR
+bf8101e0 g     O *ABS*00000000 IPC10
+bf8f8820 g     O *ABS*00000000 SBT2ELOG1
+bf8012e8 g     O *ABS*00000000 REFO4CONSET
+bf821644 g     O *ABS*00000000 SPI4CON2CLR
+0000136c g       .vectors00000000 __vector_offset_67
+bf842010 g     O *ABS*00000000 IC1BUF
+bf860490 g     O *ABS*00000000 CNSTATE
+bf860278 g     O *ABS*00000000 CNCONCSET
+9d00b578 g     F .text._Z8loadBodym00000060 _Z8loadBodym
+bf820258 g     O *ABS*00000000 I2C2TRNSET
+bf84b260 g     O *ABS*00000000 ADCDATA24
+bf820614 g     O *ABS*00000000 I2C4STATCLR
+bf810490 g     O *ABS*00000000 IPC53
+bf860598 g     O *ABS*00000000 CNSTATFSET
+0000136c g       .vectors00000000 __vector_offset_66
+bf84b268 g     O *ABS*00000000 ADCDATA26
+bf8fb440 g     O *ABS*00000000 SBT13REG0
+bf810470 g     O *ABS*00000000 IPC51
+bf86049c g     O *ABS*00000000 CNSTATEINV
+bf822a10 g     O *ABS*00000000 ULMSTA
+bf811654 g     O *ABS*00000000 DCH7DATCLR
+bf8e2040 g     O *ABS*00000000 SQI1BDBASEADD
+bf821434 g     O *ABS*00000000 SPI3BRGCLR
+bf80008c g     O *ABS*00000000 PMD5INV
+80002bb8 g       *ABS*00000000 _eheap
+bf810480 g     O *ABS*00000000 IPC52
+bf84b270 g     O *ABS*00000000 ADCDATA28
+bf811008 g     O *ABS*00000000 DMACONSET
+bf8f8824 g     O *ABS*00000000 SBT2ELOG2
+bf840c18 g     O *ABS*00000000 TMR7SET
+bf860428 g     O *ABS*00000000 PORTESET
+bf88227c g     O *ABS*00000000 EMAC1TESTINV
+bf84c064 g     O *ABS*00000000 CMSTATCLR
+bfc0ff74 g     O *ABS*00000000 ASEQ2
+bf84b26c g     O *ABS*00000000 ADCDATA27
+bf820618 g     O *ABS*00000000 I2C4STATSET
+bf860690 g     O *ABS*00000000 CNSTATG
+bf821204 g     O *ABS*00000000 SPI2CONCLR
+bf810460 g     O *ABS*00000000 IPC50
+bf820630 g     O *ABS*00000000 I2C4MSK
+9d00c124 g     F .text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcElPKvPKS0_S2_0000001c _ZNK10__cxxabiv117__class_type_info20__do_find_public_srcElPKvPKS0_S2_
+bf82e044 g     O *ABS*00000000 PMDINCLR
+bf8113d4 g     O *ABS*00000000 DCH4SPTRCLR
+bf801680 g     O *ABS*00000000 RPG0R
+bf840c1c g     O *ABS*00000000 TMR7INV
+bf8114ec g     O *ABS*00000000 DCH6CONINV
+bf860588 g     O *ABS*00000000 CNENFSET
+bf84b274 g     O *ABS*00000000 ADCDATA29
+bf820004 g     O *ABS*00000000 I2C1CONCLR
+bf882078 g     O *ABS*00000000 ETHPMM1SET
+bf84b18c g     O *ABS*00000000 ADC3CFG
+bf810498 g     O *ABS*00000000 IPC53SET
+00000000  w      *UND*00000000 _ITM_deregisterTMCloneTable
+9d0082dc g     F .text._ZN7SSD1289C2Ehhhhhhhhhhhhhhhhhhhhh00000180 _ZN7SSD1289C2Ehhhhhhhhhhhhhhhhhhhhh
+bf882114 g     O *ABS*00000000 ETHFRMTXOKCLR
+bf860290 g     O *ABS*00000000 CNSTATC
+bf820610 g     O *ABS*00000000 I2C4STAT
+bf8e3238 g     O *ABS*00000000 USBDMA4A
+bf811010 g     O *ABS*00000000 DMASTAT
+bf8e3274 g     O *ABS*00000000 USBDMA8C
+bf8115bc g     O *ABS*00000000 DCH7ECONINV
+bf8605dc g     O *ABS*00000000 SRCON1FINV
+bf845004 g     O *ABS*00000000 OC9CONCLR
+bf822204 g     O *ABS*00000000 UCDMODECLR
+bf84082c g     O *ABS*00000000 PR5INV
+0000136c g       .vectors00000000 __vector_offset_64
+bf8f8040 g     O *ABS*00000000 SBT0REG0
+bf8112c0 g     O *ABS*00000000 DCH3INT
+bf844010 g     O *ABS*00000000 OC1R
+bf811330 g     O *ABS*00000000 DCH3CSIZ
+bf801614 g     O *ABS*00000000 RPE5R
+bf81164c g     O *ABS*00000000 DCH7CPTRINV
+bf800694 g     O *ABS*00000000 NVMBWPCLR
+9d0015d0 g     F .init00000000 _init
+bf8112d4 g     O *ABS*00000000 DCH3SSACLR
+bf801308 g     O *ABS*00000000 PB1DIVSET
+bf82123c g     O *ABS*00000000 SPI2BRGINV
+9d00ac18 g     F .text._ZN11DisplayCore8setPixelEiiit00000098 _ZN11DisplayCore8setPixelEiiit
+bf860064 g     O *ABS*00000000 CNPDACLR
+0000136c g       .vectors00000000 __vector_offset_65
+bf840e14 g     O *ABS*00000000 TMR8CLR
+bf860434 g     O *ABS*00000000 LATECLR
+bf8f8060 g     O *ABS*00000000 SBT0REG1
+bf840c0c g     O *ABS*00000000 T7CONINV
+9d00c1ec g     F .text._ZN11DisplayCore9getCursorEh00000014 _ZN11DisplayCore9getCursorEh
+bf81142c g     O *ABS*00000000 DCH5CONINV
+bf821a4c g     O *ABS*00000000 SPI6CON2INV
+bf800680 g     O *ABS*00000000 NVMPWP
+bf844e28 g     O *ABS*00000000 OC8RSSET
+bf882324 g     O *ABS*00000000 EMAC1SA2CLR
+bf84042c g     O *ABS*00000000 PR3INV
+bf8103c8 g     O *ABS*00000000 IPC40SET
+bf81131c g     O *ABS*00000000 DCH3SPTRINV
+bf8e3278 g     O *ABS*00000000 USBDMA8A
+9d00a2bc g     F .text._ZN11DisplayCore3mixEtti000000bc _ZN11DisplayCore3mixEtti
+bf82064c g     O *ABS*00000000 I2C4BRGINV
+bf844a2c g     O *ABS*00000000 OC6RSINV
+bf8113e0 g     O *ABS*00000000 DCH4DPTR
+bf81124c g     O *ABS*00000000 DCH2DSIZINV
+bf801440 g     O *ABS*00000000 IC3R
+0000136c g       .vectors00000000 __vector_offset_60
+bf81155c g     O *ABS*00000000 DCH6SPTRINV
+bf811050 g     O *ABS*00000000 DCRCXOR
+bf811214 g     O *ABS*00000000 DCH2SSACLR
+0000136c g       .vectors00000000 __vector_offset_61
+bf844014 g     O *ABS*00000000 OC1RCLR
+bf822048 g     O *ABS*00000000 UABBRGSET
+bf811130 g     O *ABS*00000000 DCH1ECON
+bf821a3c g     O *ABS*00000000 SPI6BRGINV
+bf82e064 g     O *ABS*00000000 PMSTATCLR
+bf844824 g     O *ABS*00000000 OC5RSCLR
+bf8f8c30 g     O *ABS*00000000 SBT3ECLRS
+bf8012a0 g     O *ABS*00000000 REFO2CON
+bfc2ff44 g     O *ABS*00000000 AUBADEVCFG2
+bf822444 g     O *ABS*00000000 U3BRGCLR
+9d001540  w    F .text00000008 _ZN11DisplayCore11startBufferEv
+bf801410 g     O *ABS*00000000 INT4R
+bf8822b0 g     O *ABS*00000000 EMACxMWTD
+bfc2fff0 g     O *ABS*00000000 UBASEQ3
+bf8e3364 g     O *ABS*00000000 USBLMPR2
+bf810338 g     O *ABS*00000000 IPC31SET
+bf860304 g     O *ABS*00000000 ANSELDCLR
+bf8115f0 g     O *ABS*00000000 DCH7SSIZ
+9d001618 g     O .dtors00000000 .hidden __DTOR_END__
+bf8114ac g     O *ABS*00000000 DCH5DPTRINV
+bf882068 g     O *ABS*00000000 ETHPMM0SET
+bf8e001c g     O *ABS*00000000 PRESTATINV
+bf8e3160 g     O *ABS*00000000 USBE6CSR0
+bf81026c g     O *ABS*00000000 IPC18INV
+9d00c384 g     F .text._ZN11DisplayCore7setFontEPKh00000008 _ZN11DisplayCore7setFontEPKh
+bf8e30a8 g     O *ABS*00000000 USBE5TXA
+bf801274 g     O *ABS*00000000 PWRCONCLR
+bf882318 g     O *ABS*00000000 EMAC1SA1SET
+bf8822ac g     O *ABS*00000000 EMAC1MADRINV
+bf8822d4 g     O *ABS*00000000 EMAC1MINDCLR
+bf8e201c g     O *ABS*00000000 SQI1INTEN
+bf801370 g     O *ABS*00000000 PB8DIV
+bf82e084 g     O *ABS*00000000 PMRADDRCLR
+9d0091ac g     F .text._Z13randomStripestt00000124 _Z13randomStripestt
+bf810064 g     O *ABS*00000000 IFS2CLR
+bf844208 g     O *ABS*00000000 OC2CONSET
+9d005708 g     F .text.pow00000394 pow
+9d00be74 g     F .text._ZN10__cxxabiv120__si_class_type_infoD0Ev0000002c _ZN10__cxxabiv120__si_class_type_infoD0Ev
+bf80067c g     O *ABS*00000000 NVMSRCADDRINV
+bf801624 g     O *ABS*00000000 RPE9R
+bf820230 g     O *ABS*00000000 I2C2MSK
+bf8601c4 g     O *ABS*00000000 SRCON0BCLR
+bf8fa470 g     O *ABS*00000000 SBT9RD1
+bf80157c g     O *ABS*00000000 RPB15R
+bf8605c8 g     O *ABS*00000000 SRCON0FSET
+bf844808 g     O *ABS*00000000 OC5CONSET
+9d00b7e0 g     F .text._ZNKSt9type_info10__do_catchEPKS_PPvj00000050 _ZNKSt9type_info10__do_catchEPKS_PPvj
+bf810620 g     O *ABS*00000000 OFF056
+9d00b880 g     F .text.sbrk00000050 sbrk
+9d007784 g     F .text._ZN11DisplayCore13drawRoundRectEiiiiit000001d0 _ZN11DisplayCore13drawRoundRectEiiiiit
+bf81018c g     O *ABS*00000000 IPC4INV
+bf88210c g     O *ABS*00000000 ETHRXOVFLOWINV
+bf8fb024 g     O *ABS*00000000 SBT12ELOG2
+bf811038 g     O *ABS*00000000 DCRCCONSET
+bf81062c g     O *ABS*00000000 OFF059
+bf860004 g     O *ABS*00000000 ANSELACLR
+bf822008 g     O *ABS*00000000 UABMODESET
+bf801348 g     O *ABS*00000000 PB5DIVSET
+bf811064 g     O *ABS*00000000 DCH0CONCLR
+bf81061c g     O *ABS*00000000 OFF055
+bf822610 g     O *ABS*00000000 U4STA
+bf840e08 g     O *ABS*00000000 T8CONSET
+bf8101cc g     O *ABS*00000000 IPC8INV
+bf8106b0 g     O *ABS*00000000 OFF092
+bf810614 g     O *ABS*00000000 OFF053
+bf810588 g     O *ABS*00000000 OFF018
+bf821220 g     O *ABS*00000000 SPI2BUF
+bf86026c g     O *ABS*00000000 CNPDCINV
+bf882318 g     O *ABS*00000000 EMACxSA1SET
+bf80006c g     O *ABS*00000000 PMD3INV
+bf81157c g     O *ABS*00000000 DCH6CSIZINV
+9d00c1d4  w    F .text00000018 _nmi_handler
+bf8106b4 g     O *ABS*00000000 OFF093
+bf810618 g     O *ABS*00000000 OFF054
+bf81058c g     O *ABS*00000000 OFF019
+bf811568 g     O *ABS*00000000 DCH6DPTRSET
+bf844c08 g     O *ABS*00000000 OC7CONSET
+bf820440 g     O *ABS*00000000 I2C3BRG
+bf8106ac g     O *ABS*00000000 OFF091
+bf810610 g     O *ABS*00000000 OFF052
+bf810584 g     O *ABS*00000000 OFF017
+bf800094 g     O *ABS*00000000 PMD6CLR
+bf84400c g     O *ABS*00000000 OC1CONINV
+bf860468 g     O *ABS*00000000 CNPDESET
+bf8106a8 g     O *ABS*00000000 OFF090
+bf81060c g     O *ABS*00000000 OFF051
+bf810580 g     O *ABS*00000000 OFF016
+bf810250 g     O *ABS*00000000 IPC17
+bf8e3118 g     O *ABS*00000000 USBE1CSR2
+bf860270 g     O *ABS*00000000 CNCONC
+bf81031c g     O *ABS*00000000 IPC29INV
+9d009f90 g     F .text._ZN7SSD128913fillRectangleEiiiit000000d0 _ZN7SSD128913fillRectangleEiiiit
+bf860294 g     O *ABS*00000000 CNSTATCCLR
+bf80134c g     O *ABS*00000000 PB5DIVINV
+bf8600b4 g     O *ABS*00000000 CNFACLR
+bf882240 g     O *ABS*00000000 EMACxCLRT
+bf8fa450 g     O *ABS*00000000 SBT9RD0
+bf821638 g     O *ABS*00000000 SPI4BRGSET
+bf8822a8 g     O *ABS*00000000 EMACxMADRSET
+bf8600bc g     O *ABS*00000000 CNFAINV
+bf8115a8 g     O *ABS*00000000 DCH7CONSET
+bf800a40 g     O *ABS*00000000 DMTCNT
+bf820024 g     O *ABS*00000000 I2C1ADDCLR
+bf860018 g     O *ABS*00000000 TRISASET
+bf860370 g     O *ABS*00000000 CNCOND
+bf80132c g     O *ABS*00000000 PB3DIVINV
+bf821444 g     O *ABS*00000000 SPI3CON2CLR
+bf8e3340 g     O *ABS*00000000 USBDPBFD
+bf8112fc g     O *ABS*00000000 DCH3SSIZINV
+bf810010 g     O *ABS*00000000 PRISS
+bf81135c g     O *ABS*00000000 DCH3DATINV
+bf800084 g     O *ABS*00000000 PMD5CLR
+bf800c0c g     O *ABS*00000000 RTCCONINV
+bf811498 g     O *ABS*00000000 DCH5SPTRSET
+bf8820e8 g     O *ABS*00000000 ETHSTATSET
+bf844810 g     O *ABS*00000000 OC5R
+bf81004c g     O *ABS*00000000 IFS0INV
+bf8e3114 g     O *ABS*00000000 USBE1CSR1
+bf820448 g     O *ABS*00000000 I2C3BRGSET
+bf8f9028 g     O *ABS*00000000 SBT4ECON
+bf844214 g     O *ABS*00000000 OC2RCLR
+bf882248 g     O *ABS*00000000 EMAC1CLRTSET
+bf8606c8 g     O *ABS*00000000 SRCON0GSET
+bf800c20 g     O *ABS*00000000 RTCTIME
+0000136c g       .vectors00000000 __vector_offset_116
+bf810220 g     O *ABS*00000000 IPC14
+bf811360 g     O *ABS*00000000 DCH4CON
+bf801240 g     O *ABS*00000000 RCON
+bf82022c g     O *ABS*00000000 I2C2ADDINV
+9d00b4b0 g     F .text.setup00000064 setup
+bf810240 g     O *ABS*00000000 IPC16
+bf81130c g     O *ABS*00000000 DCH3DSIZINV
+0000136c g       .vectors00000000 __vector_offset_194
+bf860670 g     O *ABS*00000000 CNCONG
+9d00b018 g     F .text._Z10loadHeaderm00000080 _Z10loadHeaderm
+bf8e311c g     O *ABS*00000000 USBE1CSR3
+bf821200 g     O *ABS*00000000 SPI2CON
+bf8101dc g     O *ABS*00000000 IPC9INV
+bf86032c g     O *ABS*00000000 PORTDINV
+0000136c g       .vectors00000000 __vector_offset_159
+bf810230 g     O *ABS*00000000 IPC15
+bf820408 g     O *ABS*00000000 I2C3CONSET
+bf8822b4 g     O *ABS*00000000 EMACxMWTDCLR
+bf800684 g     O *ABS*00000000 NVMPWPCLR
+bf80136c g     O *ABS*00000000 PB7DIVINV
+0000136c g       .vectors00000000 __vector_offset_114
+bf810260 g     O *ABS*00000000 IPC18
+bf840e2c g     O *ABS*00000000 PR8INV
+bf820824 g     O *ABS*00000000 I2C5ADDCLR
+bf820434 g     O *ABS*00000000 I2C3MSKCLR
+bf882258 g     O *ABS*00000000 EMAC1MAXFSET
+bf822a4c g     O *ABS*00000000 U6BRGINV
+bf810388 g     O *ABS*00000000 IPC36SET
+bf860038 g     O *ABS*00000000 LATASET
+bf8e30bc g     O *ABS*00000000 USBE7RXA
+bf820650 g     O *ABS*00000000 I2C4TRN
+bf8000d4 g     O *ABS*00000000 CFGEBICCLR
+bf841014 g     O *ABS*00000000 TMR9CLR
+0000136c g       .vectors00000000 __vector_offset_115
+bf8fb020 g     O *ABS*00000000 SBT12ELOG1
+9d00c3e4 g     F .text.kill00000008 kill
+bf860040 g     O *ABS*00000000 ODCA
+bf8600d0 g     O *ABS*00000000 SRCON1A
+bf882220 g     O *ABS*00000000 EMACxIPGT
+bf811508 g     O *ABS*00000000 DCH6INTSET
+bf8601d0 g     O *ABS*00000000 SRCON1B
+bf8e316c g     O *ABS*00000000 USBE6CSR3
+9d00c314 g     F .text.readCoreTimer0000000c readCoreTimer
+bf8e3164 g     O *ABS*00000000 USBE6CSR1
+bf860140 g     O *ABS*00000000 ODCB
+bf80120c g     O *ABS*00000000 OSCCONINV
+0000136c g       .vectors00000000 __vector_offset_191
+bf882034 g     O *ABS*00000000 ETHRXSTCLR
+bf8604d0 g     O *ABS*00000000 SRCON1E
+bf8102ec g     O *ABS*00000000 IPC26INV
+bf8820cc g     O *ABS*00000000 ETHIENINV
+bf860074 g     O *ABS*00000000 CNCONACLR
+0000136c g       .vectors00000000 __vector_offset_192
+bf882230 g     O *ABS*00000000 EMACxIPGR
+bf860440 g     O *ABS*00000000 ODCE
+bf882298 g     O *ABS*00000000 EMACxMCMDSET
+bf821630 g     O *ABS*00000000 SPI4BRG
+bf882204 g     O *ABS*00000000 EMACxCFG1CLR
+0000136c g       .vectors00000000 __vector_offset_193
+bf8f8038 g     O *ABS*00000000 SBT0ECLRM
+9d00a12c g     F .text._Z16SoftPWMServoInitv000000c8 _Z16SoftPWMServoInitv
+bf80121c g     O *ABS*00000000 OSCTUNINV
+bf860540 g     O *ABS*00000000 ODCF
+bf882030 g     O *ABS*00000000 ETHRXST
+bf8e3168 g     O *ABS*00000000 USBE6CSR2
+bf8111d8 g     O *ABS*00000000 DCH1DATSET
+0000136c g       .vectors00000000 __vector_offset_156
+bf860240 g     O *ABS*00000000 ODCC
+bf8e331c g     O *ABS*00000000 USBE7RPC
+bf8e30b0 g     O *ABS*00000000 USBE6TXA
+bf842c08 g     O *ABS*00000000 IC7CONSET
+bf842e04 g     O *ABS*00000000 IC8CONCLR
+0000136c g       .vectors00000000 __vector_offset_111
+bfc2ff40 g     O *ABS*00000000 AUBADEVCFG3
+bf8820e4 g     O *ABS*00000000 ETHSTATCLR
+0000136c g       .vectors00000000 __vector_offset_155
+bf84c010 g     O *ABS*00000000 CM2CON
+bf8fb450 g     O *ABS*00000000 SBT13RD0
+9d00a060 g     F .text._ZN11DisplayCore9map3Dto2DER7point3d000000cc _ZN11DisplayCore9map3Dto2DER7point3d
+bf822644 g     O *ABS*00000000 UGHBRGCLR
+bf860340 g     O *ABS*00000000 ODCD
+bf811418 g     O *ABS*00000000 DCH4DATSET
+bf811624 g     O *ABS*00000000 DCH7DPTRCLR
+bf822a08 g     O *ABS*00000000 U6MODESET
+0000136c g       .vectors00000000 __vector_offset_110
+bf8e3234 g     O *ABS*00000000 USBDMA4C
+bf8602a8 g     O *ABS*00000000 CNNECSET
+bf844a20 g     O *ABS*00000000 OC6RS
+0000136c g       .vectors00000000 __vector_offset_154
+bf882238 g     O *ABS*00000000 EMAC1IPGRSET
+bf82001c g     O *ABS*00000000 I2C1STATINV
+bf86061c g     O *ABS*00000000 TRISGINV
+bf822408 g     O *ABS*00000000 UEFMODESET
+bfc2ff50 g     O *ABS*00000000 AUBADEVCP3
+bf801480 g     O *ABS*00000000 U4RXR
+bf8606d0 g     O *ABS*00000000 SRCON1G
+bf82e014 g     O *ABS*00000000 PMMODECLR
+0000136c g       .vectors00000000 __vector_offset_118
+bf81023c g     O *ABS*00000000 IPC15INV
+bfc2ff54 g     O *ABS*00000000 AUBADEVCP2
+bf800a70 g     O *ABS*00000000 DMTPSINTV
+bf810434 g     O *ABS*00000000 IPC47CLR
+bf801434 g     O *ABS*00000000 T9CKR
+bf811150 g     O *ABS*00000000 DCH1SSA
+bf8110f8 g     O *ABS*00000000 DCH0CSIZSET
+bf811014 g     O *ABS*00000000 DMASTATCLR
+bf801264 g     O *ABS*00000000 RNMICONCLR
+0000136c g       .vectors00000000 __vector_offset_117
+bf8605d0 g     O *ABS*00000000 SRCON1F
+bf8114b0 g     O *ABS*00000000 DCH5CSIZ
+bf810418 g     O *ABS*00000000 IPC45SET
+bf800064 g     O *ABS*00000000 PMD3CLR
+bf822a18 g     O *ABS*00000000 ULMSTASET
+00000800 g       *ABS*00000000 __MIN_HEAP_SIZE
+9d00bf70 g     F .text._initTaskManager00000024 _initTaskManager
+bf882314 g     O *ABS*00000000 EMAC1SA1CLR
+0000136c g       .vectors00000000 __vector_offset_158
+0000136c g       .vectors00000000 __vector_offset_119
+bf844414 g     O *ABS*00000000 OC3RCLR
+0000136c g       .vectors00000000 __vector_offset_113
+bf810074 g     O *ABS*00000000 IFS3CLR
+bf844a08 g     O *ABS*00000000 OC6CONSET
+bf822a04 g     O *ABS*00000000 ULMMODECLR
+bf860170 g     O *ABS*00000000 CNCONB
+bf882090 g     O *ABS*00000000 ETHPMO
+bf800690 g     O *ABS*00000000 NVMBWP
+bf8006a8 g     O *ABS*00000000 NVMCON2SET
+bf82045c g     O *ABS*00000000 I2C3TRNINV
+bf811320 g     O *ABS*00000000 DCH3DPTR
+bf842a08 g     O *ABS*00000000 IC6CONSET
+bf8fb058 g     O *ABS*00000000 SBT12WR0
+00000000  w      *UND*00000000 __GNU_EH_FRAME_HDR
+bf860070 g     O *ABS*00000000 CNCONA
+9d00c0ec g     F .text._ZN11DisplayCore12stringHeightEPKc0000001c _ZN11DisplayCore12stringHeightEPKc
+bfc2ff5c g     O *ABS*00000000 AUBADEVCP0
+bf8115c4 g     O *ABS*00000000 DCH7INTCLR
+bf860448 g     O *ABS*00000000 ODCESET
+bf811484 g     O *ABS*00000000 DCH5DSIZCLR
+bf8820b4 g     O *ABS*00000000 ETHRXWMCLR
+bf844008 g     O *ABS*00000000 OC1CONSET
+bf81112c g     O *ABS*00000000 DCH1CONINV
+bf882208 g     O *ABS*00000000 EMAC1CFG1SET
+bf8103a4 g     O *ABS*00000000 IPC38CLR
+bf8111b8 g     O *ABS*00000000 DCH1CSIZSET
+bf82164c g     O *ABS*00000000 SPI4CON2INV
+bfc2ff58 g     O *ABS*00000000 AUBADEVCP1
+bf81108c g     O *ABS*00000000 DCH0INTINV
+bf801558 g     O *ABS*00000000 RPB6R
+bf821840 g     O *ABS*00000000 SPI5CON2
+0000136c g       .vectors00000000 __vector_offset_196
+bf820450 g     O *ABS*00000000 I2C3TRN
+bf810270 g     O *ABS*00000000 IPC19
+bf860570 g     O *ABS*00000000 CNCONF
+bf8013c4 g     O *ABS*00000000 SLEWCONCLR
+bf860470 g     O *ABS*00000000 CNCONE
+bf8605b8 g     O *ABS*00000000 CNFFSET
+bf80129c g     O *ABS*00000000 REFO1TRIMINV
+bf860218 g     O *ABS*00000000 TRISCSET
+bf82e074 g     O *ABS*00000000 PMWADDRCLR
+bf821008 g     O *ABS*00000000 SPI1CONSET
+bf842808 g     O *ABS*00000000 IC5CONSET
+bf811148 g     O *ABS*00000000 DCH1INTSET
+bf822400 g     O *ABS*00000000 U3MODE
+0000136c g       .vectors00000000 __vector_offset_198
+0000136c g       .vectors00000000 __vector_offset_195
+bf8e327c g     O *ABS*00000000 USBDMA8N
+bf8604d8 g     O *ABS*00000000 SRCON1ESET
+bf8603bc g     O *ABS*00000000 CNFDINV
+bf81120c g     O *ABS*00000000 DCH2INTINV
+bf8000c8 g     O *ABS*00000000 CFGEBIASET
+bf80164c g     O *ABS*00000000 RPF3R
+bf801548 g     O *ABS*00000000 RPB2R
+bf811400 g     O *ABS*00000000 DCS4CPTR
+9d00c3cc  w    F .text._on_reset00000008 _on_reset
+bf82085c g     O *ABS*00000000 I2C5TRNINV
+bf810804 g     O *ABS*00000000 OFF177
+0000136c g       .vectors00000000 __vector_offset_197
+bf800000 g     O *ABS*00000000 CFGCON
+bf8112a4 g     O *ABS*00000000 DCH3CONCLR
+bf8f9490 g     O *ABS*00000000 SBT5RD2
+bf8601b4 g     O *ABS*00000000 CNFBCLR
+bf810800 g     O *ABS*00000000 OFF176
+bf81076c g     O *ABS*00000000 OFF139
+bf822648 g     O *ABS*00000000 U4BRGSET
+bf8fac20 g     O *ABS*00000000 SBT11ELOG1
+bf8e3364 g     O *ABS*00000000 USBLPMP2
+bf8112e0 g     O *ABS*00000000 DCH3DSA
+bf8107f8 g     O *ABS*00000000 OFF174
+bf810764 g     O *ABS*00000000 OFF137
+bf810210 g     O *ABS*00000000 IPC13
+bf811024 g     O *ABS*00000000 DMAADDRCLR
+bf801344 g     O *ABS*00000000 PB5DIVCLR
+bf8fac24 g     O *ABS*00000000 SBT11ELOG2
+bf8012fc g     O *ABS*00000000 REFO4TRIMINV
+bf8107fc g     O *ABS*00000000 OFF175
+bf810768 g     O *ABS*00000000 OFF138
+bf811104 g     O *ABS*00000000 DCH0CPTRCLR
+bf811018 g     O *ABS*00000000 DMASTATSET
+bf86039c g     O *ABS*00000000 CNSTATDINV
+bf810200 g     O *ABS*00000000 IPC12
+bf811440 g     O *ABS*00000000 DCH5INT
+bf860458 g     O *ABS*00000000 CNPUESET
+bf8111f8 g     O *ABS*00000000 DCH2ECONSET
+bf840e0c g     O *ABS*00000000 T8CONINV
+bf86063c g     O *ABS*00000000 LATGINV
+bf8107f4 g     O *ABS*00000000 OFF173
+bf810760 g     O *ABS*00000000 OFF136
+bf8101f0 g     O *ABS*00000000 IPC11
+bf811468 g     O *ABS*00000000 DCH5DSASET
+bf8f9470 g     O *ABS*00000000 SBT5RD1
+bf8110a4 g     O *ABS*00000000 DCH0DSACLR
+80002388 g     O .data._ZN10__cxxabiv119__terminate_handlerE.__terminate_handler00000004 _ZN10__cxxabiv119__terminate_handlerE
+bf8e307c g     O *ABS*00000000 USBEOFRST
+9d0085cc g     F .text._ZN7SSD128911setRotationEi0000016c _ZN7SSD128911setRotationEi
+bf82e07c g     O *ABS*00000000 PMWADDRINV
+bf8107f0 g     O *ABS*00000000 OFF172
+bf81075c g     O *ABS*00000000 OFF135
+bf84b190 g     O *ABS*00000000 ADC4CFG
+bf840a2c g     O *ABS*00000000 PR6INV
+0000136c g       .vectors00000000 __vector_offset_190
+9d00c334 g     F .text._ZN7SSD128911closeWindowEv00000008 _ZN7SSD128911closeWindowEv
+bf8f9450 g     O *ABS*00000000 SBT5RD0
+bf810184 g     O *ABS*00000000 IPC4CLR
+bf801224 g     O *ABS*00000000 SPLLCONCLR
+bf844608 g     O *ABS*00000000 OC4CONSET
+bf882268 g     O *ABS*00000000 EMACxSUPPSET
+bf860104 g     O *ABS*00000000 ANSELBCLR
+9d00b91c g     F .text.delay0000004c delay
+bf821640 g     O *ABS*00000000 SPI4CON2
+bf810100 g     O *ABS*00000000 IEC4
+bf8115ec g     O *ABS*00000000 DCH7DSAINV
+80000948 g       *ABS*00000000 _bss_end
+9d0065b4 g     F .text._free_r00000280 _free_r
+9d001018 g       .vectors00000000 _vector_0_addr
+9d00c15c g     F .text._ZN10__cxxabiv111__terminateEPFvvE00000018 _ZN10__cxxabiv111__terminateEPFvvE
+bf8fa838 g     O *ABS*00000000 SBT10ECLRM
+bf80007c g     O *ABS*00000000 PMD4INV
+bf82280c g     O *ABS*00000000 U5MODEINV
+bf8100f0 g     O *ABS*00000000 IEC3
+bf882254 g     O *ABS*00000000 EMACxMAXFCLR
+bf811394 g     O *ABS*00000000 DCH4SSACLR
+bf860584 g     O *ABS*00000000 CNENFCLR
+0000136c g       .vectors00000000 __vector_offset_238
+bf810120 g     O *ABS*00000000 IEC6
+bf8f8424 g     O *ABS*00000000 SBT1ELOG2
+bf8f9c28 g     O *ABS*00000000 SBT7ECON
+bf840218 g     O *ABS*00000000 TMR2SET
+00000000  w      *UND*00000000 __deregister_frame_info_bases
+bf810110 g     O *ABS*00000000 IEC5
+0000136c g       .vectors00000000 __vector_offset_236
+bf842408 g     O *ABS*00000000 IC3CONSET
+bf81138c g     O *ABS*00000000 DCH4INTINV
+bf8603a4 g     O *ABS*00000000 CNNEDCLR
+bf841018 g     O *ABS*00000000 TMR9SET
+bf810570 g     O *ABS*00000000 OFF012
+bf844624 g     O *ABS*00000000 OC4RSCLR
+bfc0ff4c g     O *ABS*00000000 ADEVCFG0
+0000136c g       .vectors00000000 __vector_offset_237
+bfc0ff50 g     O *ABS*00000000 ADEVCP3
+bf84442c g     O *ABS*00000000 OC3RSINV
+bf841004 g     O *ABS*00000000 T9CONCLR
+bf810574 g     O *ABS*00000000 OFF013
+bf822208 g     O *ABS*00000000 U2MODESET
+bfc0ff48 g     O *ABS*00000000 ADEVCFG1
+bf820204 g     O *ABS*00000000 I2C2CONCLR
+bf822000 g     O *ABS*00000000 UABMODE
+bf82141c g     O *ABS*00000000 SPI3STATINV
+bf801250 g     O *ABS*00000000 RSWRST
+bf8f8420 g     O *ABS*00000000 SBT1ELOG1
+bfc0ff54 g     O *ABS*00000000 ADEVCP2
+bf8e2008 g     O *ABS*00000000 SQI1CFG
+bf81143c g     O *ABS*00000000 DCH5ECONINV
+bf860174 g     O *ABS*00000000 CNCONBCLR
+bf882254 g     O *ABS*00000000 EMAC1MAXFCLR
+bf811324 g     O *ABS*00000000 DCH3DPTRCLR
+bf8e2038 g     O *ABS*00000000 SQI1BDCURADD
+bf822a10 g     O *ABS*00000000 U6STA
+bf840814 g     O *ABS*00000000 TMR5CLR
+bf840c00 g     O *ABS*00000000 T7CON
+bf8110b0 g     O *ABS*00000000 DCH0SSIZ
+bf801208 g     O *ABS*00000000 OSCCONSET
+bf801320 g     O *ABS*00000000 PB3DIV
+bfc0ff5c g     O *ABS*00000000 ADEVCP0
+bf842200 g     O *ABS*00000000 IC2CON
+bf8110d4 g     O *ABS*00000000 DCH0SPTRCLR
+bf8014d0 g     O *ABS*00000000 SS5R
+bf811134 g     O *ABS*00000000 DCH1ECONCLR
+bf8fa460 g     O *ABS*00000000 SBT9REG1
+0000136c g       .vectors00000000 __vector_offset_233
+bf8f9c58 g     O *ABS*00000000 SBT7WR0
+bf810624 g     O *ABS*00000000 OFF057
+bf8110e0 g     O *ABS*00000000 DCH0DPTR
+bf86034c g     O *ABS*00000000 ODCDINV
+0000136c g       .vectors00000000 __vector_offset_232
+bf844c20 g     O *ABS*00000000 OC7RS
+9d00b118 g     F .text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj0000007c _ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+bf860668 g     O *ABS*00000000 CNPDGSET
+bf882304 g     O *ABS*00000000 EMAC1SA0CLR
+bf8112b0 g     O *ABS*00000000 DCH3ECON
+bf8e1014 g     O *ABS*00000000 EBICS0
+bf810628 g     O *ABS*00000000 OFF058
+bf8fa030 g     O *ABS*00000000 SBT8ECLRS
+bf86053c g     O *ABS*00000000 LATFINV
+bf86044c g     O *ABS*00000000 ODCEINV
+bf8113e8 g     O *ABS*00000000 DCH4DPTRSET
+9d00c174 g     F .text.fabs00000018 fabs
+bf8e3124 g     O *ABS*00000000 USBE2CSR1
+bf8fa830 g     O *ABS*00000000 SBT10ECLRS
+bf81056c g     O *ABS*00000000 OFF011
+bf8016a4 g     O *ABS*00000000 RPG9R
+bf801588 g     O *ABS*00000000 RPC2R
+0000136c g       .vectors00000000 __vector_offset_231
+bf8fa820 g     O *ABS*00000000 SBT10ELOG1
+bf8fa440 g     O *ABS*00000000 SBT9REG0
+9d00bc28 g     F .text.setIntVector0000003c setIntVector
+bf8fa824 g     O *ABS*00000000 SBT10ELOG2
+bf8100e0 g     O *ABS*00000000 IEC2
+9d008f54 g     F .text.scalbn00000130 scalbn
+bf8114f0 g     O *ABS*00000000 DCH6ECON
+bf822418 g     O *ABS*00000000 U3STASET
+bf810568 g     O *ABS*00000000 OFF010
+bf8f9c78 g     O *ABS*00000000 SBT7WR1
+bf8100d0 g     O *ABS*00000000 IEC1
+bf810034 g     O *ABS*00000000 IPTMRCLR
+bf860498 g     O *ABS*00000000 CNSTATESET
+bf820420 g     O *ABS*00000000 I2C3ADD
+bf882320 g     O *ABS*00000000 EMACxSA2
+bf811194 g     O *ABS*00000000 DCH1SPTRCLR
+bf8100c0 g     O *ABS*00000000 IEC0
+bf88232c g     O *ABS*00000000 EMAC1SA2INV
+9d00be48 g     F .text._ZN10__cxxabiv117__class_type_infoD0Ev0000002c _ZN10__cxxabiv117__class_type_infoD0Ev
+bf810294 g     O *ABS*00000000 IPC21CLR
+bf820840 g     O *ABS*00000000 I2C5BRG
+bf882310 g     O *ABS*00000000 EMACxSA1
+bf810608 g     O *ABS*00000000 OFF050
+bf81057c g     O *ABS*00000000 OFF015
+0000136c g       .vectors00000000 __vector_offset_235
+bf820664 g     O *ABS*00000000 I2C4RCVCLR
+bf88225c g     O *ABS*00000000 EMAC1MAXFINV
+bf82264c g     O *ABS*00000000 UGHBRGINV
+bf882300 g     O *ABS*00000000 EMACxSA0
+bf821430 g     O *ABS*00000000 SPI3BRG
+bf84b0b0 g     O *ABS*00000000 ADCCMPCON5
+bf84040c g     O *ABS*00000000 T3CONINV
+bf8fa038 g     O *ABS*00000000 SBT8ECLRM
+bf820424 g     O *ABS*00000000 I2C3ADDCLR
+bfc0ff40 g     O *ABS*00000000 ADEVCFG3
+bf810578 g     O *ABS*00000000 OFF014
+bf822a4c g     O *ABS*00000000 ULMBRGINV
+bfc4ffd0 g     O *ABS*00000000 BF1DEVCP3
+bf8606b8 g     O *ABS*00000000 CNFGSET
+bf84b0b4 g     O *ABS*00000000 ADCCMPCON6
+bf8fac28 g     O *ABS*00000000 SBT11ECON
+bf811574 g     O *ABS*00000000 DCH6CSIZCLR
+bf8605d8 g     O *ABS*00000000 SRCON1FSET
+bf8603a8 g     O *ABS*00000000 CNNEDSET
+bfc0ff44 g     O *ABS*00000000 ADEVCFG2
+bf800608 g     O *ABS*00000000 NVMCONSET
+bf801490 g     O *ABS*00000000 U6RXR
+bf844e20 g     O *ABS*00000000 OC8RS
+bf8012d8 g     O *ABS*00000000 REFO3TRIMSET
+bf822a20 g     O *ABS*00000000 U6TXREG
+0000136c g       .vectors00000000 __vector_offset_239
+bf860640 g     O *ABS*00000000 ODCG
+bf8600a4 g     O *ABS*00000000 CNNEACLR
+bf840028 g     O *ABS*00000000 PR1SET
+bf810268 g     O *ABS*00000000 IPC18SET
+bf8e0004 g     O *ABS*00000000 PRECONCLR
+bfc4ffd4 g     O *ABS*00000000 BF1DEVCP2
+bf811128 g     O *ABS*00000000 DCH1CONSET
+bf8e3150 g     O *ABS*00000000 USBE5CSR0
+bf8015fc g     O *ABS*00000000 RPD15R
+bf81141c g     O *ABS*00000000 DCH4DATINV
+bf844224 g     O *ABS*00000000 OC2RSCLR
+bf860058 g     O *ABS*00000000 CNPUASET
+bf822a14 g     O *ABS*00000000 U6STACLR
+bf882228 g     O *ABS*00000000 EMACxIPGTSET
+bf8110f0 g     O *ABS*00000000 DCH0CSIZ
+bf811344 g     O *ABS*00000000 DCH3CPTRCLR
+bf88231c g     O *ABS*00000000 EMACxSA1INV
+bf860644 g     O *ABS*00000000 ODCGCLR
+bf811294 g     O *ABS*00000000 DCH2DATCLR
+9d001568  w    F .text00000008 _ZN7SSD12899displayOnEv
+bf88228c g     O *ABS*00000000 EMACxMCFGINV
+bf882234 g     O *ABS*00000000 EMAC1IPGRCLR
+bf801204 g     O *ABS*00000000 OSCCONCLR
+bfc6ff70 g     O *ABS*00000000 ABF2SEQ3
+bf822614 g     O *ABS*00000000 UGHSTACLR
+bf860024 g     O *ABS*00000000 PORTACLR
+bf800670 g     O *ABS*00000000 NVMSRCADDR
+bf8606a8 g     O *ABS*00000000 CNNEGSET
+bf8101e4 g     O *ABS*00000000 IPC10CLR
+9d00a1f4 g     F .text._Z20SoftPWMServoRawWritemmb000000c8 _Z20SoftPWMServoRawWritemmb
+bf810478 g     O *ABS*00000000 IPC51SET
+bf81134c g     O *ABS*00000000 DCS3CPTRINV
+bf822848 g     O *ABS*00000000 UJKBRGSET
+bf810214 g     O *ABS*00000000 IPC13CLR
+bfc6ff74 g     O *ABS*00000000 ABF2SEQ2
+bf840604 g     O *ABS*00000000 T4CONCLR
+bf82e08c g     O *ABS*00000000 PMRADDRINV
+bf8012d0 g     O *ABS*00000000 REFO3TRIM
+bf84482c g     O *ABS*00000000 OC5RSINV
+bfc6ff78 g     O *ABS*00000000 ABF2SEQ1
+bf8114c0 g     O *ABS*00000000 DCS5CPTR
+bf88230c g     O *ABS*00000000 EMACxSA0INV
+bf882248 g     O *ABS*00000000 EMACxCLRTSET
+bf82065c g     O *ABS*00000000 I2C4TRNINV
+bf820868 g     O *ABS*00000000 I2C5RCVSET
+bf8115cc g     O *ABS*00000000 DCH7INTINV
+bf801454 g     O *ABS*00000000 IC8R
+bf84b018 g     O *ABS*00000000 ADCIMCON3
+bf840614 g     O *ABS*00000000 TMR4CLR
+bf8014a8 g     O *ABS*00000000 SDI2R
+bf84260c g     O *ABS*00000000 IC4CONINV
+0000136c g       .vectors00000000 __vector_offset_157
+bf820410 g     O *ABS*00000000 I2C3STAT
+0000136c g       .vectors00000000 __vector_offset_112
+9d001668 g       .header_info00000000 _image_header_info_end
+bf84b014 g     O *ABS*00000000 ADCIMCON2
+bf811644 g     O *ABS*00000000 DCS7CPTRCLR
+bf811470 g     O *ABS*00000000 DCH5SSIZ
+bf822630 g     O *ABS*00000000 UGHRXREG
+bf82e008 g     O *ABS*00000000 PMCONSET
+bf811258 g     O *ABS*00000000 DCH2SPTRSET
+0000136c g       .vectors00000000 __vector_offset_151
+bf86006c g     O *ABS*00000000 CNPDAINV
+bf820628 g     O *ABS*00000000 I2C4ADDSET
+800006b4 g       .sbss00000000 _sbss_begin
+0000136c g       .vectors00000000 __vector_offset_150
+bf820848 g     O *ABS*00000000 I2C5BRGSET
+bf8e3120 g     O *ABS*00000000 USBE2CSR0
+bf81128c g     O *ABS*00000000 DCH2CPTRINV
+0000136c g       .vectors00000000 __vector_offset_153
+bf820658 g     O *ABS*00000000 I2C4TRNSET
+bf8606a4 g     O *ABS*00000000 CNNEGCLR
+bf810894 g     O *ABS*00000000 OFF213
+80000880 g     O .sbss00000004 gCore_timer_first_val
+bf8014d8 g     O *ABS*00000000 SDI6R
+bf810454 g     O *ABS*00000000 IPC49CLR
+bf810318 g     O *ABS*00000000 IPC29SET
+bf81110c g     O *ABS*00000000 DCS0CPTRINV
+bf84b010 g     O *ABS*00000000 ADCIMCON1
+bfc0ff58 g     O *ABS*00000000 ADEVCP1
+0000136c g       .vectors00000000 __vector_offset_152
+bf8111e8 g     O *ABS*00000000 DCH2CONSET
+bf882284 g     O *ABS*00000000 EMAC1MCFGCLR
+bf8112e4 g     O *ABS*00000000 DCH3DSACLR
+bf8110e8 g     O *ABS*00000000 DCH0DPTRSET
+bf860184 g     O *ABS*00000000 CNENBCLR
+bf882290 g     O *ABS*00000000 EMAC1MCMD
+bf8e3128 g     O *ABS*00000000 USBE2CSR2
+bf8604cc g     O *ABS*00000000 SRCON0EINV
+bf811600 g     O *ABS*00000000 DCH7DSIZ
+bf820828 g     O *ABS*00000000 I2C5ADDSET
+bf8f8028 g     O *ABS*00000000 SBT0ECON
+bf8f9828 g     O *ABS*00000000 SBT6ECON
+bf8012c8 g     O *ABS*00000000 REFO3CONSET
+bf811424 g     O *ABS*00000000 DCH5CONCLR
+bf82240c g     O *ABS*00000000 U3MODEINV
+bf811520 g     O *ABS*00000000 DCH6DSA
+bf8e312c g     O *ABS*00000000 USBE2CSR3
+bfc54024 g     O *ABS*00000000 DEVSN1
+bf8f84f0 g     O *ABS*00000000 SBT1RD5
+bf8f8530 g     O *ABS*00000000 SBT1RD7
+bf8822b0 g     O *ABS*00000000 EMAC1MWTD
+bf811598 g     O *ABS*00000000 DCH6DATSET
+bfc54020 g     O *ABS*00000000 DEVSN0
+bf8f8510 g     O *ABS*00000000 SBT1RD6
+bf8101bc g     O *ABS*00000000 IPC7INV
+bf840824 g     O *ABS*00000000 PR5CLR
+bf81074c g     O *ABS*00000000 OFF131
+9d00c280 g     F .text._initCoreTimer00000010 _initCoreTimer
+0000136c g       .vectors00000000 __vector_offset_19
+bf8101c4 g     O *ABS*00000000 IPC8CLR
+bf810750 g     O *ABS*00000000 OFF132
+bf821844 g     O *ABS*00000000 SPI5CON2CLR
+bf820850 g     O *ABS*00000000 I2C5TRN
+bf8f8550 g     O *ABS*00000000 SBT1RD8
+bf822a48 g     O *ABS*00000000 U6BRGSET
+0000136c g       .vectors00000000 __vector_offset_18
+bf8f9c38 g     O *ABS*00000000 SBT7ECLRM
+bf811154 g     O *ABS*00000000 DCH1SSACLR
+bf82004c g     O *ABS*00000000 I2C1BRGINV
+bf8102fc g     O *ABS*00000000 IPC27INV
+bf81153c g     O *ABS*00000000 DCH6SSIZINV
+9d008738 g     F .text._ZN7SSD128913setAddrWindowEiiii00000164 _ZN7SSD128913setAddrWindowEiiii
+bf860098 g     O *ABS*00000000 CNSTATASET
+80001f20 g     O .data.__malloc_av_.__malloc_av_00000408 __malloc_av_
+0000136c g       .vectors00000000 __vector_offset_16
+0000136c g       .vectors00000000 __vector_offset_17
+bf82e010 g     O *ABS*00000000 PMMODE
+bf800e0c g     O *ABS*00000000 CVRCONINV
+bf844e10 g     O *ABS*00000000 OC8R
+bf8820e0 g     O *ABS*00000000 ETHSTAT
+9d00738c g     F .text.__ieee754_sqrt00000208 __ieee754_sqrt
+bf822214 g     O *ABS*00000000 U2STACLR
+9d00c290 g     F .text._ZNSt9type_infoD2Ev00000010 _ZNSt9type_infoD2Ev
+9d00c3d4  w    F .text._on_bootstrap00000008 _on_bootstrap
+bf8015c8 g     O *ABS*00000000 RPD2R
+bf882278 g     O *ABS*00000000 EMACxTESTSET
+bf80004c g     O *ABS*00000000 PMD1INV
+bf8115d8 g     O *ABS*00000000 DCH7SSASET
+bf8100a8 g     O *ABS*00000000 IFS6SET
+bf845020 g     O *ABS*00000000 OC9RS
+bf8601c8 g     O *ABS*00000000 SRCON0BSET
+bf810808 g     O *ABS*00000000 OFF178
+bf8111fc g     O *ABS*00000000 DCH2ECONINV
+9d001778  w    O .rodata000000e8 _ZTV11DisplayCore
+bf840a1c g     O *ABS*00000000 TMR6INV
+bf8e1054 g     O *ABS*00000000 EBIMSK0
+bf81080c g     O *ABS*00000000 OFF179
+bf821620 g     O *ABS*00000000 SPI4BUF
+bf8101a8 g     O *ABS*00000000 IPC6SET
+bf820208 g     O *ABS*00000000 I2C2CONSET
+bf810748 g     O *ABS*00000000 OFF130
+bf8f9c30 g     O *ABS*00000000 SBT7ECLRS
+bf8102f4 g     O *ABS*00000000 IPC27CLR
+bf821218 g     O *ABS*00000000 SPI2STATSET
+bf801418 g     O *ABS*00000000 T2CKR
+bf81024c g     O *ABS*00000000 IPC16INV
+bf8e324c g     O *ABS*00000000 USBDMA5N
+bf84500c g     O *ABS*00000000 OC9CONINV
+bf810348 g     O *ABS*00000000 IPC32SET
+bf801674 g     O *ABS*00000000 RPF13R
+80002398 g     O .bss.__malloc_top_pad.__malloc_top_pad00000004 __malloc_top_pad
+bf840200 g     O *ABS*00000000 T2CON
+bf810128 g     O *ABS*00000000 IEC6SET
+800006b8 g     O .sbss00000188 tft
+9d00607c g     F .text._ZN11DisplayCore10fillBezierEiiiiiiiiit000002a4 _ZN11DisplayCore10fillBezierEiiiiiiiiit
+bf840808 g     O *ABS*00000000 T5CONSET
+bf811080 g     O *ABS*00000000 DCH0INT
+bf844c14 g     O *ABS*00000000 OC7RCLR
+bf8107ec g     O *ABS*00000000 OFF171
+bf810758 g     O *ABS*00000000 OFF134
+bf822214 g     O *ABS*00000000 UCDSTACLR
+bf801284 g     O *ABS*00000000 REFO1CONCLR
+bf8f8480 g     O *ABS*00000000 SBT1REG2
+bf811168 g     O *ABS*00000000 DCH1DSASET
+bf8e2034 g     O *ABS*00000000 SQI1BDCON
+bf8107e8 g     O *ABS*00000000 OFF170
+bf810754 g     O *ABS*00000000 OFF133
+bf860488 g     O *ABS*00000000 CNENESET
+bf811284 g     O *ABS*00000000 DCH2CPTRCLR
+bf82204c g     O *ABS*00000000 UABBRGINV
+bf820018 g     O *ABS*00000000 I2C1STATSET
+bf8606bc g     O *ABS*00000000 CNFGINV
+bf8f8440 g     O *ABS*00000000 SBT1REG0
+bf8014f4 g     O *ABS*00000000 REFCLKI4R
+bf810028 g     O *ABS*00000000 INTSTATSET
+bf822604 g     O *ABS*00000000 UGHMODECLR
+bf844e14 g     O *ABS*00000000 OC8RCLR
+bf860660 g     O *ABS*00000000 CNPDG
+bf8fa430 g     O *ABS*00000000 SBT9ECLRS
+0000136c g       .vectors00000000 __vector_offset_15
+bf8114c8 g     O *ABS*00000000 DCS5CPTRSET
+bf8103d8 g     O *ABS*00000000 IPC41SET
+bf8f84e0 g     O *ABS*00000000 SBT1REG5
+bf84001c g     O *ABS*00000000 TMR1INV
+bf811020 g     O *ABS*00000000 DMAADDR
+bf811540 g     O *ABS*00000000 DCH6DSIZ
+bf860460 g     O *ABS*00000000 CNPDE
+0000136c g       .vectors00000000 __vector_offset_14
+bf8f8500 g     O *ABS*00000000 SBT1REG6
+9d00aa44 g     F .text._ZN11DisplayCore18drawHorizontalLineEiiit0000009c _ZN11DisplayCore18drawHorizontalLineEiiit
+bf8111ac g     O *ABS*00000000 DCH1DPTRINV
+bf8012b8 g     O *ABS*00000000 REFO2TRIMSET
+0000136c g       .vectors00000000 __vector_offset_96
+bf840400 g     O *ABS*00000000 T3CON
+bf822a1c g     O *ABS*00000000 ULMSTAINV
+bf8f84a0 g     O *ABS*00000000 SBT1REG3
+0000136c g       .vectors00000000 __vector_offset_97
+bf810244 g     O *ABS*00000000 IPC16CLR
+0000136c g       .vectors00000000 __vector_offset_59
+bf8e204c g     O *ABS*00000000 SQI1BDTXDSTAT
+bf810494 g     O *ABS*00000000 IPC53CLR
+bf8f84c0 g     O *ABS*00000000 SBT1REG4
+0000136c g       .vectors00000000 __vector_offset_11
+bf822600 g     O *ABS*00000000 UGHMODE
+bf820820 g     O *ABS*00000000 I2C5ADD
+bf860360 g     O *ABS*00000000 CNPDD
+bf820238 g     O *ABS*00000000 I2C2MSKSET
+bf860560 g     O *ABS*00000000 CNPDF
+bf801254 g     O *ABS*00000000 RSWRSTCLR
+0000136c g       .vectors00000000 __vector_offset_10
+bf84480c g     O *ABS*00000000 OC5CONINV
+bf8102dc g     O *ABS*00000000 IPC25INV
+bf811230 g     O *ABS*00000000 DCH2SSIZ
+bf860060 g     O *ABS*00000000 CNPDA
+bf8111ec g     O *ABS*00000000 DCH2CONINV
+0000136c g       .vectors00000000 __vector_offset_12
+bf822a14 g     O *ABS*00000000 ULMSTACLR
+bf822a44 g     O *ABS*00000000 ULMBRGCLR
+bf821214 g     O *ABS*00000000 SPI2STATCLR
+bf882268 g     O *ABS*00000000 EMAC1SUPPSET
+bf86040c g     O *ABS*00000000 ANSELEINV
+0000136c g       .vectors00000000 __vector_offset_234
+0000136c g       .vectors00000000 __vector_offset_13
+bf84100c g     O *ABS*00000000 T9CONINV
+bf810004 g     O *ABS*00000000 INTCONCLR
+bf810054 g     O *ABS*00000000 IFS1CLR
+bf8015ec g     O *ABS*00000000 RPD11R
+bf8114fc g     O *ABS*00000000 DCH6ECONINV
+bf88209c g     O *ABS*00000000 ETHPMOINV
+bf860260 g     O *ABS*00000000 CNPDC
+bf860574 g     O *ABS*00000000 CNCONFCLR
+bf840e24 g     O *ABS*00000000 PR8CLR
+bf84021c g     O *ABS*00000000 TMR2INV
+bf8f8c28 g     O *ABS*00000000 SBT3ECON
+0000136c g       .vectors00000000 __vector_offset_91
+bf800c38 g     O *ABS*00000000 RTCDATESET
+0000136c g       .vectors00000000 __vector_offset_54
+bf86045c g     O *ABS*00000000 CNPUEINV
+bf810450 g     O *ABS*00000000 IPC49
+bf86054c g     O *ABS*00000000 ODCFINV
+bf8100ec g     O *ABS*00000000 IEC2INV
+bf882258 g     O *ABS*00000000 EMACxMAXFSET
+80002328 g     O .bss.__malloc_current_mallinfo.__malloc_current_mallinfo00000028 __malloc_current_mallinfo
+bf882084 g     O *ABS*00000000 ETHPMCSCLR
+bf80133c g     O *ABS*00000000 PB4DIVINV
+bf810430 g     O *ABS*00000000 IPC47
+bf821600 g     O *ABS*00000000 SPI4CON
+bf811244 g     O *ABS*00000000 DCH2DSIZCLR
+0000136c g       .vectors00000000 __vector_offset_90
+bf8f9080 g     O *ABS*00000000 SBT4REG2
+0000136c g       .vectors00000000 __vector_offset_53
+bf860160 g     O *ABS*00000000 CNPDB
+bf840004 g     O *ABS*00000000 T1CONCLR
+bf860518 g     O *ABS*00000000 TRISFSET
+bf8102d4 g     O *ABS*00000000 IPC25CLR
+bf800020 g     O *ABS*00000000 DEVID
+bf81118c g     O *ABS*00000000 DCH1DSIZINV
+9d006cf4 g     F .text._Z14HandlePWMServom00000238 _Z14HandlePWMServom
+bf842c10 g     O *ABS*00000000 IC7BUF
+bf810440 g     O *ABS*00000000 IPC48
+bf882100 g     O *ABS*00000000 ETHRXOVFLOW
+0000136c g       .vectors00000000 __vector_offset_230
+bf811240 g     O *ABS*00000000 DCH2DSIZ
+0000136c g       .vectors00000000 __vector_offset_99
+bf810410 g     O *ABS*00000000 IPC45
+bf811048 g     O *ABS*00000000 DCRCDATASET
+bf8f9040 g     O *ABS*00000000 SBT4REG0
+bf82e05c g     O *ABS*00000000 PMAENINV
+bf8f9820 g     O *ABS*00000000 SBT6ELOG1
+bf882070 g     O *ABS*00000000 ETHPMM1
+bf882304 g     O *ABS*00000000 EMACxSA0CLR
+bf811580 g     O *ABS*00000000 DCS6CPTR
+bf81022c g     O *ABS*00000000 IPC14INV
+0000136c g       .vectors00000000 __vector_offset_98
+bf8103a8 g     O *ABS*00000000 IPC38SET
+bf8115e0 g     O *ABS*00000000 DCH7DSA
+bf88220c g     O *ABS*00000000 EMAC1CFG1INV
+bf84460c g     O *ABS*00000000 OC4CONINV
+bf82e054 g     O *ABS*00000000 PMAENCLR
+bf845028 g     O *ABS*00000000 OC9RSSET
+bf810280 g     O *ABS*00000000 IPC20
+bf8014a0 g     O *ABS*00000000 SS1R
+bf810420 g     O *ABS*00000000 IPC46
+bfc2ffc4 g     O *ABS*00000000 UBADEVCFG2
+bf821418 g     O *ABS*00000000 SPI3STATSET
+0000136c g       .vectors00000000 __vector_offset_58
+9d00845c g     F .text._ZN11DisplayCore8drawLineEiiiit00000170 _ZN11DisplayCore8drawLineEiiiit
+bf821414 g     O *ABS*00000000 SPI3STATCLR
+bf8111c0 g     O *ABS*00000000 DCS1CPTR
+bf8f9c60 g     O *ABS*00000000 SBT7REG1
+bf8604b8 g     O *ABS*00000000 CNFESET
+bf8f9824 g     O *ABS*00000000 SBT6ELOG2
+bf882060 g     O *ABS*00000000 ETHPMM0
+bf84401c g     O *ABS*00000000 OC1RINV
+bf844e0c g     O *ABS*00000000 OC8CONINV
+bf882224 g     O *ABS*00000000 EMACxIPGTCLR
+bf84481c g     O *ABS*00000000 OC5RINV
+bfc2ffc8 g     O *ABS*00000000 UBADEVCFG1
+bf810290 g     O *ABS*00000000 IPC21
+0000136c g       .vectors00000000 __vector_offset_95
+0000136c g       .vectors00000000 __vector_offset_57
+bf842e08 g     O *ABS*00000000 IC8CONSET
+bf822208 g     O *ABS*00000000 UCDMODESET
+bf84b22c g     O *ABS*00000000 ADCDATA11
+bf8f9c40 g     O *ABS*00000000 SBT7REG0
+bf820644 g     O *ABS*00000000 I2C4BRGCLR
+bf8110d8 g     O *ABS*00000000 DCH0SPTRSET
+bf8822a0 g     O *ABS*00000000 EMACxMADR
+bf84b228 g     O *ABS*00000000 ADCDATA10
+bf860258 g     O *ABS*00000000 CNPUCSET
+bfc2ffc0 g     O *ABS*00000000 UBADEVCFG3
+0000136c g       .vectors00000000 __vector_offset_94
+bf84b230 g     O *ABS*00000000 ADCDATA12
+bf840c14 g     O *ABS*00000000 TMR7CLR
+9d00c024 g     F .text.raise00000024 raise
+bf8112b4 g     O *ABS*00000000 DCH3ECONCLR
+bf811228 g     O *ABS*00000000 DCH2DSASET
+bf845008 g     O *ABS*00000000 OC9CONSET
+bf801360 g     O *ABS*00000000 PB7DIV
+bf811388 g     O *ABS*00000000 DCH4INTSET
+bf811160 g     O *ABS*00000000 DCH1DSA
+bd0000d0 g       *ABS*00000000 __pic32_tlb_init_values_end
+bf811204 g     O *ABS*00000000 DCH2INTCLR
+bf8e601c g     O *ABS*00000000 RNGSEED2
+bf811158 g     O *ABS*00000000 DCH1SSASET
+bf811464 g     O *ABS*00000000 DCH5DSACLR
+bf84b238 g     O *ABS*00000000 ADCDATA14
+bf821648 g     O *ABS*00000000 SPI4CON2SET
+bf822810 g     O *ABS*00000000 UJKSTA
+bf84240c g     O *ABS*00000000 IC3CONINV
+bf81161c g     O *ABS*00000000 DCH7SPTRINV
+bf81126c g     O *ABS*00000000 DCH2DPTRINV
+bf822814 g     O *ABS*00000000 U5STACLR
+bf8103c4 g     O *ABS*00000000 IPC40CLR
+bf82e050 g     O *ABS*00000000 PMAEN
+bf84b234 g     O *ABS*00000000 ADCDATA13
+bf810438 g     O *ABS*00000000 IPC47SET
+bf8e6018 g     O *ABS*00000000 RNGSEED1
+bf8e3204 g     O *ABS*00000000 USBDMA1C
+bf811144 g     O *ABS*00000000 DCH1INTCLR
+bf801684 g     O *ABS*00000000 RPG1R
+bf810888 g     O *ABS*00000000 OFF210
+bf8600c4 g     O *ABS*00000000 SRCON0ACLR
+bf81132c g     O *ABS*00000000 DCH3DPTRINV
+9d00ab7c g     F .text._ZN11DisplayCore10fillScreenEt0000009c _ZN11DisplayCore10fillScreenEt
+bf840014 g     O *ABS*00000000 TMR1CLR
+bf820200 g     O *ABS*00000000 I2C2CON
+bf882234 g     O *ABS*00000000 EMACxIPGRCLR
+bf84b080 g     O *ABS*00000000 ADCTRG1
+bf84b23c g     O *ABS*00000000 ADCDATA15
+9d00a864 g     F .text._Z15setBorderSinglet000000a8 _Z15setBorderSinglet
+bf810224 g     O *ABS*00000000 IPC14CLR
+9d00186c  w    O .rodata0000000e _ZTS11DisplayCore
+bf800c28 g     O *ABS*00000000 RTCTIMESET
+bf8603ac g     O *ABS*00000000 CNNEDINV
+bf8102b4 g     O *ABS*00000000 IPC23CLR
+bf8013c8 g     O *ABS*00000000 SLEWCONSET
+bf88220c g     O *ABS*00000000 EMACxCFG1INV
+bf8e3208 g     O *ABS*00000000 USBDMA1A
+9d00aae0 g     F .text._ZN11DisplayCore16drawVerticalLineEiiit0000009c _ZN11DisplayCore16drawVerticalLineEiiit
+bf88207c g     O *ABS*00000000 ETHPMM1INV
+bf820254 g     O *ABS*00000000 I2C2TRNCLR
+bf820460 g     O *ABS*00000000 I2C3RCV
+bfc6ffe0 g     O *ABS*00000000 BF2DEVSIGN3
+9d00c344 g     F .text._ZN11DisplayCore9getHeightEv00000008 _ZN11DisplayCore9getHeightEv
+bf820240 g     O *ABS*00000000 I2C2BRG
+bf81127c g     O *ABS*00000000 DCH2CSIZINV
+bf811648 g     O *ABS*00000000 DCS7CPTRSET
+bf88226c g     O *ABS*00000000 EMACxSUPPINV
+bf811100 g     O *ABS*00000000 DCH0CPTR
+bf821030 g     O *ABS*00000000 SPI1BRG
+bf8e314c g     O *ABS*00000000 USBE4CSR3
+bf81149c g     O *ABS*00000000 DCH5SPTRINV
+bf8605c4 g     O *ABS*00000000 SRCON0FCLR
+bf86069c g     O *ABS*00000000 CNSTATGINV
+bfc2ffcc g     O *ABS*00000000 UBADEVCFG0
+bf8e3248 g     O *ABS*00000000 USBDMA5A
+bf84b088 g     O *ABS*00000000 ADCTRG3
+bf810334 g     O *ABS*00000000 IPC31CLR
+9d00b634 g     F .text.setIntPriority00000058 setIntPriority
+bf840428 g     O *ABS*00000000 PR3SET
+bf8013c0 g     O *ABS*00000000 SLEWCON
+0000136c g       .vectors00000000 __vector_offset_92
+bf88205c g     O *ABS*00000000 ETHHT1INV
+bf811504 g     O *ABS*00000000 DCH6INTCLR
+bf84c00c g     O *ABS*00000000 CM1CONINV
+bf882314 g     O *ABS*00000000 EMACxSA1CLR
+bf8e3148 g     O *ABS*00000000 USBE4CSR2
+bf82063c g     O *ABS*00000000 I2C4MSKINV
+bf84b084 g     O *ABS*00000000 ADCTRG2
+0000136c g       .vectors00000000 __vector_offset_55
+0000136c g       .vectors00000000 __vector_offset_93
+bf810368 g     O *ABS*00000000 IPC34SET
+bf8e3140 g     O *ABS*00000000 USBE4CSR0
+bf810204 g     O *ABS*00000000 IPC12CLR
+0000136c g       .vectors00000000 __vector_offset_56
+bf840618 g     O *ABS*00000000 TMR4SET
+9d00b738 g     F .text.turnOffPWM00000054 turnOffPWM
+9d00c34c g     F .text._ZN11DisplayCore7colorAtEii00000008 _ZN11DisplayCore7colorAtEii
+bf820458 g     O *ABS*00000000 I2C3TRNSET
+bf811494 g     O *ABS*00000000 DCH5SPTRCLR
+0000136c g       .vectors00000000 __vector_offset_50
+bf8012ac g     O *ABS*00000000 REFO2CONINV
+bf8e3144 g     O *ABS*00000000 USBE4CSR1
+bfc4ffc8 g     O *ABS*00000000 BF1DEVCFG1
+bf821234 g     O *ABS*00000000 SPI2BRGCLR
+bf8606b4 g     O *ABS*00000000 CNFGCLR
+bf860298 g     O *ABS*00000000 CNSTATCSET
+bf822408 g     O *ABS*00000000 U3MODESET
+bf842404 g     O *ABS*00000000 IC3CONCLR
+bf842e0c g     O *ABS*00000000 IC8CONINV
+bf811250 g     O *ABS*00000000 DCH2SPTR
+bfc4ffc4 g     O *ABS*00000000 BF1DEVCFG2
+0000136c g       .vectors00000000 __vector_offset_51
+bf8820d0 g     O *ABS*00000000 ETHIRQ
+bf801444 g     O *ABS*00000000 IC4R
+bf882074 g     O *ABS*00000000 ETHPMM1CLR
+bf822830 g     O *ABS*00000000 U5RXREG
+bf8000ac g     O *ABS*00000000 PMD7INV
+0000136c g       .vectors00000000 __vector_offset_52
+bf820438 g     O *ABS*00000000 I2C3MSKSET
+bf811344 g     O *ABS*00000000 DCS3CPTRCLR
+bf860604 g     O *ABS*00000000 ANSELGCLR
+9d00c32c g     F .text._ZN7SSD128913invertDisplayEh00000008 _ZN7SSD128913invertDisplayEh
+bf860274 g     O *ABS*00000000 CNCONCCLR
+bf820268 g     O *ABS*00000000 I2C2RCVSET
+bf811538 g     O *ABS*00000000 DCH6SSIZSET
+bf820604 g     O *ABS*00000000 I2C4CONCLR
+bf8100f4 g     O *ABS*00000000 IEC3CLR
+9d00bc64 g     F .text._Z3clst00000038 _Z3clst
+bf860364 g     O *ABS*00000000 CNPDDCLR
+bf84b0bc g     O *ABS*00000000 ADCFIFO
+bf882138 g     O *ABS*00000000 ETHMCOLFRMSET
+bf860338 g     O *ABS*00000000 LATDSET
+bf8600b8 g     O *ABS*00000000 CNFASET
+bf82e090 g     O *ABS*00000000 PMRDIN
+bf8e6000 g     O *ABS*00000000 RNGVER
+bfc6ffe4 g     O *ABS*00000000 BF2DEVSIGN2
+bf844818 g     O *ABS*00000000 OC5RSET
+bf8fa420 g     O *ABS*00000000 SBT9ELOG1
+bf82e088 g     O *ABS*00000000 PMRADDRSET
+bf82221c g     O *ABS*00000000 U2STAINV
+bf8e6004 g     O *ABS*00000000 RNGCON
+bf84041c g     O *ABS*00000000 TMR3INV
+bf810484 g     O *ABS*00000000 IPC52CLR
+bf801468 g     O *ABS*00000000 U1RXR
+bf8f9c24 g     O *ABS*00000000 SBT7ELOG2
+bf822000 g     O *ABS*00000000 U1MODE
+bf822410 g     O *ABS*00000000 UEFSTA
+bf822604 g     O *ABS*00000000 U4MODECLR
+bf88206c g     O *ABS*00000000 ETHPMM0INV
+bf810044 g     O *ABS*00000000 IFS0CLR
+bf80142c g     O *ABS*00000000 T7CKR
+bf81028c g     O *ABS*00000000 IPC20INV
+bf80060c g     O *ABS*00000000 NVMCONINV
+bf8fa424 g     O *ABS*00000000 SBT9ELOG2
+bf8f9c20 g     O *ABS*00000000 SBT7ELOG1
+0000136c g       .vectors00000000 __vector_offset_199
+bf811174 g     O *ABS*00000000 DCH1SSIZCLR
+bf8103f8 g     O *ABS*00000000 IPC43SET
+bf811434 g     O *ABS*00000000 DCH5ECONCLR
+bf800650 g     O *ABS*00000000 NVMDATA2
+bf810020 g     O *ABS*00000000 INTSTAT
+bf88224c g     O *ABS*00000000 EMACxCLRTINV
+bf82244c g     O *ABS*00000000 U3BRGINV
+bf882244 g     O *ABS*00000000 EMAC1CLRTCLR
+800006b0 g     O .sdata00000000 .hidden __dso_handle
+bf882048 g     O *ABS*00000000 ETHHT0SET
+bf81158c g     O *ABS*00000000 DCS6CPTRINV
+bf811604 g     O *ABS*00000000 DCH7DSIZCLR
+bf800660 g     O *ABS*00000000 NVMDATA3
+bf81107c g     O *ABS*00000000 DCH0ECONINV
+bf810688 g     O *ABS*00000000 OFF082
+bf810604 g     O *ABS*00000000 OFF049
+bf810698 g     O *ABS*00000000 OFF086
+bf8112c8 g     O *ABS*00000000 DCH3INTSET
+bf800630 g     O *ABS*00000000 NVMDATA0
+bf8000a0 g     O *ABS*00000000 PMD7
+bf8606d4 g     O *ABS*00000000 SRCON1GCLR
+bf810684 g     O *ABS*00000000 OFF081
+bf810600 g     O *ABS*00000000 OFF048
+bf810694 g     O *ABS*00000000 OFF085
+bf821210 g     O *ABS*00000000 SPI2STAT
+bf800640 g     O *ABS*00000000 NVMDATA1
+bf842610 g     O *ABS*00000000 IC4BUF
+bf8105f8 g     O *ABS*00000000 OFF046
+bf810564 g     O *ABS*00000000 OFF009
+bf800080 g     O *ABS*00000000 PMD5
+bf810680 g     O *ABS*00000000 OFF080
+bf8105fc g     O *ABS*00000000 OFF047
+bf8e3084 g     O *ABS*00000000 USBE0RXA
+bf822230 g     O *ABS*00000000 U2RXREG
+bf8012a4 g     O *ABS*00000000 REFO2CONCLR
+bf80146c g     O *ABS*00000000 U1CTSR
+bf800090 g     O *ABS*00000000 PMD6
+bf860224 g     O *ABS*00000000 PORTCCLR
+bf810284 g     O *ABS*00000000 IPC20CLR
+bf8105f4 g     O *ABS*00000000 OFF045
+bf810560 g     O *ABS*00000000 OFF008
+bf801300 g     O *ABS*00000000 PB1DIV
+bf810140 g     O *ABS*00000000 IPC0
+bf8100fc g     O *ABS*00000000 IEC3INV
+bf811198 g     O *ABS*00000000 DCH1SPTRSET
+bf800a00 g     O *ABS*00000000 DMTCON
+bf800040 g     O *ABS*00000000 PMD1
+9d008158 g     F .text._ZN11DisplayCore5writeEh00000184 _ZN11DisplayCore5writeEh
+bf810078 g     O *ABS*00000000 IFS3SET
+bf8114d8 g     O *ABS*00000000 DCH5DATSET
+bf822400 g     O *ABS*00000000 UEFMODE
+bf8114cc g     O *ABS*00000000 DCH5CPTRINV
+bf8105f0 g     O *ABS*00000000 OFF044
+bf81055c g     O *ABS*00000000 OFF007
+bf8115b4 g     O *ABS*00000000 DCH7ECONCLR
+bf82e06c g     O *ABS*00000000 PMSTATINV
+bf842e00 g     O *ABS*00000000 IC8CON
+bf844604 g     O *ABS*00000000 OC4CONCLR
+bf800604 g     O *ABS*00000000 NVMCONCLR
+bf800050 g     O *ABS*00000000 PMD2
+bf811628 g     O *ABS*00000000 DCH7DPTRSET
+bf84422c g     O *ABS*00000000 OC2RSINV
+bf8113c8 g     O *ABS*00000000 DCH4DSIZSET
+bf810160 g     O *ABS*00000000 IPC2
+bf811514 g     O *ABS*00000000 DCH6SSACLR
+bf821230 g     O *ABS*00000000 SPI2BRG
+bf820060 g     O *ABS*00000000 I2C1RCV
+8000239c g     O .data.__malloc_sbrk_base.__malloc_sbrk_base00000004 __malloc_sbrk_base
+bf810300 g     O *ABS*00000000 IPC28
+bf8f9038 g     O *ABS*00000000 SBT4ECLRM
+bf800060 g     O *ABS*00000000 PMD3
+bf8115d0 g     O *ABS*00000000 DCH7SSA
+bf800098 g     O *ABS*00000000 PMD6SET
+bf844610 g     O *ABS*00000000 OC4R
+bf810150 g     O *ABS*00000000 IPC1
+bf81109c g     O *ABS*00000000 DCH0SSAINV
+bf800070 g     O *ABS*00000000 PMD4
+bf8101c0 g     O *ABS*00000000 IPC8
+9d00bbec g     F .text._ZN7SSD128910fillScreenEt0000003c _ZN7SSD128910fillScreenEt
+bf800c5c g     O *ABS*00000000 ALRMDATEINV
+bf822818 g     O *ABS*00000000 U5STASET
+bf882118 g     O *ABS*00000000 ETHFRMTXOKSET
+bf844028 g     O *ABS*00000000 OC1RSSET
+bf860564 g     O *ABS*00000000 CNPDFCLR
+bf860020 g     O *ABS*00000000 PORTA
+bf81136c g     O *ABS*00000000 DCH4CONINV
+bf8101b0 g     O *ABS*00000000 IPC7
+0000136c g       .vectors00000000 __vector_offset_107
+bf8102d0 g     O *ABS*00000000 IPC25
+9d00becc  w    F .text._stub_sbd_memlayout0000002c _sbd_memlayout
+bf81148c g     O *ABS*00000000 DCH5DSIZINV
+bf81105c g     O *ABS*00000000 DCRCXORINV
+bf820830 g     O *ABS*00000000 I2C5MSK
+bf860220 g     O *ABS*00000000 PORTC
+bf8111f0 g     O *ABS*00000000 DCH2ECON
+bfc4ff60 g     O *ABS*00000000 ABF1DEVSIGN3
+bf8102f0 g     O *ABS*00000000 IPC27
+bf811350 g     O *ABS*00000000 DCH3DAT
+bf81029c g     O *ABS*00000000 IPC21INV
+0000136c g       .vectors00000000 __vector_offset_185
+bf801578 g     O *ABS*00000000 RPB14R
+bf8822bc g     O *ABS*00000000 EMAC1MWTDINV
+bf84b0d8 g     O *ABS*00000000 ADC1TIME
+bf822a0c g     O *ABS*00000000 U6MODEINV
+bf844c00 g     O *ABS*00000000 OC7CON
+bf821814 g     O *ABS*00000000 SPI5STATCLR
+bfc4ffc0 g     O *ABS*00000000 BF1DEVCFG3
+bf811458 g     O *ABS*00000000 DCH5SSASET
+bf801424 g     O *ABS*00000000 T5CKR
+bf8101d0 g     O *ABS*00000000 IPC9
+bf8fb028 g     O *ABS*00000000 SBT12ECON
+0000136c g       .vectors00000000 __vector_offset_148
+bf8606c4 g     O *ABS*00000000 SRCON0GCLR
+bf882064 g     O *ABS*00000000 ETHPMM0CLR
+bf882324 g     O *ABS*00000000 EMACxSA2CLR
+bf8114a8 g     O *ABS*00000000 DCH5DPTRSET
+bf8102e0 g     O *ABS*00000000 IPC26
+bf842810 g     O *ABS*00000000 IC5BUF
+bf8115b0 g     O *ABS*00000000 DCH7ECON
+bf820048 g     O *ABS*00000000 I2C1BRGSET
+0000136c g       .vectors00000000 __vector_offset_105
+bf8f8860 g     O *ABS*00000000 SBT2REG1
+bfc2ff60 g     O *ABS*00000000 AUBADEVSIGN3
+bf860320 g     O *ABS*00000000 PORTD
+bf8101d4 g     O *ABS*00000000 IPC9CLR
+bfc4ff68 g     O *ABS*00000000 ABF1DEVSIGN1
+bf810310 g     O *ABS*00000000 IPC29
+bf844c18 g     O *ABS*00000000 OC7RSET
+bf882130 g     O *ABS*00000000 ETHMCOLFRM
+bfc4ff64 g     O *ABS*00000000 ABF1DEVSIGN2
+bf86025c g     O *ABS*00000000 CNPUCINV
+0000136c g       .vectors00000000 __vector_offset_106
+bf8f8840 g     O *ABS*00000000 SBT2REG0
+bf88232c g     O *ABS*00000000 EMACxSA2INV
+0000136c g       .vectors00000000 __vector_offset_180
+bf800648 g     O *ABS*00000000 NVMDATA1SET
+bf860178 g     O *ABS*00000000 CNCONBSET
+bfc4ffcc g     O *ABS*00000000 BF1DEVCFG0
+bf860120 g     O *ABS*00000000 PORTB
+bf860504 g     O *ABS*00000000 ANSELFCLR
+bf82124c g     O *ABS*00000000 SPI2CON2INV
+bf811044 g     O *ABS*00000000 DCRCDATACLR
+9d00bd0c g     F .text._enableMultiVectorInterrupts00000038 _enableMultiVectorInterrupts
+bf82200c g     O *ABS*00000000 UABMODEINV
+bf8820a0 g     O *ABS*00000000 ETHRXFC
+bf8f8838 g     O *ABS*00000000 SBT2ECLRM
+bf811098 g     O *ABS*00000000 DCH0SSASET
+bf8f9850 g     O *ABS*00000000 SBT6RD0
+bf860620 g     O *ABS*00000000 PORTG
+bf811094 g     O *ABS*00000000 DCH0SSACLR
+0000136c g       .vectors00000000 __vector_offset_182
+bfc2ff64 g     O *ABS*00000000 AUBADEVSIGN2
+bf8e320c g     O *ABS*00000000 USBDMA1N
+bf811300 g     O *ABS*00000000 DCH3DSIZ
+bf8102f8 g     O *ABS*00000000 IPC27SET
+0000136c g       .vectors00000000 __vector_offset_183
+bf8101ec g     O *ABS*00000000 IPC10INV
+bf821800 g     O *ABS*00000000 SPI5CON
+bf801268 g     O *ABS*00000000 RNMICONSET
+bf882128 g     O *ABS*00000000 ETHSCOLFRMSET
+bf810324 g     O *ABS*00000000 IPC30CLR
+bf842a04 g     O *ABS*00000000 IC6CONCLR
+bf860420 g     O *ABS*00000000 PORTE
+0000136c g       .vectors00000000 __vector_offset_184
+0000136c g       .vectors00000000 __vector_offset_149
+bfc4ff6c g     O *ABS*00000000 ABF1DEVSIGN0
+bf86020c g     O *ABS*00000000 ANSELCINV
+bf8e2044 g     O *ABS*00000000 SQI1BDSTAT
+bf88222c g     O *ABS*00000000 EMAC1IPGTINV
+bf860520 g     O *ABS*00000000 PORTF
+bf844a14 g     O *ABS*00000000 OC6RCLR
+bf84c000 g     O *ABS*00000000 CM1CON
+bfc6ffec g     O *ABS*00000000 BF2DEVSIGN0
+bf801374 g     O *ABS*00000000 PB8DIVCLR
+0000136c g       .vectors00000000 __vector_offset_145
+0000136c g       .vectors00000000 __vector_offset_102
+bfc6ffe8 g     O *ABS*00000000 BF2DEVSIGN1
+0000136c g       .vectors00000000 __vector_offset_144
+bf84b0b8 g     O *ABS*00000000 ADCFSTAT
+bf80140c g     O *ABS*00000000 INT3R
+bf860678 g     O *ABS*00000000 CNCONGSET
+bf820430 g     O *ABS*00000000 I2C3MSK
+bf86055c g     O *ABS*00000000 CNPUFINV
+00000000  w      *UND*00000000 _ITM_registerTMCloneTable
+bf811340 g     O *ABS*00000000 DCS3CPTR
+0000136c g       .vectors00000000 __vector_offset_101
+bf84441c g     O *ABS*00000000 OC3RINV
+bf811544 g     O *ABS*00000000 DCH6DSIZCLR
+bf86065c g     O *ABS*00000000 CNPUGINV
+0000136c g       .vectors00000000 __vector_offset_143
+bf822014 g     O *ABS*00000000 UABSTACLR
+bf8101a0 g     O *ABS*00000000 IPC6
+bf801554 g     O *ABS*00000000 RPB5R
+bf8e3244 g     O *ABS*00000000 USBDMA5C
+0000136c g       .vectors00000000 __vector_offset_100
+bf811298 g     O *ABS*00000000 DCH2DATSET
+00000001 g       *ABS*00000000 _DEBUGGER
+0000136c g       .vectors00000000 __vector_offset_109
+bf810190 g     O *ABS*00000000 IPC5
+bf810248 g     O *ABS*00000000 IPC16SET
+bf82143c g     O *ABS*00000000 SPI3BRGINV
+bf8111b4 g     O *ABS*00000000 DCH1CSIZCLR
+bf8820a4 g     O *ABS*00000000 ETHRXFCCLR
+bf844a00 g     O *ABS*00000000 OC6CON
+0000136c g       .vectors00000000 __vector_offset_108
+bf810180 g     O *ABS*00000000 IPC4
+9d003358 g     O .rodata._ZN5Fonts7DefaultE.Default000008fc _ZN5Fonts7DefaultE
+9d00c2a0 g     F .text.__cxa_pure_virtual00000010 __cxa_pure_virtual
+bf822620 g     O *ABS*00000000 UGHTXREG
+bf8111b0 g     O *ABS*00000000 DCH1CSIZ
+bf801258 g     O *ABS*00000000 RSWRSTSET
+bf810170 g     O *ABS*00000000 IPC3
+0000136c g       .vectors00000000 __vector_offset_147
+bf82181c g     O *ABS*00000000 SPI5STATINV
+bf8110b8 g     O *ABS*00000000 DCH0SSIZSET
+bf821634 g     O *ABS*00000000 SPI4BRGCLR
+bf810048 g     O *ABS*00000000 IFS0SET
+0000136c g       .vectors00000000 __vector_offset_104
+bf81069c g     O *ABS*00000000 OFF087
+bf86064c g     O *ABS*00000000 ODCGINV
+bf844418 g     O *ABS*00000000 OC3RSET
+bf822420 g     O *ABS*00000000 U3TXREG
+bf820864 g     O *ABS*00000000 I2C5RCVCLR
+80000390 g       .eh_frame00000000 _persist_end
+bf8014e8 g     O *ABS*00000000 REFCLKI1R
+bf8106a0 g     O *ABS*00000000 OFF088
+bf800c18 g     O *ABS*00000000 RTCALRMSET
+bf822808 g     O *ABS*00000000 UJKMODESET
+bf8605b4 g     O *ABS*00000000 CNFFCLR
+bf811248 g     O *ABS*00000000 DCH2DSIZSET
+bf820620 g     O *ABS*00000000 I2C4ADD
+bf811638 g     O *ABS*00000000 DCH7CSIZSET
+bf8f8020 g     O *ABS*00000000 SBT0ELOG1
+bf882024 g     O *ABS*00000000 ETHTXSTCLR
+bf8601a8 g     O *ABS*00000000 CNNEBSET
+bf81139c g     O *ABS*00000000 DCH4SSAINV
+bf8e10a4 g     O *ABS*00000000 EBISMCON
+bf882238 g     O *ABS*00000000 EMACxIPGRSET
+bf811280 g     O *ABS*00000000 DCS2CPTR
+bf8f9870 g     O *ABS*00000000 SBT6RD1
+bf8106a4 g     O *ABS*00000000 OFF089
+bf88204c g     O *ABS*00000000 ETHHT0INV
+0000136c g       .vectors00000000 __vector_offset_187
+bf822608 g     O *ABS*00000000 UGHMODESET
+bf8822d0 g     O *ABS*00000000 EMACxMIND
+bf882098 g     O *ABS*00000000 ETHPMOSET
+bf810188 g     O *ABS*00000000 IPC4SET
+bf8f8024 g     O *ABS*00000000 SBT0ELOG2
+bf82005c g     O *ABS*00000000 I2C1TRNINV
+bf84b19c g     O *ABS*00000000 ADC7CFG
+bf8000dc g     O *ABS*00000000 CFGEBICINV
+bf844c24 g     O *ABS*00000000 OC7RSCLR
+bf820058 g     O *ABS*00000000 I2C1TRNSET
+bf811328 g     O *ABS*00000000 DCH3DPTRSET
+bf8fb420 g     O *ABS*00000000 SBT13ELOG1
+bf810148 g     O *ABS*00000000 IPC0SET
+bf8601ac g     O *ABS*00000000 CNNEBINV
+bf8012d4 g     O *ABS*00000000 REFO3TRIMCLR
+0000136c g       .vectors00000000 __vector_offset_189
+bf800078 g     O *ABS*00000000 PMD4SET
+0000136c g       .vectors00000000 __vector_offset_186
+bf8101f4 g     O *ABS*00000000 IPC11CLR
+bf801290 g     O *ABS*00000000 REFO1TRIM
+9d00a658 g     F .text.init000000b0 init
+bf844c04 g     O *ABS*00000000 OC7CONCLR
+bf81081c g     O *ABS*00000000 OFF183
+bf810790 g     O *ABS*00000000 OFF148
+bf81082c g     O *ABS*00000000 OFF187
+0000136c g       .vectors00000000 __vector_offset_188
+bf860408 g     O *ABS*00000000 ANSELESET
+bf800c50 g     O *ABS*00000000 ALRMDATE
+bf860130 g     O *ABS*00000000 LATB
+bf8601d4 g     O *ABS*00000000 SRCON1BCLR
+bf882328 g     O *ABS*00000000 EMAC1SA2SET
+bf8112b8 g     O *ABS*00000000 DCH3ECONSET
+bf810818 g     O *ABS*00000000 OFF182
+bf81078c g     O *ABS*00000000 OFF147
+bf810828 g     O *ABS*00000000 OFF186
+bf821440 g     O *ABS*00000000 SPI3CON2
+bf820030 g     O *ABS*00000000 I2C1MSK
+bf860030 g     O *ABS*00000000 LATA
+bf801420 g     O *ABS*00000000 T4CKR
+bf844e04 g     O *ABS*00000000 OC8CONCLR
+bf810810 g     O *ABS*00000000 OFF180
+bf810784 g     O *ABS*00000000 OFF145
+bf80128c g     O *ABS*00000000 REFO1CONINV
+bf860330 g     O *ABS*00000000 LATD
+bf811140 g     O *ABS*00000000 DCH1INT
+bf810814 g     O *ABS*00000000 OFF181
+bf810788 g     O *ABS*00000000 OFF146
+bf8f8c40 g     O *ABS*00000000 SBT3REG0
+bf882020 g     O *ABS*00000000 ETHTXST
+bf882038 g     O *ABS*00000000 ETHRXSTSET
+9d007fd0 g     F .text.rint00000188 rint
+bf860230 g     O *ABS*00000000 LATC
+bf844a0c g     O *ABS*00000000 OC6CONINV
+bf8102b0 g     O *ABS*00000000 IPC23
+bf810780 g     O *ABS*00000000 OFF144
+bf8106f4 g     O *ABS*00000000 OFF109
+bf86035c g     O *ABS*00000000 CNPUDINV
+bf84462c g     O *ABS*00000000 OC4RSINV
+bf8102a0 g     O *ABS*00000000 IPC22
+bf88221c g     O *ABS*00000000 EMACxCFG2INV
+bf8fa428 g     O *ABS*00000000 SBT9ECON
+bf810114 g     O *ABS*00000000 IEC5CLR
+bf820444 g     O *ABS*00000000 I2C3BRGCLR
+bf81077c g     O *ABS*00000000 OFF143
+bf8102a4 g     O *ABS*00000000 IPC22CLR
+bf82221c g     O *ABS*00000000 UCDSTAINV
+00080000 g       *ABS*00000000 _bmxdkpba_address
+bf84b04c g     O *ABS*00000000 ADCCMP3
+80002bd0 g       *ABS*00000000 _splim
+0000136c g       .vectors00000000 __vector_offset_181
+bf81021c g     O *ABS*00000000 IPC13INV
+bf820860 g     O *ABS*00000000 I2C5RCV
+bf8f9438 g     O *ABS*00000000 SBT5ECLRM
+bf8fa478 g     O *ABS*00000000 SBT9WR1
+bf86059c g     O *ABS*00000000 CNSTATFINV
+bf8113b0 g     O *ABS*00000000 DCH4SSIZ
+bf860164 g     O *ABS*00000000 CNPDBCLR
+9d00b3dc g     F .text.__fpclassifyd0000006c __fpclassifyd
+80000884 g     O .sbss00000004 gMicros_calculating
+bf801428 g     O *ABS*00000000 T6CKR
+bf840214 g     O *ABS*00000000 TMR2CLR
+bf8fa458 g     O *ABS*00000000 SBT9WR0
+bf88224c g     O *ABS*00000000 EMAC1CLRTINV
+bf882264 g     O *ABS*00000000 EMACxSUPPCLR
+bf882214 g     O *ABS*00000000 EMAC1CFG2CLR
+bf821a48 g     O *ABS*00000000 SPI6CON2SET
+bf8110ac g     O *ABS*00000000 DCH0DSAINV
+bf811254 g     O *ABS*00000000 DCH2SPTRCLR
+bf8e6010 g     O *ABS*00000000 RNGNUMGEN1
+bf860014 g     O *ABS*00000000 TRISACLR
+bf8110bc g     O *ABS*00000000 DCH0SSIZINV
+0000136c g       .vectors00000000 __vector_offset_249
+bf811558 g     O *ABS*00000000 DCH6SPTRSET
+bf8e6014 g     O *ABS*00000000 RNGNUMGEN2
+bf84b064 g     O *ABS*00000000 ADCCMP6
+0000136c g       .vectors00000000 __vector_offset_204
+00000000  w      *UND*00000000 __register_frame_info_header_bases
+bf8822c0 g     O *ABS*00000000 EMACxMRDD
+bf800678 g     O *ABS*00000000 NVMSRCADDRSET
+9d00c394 g     F .text._ZN5Print5printEPKc00000008 _ZN5Print5printEPKc
+bf822630 g     O *ABS*00000000 U4RXREG
+bf84b05c g     O *ABS*00000000 ADCCMP5
+0000136c g       .vectors00000000 __vector_offset_247
+bf84280c g     O *ABS*00000000 IC5CONINV
+bf82120c g     O *ABS*00000000 SPI2CONINV
+0000136c g       .vectors00000000 __vector_offset_202
+bf84b054 g     O *ABS*00000000 ADCCMP4
+bf822a40 g     O *ABS*00000000 ULMBRG
+bf8fac50 g     O *ABS*00000000 SBT11RD0
+9d00c140 g     F .text._getpid_r0000001c _getpid_r
+bf842604 g     O *ABS*00000000 IC4CONCLR
+0000136c g       .vectors00000000 __vector_offset_248
+bf82260c g     O *ABS*00000000 U4MODEINV
+bf8105e0 g     O *ABS*00000000 OFF040
+bf81054c g     O *ABS*00000000 OFF003
+bf8fac70 g     O *ABS*00000000 SBT11RD1
+bf800068 g     O *ABS*00000000 PMD3SET
+0000136c g       .vectors00000000 __vector_offset_203
+bf8fb424 g     O *ABS*00000000 SBT13ELOG2
+bf81020c g     O *ABS*00000000 IPC12INV
+bf821604 g     O *ABS*00000000 SPI4CONCLR
+bf882294 g     O *ABS*00000000 EMAC1MCMDCLR
+bf8105e4 g     O *ABS*00000000 OFF041
+bf810550 g     O *ABS*00000000 OFF004
+bf8e0018 g     O *ABS*00000000 PRESTATSET
+bf821a00 g     O *ABS*00000000 SPI6CON
+bf842c00 g     O *ABS*00000000 IC7CON
+bf860138 g     O *ABS*00000000 LATBSET
+bf811314 g     O *ABS*00000000 DCH3SPTRCLR
+bf80009c g     O *ABS*00000000 PMD6INV
+bf8111c8 g     O *ABS*00000000 DCS1CPTRSET
+9d00a9a8 g     F .text._ZN11DisplayCoreC2Ev0000009c _ZN11DisplayCoreC2Ev
+9d0018f0  w    O .rodata00000020 _ZTVSt9type_info
+bf8fa858 g     O *ABS*00000000 SBT10WR0
+bf82e094 g     O *ABS*00000000 PMRDINCLR
+9d0044d0 g     F .text._ZN7SSD128912startDisplayEv000006b0 _ZN7SSD128912startDisplayEv
+bf81129c g     O *ABS*00000000 DCH2DATINV
+bf82081c g     O *ABS*00000000 I2C5STATINV
+bf822010 g     O *ABS*00000000 UABSTA
+bf8f9430 g     O *ABS*00000000 SBT5ECLRS
+bf86036c g     O *ABS*00000000 CNPDDINV
+bf882140 g     O *ABS*00000000 ETHFRMRXOK
+bf8113d0 g     O *ABS*00000000 DCH4SPTR
+bf822018 g     O *ABS*00000000 U1STASET
+bf81103c g     O *ABS*00000000 DCRCCONINV
+bf811238 g     O *ABS*00000000 DCH2SSIZSET
+bf81049c g     O *ABS*00000000 IPC53INV
+bf800a10 g     O *ABS*00000000 DMTPRECLR
+00000800 g       *ABS*00000000 __MIN_STACK_SIZE
+bf8110ec g     O *ABS*00000000 DCH0DPTRINV
+bf81068c g     O *ABS*00000000 OFF083
+bf800a30 g     O *ABS*00000000 DMTSTAT
+bf844228 g     O *ABS*00000000 OC2RSSET
+0000136c g       .vectors00000000 __vector_offset_244
+bf811000 g     O *ABS*00000000 DMACON
+0000136c g       .vectors00000000 __vector_offset_243
+bf8e3308 g     O *ABS*00000000 USBE2RPC
+bf801568 g     O *ABS*00000000 RPB10R
+80000390 g       .eh_frame00000000 _persist_begin
+bf811450 g     O *ABS*00000000 DCH5SSA
+bf810690 g     O *ABS*00000000 OFF084
+bf811288 g     O *ABS*00000000 DCS2CPTRSET
+bf8102bc g     O *ABS*00000000 IPC23INV
+bf820608 g     O *ABS*00000000 I2C4CONSET
+bf810548 g     O *ABS*00000000 OFF002
+0000136c g       .vectors00000000 __vector_offset_242
+0000136c g       .vectors00000000 __vector_offset_206
+bf810474 g     O *ABS*00000000 IPC51CLR
+bf810544 g     O *ABS*00000000 OFF001
+bf8822cc g     O *ABS*00000000 EMACxMRDDINV
+bf8112a0 g     O *ABS*00000000 DCH3CON
+bf844204 g     O *ABS*00000000 OC2CONCLR
+bf821a0c g     O *ABS*00000000 SPI6CONINV
+00000000  w      *UND*00000000 __register_frame_info_bases
+0000136c g       .vectors00000000 __vector_offset_208
+bf821004 g     O *ABS*00000000 SPI1CONCLR
+bf8fac58 g     O *ABS*00000000 SBT11WR0
+bf8fb458 g     O *ABS*00000000 SBT13WR0
+bf8103cc g     O *ABS*00000000 IPC40INV
+bf840a14 g     O *ABS*00000000 TMR6CLR
+0000136c g       .vectors00000000 __vector_offset_205
+bf882004 g     O *ABS*00000000 ETHCON1CLR
+bf820638 g     O *ABS*00000000 I2C4MSKSET
+bf822248 g     O *ABS*00000000 UCDBRGSET
+bf8fac78 g     O *ABS*00000000 SBT11WR1
+bf800668 g     O *ABS*00000000 NVMDATA3SET
+bf810540 g     O *ABS*00000000 OFF000
+bf8600c8 g     O *ABS*00000000 SRCON0ASET
+bf860528 g     O *ABS*00000000 PORTFSET
+bf81117c g     O *ABS*00000000 DCH1SSIZINV
+0000136c g       .vectors00000000 __vector_offset_246
+bf81156c g     O *ABS*00000000 DCH6DPTRINV
+bf811370 g     O *ABS*00000000 DCH4ECON
+0000136c g       .vectors00000000 __vector_offset_201
+bf81151c g     O *ABS*00000000 DCH6SSAINV
+bf88211c g     O *ABS*00000000 ETHFRMTXOKINV
+bf810830 g     O *ABS*00000000 OFF188
+bf840a00 g     O *ABS*00000000 T6CON
+0000136c g       .vectors00000000 __vector_offset_207
+bf8105ec g     O *ABS*00000000 OFF043
+bf810558 g     O *ABS*00000000 OFF006
+bf820648 g     O *ABS*00000000 I2C4BRGSET
+bf8f8898 g     O *ABS*00000000 SBT2WR2
+bf882224 g     O *ABS*00000000 EMAC1IPGTCLR
+bf8e3100 g     O *ABS*00000000 USBE0CSR0
+bf8f8428 g     O *ABS*00000000 SBT1ECON
+bf8e306c g     O *ABS*00000000 USBHWVER
+bf822430 g     O *ABS*00000000 UEFRXREG
+bf8110c8 g     O *ABS*00000000 DCH0DSIZSET
+bf811380 g     O *ABS*00000000 DCH4INT
+bf8e3094 g     O *ABS*00000000 USBE2RXA
+bf810834 g     O *ABS*00000000 OFF189
+bf811108 g     O *ABS*00000000 DCS0CPTRSET
+bf8015b4 g     O *ABS*00000000 RPC13R
+bf8e0014 g     O *ABS*00000000 PRESTATCLR
+bf8105e8 g     O *ABS*00000000 OFF042
+bf810554 g     O *ABS*00000000 OFF005
+bf860508 g     O *ABS*00000000 ANSELFSET
+bf8605a4 g     O *ABS*00000000 CNNEFCLR
+bf800800 g     O *ABS*00000000 WDTCON
+9d00bef8 g     F .text.getPeripheralClock00000028 getPeripheralClock
+bf801340 g     O *ABS*00000000 PB5DIV
+bf8f8858 g     O *ABS*00000000 SBT2WR0
+bfc2fff8 g     O *ABS*00000000 UBASEQ1
+bf8006a0 g     O *ABS*00000000 NVMCON2
+bf8e3108 g     O *ABS*00000000 USBE0CSR2
+800023a8  w    O .bss._maxbrk._maxbrk00000004 _maxbrk
+bf842600 g     O *ABS*00000000 IC4CON
+bf822844 g     O *ABS*00000000 UJKBRGCLR
+bf84c004 g     O *ABS*00000000 CM1CONCLR
+bf8111d0 g     O *ABS*00000000 DCH1DAT
+9d00187c  w    O .rodata00000008 _ZTI5Print
+bf8e3154 g     O *ABS*00000000 USBE5CSR1
+bf8605ac g     O *ABS*00000000 CNNEFINV
+bfc2fff4 g     O *ABS*00000000 UBASEQ2
+bf810218 g     O *ABS*00000000 IPC13SET
+bf811348 g     O *ABS*00000000 DCH3CPTRSET
+bf82061c g     O *ABS*00000000 I2C4STATINV
+bf840414 g     O *ABS*00000000 TMR3CLR
+bf800058 g     O *ABS*00000000 PMD2SET
+bf81033c g     O *ABS*00000000 IPC31INV
+bf8f8878 g     O *ABS*00000000 SBT2WR1
+bf8112ac g     O *ABS*00000000 DCH3CONINV
+bf8e3158 g     O *ABS*00000000 USBE5CSR2
+bf8e310c g     O *ABS*00000000 USBE0CSR3
+9d009628 g     F .text._ZN11DisplayCore10fillCircleEiiit00000118 _ZN11DisplayCore10fillCircleEiiit
+bf8e3078 g     O *ABS*00000000 USBINFO
+9d00a5a8 g     F .text._ZN7SSD128916drawVerticalLineEiiit000000b0 _ZN7SSD128916drawVerticalLineEiiit
+bf82e024 g     O *ABS*00000000 PMADDRCLR
+bf80158c g     O *ABS*00000000 RPC3R
+bf86030c g     O *ABS*00000000 ANSELDINV
+bf860048 g     O *ABS*00000000 ODCASET
+bf822030 g     O *ABS*00000000 U1RXREG
+bf821808 g     O *ABS*00000000 SPI5CONSET
+bf822010 g     O *ABS*00000000 U1STA
+bf8014b4 g     O *ABS*00000000 SDI3R
+bf860328 g     O *ABS*00000000 PORTDSET
+bf8601a4 g     O *ABS*00000000 CNNEBCLR
+bf860168 g     O *ABS*00000000 CNPDBSET
+bf8e315c g     O *ABS*00000000 USBE5CSR3
+bf8fa438 g     O *ABS*00000000 SBT9ECLRM
+bfc2ff6c g     O *ABS*00000000 AUBADEVSIGN0
+bfc2fffc g     O *ABS*00000000 UBASEQ0
+bf8f0510 g     O *ABS*00000000 SBFLAG
+9d00c364 g     F .text._ZN11DisplayCore10getCursorXEv00000008 _ZN11DisplayCore10getCursorXEv
+bf822404 g     O *ABS*00000000 U3MODECLR
+bf801698 g     O *ABS*00000000 RPG6R
+bf8f8070 g     O *ABS*00000000 SBT0RD1
+bf8013d0 g     O *ABS*00000000 CLKSTAT
+bf844e18 g     O *ABS*00000000 OC8RSET
+bf811334 g     O *ABS*00000000 DCH3CSIZCLR
+bf840a24 g     O *ABS*00000000 PR6CLR
+bf810884 g     O *ABS*00000000 OFF209
+bf8101b4 g     O *ABS*00000000 IPC7CLR
+0000136c g       .vectors00000000 __vector_offset_146
+0000136c g       .vectors00000000 __vector_offset_103
+bf82e030 g     O *ABS*00000000 PMDOUT
+bf81087c g     O *ABS*00000000 OFF207
+bfc2ff68 g     O *ABS*00000000 AUBADEVSIGN1
+bf86056c g     O *ABS*00000000 CNPDFINV
+bf82066c g     O *ABS*00000000 I2C4RCVINV
+bf80130c g     O *ABS*00000000 PB1DIVINV
+9d00c270 g     F .text._ZN11DisplayCore11closeWindowEv00000010 _ZN11DisplayCore11closeWindowEv
+bf8f8520 g     O *ABS*00000000 SBT1REG7
+bf810880 g     O *ABS*00000000 OFF208
+bf8fb050 g     O *ABS*00000000 SBT12RD0
+bf86000c g     O *ABS*00000000 ANSELAINV
+0000136c g       .vectors00000000 __vector_offset_140
+bf860254 g     O *ABS*00000000 CNPUCCLR
+bf8e2024 g     O *ABS*00000000 SQI1TXDATA
+bf810878 g     O *ABS*00000000 OFF206
+bf8f8540 g     O *ABS*00000000 SBT1REG8
+bf801368 g     O *ABS*00000000 PB7DIVSET
+bf82026c g     O *ABS*00000000 I2C2RCVINV
+0000136c g       .vectors00000000 __vector_offset_142
+bf810874 g     O *ABS*00000000 OFF205
+bf821608 g     O *ABS*00000000 SPI4CONSET
+bf844e24 g     O *ABS*00000000 OC8RSCLR
+9d001548  w    F .text00000008 _ZN11DisplayCore9endBufferEv
+bf8100f8 g     O *ABS*00000000 IEC3SET
+bf811190 g     O *ABS*00000000 DCH1SPTR
+bf840a04 g     O *ABS*00000000 T6CONCLR
+bf882150 g     O *ABS*00000000 ETHFCSERR
+bf810058 g     O *ABS*00000000 IFS1SET
+bf844200 g     O *ABS*00000000 OC2CON
+0000136c g       .vectors00000000 __vector_offset_209
+9d00b9b0 g     O .rodata.digital_pin_to_port_PGM.digital_pin_to_port_PGM00000047 digital_pin_to_port_PGM
+0000136c g       .vectors00000000 __vector_offset_141
+9d00b36c g     F .text._ZN11DisplayCore10windowDataEPKti00000070 _ZN11DisplayCore10windowDataEPKti
+bf8f9498 g     O *ABS*00000000 SBT5WR2
+bf8600ac g     O *ABS*00000000 CNNEAINV
+9d00c2f0 g     F .text._ZN11DisplayCore9setCursorEii0000000c _ZN11DisplayCore9setCursorEii
+bf8f9478 g     O *ABS*00000000 SBT5WR1
+bf800c08 g     O *ABS*00000000 RTCCONSET
+bf820634 g     O *ABS*00000000 I2C4MSKCLR
+bf811478 g     O *ABS*00000000 DCH5SSIZSET
+bf810298 g     O *ABS*00000000 IPC21SET
+bf81002c g     O *ABS*00000000 INTSTATINV
+bf8114b4 g     O *ABS*00000000 DCH5CSIZCLR
+bf820054 g     O *ABS*00000000 I2C1TRNCLR
+9d006320 g     F .text._ZN11DisplayCore10drawBezierEiiiiiiiiit00000294 _ZN11DisplayCore10drawBezierEiiiiiiiiit
+bf8100c4 g     O *ABS*00000000 IEC0CLR
+bf8102ac g     O *ABS*00000000 IPC22INV
+bf845018 g     O *ABS*00000000 OC9RSET
+bf81144c g     O *ABS*00000000 DCH5INTINV
+bf841008 g     O *ABS*00000000 T9CONSET
+bf820008 g     O *ABS*00000000 I2C1CONSET
+bf8110a0 g     O *ABS*00000000 DCH0DSA
+bf8600a8 g     O *ABS*00000000 CNNEASET
+bf820010 g     O *ABS*00000000 I2C1STAT
+bf882250 g     O *ABS*00000000 EMACxMAXF
+bf860118 g     O *ABS*00000000 TRISBSET
+bf81145c g     O *ABS*00000000 DCH5SSAINV
+bf80068c g     O *ABS*00000000 NVMPWPINV
+bf8110c4 g     O *ABS*00000000 DCH0DSIZCLR
+bf820418 g     O *ABS*00000000 I2C3STATSET
+80008380 g       *ABS*00000000 _gp
+bf8115f4 g     O *ABS*00000000 DCH7SSIZCLR
+bf882274 g     O *ABS*00000000 EMACxTESTCLR
+bf82003c g     O *ABS*00000000 I2C1MSKINV
+9d00bf20 g     F .text._ZdlPv00000028 _ZdlPv
+bf860554 g     O *ABS*00000000 CNPUFCLR
+bf8f8050 g     O *ABS*00000000 SBT0RD0
+bf800c30 g     O *ABS*00000000 RTCDATE
+bf811088 g     O *ABS*00000000 DCH0INTSET
+bf8112c4 g     O *ABS*00000000 DCH3INTCLR
+bf822004 g     O *ABS*00000000 UABMODECLR
+bf8106e0 g     O *ABS*00000000 OFF104
+80000390 g       .sdata00000000 _sdata_begin
+bf811074 g     O *ABS*00000000 DCH0ECONCLR
+bf82261c g     O *ABS*00000000 UGHSTAINV
+bf8f9458 g     O *ABS*00000000 SBT5WR0
+bf82101c g     O *ABS*00000000 SPI1STATINV
+bf810770 g     O *ABS*00000000 OFF140
+bf8106e4 g     O *ABS*00000000 OFF105
+bf821a1c g     O *ABS*00000000 SPI6STATINV
+bf8101e8 g     O *ABS*00000000 IPC10SET
+bf811218 g     O *ABS*00000000 DCH2SSASET
+bf821248 g     O *ABS*00000000 SPI2CON2SET
+bf822644 g     O *ABS*00000000 U4BRGCLR
+bf860474 g     O *ABS*00000000 CNCONECLR
+bf811634 g     O *ABS*00000000 DCH7CSIZCLR
+9d00c228 g     F .text._ZSt9terminatev00000014 _ZSt9terminatev
+bf811004 g     O *ABS*00000000 DMACONCLR
+bf801280 g     O *ABS*00000000 REFO1CON
+bf822204 g     O *ABS*00000000 U2MODECLR
+bf822210 g     O *ABS*00000000 U2STA
+bf860454 g     O *ABS*00000000 CNPUECLR
+bf811138 g     O *ABS*00000000 DCH1ECONSET
+bf860314 g     O *ABS*00000000 TRISDCLR
+bf821014 g     O *ABS*00000000 SPI1STATCLR
+bf8604a4 g     O *ABS*00000000 CNNEECLR
+bf860288 g     O *ABS*00000000 CNENCSET
+bf811530 g     O *ABS*00000000 DCH6SSIZ
+bf801648 g     O *ABS*00000000 RPF2R
+bf801544 g     O *ABS*00000000 RPB1R
+bf82025c g     O *ABS*00000000 I2C2TRNINV
+9d00ade0 g     F .text._ZNK10__cxxabiv117__class_type_info12__do_dyncastElNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE00000094 _ZNK10__cxxabiv117__class_type_info12__do_dyncastElNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+bf8f8828 g     O *ABS*00000000 SBT2ECON
+bf810820 g     O *ABS*00000000 OFF184
+bf810794 g     O *ABS*00000000 OFF149
+bf84b0e0 g     O *ABS*00000000 ADC3TIME
+bf844c2c g     O *ABS*00000000 OC7RSINV
+bf80137c g     O *ABS*00000000 PB8DIVINV
+bf8015c4 g     O *ABS*00000000 RPD1R
+bf81104c g     O *ABS*00000000 DCRCDATAINV
+bf810824 g     O *ABS*00000000 OFF185
+bf820600 g     O *ABS*00000000 I2C4CON
+bf8f8880 g     O *ABS*00000000 SBT2REG2
+bf8101fc g     O *ABS*00000000 IPC11INV
+bf822430 g     O *ABS*00000000 U3RXREG
+bf8106dc g     O *ABS*00000000 OFF103
+9d00a90c g     F .text._Z7silencem0000009c _Z7silencem
+bf8e325c g     O *ABS*00000000 USBDMA6N
+bf8115b8 g     O *ABS*00000000 DCH7ECONSET
+bf860608 g     O *ABS*00000000 ANSELGSET
+bf8113c4 g     O *ABS*00000000 DCH4DSIZCLR
+bf88229c g     O *ABS*00000000 EMACxMCMDINV
+bf8822d8 g     O *ABS*00000000 EMACxMINDSET
+bf8106d8 g     O *ABS*00000000 OFF102
+bf8113f8 g     O *ABS*00000000 DCH4CSIZSET
+bf8604ac g     O *ABS*00000000 CNNEEINV
+bf8014ac g     O *ABS*00000000 SS2R
+bf84502c g     O *ABS*00000000 OC9RSINV
+bfc6ffdc g     O *ABS*00000000 BF2DEVCP0
+bf84b0c0 g     O *ABS*00000000 ADCBASE
+bf844e2c g     O *ABS*00000000 OC8RSINV
+bf860638 g     O *ABS*00000000 LATGSET
+bf8000d8 g     O *ABS*00000000 CFGEBICSET
+bf8604b4 g     O *ABS*00000000 CNFECLR
+bf811348 g     O *ABS*00000000 DCS3CPTRSET
+bf860094 g     O *ABS*00000000 CNSTATACLR
+bf822600 g     O *ABS*00000000 U4MODE
+bf810124 g     O *ABS*00000000 IEC6CLR
+bf8604c4 g     O *ABS*00000000 SRCON0ECLR
+bf810778 g     O *ABS*00000000 OFF142
+bf8112ec g     O *ABS*00000000 DCH3DSAINV
+bf821a10 g     O *ABS*00000000 SPI6STAT
+bf822a30 g     O *ABS*00000000 U6RXREG
+bf810774 g     O *ABS*00000000 OFF141
+bf8106e8 g     O *ABS*00000000 OFF106
+9d00bfb8 g     F .text._ZN10__cxxabiv120__si_class_type_infoD2Ev00000024 _ZN10__cxxabiv120__si_class_type_infoD1Ev
+bf840804 g     O *ABS*00000000 T5CONCLR
+bf822218 g     O *ABS*00000000 UCDSTASET
+bf82260c g     O *ABS*00000000 UGHMODEINV
+bf821438 g     O *ABS*00000000 SPI3BRGSET
+bf811584 g     O *ABS*00000000 DCH6CPTRCLR
+bf844614 g     O *ABS*00000000 OC4RCLR
+bf82201c g     O *ABS*00000000 UABSTAINV
+bf822648 g     O *ABS*00000000 UGHBRGSET
+bf860158 g     O *ABS*00000000 CNPUBSET
+bf821208 g     O *ABS*00000000 SPI2CONSET
+bf8820b0 g     O *ABS*00000000 ETHRXWM
+bf8114a4 g     O *ABS*00000000 DCH5DPTRCLR
+bf860378 g     O *ABS*00000000 CNCONDSET
+bf80131c g     O *ABS*00000000 PB2DIVINV
+bf8101d8 g     O *ABS*00000000 IPC9SET
+bf86016c g     O *ABS*00000000 CNPDBINV
+bf821020 g     O *ABS*00000000 SPI1BUF
+bf810464 g     O *ABS*00000000 IPC50CLR
+bf81125c g     O *ABS*00000000 DCH2SPTRINV
+bf801470 g     O *ABS*00000000 U2RXR
+bf821a40 g     O *ABS*00000000 SPI6CON2
+80000944 g     O .sbss00000004 __PIC32_pbClk
+0000136c g       .vectors00000000 __vector_offset_85
+bf822844 g     O *ABS*00000000 U5BRGCLR
+bf820234 g     O *ABS*00000000 I2C2MSKCLR
+bf8822c4 g     O *ABS*00000000 EMAC1MRDDCLR
+bf8015d4 g     O *ABS*00000000 RPD5R
+0000136c g       .vectors00000000 __vector_offset_86
+bf822840 g     O *ABS*00000000 U5BRG
+bf860674 g     O *ABS*00000000 CNCONGCLR
+bf8014dc g     O *ABS*00000000 SS6R
+bf820264 g     O *ABS*00000000 I2C2RCVCLR
+8000039c g     O .sdata00000018 gCoreTimerInfo
+bf840a28 g     O *ABS*00000000 PR6SET
+bf822a0c g     O *ABS*00000000 ULMMODEINV
+bf860654 g     O *ABS*00000000 CNPUGCLR
+bf88226c g     O *ABS*00000000 EMAC1SUPPINV
+bf800c4c g     O *ABS*00000000 ALRMTIMEINV
+bf810008 g     O *ABS*00000000 INTCONSET
+bf82046c g     O *ABS*00000000 I2C3RCVINV
+bf811640 g     O *ABS*00000000 DCH7CPTR
+bf811550 g     O *ABS*00000000 DCH6SPTR
+bf800620 g     O *ABS*00000000 NVMADDR
+0000136c g       .vectors00000000 __vector_offset_245
+bf800e00 g     O *ABS*00000000 CVRCON
+bf8112f4 g     O *ABS*00000000 DCH3SSIZCLR
+9d009c1c g     F .text._Z3Addm000000e4 _Z3Addm
+bf8113c0 g     O *ABS*00000000 DCH4DSIZ
+bf840008 g     O *ABS*00000000 T1CONSET
+bf8fb428 g     O *ABS*00000000 SBT13ECON
+bf86008c g     O *ABS*00000000 CNENAINV
+0000136c g       .vectors00000000 __vector_offset_200
+bf84b24c g     O *ABS*00000000 ADCDATA19
+bf821038 g     O *ABS*00000000 SPI1BRGSET
+bf801140 g     O *ABS*00000000 _ICDSTAT
+0000136c g       .vectors00000000 __vector_offset_45
+0000136c g       .vectors00000000 __vector_offset_80
+bf811548 g     O *ABS*00000000 DCH6DSIZSET
+bf8015e8 g     O *ABS*00000000 RPD10R
+bf84b244 g     O *ABS*00000000 ADCDATA17
+bf8013dc g     O *ABS*00000000 CLKSTATINV
+bf811378 g     O *ABS*00000000 DCH4ECONSET
+bfc4fffc g     O *ABS*00000000 BF1SEQ0
+0000136c g       .vectors00000000 __vector_offset_44
+bf860384 g     O *ABS*00000000 CNENDCLR
+bf860114 g     O *ABS*00000000 TRISBCLR
+bf8822c8 g     O *ABS*00000000 EMACxMRDDSET
+bf821048 g     O *ABS*00000000 SPI1CON2SET
+bfc4fff8 g     O *ABS*00000000 BF1SEQ1
+bf84b248 g     O *ABS*00000000 ADCDATA18
+bfc2ff70 g     O *ABS*00000000 AUBASEQ3
+0000136c g       .vectors00000000 __vector_offset_241
+0000136c g       .vectors00000000 __vector_offset_88
+bf801448 g     O *ABS*00000000 IC5R
+bf8015f8 g     O *ABS*00000000 RPD14R
+bf82e058 g     O *ABS*00000000 PMAENSET
+bf81010c g     O *ABS*00000000 IEC4INV
+bfc4fff4 g     O *ABS*00000000 BF1SEQ2
+bf8820dc g     O *ABS*00000000 ETHIRQINV
+0000136c g       .vectors00000000 __vector_offset_87
+bf82080c g     O *ABS*00000000 I2C5CONINV
+bf8115e4 g     O *ABS*00000000 DCH7DSACLR
+bf882308 g     O *ABS*00000000 EMAC1SA0SET
+0000136c g       .vectors00000000 __vector_offset_240
+bf822030 g     O *ABS*00000000 UABRXREG
+bfc6ffd0 g     O *ABS*00000000 BF2DEVCP3
+bf811580 g     O *ABS*00000000 DCH6CPTR
+bf84b240 g     O *ABS*00000000 ADCDATA16
+bfc4fff0 g     O *ABS*00000000 BF1SEQ3
+bf8012a8 g     O *ABS*00000000 REFO2CONSET
+bf84b2b0 g     O *ABS*00000000 ADCDATA44
+bf860684 g     O *ABS*00000000 CNENGCLR
+0000136c g       .vectors00000000 __vector_offset_89
+bf8e3304 g     O *ABS*00000000 USBE1RPC
+bf82083c g     O *ABS*00000000 I2C5MSKINV
+bf84c060 g     O *ABS*00000000 CMSTAT
+0000136c g       .vectors00000000 __vector_offset_84
+bf8e308c g     O *ABS*00000000 USBE1RXA
+bf822a44 g     O *ABS*00000000 U6BRGCLR
+bf822230 g     O *ABS*00000000 UCDRXREG
+bf82160c g     O *ABS*00000000 SPI4CONINV
+bf8fa050 g     O *ABS*00000000 SBT8RD0
+bfc0fffc g     O *ABS*00000000 SEQ0
+bf8f8c60 g     O *ABS*00000000 SBT3REG1
+bf811570 g     O *ABS*00000000 DCH6CSIZ
+bf8f9030 g     O *ABS*00000000 SBT4ECLRS
+bf882298 g     O *ABS*00000000 EMAC1MCMDSET
+0000136c g       .vectors00000000 __vector_offset_49
+bf8114e0 g     O *ABS*00000000 DCH6CON
+bf811430 g     O *ABS*00000000 DCH5ECON
+0000136c g       .vectors00000000 __vector_offset_83
+bf82e034 g     O *ABS*00000000 PMDOUTCLR
+bf82e03c g     O *ABS*00000000 PMDOUTINV
+bf8f8c80 g     O *ABS*00000000 SBT3REG2
+bf810330 g     O *ABS*00000000 IPC31
+bfc0fff8 g     O *ABS*00000000 SEQ1
+bf84000c g     O *ABS*00000000 T1CONINV
+0000136c g       .vectors00000000 __vector_offset_48
+bf844600 g     O *ABS*00000000 OC4CON
+bf86013c g     O *ABS*00000000 LATBINV
+bfc0fff4 g     O *ABS*00000000 SEQ2
+bfc6ffd4 g     O *ABS*00000000 BF2DEVCP2
+bf84b2ac g     O *ABS*00000000 ADCDATA43
+8007fff8 g       *ABS*00000000 _stack
+bf8f8830 g     O *ABS*00000000 SBT2ECLRS
+bf811364 g     O *ABS*00000000 DCH4CONCLR
+bf88229c g     O *ABS*00000000 EMAC1MCMDINV
+bf8100e4 g     O *ABS*00000000 IEC2CLR
+bf81121c g     O *ABS*00000000 DCH2SSAINV
+9d00bf48 g     F .text.copysign00000028 copysign
+bfc0fff0 g     O *ABS*00000000 SEQ3
+bf8f8c24 g     O *ABS*00000000 SBT3ELOG2
+bf8113a0 g     O *ABS*00000000 DCH4DSA
+bf810320 g     O *ABS*00000000 IPC30
+bf810428 g     O *ABS*00000000 IPC46SET
+bf810864 g     O *ABS*00000000 OFF201
+bf801438 g     O *ABS*00000000 IC1R
+bf810360 g     O *ABS*00000000 IPC34
+9d00c308 g     F .text.disableInterrupts0000000c disableInterrupts
+bf840018 g     O *ABS*00000000 TMR1SET
+bf822414 g     O *ABS*00000000 UEFSTACLR
+bf801270 g     O *ABS*00000000 PWRCON
+bf88221c g     O *ABS*00000000 EMAC1CFG2INV
+bf810868 g     O *ABS*00000000 OFF202
+bf820844 g     O *ABS*00000000 I2C5BRGCLR
+bf8e3218 g     O *ABS*00000000 USBDMA2A
+9d00bba8 g     F .text.millisecondCoreTimerService00000044 millisecondCoreTimerService
+bf8fa070 g     O *ABS*00000000 SBT8RD1
+bf8e205c g     O *ABS*00000000 SQI1TAPCON
+bfc6ffd8 g     O *ABS*00000000 BF2DEVCP1
+bf8f8c20 g     O *ABS*00000000 SBT3ELOG1
+bf8102a8 g     O *ABS*00000000 IPC22SET
+bfc6fff0 g     O *ABS*00000000 BF2SEQ3
+bfc6fff4 g     O *ABS*00000000 BF2SEQ2
+bf811034 g     O *ABS*00000000 DCRCCONCLR
+bf801458 g     O *ABS*00000000 IC9R
+bf820210 g     O *ABS*00000000 I2C2STAT
+bf810350 g     O *ABS*00000000 IPC33
+bf84b0d4 g     O *ABS*00000000 ADC0TIME
+bf8605cc g     O *ABS*00000000 SRCON0FINV
+bf88223c g     O *ABS*00000000 EMAC1IPGRINV
+bf80148c g     O *ABS*00000000 U5CTSR
+80000948 g       .sbss00000000 _sbss_end
+bf86033c g     O *ABS*00000000 LATDINV
+bf84c018 g     O *ABS*00000000 CM2CONSET
+bf8e3254 g     O *ABS*00000000 USBDMA6C
+bf822a20 g     O *ABS*00000000 ULMTXREG
+bf860578 g     O *ABS*00000000 CNCONFSET
+bfc6fffc g     O *ABS*00000000 BF2SEQ0
+bf8604c8 g     O *ABS*00000000 SRCON0ESET
+bf86037c g     O *ABS*00000000 CNCONDINV
+bf810370 g     O *ABS*00000000 IPC35
+bf844424 g     O *ABS*00000000 OC3RSCLR
+bf810340 g     O *ABS*00000000 IPC32
+bf8e3258 g     O *ABS*00000000 USBDMA6A
+bf810398 g     O *ABS*00000000 IPC37SET
+bf81116c g     O *ABS*00000000 DCH1DSAINV
+bf88228c g     O *ABS*00000000 EMAC1MCFGINV
+0000136c g       .vectors00000000 __vector_offset_46
+bf8e3214 g     O *ABS*00000000 USBDMA2C
+bf860664 g     O *ABS*00000000 CNPDGCLR
+
+
