@@ -1,0 +1,22 @@
+Source: libdisplaycore-driver-ssd1289
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: libdisplaycore-driver-ssd1289
+Section: libraries
+Architecture: all
+XBSC-Group: DisplayCore
+XBSC-Subgroup: Drivers
+Depends: libdisplaycore-core
+Provides: SSD1289.h
+Description: SSD1289 3.2 inchTFT
+ Generic SSD1289 based TFT screen (240x320) such as the
+ SainSmart TFT_320QVT or the iTead ITDB02-3.2S. Supports
+ both direct port manipulation driver and PMP driver for
+ blistering speed.
+
+
+
