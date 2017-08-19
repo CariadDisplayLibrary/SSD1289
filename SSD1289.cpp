@@ -189,8 +189,6 @@ static void inline swap(int &a, int &b) {
 
 void SSD1289::setAddrWindow(int x0, int y0, int x1, int y1) {
 
-    int x0a, x1a, y0a, y1a;
-
     switch(rotation) {
         case 0:
         case 2:
@@ -301,7 +299,7 @@ void SSD1289::setRotation(int m) {
     }
 }
 
-void SSD1289::invertDisplay(boolean i) {
+void SSD1289::invertDisplay(boolean __attribute__((unused)) i) {
 //	command(i ? SSD1289_INVON : SSD1289_INVOFF);
 }
 
@@ -314,7 +312,7 @@ void SSD1289::windowData(color_t d) {
 }
 
 void SSD1289::windowData(color_t *d, int l) {
-    for (uint32_t i = 0; i < l; i++) {
+    for (int i = 0; i < l; i++) {
         data(d[i]);
     }
 }
