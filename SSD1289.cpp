@@ -299,7 +299,7 @@ void SSD1289::setRotation(int m) {
     }
 }
 
-void SSD1289::invertDisplay(boolean __attribute__((unused)) i) {
+void SSD1289::invertDisplay(bool __attribute__((unused)) i) {
 //	command(i ? SSD1289_INVON : SSD1289_INVOFF);
 }
 
