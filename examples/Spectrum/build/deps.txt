@@ -1,13 +1,13 @@
 deps-temp.o: \
- /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/deps-temp.cpp \
- /home/matt/.uecide/libraries/DisplayCore/SSD1289/SSD1289.h \
- /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DisplayCore.h \
+ /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/deps-temp.cpp \
+ /home/matt/.uecide/libraries/Cariad/SSD1289/SSD1289.h \
+ /home/matt/.uecide/libraries/Cariad/Cariad/Cariad.h \
  Arduino.h \
  /home/matt/.uecide/compilers/pic32-tools-pre/pic32mx/include/stdint.h \
- /home/matt/.uecide/libraries/DisplayCore/DisplayCore/Color.h \
- /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DefaultFont.h \
- /home/matt/.uecide/libraries/DisplayCore/DisplayCore/DCPinDefs.h \
- /home/matt/.uecide/libraries/DisplayCore/Sinclair/Sinclair.h \
+ /home/matt/.uecide/libraries/Cariad/Cariad/Color.h \
+ /home/matt/.uecide/libraries/Cariad/Cariad/DefaultFont.h \
+ /home/matt/.uecide/libraries/Cariad/Cariad/DCPinDefs.h \
+ /home/matt/.uecide/libraries/Cariad/Sinclair/Sinclair.h \
  /home/matt/.uecide/libraries/Motor/chipkit/SoftPWMServo/SoftPWMServo.h \
  WProgram.h \
  /home/matt/.uecide/compilers/pic32-tools-pre/pic32mx/include/inttypes.h \

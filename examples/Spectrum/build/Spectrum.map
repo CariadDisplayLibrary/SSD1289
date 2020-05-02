@@ -1,53 +1,53 @@
 Archive member included because of file (symbol)
 
 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
-                              /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o (SoftPWMServoPWMWrite(unsigned long, unsigned char))
+                              /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o (SoftPWMServoPWMWrite(unsigned long, unsigned char))
 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
-                              /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o (SSD1289::SSD1289(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char))
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (DisplayCore::color565(unsigned char, unsigned char, unsigned char))
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (DisplayCore::DisplayCore())
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (DisplayCore::drawBezier(int, int, int, int, int, int, int, int, int, unsigned short))
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (DisplayCore::drawCircle(int, int, int, unsigned short))
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (DisplayCore::clipToScreen(int&, int&, int&, int&))
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (DisplayCore::drawBitmap(int, int, unsigned char const*, int, int, unsigned short))
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (DisplayCore::drawLine(int, int, int, int, unsigned short))
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (DisplayCore::translateCoordinates(int*, int*))
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (DisplayCore::colorAt(int, int))
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (DisplayCore::drawRectangle(int, int, int, int, unsigned short))
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (DisplayCore::stringWidth(char const*))
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (DisplayCore::drawTriangle(int, int, int, int, int, int, unsigned short))
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o) (rgb(unsigned char, unsigned char, unsigned char))
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o) (DisplayCore::openWindow(int, int, int, int))
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DefaultFont.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o) (Fonts::Default)
-/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o) (DisplayCore::map3Dto2D(point3d&))
+                              /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o (SSD1289::SSD1289(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char))
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (Cariad::color565(unsigned char, unsigned char, unsigned char))
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (Cariad::Cariad())
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (Cariad::drawBezier(int, int, int, int, int, int, int, int, int, unsigned short))
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (Cariad::drawCircle(int, int, int, unsigned short))
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (Cariad::clipToScreen(int&, int&, int&, int&))
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (Cariad::drawBitmap(int, int, unsigned char const*, int, int, unsigned short))
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (Cariad::drawLine(int, int, int, int, unsigned short))
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (Cariad::translateCoordinates(int*, int*))
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (Cariad::colorAt(int, int))
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (Cariad::drawRectangle(int, int, int, int, unsigned short))
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (Cariad::stringWidth(char const*))
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o) (Cariad::drawTriangle(int, int, int, int, int, int, unsigned short))
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o) (rgb(unsigned char, unsigned char, unsigned char))
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o) (Cariad::openWindow(int, int, int, int))
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(DefaultFont.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o) (Fonts::Default)
+/home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o) (Cariad::map3Dto2D(point3d&))
 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Sinclair.a(Sinclair.cpp.o)
-                              /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o (Fonts::Sinclair)
+                              /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o (Fonts::Sinclair)
 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(crti.S.o)
                               /tmp/ccQkghE3.o (_init)
 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(pins_arduino.c.o)
                               /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o) (port_to_tris_PGM)
 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring_digital.c.o)
-                              /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o (pinMode)
+                              /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o (pinMode)
 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring_analog.c.o)
                               /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring_digital.c.o) (turnOffPWM)
 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring.c.o)
-                              /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o (millis)
+                              /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o (millis)
 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(WSystem.c.o)
                               /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring.c.o) (setIntVector)
 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(WMath.cpp.o)
@@ -55,7 +55,7 @@ Archive member included because of file (symbol)
 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(main.cpp.o)
                               /tmp/ccQkghE3.o (main)
 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(Print.cpp.o)
-                              /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o (Print::print(char const*))
+                              /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o (Print::print(char const*))
 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(task_manager.c.o)
                               /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring.c.o) (_initTaskManager)
 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(doprnt.cpp.o)
@@ -69,7 +69,7 @@ Archive member included because of file (symbol)
 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libsupc++.a(tinfo.o)
                               /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libsupc++.a(class_type_info.o) (std::type_info::~type_info())
 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libsupc++.a(pure.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o) (__cxa_pure_virtual)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o) (__cxa_pure_virtual)
 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libsupc++.a(eh_terminate.o)
                               /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libsupc++.a(pure.o) (std::terminate())
 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libsupc++.a(eh_unex_handler.o)
@@ -81,9 +81,9 @@ Archive member included because of file (symbol)
 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libm.a(lib_a-s_modf.o)
                               /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(doprnt.cpp.o) (modf)
 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libm.a(lib_a-w_pow.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o) (pow)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o) (pow)
 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libm.a(lib_a-w_sqrt.o)
-                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o) (sqrt)
+                              /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o) (sqrt)
 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libm.a(lib_a-e_pow.o)
                               /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libm.a(lib_a-w_pow.o) (__ieee754_pow)
 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libm.a(lib_a-e_sqrt.o)
@@ -123,7 +123,7 @@ Optional file libmchp_peripheral_32MZ2048ECH100.a not found
 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libc.a(lib_a-mlock.o)
                               /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libc.a(lib_a-mallocr.o) (__malloc_lock)
 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libc.a(lib_a-rand.o)
-                              /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o (rand)
+                              /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o (rand)
 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libc.a(lib_a-sbrkr.o)
                               /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libc.a(lib_a-mallocr.o) (_sbrk_r)
 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libc.a(lib_a-signal.o)
@@ -185,59 +185,59 @@ section                    address  length [bytes]      (dec)  Description
 .text.__ieee754_pow     0x9d003c54          0x87c        2172   
 .text._ZN7SSD128912star 0x9d0044d0          0x6b0        1712   
 .text.initADC           0x9d004b80          0x3f8        1016   
-.text._ZN11DisplayCore8 0x9d004f78          0x3cc         972   
+.text._ZN11Cariad8 0x9d004f78          0x3cc         972   
 .text.loop              0x9d005344          0x3c4         964   
 .text.pow               0x9d005708          0x394         916   
 .text._ZN7SSD128916init 0x9d005a9c          0x314         788   
-.text._ZN11DisplayCore1 0x9d005db0          0x2cc         716   
-.text._ZN11DisplayCore1 0x9d00607c          0x2a4         676   
-.text._ZN11DisplayCore1 0x9d006320          0x294         660   
+.text._ZN11Cariad1 0x9d005db0          0x2cc         716   
+.text._ZN11Cariad1 0x9d00607c          0x2a4         676   
+.text._ZN11Cariad1 0x9d006320          0x294         660   
 .text._free_r           0x9d0065b4          0x280         640   
-.text._ZN11DisplayCore1 0x9d006834          0x274         628   
+.text._ZN11Cariad1 0x9d006834          0x274         628   
 .text                   0x9d006aa8          0x24c         588  App's exec code 
 .text._Z14HandlePWMServ 0x9d006cf4          0x238         568   
 .text._ZN7SSD12897comma 0x9d006f2c          0x230         560   
 .text._ZN7SSD12894dataE 0x9d00715c          0x230         560   
 .text.__ieee754_sqrt    0x9d00738c          0x208         520   
-.text._ZN11DisplayCore1 0x9d007594          0x1f0         496   
-.text._ZN11DisplayCore1 0x9d007784          0x1d0         464   
+.text._ZN11Cariad1 0x9d007594          0x1f0         496   
+.text._ZN11Cariad1 0x9d007784          0x1d0         464   
 .text._scheduleTask     0x9d007954          0x1b0         432   
-.text._ZN11DisplayCore1 0x9d007b04          0x1a0         416   
-.text._ZN11DisplayCore8 0x9d007ca4          0x1a0         416   
-.text._ZN11DisplayCore1 0x9d007e44          0x18c         396   
+.text._ZN11Cariad1 0x9d007b04          0x1a0         416   
+.text._ZN11Cariad8 0x9d007ca4          0x1a0         416   
+.text._ZN11Cariad1 0x9d007e44          0x18c         396   
 .text.rint              0x9d007fd0          0x188         392   
-.text._ZN11DisplayCore5 0x9d008158          0x184         388   
+.text._ZN11Cariad5 0x9d008158          0x184         388   
 .text._ZN7SSD1289C2Ehhh 0x9d0082dc          0x180         384   
-.text._ZN11DisplayCore8 0x9d00845c          0x170         368   
+.text._ZN11Cariad8 0x9d00845c          0x170         368   
 .text._ZN7SSD128911setR 0x9d0085cc          0x16c         364   
 .text._ZN7SSD128913setA 0x9d008738          0x164         356   
 .text._Z14regularStripe 0x9d00889c          0x160         352   
 .text.pinMode           0x9d0089fc          0x160         352   
 .text._sbrk_init        0x9d008b5c          0x158         344   
 .text._Z21SoftPWMServoP 0x9d008cb4          0x154         340   
-.text._ZN11DisplayCore1 0x9d008e08          0x14c         332   
+.text._ZN11Cariad1 0x9d008e08          0x14c         332   
 .text.scalbn            0x9d008f54          0x130         304   
 .text._ZNK10__cxxabiv12 0x9d009084          0x128         296   
 .text._Z13randomStripes 0x9d0091ac          0x124         292   
 .text._ZL11CopyBuffersv 0x9d0092d0          0x120         288   
-.text._ZN11DisplayCore1 0x9d0093f0          0x11c         284   
+.text._ZN11Cariad1 0x9d0093f0          0x11c         284   
 .text._malloc_trim_r    0x9d00950c          0x11c         284   
-.text._ZN11DisplayCore1 0x9d009628          0x118         280   
+.text._ZN11Cariad1 0x9d009628          0x118         280   
 .rodata                 0x9d009740          0x100         256  Read-only const 
-.text._ZN11DisplayCore8 0x9d009840           0xfc         252   
-.text._ZN11DisplayCore1 0x9d00993c           0xfc         252   
-.text._ZN11DisplayCore1 0x9d009a38           0xf8         248   
-.text._ZN11DisplayCore7 0x9d009b30           0xec         236   
+.text._ZN11Cariad8 0x9d009840           0xfc         252   
+.text._ZN11Cariad1 0x9d00993c           0xfc         252   
+.text._ZN11Cariad1 0x9d009a38           0xf8         248   
+.text._ZN11Cariad7 0x9d009b30           0xec         236   
 .text._Z3Addm           0x9d009c1c           0xe4         228   
-.text._ZN11DisplayCore2 0x9d009d00           0xe0         224   
+.text._ZN11Cariad2 0x9d009d00           0xe0         224   
 .text.digitalWrite      0x9d009de0           0xdc         220   
-.text._ZN11DisplayCore1 0x9d009ebc           0xd4         212   
+.text._ZN11Cariad1 0x9d009ebc           0xd4         212   
 .text._ZN7SSD128913fill 0x9d009f90           0xd0         208   
-.text._ZN11DisplayCore9 0x9d00a060           0xcc         204   
+.text._ZN11Cariad9 0x9d00a060           0xcc         204   
 .text._Z16SoftPWMServoI 0x9d00a12c           0xc8         200   
 .text._Z20SoftPWMServoR 0x9d00a1f4           0xc8         200   
-.text._ZN11DisplayCore3 0x9d00a2bc           0xbc         188   
-.text._ZN11DisplayCore1 0x9d00a378           0xbc         188   
+.text._ZN11Cariad3 0x9d00a2bc           0xbc         188   
+.text._ZN11Cariad1 0x9d00a378           0xbc         188   
 .text._sbrk             0x9d00a434           0xbc         188   
 .text._GLOBAL__sub_I_tf 0x9d00a4f0           0xb8         184   
 .text._ZN7SSD128916draw 0x9d00a5a8           0xb0         176   
@@ -246,25 +246,25 @@ section                    address  length [bytes]      (dec)  Description
 .text._ZN7SSD128918draw 0x9d00a7b8           0xac         172   
 .text._Z15setBorderSing 0x9d00a864           0xa8         168   
 .text._Z7silencem       0x9d00a90c           0x9c         156   
-.text._ZN11DisplayCoreC 0x9d00a9a8           0x9c         156   
-.text._ZN11DisplayCore1 0x9d00aa44           0x9c         156   
-.text._ZN11DisplayCore1 0x9d00aae0           0x9c         156   
-.text._ZN11DisplayCore1 0x9d00ab7c           0x9c         156   
-.text._ZN11DisplayCore8 0x9d00ac18           0x98         152   
-.text._ZN11DisplayCore1 0x9d00acb0           0x98         152   
+.text._ZN11CariadC 0x9d00a9a8           0x9c         156   
+.text._ZN11Cariad1 0x9d00aa44           0x9c         156   
+.text._ZN11Cariad1 0x9d00aae0           0x9c         156   
+.text._ZN11Cariad1 0x9d00ab7c           0x9c         156   
+.text._ZN11Cariad8 0x9d00ac18           0x98         152   
+.text._ZN11Cariad1 0x9d00acb0           0x98         152   
 .text.attachCoreTimerSe 0x9d00ad48           0x98         152   
 .text._ZNK10__cxxabiv11 0x9d00ade0           0x94         148   
 .rodata.digital_pin_to_ 0x9d00ae74           0x90         144   
 .rodata.digital_pin_to_ 0x9d00af04           0x90         144   
 .text._ZN7SSD12898setPi 0x9d00af94           0x84         132   
 .text._Z10loadHeaderm   0x9d00b018           0x80         128   
-.text._ZN11DisplayCore5 0x9d00b098           0x80         128   
+.text._ZN11Cariad5 0x9d00b098           0x80         128   
 .text._ZNK10__cxxabiv11 0x9d00b118           0x7c         124   
 .text._ZNK10__cxxabiv12 0x9d00b194           0x7c         124   
 .text._Z6Removem        0x9d00b210           0x78         120   
 .text._ZNK10__cxxabiv12 0x9d00b288           0x74         116   
 .text._ZN7SSD128910wind 0x9d00b2fc           0x70         112   
-.text._ZN11DisplayCore1 0x9d00b36c           0x70         112   
+.text._ZN11Cariad1 0x9d00b36c           0x70         112   
 .text.__fpclassifyd     0x9d00b3dc           0x6c         108   
 .text._ZNK10__cxxabiv11 0x9d00b448           0x68         104   
 .text.setup             0x9d00b4b0           0x64         100   
@@ -273,7 +273,7 @@ section                    address  length [bytes]      (dec)  Description
 .text._ZNK10__cxxabiv11 0x9d00b5d8           0x5c          92   
 .text.setIntPriority    0x9d00b634           0x58          88   
 .text.rand              0x9d00b68c           0x58          88   
-.text._ZN11DisplayCore1 0x9d00b6e4           0x54          84   
+.text._ZN11Cariad1 0x9d00b6e4           0x54          84   
 .text.turnOffPWM        0x9d00b738           0x54          84   
 .text._kill_r           0x9d00b78c           0x54          84   
 .text._ZNKSt9type_info1 0x9d00b7e0           0x50          80   
@@ -292,13 +292,13 @@ section                    address  length [bytes]      (dec)  Description
 .text._ZN7SSD128910fill 0x9d00bbec           0x3c          60   
 .text.setIntVector      0x9d00bc28           0x3c          60   
 .text._Z3clst           0x9d00bc64           0x38          56   
-.text._ZN11DisplayCore1 0x9d00bc9c           0x38          56   
+.text._ZN11Cariad1 0x9d00bc9c           0x38          56   
 .text._configSystem     0x9d00bcd4           0x38          56   
 .text._enableMultiVecto 0x9d00bd0c           0x38          56   
 .rodata                 0x9d00bd44            0x4           4  Read-only const 
 .rodata                 0x9d00bd48           0x38          56  Read-only const 
 .text.main_entry        0x9d00bd80           0x34          52   
-.text._ZN11DisplayCore1 0x9d00bdb4           0x34          52   
+.text._ZN11Cariad1 0x9d00bdb4           0x34          52   
 .rodata.port_to_tris_PG 0x9d00bde8           0x30          48   
 .text.main              0x9d00be18           0x30          48   
 .text._ZN10__cxxabiv117 0x9d00be48           0x2c          44   
@@ -315,11 +315,11 @@ section                    address  length [bytes]      (dec)  Description
 .text.free              0x9d00c000           0x24          36   
 .text.raise             0x9d00c024           0x24          36   
 .text.memset            0x9d00c048           0x24          36   
-.text._ZN11DisplayCore8 0x9d00c06c           0x20          32   
+.text._ZN11Cariad8 0x9d00c06c           0x20          32   
 .text.getIntVector      0x9d00c08c           0x20          32   
 .rodata                 0x9d00c0b0           0x20          32  Read-only const 
 .text._ZN7SSD128910open 0x9d00c0d0           0x1c          28   
-.text._ZN11DisplayCore1 0x9d00c0ec           0x1c          28   
+.text._ZN11Cariad1 0x9d00c0ec           0x1c          28   
 .text.restoreInterrupts 0x9d00c108           0x1c          28   
 .text._ZNK10__cxxabiv11 0x9d00c124           0x1c          28   
 .text._getpid_r         0x9d00c140           0x1c          28   
@@ -328,14 +328,14 @@ section                    address  length [bytes]      (dec)  Description
 .text.finite            0x9d00c18c           0x18          24   
 .text.abort             0x9d00c1a4           0x18          24   
 .text                   0x9d00c1bc           0x30          48  App's exec code 
-.text._ZN11DisplayCore9 0x9d00c1ec           0x14          20   
-.text._ZN11DisplayCore1 0x9d00c200           0x14          20   
-.text._ZN11DisplayCore1 0x9d00c214           0x14          20   
+.text._ZN11Cariad9 0x9d00c1ec           0x14          20   
+.text._ZN11Cariad1 0x9d00c200           0x14          20   
+.text._ZN11Cariad1 0x9d00c214           0x14          20   
 .text._ZSt9terminatev   0x9d00c228           0x14          20   
 .text.nan               0x9d00c23c           0x14          20   
 .text._ZN7SSD128910wind 0x9d00c250           0x10          16   
 .rodata                 0x9d00c260           0x10          16  Read-only const 
-.text._ZN11DisplayCore1 0x9d00c270           0x10          16   
+.text._ZN11Cariad1 0x9d00c270           0x10          16   
 .text._initCoreTimer    0x9d00c280           0x10          16   
 .text._ZNSt9type_infoD2 0x9d00c290           0x10          16   
 .text.__cxa_pure_virtua 0x9d00c2a0           0x10          16   
@@ -343,24 +343,24 @@ section                    address  length [bytes]      (dec)  Description
 .rodata.dp_h.dp_h       0x9d00c2c0           0x10          16   
 .rodata.dp_l.dp_l       0x9d00c2d0           0x10          16   
 .rodata.TWO52.TWO52     0x9d00c2e0           0x10          16   
-.text._ZN11DisplayCore9 0x9d00c2f0            0xc          12   
+.text._ZN11Cariad9 0x9d00c2f0            0xc          12   
 .text.millis            0x9d00c2fc            0xc          12   
 .text.disableInterrupts 0x9d00c308            0xc          12   
 .text.readCoreTimer     0x9d00c314            0xc          12   
 .text.__errno           0x9d00c320            0xc          12   
 .text._ZN7SSD128913inve 0x9d00c32c            0x8           8   
 .text._ZN7SSD128911clos 0x9d00c334            0x8           8   
-.text._ZN11DisplayCore8 0x9d00c33c            0x8           8   
-.text._ZN11DisplayCore9 0x9d00c344            0x8           8   
-.text._ZN11DisplayCore7 0x9d00c34c            0x8           8   
-.text._ZN11DisplayCore1 0x9d00c354            0x8           8   
-.text._ZN11DisplayCore1 0x9d00c35c            0x8           8   
-.text._ZN11DisplayCore1 0x9d00c364            0x8           8   
-.text._ZN11DisplayCore1 0x9d00c36c            0x8           8   
-.text._ZN11DisplayCore1 0x9d00c374            0x8           8   
-.text._ZN11DisplayCore1 0x9d00c37c            0x8           8   
-.text._ZN11DisplayCore7 0x9d00c384            0x8           8   
-.text._ZN11DisplayCore1 0x9d00c38c            0x8           8   
+.text._ZN11Cariad8 0x9d00c33c            0x8           8   
+.text._ZN11Cariad9 0x9d00c344            0x8           8   
+.text._ZN11Cariad7 0x9d00c34c            0x8           8   
+.text._ZN11Cariad1 0x9d00c354            0x8           8   
+.text._ZN11Cariad1 0x9d00c35c            0x8           8   
+.text._ZN11Cariad1 0x9d00c364            0x8           8   
+.text._ZN11Cariad1 0x9d00c36c            0x8           8   
+.text._ZN11Cariad1 0x9d00c374            0x8           8   
+.text._ZN11Cariad1 0x9d00c37c            0x8           8   
+.text._ZN11Cariad7 0x9d00c384            0x8           8   
+.text._ZN11Cariad1 0x9d00c38c            0x8           8   
 .text._ZN5Print5printEP 0x9d00c394            0x8           8   
 .text._ZNKSt9type_info1 0x9d00c39c            0x8           8   
 .text._ZNKSt9type_info1 0x9d00c3a4            0x8           8   
@@ -433,23 +433,23 @@ Discarded input sections
  .text          0x00000000        0x0 /tmp/ccQkghE3.o
  .data          0x00000000        0x0 /tmp/ccQkghE3.o
  .bss           0x00000000        0x0 /tmp/ccQkghE3.o
- .text          0x00000000        0x0 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
- .data          0x00000000        0x0 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
- .bss           0x00000000        0x0 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
- .reginfo       0x00000000       0x18 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
- .text          0x00000000        0x0 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
- .data          0x00000000        0x0 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
- .bss           0x00000000        0x0 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
- .reginfo       0x00000000       0x18 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
- .rodata.SS.SS  0x00000000        0x1 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+ .text          0x00000000        0x0 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .data          0x00000000        0x0 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .bss           0x00000000        0x0 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .reginfo       0x00000000       0x18 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .text          0x00000000        0x0 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+ .data          0x00000000        0x0 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+ .bss           0x00000000        0x0 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+ .reginfo       0x00000000       0x18 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+ .rodata.SS.SS  0x00000000        0x1 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .rodata.MOSI.MOSI
-                0x00000000        0x1 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+                0x00000000        0x1 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .rodata.MISO.MISO
-                0x00000000        0x1 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+                0x00000000        0x1 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .rodata.SCK.SCK
-                0x00000000        0x1 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+                0x00000000        0x1 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .text.convertADC
-                0x00000000      0x15c /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+                0x00000000      0x15c /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
  .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
  .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
@@ -505,104 +505,104 @@ Discarded input sections
                 0x00000000        0xc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
  .gnu.linkonce.r._ZTS11SSD1289_PMP._ZTS11SSD1289_PMP
                 0x00000000       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .text._ZN11DisplayCore7rgb2xyzEt
-                0x00000000      0x218 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .text._ZN11DisplayCore7xyz2labE7point3d
-                0x00000000      0x18c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .text._ZN11DisplayCore6deltaEE7point3dS0_
-                0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .text._ZN11DisplayCore9deltaOrthEtt
-                0x00000000       0x74 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .text._ZN11DisplayCore7rgb2hsvEt
-                0x00000000      0x128 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .text._ZN11DisplayCore7hsv2rgbEm
-                0x00000000       0xf0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .text._ZN11DisplayCore9color2rgbEt
-                0x00000000       0x28 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .rodata        0x00000000       0xc0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .gnu.linkonce.t._ZN11DisplayCore11startBufferEv
-                0x00000000        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .gnu.linkonce.t._ZN11DisplayCore9endBufferEv
-                0x00000000        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .gnu.linkonce.t._ZN11DisplayCore15enableBacklightEv
-                0x00000000        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .gnu.linkonce.t._ZN11DisplayCore16disableBacklightEv
-                0x00000000        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .gnu.linkonce.t._ZN11DisplayCore12setBacklightEi
-                0x00000000        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
- .text._ZN11DisplayCore11setClippingEiiii
-                0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
- .text._ZN11DisplayCore13clearClippingEv
-                0x00000000       0x54 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
- .text._Z3rgbm  0x00000000       0x20 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .text._ZN11Cariad7rgb2xyzEt
+                0x00000000      0x218 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .text._ZN11Cariad7xyz2labE7point3d
+                0x00000000      0x18c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .text._ZN11Cariad6deltaEE7point3dS0_
+                0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .text._ZN11Cariad9deltaOrthEtt
+                0x00000000       0x74 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .text._ZN11Cariad7rgb2hsvEt
+                0x00000000      0x128 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .text._ZN11Cariad7hsv2rgbEm
+                0x00000000       0xf0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .text._ZN11Cariad9color2rgbEt
+                0x00000000       0x28 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .rodata        0x00000000       0xc0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .gnu.linkonce.t._ZN11Cariad11startBufferEv
+                0x00000000        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .gnu.linkonce.t._ZN11Cariad9endBufferEv
+                0x00000000        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .gnu.linkonce.t._ZN11Cariad15enableBacklightEv
+                0x00000000        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .gnu.linkonce.t._ZN11Cariad16disableBacklightEv
+                0x00000000        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .gnu.linkonce.t._ZN11Cariad12setBacklightEi
+                0x00000000        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+ .text._ZN11Cariad11setClippingEiiii
+                0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+ .text._ZN11Cariad13clearClippingEv
+                0x00000000       0x54 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+ .text._Z3rgbm  0x00000000       0x20 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
  .text._Z3rgbhhh
-                0x00000000       0x20 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
- .text._ZN11DisplayCore10fatalErrorEPKcS1_
-                0x00000000      0x404 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DefaultFont.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DefaultFont.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DefaultFont.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DefaultFont.cpp.o)
- .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
- .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
- .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
- .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
+                0x00000000       0x20 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+ .text._ZN11Cariad10fatalErrorEPKcS1_
+                0x00000000      0x404 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(DefaultFont.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(DefaultFont.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(DefaultFont.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(DefaultFont.cpp.o)
+ .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
+ .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
+ .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
+ .reginfo       0x00000000       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
  .text          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Sinclair.a(Sinclair.cpp.o)
  .data          0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Sinclair.a(Sinclair.cpp.o)
  .bss           0x00000000        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Sinclair.a(Sinclair.cpp.o)
@@ -1311,12 +1311,12 @@ Linker script and memory map
 
                 0x00000001                _DEBUGGER = 0x1
 LOAD /tmp/ccQkghE3.o
-LOAD /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
-LOAD /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+LOAD /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+LOAD /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
 START GROUP
 LOAD /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a
 LOAD /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a
-LOAD /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a
+LOAD /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a
 LOAD /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Sinclair.a
 LOAD /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a
 END GROUP
@@ -1935,21 +1935,21 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
 
 .text           0x9d001540       0x88
  *(.stub .gnu.linkonce.t.*)
- .gnu.linkonce.t._ZN11DisplayCore11startBufferEv
+ .gnu.linkonce.t._ZN11Cariad11startBufferEv
                 0x9d001540        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
-                0x9d001540                DisplayCore::startBuffer()
- .gnu.linkonce.t._ZN11DisplayCore9endBufferEv
+                0x9d001540                Cariad::startBuffer()
+ .gnu.linkonce.t._ZN11Cariad9endBufferEv
                 0x9d001548        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
-                0x9d001548                DisplayCore::endBuffer()
- .gnu.linkonce.t._ZN11DisplayCore15enableBacklightEv
+                0x9d001548                Cariad::endBuffer()
+ .gnu.linkonce.t._ZN11Cariad15enableBacklightEv
                 0x9d001550        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
-                0x9d001550                DisplayCore::enableBacklight()
- .gnu.linkonce.t._ZN11DisplayCore16disableBacklightEv
+                0x9d001550                Cariad::enableBacklight()
+ .gnu.linkonce.t._ZN11Cariad16disableBacklightEv
                 0x9d001558        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
-                0x9d001558                DisplayCore::disableBacklight()
- .gnu.linkonce.t._ZN11DisplayCore12setBacklightEi
+                0x9d001558                Cariad::disableBacklight()
+ .gnu.linkonce.t._ZN11Cariad12setBacklightEi
                 0x9d001560        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
-                0x9d001560                DisplayCore::setBacklight(int)
+                0x9d001560                Cariad::setBacklight(int)
  .gnu.linkonce.t._ZN7SSD12899displayOnEv
                 0x9d001568        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
                 0x9d001568                SSD1289::displayOn()
@@ -2011,7 +2011,7 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
  .ctors         0x9d001608        0x4 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/size/fpu64/crtbegin.o
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
- .ctors         0x9d00160c        0x4 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .ctors         0x9d00160c        0x4 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
  *(SORT(.ctors.*))
  *(.ctors)
  .ctors         0x9d001610        0x4 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/size/fpu64/crtend.o
@@ -2066,15 +2066,15 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
  .gnu.linkonce.r._ZTS7SSD1289._ZTS7SSD1289
                 0x9d00176c        0xc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
                 0x9d00176c                typeinfo name for SSD1289
- .gnu.linkonce.r._ZTV11DisplayCore._ZTV11DisplayCore
-                0x9d001778       0xe8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
-                0x9d001778                vtable for DisplayCore
- .gnu.linkonce.r._ZTI11DisplayCore._ZTI11DisplayCore
-                0x9d001860        0xc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
-                0x9d001860                typeinfo for DisplayCore
- .gnu.linkonce.r._ZTS11DisplayCore._ZTS11DisplayCore
-                0x9d00186c       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
-                0x9d00186c                typeinfo name for DisplayCore
+ .gnu.linkonce.r._ZTV11Cariad._ZTV11Cariad
+                0x9d001778       0xe8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+                0x9d001778                vtable for Cariad
+ .gnu.linkonce.r._ZTI11Cariad._ZTI11Cariad
+                0x9d001860        0xc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+                0x9d001860                typeinfo for Cariad
+ .gnu.linkonce.r._ZTS11Cariad._ZTS11Cariad
+                0x9d00186c       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+                0x9d00186c                typeinfo name for Cariad
  .gnu.linkonce.r._ZTI5Print._ZTI5Print
                 0x9d00187c        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(Print.cpp.o)
                 0x9d00187c                typeinfo for Print
@@ -2197,7 +2197,7 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
  *(.dynsbss)
  *(.sbss .sbss.* .gnu.linkonce.sb.*)
  *fill*         0x800006b4        0x4 
- .sbss.tft.tft  0x800006b8      0x188 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .sbss.tft.tft  0x800006b8      0x188 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
                 0x800006b8                tft
  .sbss._ZL10FirstChanP.FirstChanP
                 0x80000840        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
@@ -2291,26 +2291,26 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
 
 .mdebug.abi32   0x80000948        0x0
  *(.mdebug.abi32)
- .mdebug.abi32  0x80000948        0x0 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
- .mdebug.abi32  0x80000948        0x0 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+ .mdebug.abi32  0x80000948        0x0 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .mdebug.abi32  0x80000948        0x0 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
  .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DefaultFont.cpp.o)
- .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(DefaultFont.cpp.o)
+ .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
  .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Sinclair.a(Sinclair.cpp.o)
  .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(pins_arduino.c.o)
  .mdebug.abi32  0x80000948        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring_digital.c.o)
@@ -2412,27 +2412,27 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
 
 .comment        0x00000000       0x86
  *(.comment)
- .comment       0x00000000       0x3b /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .comment       0x00000000       0x3b /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
                                  0x3c (size before relaxing)
- .comment       0x00000000       0x3c /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+ .comment       0x00000000       0x3c /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
  .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DefaultFont.cpp.o)
- .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(DefaultFont.cpp.o)
+ .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
  .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Sinclair.a(Sinclair.cpp.o)
  .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(pins_arduino.c.o)
  .comment       0x00000000       0x3c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring_digital.c.o)
@@ -2509,45 +2509,45 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
 .debug_aranges  0x00000000      0xbe0
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x68 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+                0x00000000       0x68 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
  .debug_aranges
-                0x00000068       0x28 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+                0x00000068       0x28 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .debug_aranges
                 0x00000090       0xe0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
  .debug_aranges
                 0x00000170       0xf0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
  .debug_aranges
-                0x00000260       0x60 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
+                0x00000260       0x60 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
  .debug_aranges
-                0x000002c0       0x20 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
+                0x000002c0       0x20 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
  .debug_aranges
-                0x000002e0       0x28 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
+                0x000002e0       0x28 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
  .debug_aranges
-                0x00000308       0x60 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
+                0x00000308       0x60 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
  .debug_aranges
-                0x00000368       0x30 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
+                0x00000368       0x30 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
  .debug_aranges
-                0x00000398       0x30 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
+                0x00000398       0x30 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
  .debug_aranges
-                0x000003c8       0x38 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
+                0x000003c8       0x38 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
  .debug_aranges
-                0x00000400       0x40 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
+                0x00000400       0x40 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
  .debug_aranges
-                0x00000440       0x28 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
+                0x00000440       0x28 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
  .debug_aranges
-                0x00000468       0x40 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
+                0x00000468       0x40 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
  .debug_aranges
-                0x000004a8       0xa0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
+                0x000004a8       0xa0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
  .debug_aranges
-                0x00000548       0x28 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
+                0x00000548       0x28 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
  .debug_aranges
-                0x00000570       0x30 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
+                0x00000570       0x30 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
  .debug_aranges
-                0x000005a0       0x38 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
+                0x000005a0       0x38 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
  .debug_aranges
-                0x000005d8       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DefaultFont.cpp.o)
+                0x000005d8       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(DefaultFont.cpp.o)
  .debug_aranges
-                0x000005f0       0x20 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
+                0x000005f0       0x20 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
  .debug_aranges
                 0x00000610       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Sinclair.a(Sinclair.cpp.o)
  .debug_aranges
@@ -2594,26 +2594,26 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
 
 .debug_info     0x00000000    0x23ca2
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000     0x1899 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
- .debug_info    0x00001899      0xf8f /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+ .debug_info    0x00000000     0x1899 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .debug_info    0x00001899      0xf8f /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .debug_info    0x00002828     0x1439 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
  .debug_info    0x00003c61     0x3592 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
- .debug_info    0x000071f3     0x1131 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .debug_info    0x00008324      0x81e /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
- .debug_info    0x00008b42      0x7c0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
- .debug_info    0x00009302     0x333f /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .debug_info    0x0000c641      0x4a2 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
- .debug_info    0x0000cae3      0x61b /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
- .debug_info    0x0000d0fe      0x87d /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
- .debug_info    0x0000d97b     0x127d /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
- .debug_info    0x0000ebf8      0x3bc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
- .debug_info    0x0000efb4      0xb29 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
- .debug_info    0x0000fadd     0x1013 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
- .debug_info    0x00010af0      0x688 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
- .debug_info    0x00011178      0x893 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
- .debug_info    0x00011a0b      0x4d8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
- .debug_info    0x00011ee3      0xb49 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DefaultFont.cpp.o)
- .debug_info    0x00012a2c      0x76f /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
+ .debug_info    0x000071f3     0x1131 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .debug_info    0x00008324      0x81e /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
+ .debug_info    0x00008b42      0x7c0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+ .debug_info    0x00009302     0x333f /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .debug_info    0x0000c641      0x4a2 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+ .debug_info    0x0000cae3      0x61b /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+ .debug_info    0x0000d0fe      0x87d /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+ .debug_info    0x0000d97b     0x127d /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+ .debug_info    0x0000ebf8      0x3bc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+ .debug_info    0x0000efb4      0xb29 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+ .debug_info    0x0000fadd     0x1013 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+ .debug_info    0x00010af0      0x688 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+ .debug_info    0x00011178      0x893 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+ .debug_info    0x00011a0b      0x4d8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+ .debug_info    0x00011ee3      0xb49 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(DefaultFont.cpp.o)
+ .debug_info    0x00012a2c      0x76f /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
  .debug_info    0x0001319b      0xb5d /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Sinclair.a(Sinclair.cpp.o)
  .debug_info    0x00013cf8       0x94 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(crti.S.o)
  .debug_info    0x00013d8c      0xa89 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(pins_arduino.c.o)
@@ -2637,26 +2637,26 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
 
 .debug_abbrev   0x00000000     0x55f4
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x29d /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
- .debug_abbrev  0x0000029d      0x14e /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+ .debug_abbrev  0x00000000      0x29d /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .debug_abbrev  0x0000029d      0x14e /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .debug_abbrev  0x000003eb      0x40a /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
  .debug_abbrev  0x000007f5      0x4c2 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
- .debug_abbrev  0x00000cb7      0x30c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .debug_abbrev  0x00000fc3      0x1b9 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
- .debug_abbrev  0x0000117c      0x134 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
- .debug_abbrev  0x000012b0      0x384 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .debug_abbrev  0x00001634      0x109 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
- .debug_abbrev  0x0000173d      0x116 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
- .debug_abbrev  0x00001853      0x196 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
- .debug_abbrev  0x000019e9      0x2c4 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
- .debug_abbrev  0x00001cad       0xf7 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
- .debug_abbrev  0x00001da4      0x157 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
- .debug_abbrev  0x00001efb      0x250 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
- .debug_abbrev  0x0000214b      0x166 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
- .debug_abbrev  0x000022b1      0x197 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
- .debug_abbrev  0x00002448      0x132 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
- .debug_abbrev  0x0000257a       0x7c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DefaultFont.cpp.o)
- .debug_abbrev  0x000025f6      0x18a /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
+ .debug_abbrev  0x00000cb7      0x30c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .debug_abbrev  0x00000fc3      0x1b9 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
+ .debug_abbrev  0x0000117c      0x134 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+ .debug_abbrev  0x000012b0      0x384 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .debug_abbrev  0x00001634      0x109 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+ .debug_abbrev  0x0000173d      0x116 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+ .debug_abbrev  0x00001853      0x196 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+ .debug_abbrev  0x000019e9      0x2c4 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+ .debug_abbrev  0x00001cad       0xf7 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+ .debug_abbrev  0x00001da4      0x157 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+ .debug_abbrev  0x00001efb      0x250 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+ .debug_abbrev  0x0000214b      0x166 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+ .debug_abbrev  0x000022b1      0x197 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+ .debug_abbrev  0x00002448      0x132 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+ .debug_abbrev  0x0000257a       0x7c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(DefaultFont.cpp.o)
+ .debug_abbrev  0x000025f6      0x18a /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
  .debug_abbrev  0x00002780       0x7c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Sinclair.a(Sinclair.cpp.o)
  .debug_abbrev  0x000027fc       0x12 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(crti.S.o)
  .debug_abbrev  0x0000280e       0x9e /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(pins_arduino.c.o)
@@ -2680,26 +2680,26 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
 
 .debug_line     0x00000000     0x5919
  *(.debug_line)
- .debug_line    0x00000000      0x3e3 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
- .debug_line    0x000003e3      0x1b4 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+ .debug_line    0x00000000      0x3e3 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .debug_line    0x000003e3      0x1b4 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .debug_line    0x00000597      0x451 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
  .debug_line    0x000009e8      0x5a4 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
- .debug_line    0x00000f8c      0x245 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .debug_line    0x000011d1      0x18e /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
- .debug_line    0x0000135f      0x1c8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
- .debug_line    0x00001527      0x2a8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .debug_line    0x000017cf      0x18d /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
- .debug_line    0x0000195c      0x173 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
- .debug_line    0x00001acf      0x1d1 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
- .debug_line    0x00001ca0      0x1b3 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
- .debug_line    0x00001e53      0x130 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
- .debug_line    0x00001f83      0x1b4 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
- .debug_line    0x00002137      0x2ff /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
- .debug_line    0x00002436      0x19a /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
- .debug_line    0x000025d0      0x1ff /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
- .debug_line    0x000027cf      0x163 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
- .debug_line    0x00002932      0x104 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DefaultFont.cpp.o)
- .debug_line    0x00002a36      0x125 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
+ .debug_line    0x00000f8c      0x245 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .debug_line    0x000011d1      0x18e /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
+ .debug_line    0x0000135f      0x1c8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+ .debug_line    0x00001527      0x2a8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .debug_line    0x000017cf      0x18d /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+ .debug_line    0x0000195c      0x173 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+ .debug_line    0x00001acf      0x1d1 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+ .debug_line    0x00001ca0      0x1b3 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+ .debug_line    0x00001e53      0x130 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+ .debug_line    0x00001f83      0x1b4 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+ .debug_line    0x00002137      0x2ff /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+ .debug_line    0x00002436      0x19a /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+ .debug_line    0x000025d0      0x1ff /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+ .debug_line    0x000027cf      0x163 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+ .debug_line    0x00002932      0x104 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(DefaultFont.cpp.o)
+ .debug_line    0x00002a36      0x125 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
  .debug_line    0x00002b5b      0x133 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Sinclair.a(Sinclair.cpp.o)
  .debug_line    0x00002c8e       0x6e /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(crti.S.o)
  .debug_line    0x00002cfc      0x18a /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(pins_arduino.c.o)
@@ -2723,25 +2723,25 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
 
 .debug_frame    0x00000000     0x1ab0
  *(.debug_frame)
- .debug_frame   0x00000000      0x130 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
- .debug_frame   0x00000130       0x30 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+ .debug_frame   0x00000000      0x130 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .debug_frame   0x00000130       0x30 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .debug_frame   0x00000160      0x264 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
  .debug_frame   0x000003c4      0x250 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
- .debug_frame   0x00000614       0xd8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .debug_frame   0x000006ec       0x20 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
- .debug_frame   0x0000070c       0x90 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
- .debug_frame   0x0000079c      0x100 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .debug_frame   0x0000089c       0x5c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
- .debug_frame   0x000008f8       0x88 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
- .debug_frame   0x00000980       0xa8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
- .debug_frame   0x00000a28       0x7c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
- .debug_frame   0x00000aa4       0x30 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
- .debug_frame   0x00000ad4       0xcc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
- .debug_frame   0x00000ba0      0x160 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
- .debug_frame   0x00000d00       0x60 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
- .debug_frame   0x00000d60       0x58 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
- .debug_frame   0x00000db8       0x68 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
- .debug_frame   0x00000e20       0x30 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
+ .debug_frame   0x00000614       0xd8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .debug_frame   0x000006ec       0x20 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
+ .debug_frame   0x0000070c       0x90 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+ .debug_frame   0x0000079c      0x100 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .debug_frame   0x0000089c       0x5c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+ .debug_frame   0x000008f8       0x88 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+ .debug_frame   0x00000980       0xa8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+ .debug_frame   0x00000a28       0x7c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+ .debug_frame   0x00000aa4       0x30 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+ .debug_frame   0x00000ad4       0xcc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+ .debug_frame   0x00000ba0      0x160 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+ .debug_frame   0x00000d00       0x60 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+ .debug_frame   0x00000d60       0x58 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+ .debug_frame   0x00000db8       0x68 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+ .debug_frame   0x00000e20       0x30 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
  .debug_frame   0x00000e50       0x70 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring_digital.c.o)
  .debug_frame   0x00000ec0       0x74 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring_analog.c.o)
  .debug_frame   0x00000f34      0x1d0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring.c.o)
@@ -2760,26 +2760,26 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
 
 .debug_str      0x00000000      0x6af
  *(.debug_str)
- .debug_str     0x00000000        0xd /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
- .debug_str     0x0000000d       0x2e /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+ .debug_str     0x00000000        0xd /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .debug_str     0x0000000d       0x2e /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .debug_str     0x0000003b       0x61 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
  .debug_str     0x0000009c       0x5e /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
- .debug_str     0x000000fa       0x17 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .debug_str     0x00000111       0x1e /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
- .debug_str     0x0000012f        0xb /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
- .debug_str     0x0000013a       0x5e /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .debug_str     0x00000198        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
- .debug_str     0x00000198        0x7 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
- .debug_str     0x0000019f        0x9 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
- .debug_str     0x000001a8       0x17 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
- .debug_str     0x000001bf        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
- .debug_str     0x000001bf        0x6 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
- .debug_str     0x000001c5       0x6c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
- .debug_str     0x00000231        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
- .debug_str     0x00000231        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
- .debug_str     0x00000231        0xb /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
- .debug_str     0x0000023c        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DefaultFont.cpp.o)
- .debug_str     0x0000023c       0x12 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
+ .debug_str     0x000000fa       0x17 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .debug_str     0x00000111       0x1e /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
+ .debug_str     0x0000012f        0xb /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+ .debug_str     0x0000013a       0x5e /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .debug_str     0x00000198        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+ .debug_str     0x00000198        0x7 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+ .debug_str     0x0000019f        0x9 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+ .debug_str     0x000001a8       0x17 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+ .debug_str     0x000001bf        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+ .debug_str     0x000001bf        0x6 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+ .debug_str     0x000001c5       0x6c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+ .debug_str     0x00000231        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+ .debug_str     0x00000231        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+ .debug_str     0x00000231        0xb /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+ .debug_str     0x0000023c        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(DefaultFont.cpp.o)
+ .debug_str     0x0000023c       0x12 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
  .debug_str     0x0000024e        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Sinclair.a(Sinclair.cpp.o)
  .debug_str     0x0000024e        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(pins_arduino.c.o)
  .debug_str     0x0000024e        0x0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring_digital.c.o)
@@ -2802,24 +2802,24 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
 
 .debug_loc      0x00000000     0xa8c9
  *(.debug_loc)
- .debug_loc     0x00000000      0x542 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
- .debug_loc     0x00000542      0x128 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+ .debug_loc     0x00000000      0x542 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .debug_loc     0x00000542      0x128 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .debug_loc     0x0000066a      0x79d /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
  .debug_loc     0x00000e07      0xb87 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
- .debug_loc     0x0000198e      0xe98 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .debug_loc     0x00002826      0x5f4 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
- .debug_loc     0x00002e1a      0x7b3 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .debug_loc     0x000035cd      0x186 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
- .debug_loc     0x00003753      0x442 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
- .debug_loc     0x00003b95      0x5dd /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
- .debug_loc     0x00004172      0x2cf /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
- .debug_loc     0x00004441       0xa1 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
- .debug_loc     0x000044e2      0x4cb /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
- .debug_loc     0x000049ad      0x8b3 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
- .debug_loc     0x00005260      0x431 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
- .debug_loc     0x00005691      0x40d /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
- .debug_loc     0x00005a9e      0x1ad /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
- .debug_loc     0x00005c4b       0x84 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
+ .debug_loc     0x0000198e      0xe98 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .debug_loc     0x00002826      0x5f4 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+ .debug_loc     0x00002e1a      0x7b3 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .debug_loc     0x000035cd      0x186 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+ .debug_loc     0x00003753      0x442 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+ .debug_loc     0x00003b95      0x5dd /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+ .debug_loc     0x00004172      0x2cf /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+ .debug_loc     0x00004441       0xa1 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+ .debug_loc     0x000044e2      0x4cb /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+ .debug_loc     0x000049ad      0x8b3 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+ .debug_loc     0x00005260      0x431 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+ .debug_loc     0x00005691      0x40d /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+ .debug_loc     0x00005a9e      0x1ad /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+ .debug_loc     0x00005c4b       0x84 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
  .debug_loc     0x00005ccf      0x2ec /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring_digital.c.o)
  .debug_loc     0x00005fbb      0x3ea /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring_analog.c.o)
  .debug_loc     0x000063a5      0x447 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring.c.o)
@@ -2854,25 +2854,25 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
 
 .debug_ranges   0x00000000     0x11c0
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x58 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
- .debug_ranges  0x00000058       0x18 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+ .debug_ranges  0x00000000       0x58 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .debug_ranges  0x00000058       0x18 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .debug_ranges  0x00000070      0x118 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
  .debug_ranges  0x00000188      0x110 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
- .debug_ranges  0x00000298       0x88 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
- .debug_ranges  0x00000320       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
- .debug_ranges  0x00000330       0x58 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
- .debug_ranges  0x00000388       0xd0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
- .debug_ranges  0x00000458       0x20 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
- .debug_ranges  0x00000478       0x80 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
- .debug_ranges  0x000004f8       0x78 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
- .debug_ranges  0x00000570       0x48 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
- .debug_ranges  0x000005b8       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
- .debug_ranges  0x000005d0       0x30 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
- .debug_ranges  0x00000600      0x148 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
- .debug_ranges  0x00000748       0x38 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
- .debug_ranges  0x00000780       0x38 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
- .debug_ranges  0x000007b8       0x28 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
- .debug_ranges  0x000007e0       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
+ .debug_ranges  0x00000298       0x88 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+ .debug_ranges  0x00000320       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
+ .debug_ranges  0x00000330       0x58 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+ .debug_ranges  0x00000388       0xd0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+ .debug_ranges  0x00000458       0x20 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+ .debug_ranges  0x00000478       0x80 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+ .debug_ranges  0x000004f8       0x78 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+ .debug_ranges  0x00000570       0x48 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+ .debug_ranges  0x000005b8       0x18 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+ .debug_ranges  0x000005d0       0x30 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+ .debug_ranges  0x00000600      0x148 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+ .debug_ranges  0x00000748       0x38 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+ .debug_ranges  0x00000780       0x38 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
+ .debug_ranges  0x000007b8       0x28 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+ .debug_ranges  0x000007e0       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
  .debug_ranges  0x000007f0       0x20 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(crti.S.o)
  .debug_ranges  0x00000810       0x28 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring_digital.c.o)
  .debug_ranges  0x00000838       0x48 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring_analog.c.o)
@@ -2894,45 +2894,45 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
                 0x00000000       0x10
  *(.gnu.attributes)
  .gnu.attributes
-                0x00000000       0x10 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+                0x00000000       0x10 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
  .gnu.attributes
-                0x00000010       0x10 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+                0x00000010       0x10 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
  .gnu.attributes
                 0x00000020       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
  .gnu.attributes
                 0x00000030       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
  .gnu.attributes
-                0x00000040       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
+                0x00000040       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
  .gnu.attributes
-                0x00000050       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
+                0x00000050       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
  .gnu.attributes
-                0x00000060       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
+                0x00000060       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
  .gnu.attributes
-                0x00000070       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
+                0x00000070       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
  .gnu.attributes
-                0x00000080       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
+                0x00000080       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
  .gnu.attributes
-                0x00000090       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
+                0x00000090       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
  .gnu.attributes
-                0x000000a0       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
+                0x000000a0       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
  .gnu.attributes
-                0x000000b0       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
+                0x000000b0       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
  .gnu.attributes
-                0x000000c0       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
+                0x000000c0       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
  .gnu.attributes
-                0x000000d0       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
+                0x000000d0       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
  .gnu.attributes
-                0x000000e0       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
+                0x000000e0       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
  .gnu.attributes
-                0x000000f0       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
+                0x000000f0       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
  .gnu.attributes
-                0x00000100       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Util.cpp.o)
+                0x00000100       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Util.cpp.o)
  .gnu.attributes
-                0x00000110       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
+                0x00000110       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
  .gnu.attributes
-                0x00000120       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DefaultFont.cpp.o)
+                0x00000120       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(DefaultFont.cpp.o)
  .gnu.attributes
-                0x00000130       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
+                0x00000130       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
  .gnu.attributes
                 0x00000140       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Sinclair.a(Sinclair.cpp.o)
  .gnu.attributes
@@ -3105,7 +3105,7 @@ LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/
 LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libm.a
 END GROUP
 LOAD /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/size/fpu64/libgcc.a
-OUTPUT(/home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.elf elf32-tradlittlemips)
+OUTPUT(/home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.elf elf32-tradlittlemips)
 LOAD stack
 LOAD data_init
 
@@ -3277,7 +3277,7 @@ LOAD data_init
 .rodata._ZN5Fonts7DefaultE.Default
                 0x9d003358      0x8fc
  .rodata._ZN5Fonts7DefaultE.Default
-                0x9d003358      0x8fc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DefaultFont.cpp.o)
+                0x9d003358      0x8fc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(DefaultFont.cpp.o)
                 0x9d003358                Fonts::Default
 
 .text.__ieee754_pow
@@ -3293,17 +3293,17 @@ LOAD data_init
                 0x9d0044d0                SSD1289::startDisplay()
 
 .text.initADC   0x9d004b80      0x3f8
- .text.initADC  0x9d004b80      0x3f8 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
+ .text.initADC  0x9d004b80      0x3f8 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/EFADC.c.o
                 0x9d004b80                initADC
 
-.text._ZN11DisplayCore8drawCharEiihtt
+.text._ZN11Cariad8drawCharEiihtt
                 0x9d004f78      0x3cc
- .text._ZN11DisplayCore8drawCharEiihtt
-                0x9d004f78      0x3cc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d004f78                DisplayCore::drawChar(int, int, unsigned char, unsigned short, unsigned short)
+ .text._ZN11Cariad8drawCharEiihtt
+                0x9d004f78      0x3cc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d004f78                Cariad::drawChar(int, int, unsigned char, unsigned short, unsigned short)
 
 .text.loop      0x9d005344      0x3c4
- .text.loop     0x9d005344      0x3c4 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .text.loop     0x9d005344      0x3c4 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
                 0x9d005344                loop
 
 .text.pow       0x9d005708      0x394
@@ -3316,33 +3316,33 @@ LOAD data_init
                 0x9d005a9c      0x314 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
                 0x9d005a9c                SSD1289::initializeDevice()
 
-.text._ZN11DisplayCore12fillTriangleEiiiiiit
+.text._ZN11Cariad12fillTriangleEiiiiiit
                 0x9d005db0      0x2cc
- .text._ZN11DisplayCore12fillTriangleEiiiiiit
-                0x9d005db0      0x2cc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
-                0x9d005db0                DisplayCore::fillTriangle(int, int, int, int, int, int, unsigned short)
+ .text._ZN11Cariad12fillTriangleEiiiiiit
+                0x9d005db0      0x2cc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+                0x9d005db0                Cariad::fillTriangle(int, int, int, int, int, int, unsigned short)
 
-.text._ZN11DisplayCore10fillBezierEiiiiiiiiit
+.text._ZN11Cariad10fillBezierEiiiiiiiiit
                 0x9d00607c      0x2a4
- .text._ZN11DisplayCore10fillBezierEiiiiiiiiit
-                0x9d00607c      0x2a4 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
-                0x9d00607c                DisplayCore::fillBezier(int, int, int, int, int, int, int, int, int, unsigned short)
+ .text._ZN11Cariad10fillBezierEiiiiiiiiit
+                0x9d00607c      0x2a4 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+                0x9d00607c                Cariad::fillBezier(int, int, int, int, int, int, int, int, int, unsigned short)
 
-.text._ZN11DisplayCore10drawBezierEiiiiiiiiit
+.text._ZN11Cariad10drawBezierEiiiiiiiiit
                 0x9d006320      0x294
- .text._ZN11DisplayCore10drawBezierEiiiiiiiiit
-                0x9d006320      0x294 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
-                0x9d006320                DisplayCore::drawBezier(int, int, int, int, int, int, int, int, int, unsigned short)
+ .text._ZN11Cariad10drawBezierEiiiiiiiiit
+                0x9d006320      0x294 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
+                0x9d006320                Cariad::drawBezier(int, int, int, int, int, int, int, int, int, unsigned short)
 
 .text._free_r   0x9d0065b4      0x280
  .text._free_r  0x9d0065b4      0x280 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libc.a(lib_a-freer.o)
                 0x9d0065b4                _free_r
 
-.text._ZN11DisplayCore10drawCircleEiiit
+.text._ZN11Cariad10drawCircleEiiit
                 0x9d006834      0x274
- .text._ZN11DisplayCore10drawCircleEiiit
-                0x9d006834      0x274 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
-                0x9d006834                DisplayCore::drawCircle(int, int, int, unsigned short)
+ .text._ZN11Cariad10drawCircleEiiit
+                0x9d006834      0x274 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+                0x9d006834                Cariad::drawCircle(int, int, int, unsigned short)
 
 .text           0x9d006aa8      0x24c
  .text          0x9d006aa8      0x24c /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/size/fpu64/crtbegin.o
@@ -3371,17 +3371,17 @@ LOAD data_init
                 0x9d00738c      0x208 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libm.a(lib_a-e_sqrt.o)
                 0x9d00738c                __ieee754_sqrt
 
-.text._ZN11DisplayCore16drawCircleHelperEiiiit
+.text._ZN11Cariad16drawCircleHelperEiiiit
                 0x9d007594      0x1f0
- .text._ZN11DisplayCore16drawCircleHelperEiiiit
-                0x9d007594      0x1f0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
-                0x9d007594                DisplayCore::drawCircleHelper(int, int, int, int, unsigned short)
+ .text._ZN11Cariad16drawCircleHelperEiiiit
+                0x9d007594      0x1f0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+                0x9d007594                Cariad::drawCircleHelper(int, int, int, int, unsigned short)
 
-.text._ZN11DisplayCore13drawRoundRectEiiiiit
+.text._ZN11Cariad13drawRoundRectEiiiiit
                 0x9d007784      0x1d0
- .text._ZN11DisplayCore13drawRoundRectEiiiiit
-                0x9d007784      0x1d0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
-                0x9d007784                DisplayCore::drawRoundRect(int, int, int, int, int, unsigned short)
+ .text._ZN11Cariad13drawRoundRectEiiiiit
+                0x9d007784      0x1d0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+                0x9d007784                Cariad::drawRoundRect(int, int, int, int, int, unsigned short)
 
 .text._scheduleTask
                 0x9d007954      0x1b0
@@ -3389,33 +3389,33 @@ LOAD data_init
                 0x9d007954      0x1b0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(task_manager.c.o)
                 0x9d007954                _scheduleTask
 
-.text._ZN11DisplayCore16fillCircleHelperEiiiiit
+.text._ZN11Cariad16fillCircleHelperEiiiiit
                 0x9d007b04      0x1a0
- .text._ZN11DisplayCore16fillCircleHelperEiiiiit
-                0x9d007b04      0x1a0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
-                0x9d007b04                DisplayCore::fillCircleHelper(int, int, int, int, int, unsigned short)
+ .text._ZN11Cariad16fillCircleHelperEiiiiit
+                0x9d007b04      0x1a0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+                0x9d007b04                Cariad::fillCircleHelper(int, int, int, int, int, unsigned short)
 
-.text._ZN11DisplayCore8drawLineEiiiiit
+.text._ZN11Cariad8drawLineEiiiiit
                 0x9d007ca4      0x1a0
- .text._ZN11DisplayCore8drawLineEiiiiit
-                0x9d007ca4      0x1a0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
-                0x9d007ca4                DisplayCore::drawLine(int, int, int, int, int, unsigned short)
+ .text._ZN11Cariad8drawLineEiiiiit
+                0x9d007ca4      0x1a0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+                0x9d007ca4                Cariad::drawLine(int, int, int, int, int, unsigned short)
 
-.text._ZN11DisplayCore12clipToScreenERiS0_S0_S0_
+.text._ZN11Cariad12clipToScreenERiS0_S0_S0_
                 0x9d007e44      0x18c
- .text._ZN11DisplayCore12clipToScreenERiS0_S0_S0_
-                0x9d007e44      0x18c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Clipping.cpp.o)
-                0x9d007e44                DisplayCore::clipToScreen(int&, int&, int&, int&)
+ .text._ZN11Cariad12clipToScreenERiS0_S0_S0_
+                0x9d007e44      0x18c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Clipping.cpp.o)
+                0x9d007e44                Cariad::clipToScreen(int&, int&, int&, int&)
 
 .text.rint      0x9d007fd0      0x188
  .text.rint     0x9d007fd0      0x188 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libm.a(lib_a-s_rint.o)
                 0x9d007fd0                rint
 
-.text._ZN11DisplayCore5writeEh
+.text._ZN11Cariad5writeEh
                 0x9d008158      0x184
- .text._ZN11DisplayCore5writeEh
-                0x9d008158      0x184 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d008158                DisplayCore::write(unsigned char)
+ .text._ZN11Cariad5writeEh
+                0x9d008158      0x184 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d008158                Cariad::write(unsigned char)
 
 .text._ZN7SSD1289C2Ehhhhhhhhhhhhhhhhhhhhh
                 0x9d0082dc      0x180
@@ -3424,11 +3424,11 @@ LOAD data_init
                 0x9d0082dc                SSD1289::SSD1289(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
                 0x9d0082dc                SSD1289::SSD1289(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
 
-.text._ZN11DisplayCore8drawLineEiiiit
+.text._ZN11Cariad8drawLineEiiiit
                 0x9d00845c      0x170
- .text._ZN11DisplayCore8drawLineEiiiit
-                0x9d00845c      0x170 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
-                0x9d00845c                DisplayCore::drawLine(int, int, int, int, unsigned short)
+ .text._ZN11Cariad8drawLineEiiiit
+                0x9d00845c      0x170 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+                0x9d00845c                Cariad::drawLine(int, int, int, int, unsigned short)
 
 .text._ZN7SSD128911setRotationEi
                 0x9d0085cc      0x16c
@@ -3445,7 +3445,7 @@ LOAD data_init
 .text._Z14regularStripesttmm
                 0x9d00889c      0x160
  .text._Z14regularStripesttmm
-                0x9d00889c      0x160 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+                0x9d00889c      0x160 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
                 0x9d00889c                regularStripes(unsigned short, unsigned short, unsigned long, unsigned long)
 
 .text.pinMode   0x9d0089fc      0x160
@@ -3464,11 +3464,11 @@ LOAD data_init
                 0x9d008cb4      0x154 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
                 0x9d008cb4                SoftPWMServoPinEnable(unsigned long, bool)
 
-.text._ZN11DisplayCore10drawBitmapEiiPKhiit
+.text._ZN11Cariad10drawBitmapEiiPKhiit
                 0x9d008e08      0x14c
- .text._ZN11DisplayCore10drawBitmapEiiPKhiit
-                0x9d008e08      0x14c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
-                0x9d008e08                DisplayCore::drawBitmap(int, int, unsigned char const*, int, int, unsigned short)
+ .text._ZN11Cariad10drawBitmapEiiPKhiit
+                0x9d008e08      0x14c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+                0x9d008e08                Cariad::drawBitmap(int, int, unsigned char const*, int, int, unsigned short)
 
 .text.scalbn    0x9d008f54      0x130
  .text.scalbn   0x9d008f54      0x130 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libm.a(lib_a-s_scalbn.o)
@@ -3483,7 +3483,7 @@ LOAD data_init
 .text._Z13randomStripestt
                 0x9d0091ac      0x124
  .text._Z13randomStripestt
-                0x9d0091ac      0x124 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+                0x9d0091ac      0x124 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
                 0x9d0091ac                randomStripes(unsigned short, unsigned short)
 
 .text._ZL11CopyBuffersv
@@ -3491,11 +3491,11 @@ LOAD data_init
  .text._ZL11CopyBuffersv
                 0x9d0092d0      0x120 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
 
-.text._ZN11DisplayCore13fillRoundRectEiiiiit
+.text._ZN11Cariad13fillRoundRectEiiiiit
                 0x9d0093f0      0x11c
- .text._ZN11DisplayCore13fillRoundRectEiiiiit
-                0x9d0093f0      0x11c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
-                0x9d0093f0                DisplayCore::fillRoundRect(int, int, int, int, int, unsigned short)
+ .text._ZN11Cariad13fillRoundRectEiiiiit
+                0x9d0093f0      0x11c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+                0x9d0093f0                Cariad::fillRoundRect(int, int, int, int, int, unsigned short)
 
 .text._malloc_trim_r
                 0x9d00950c      0x11c
@@ -3503,48 +3503,48 @@ LOAD data_init
                 0x9d00950c      0x11c /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libc.a(lib_a-freer.o)
                 0x9d00950c                _malloc_trim_r
 
-.text._ZN11DisplayCore10fillCircleEiiit
+.text._ZN11Cariad10fillCircleEiiit
                 0x9d009628      0x118
- .text._ZN11DisplayCore10fillCircleEiiit
-                0x9d009628      0x118 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Circle.cpp.o)
-                0x9d009628                DisplayCore::fillCircle(int, int, int, unsigned short)
+ .text._ZN11Cariad10fillCircleEiiit
+                0x9d009628      0x118 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Circle.cpp.o)
+                0x9d009628                Cariad::fillCircle(int, int, int, unsigned short)
 
 .rodata         0x9d009740      0x100
  .rodata        0x9d009740      0x100 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libm.a(lib_a-e_pow.o)
 
-.text._ZN11DisplayCore8drawRGBAEiiPKtiit
+.text._ZN11Cariad8drawRGBAEiiPKtiit
                 0x9d009840       0xfc
- .text._ZN11DisplayCore8drawRGBAEiiPKtiit
-                0x9d009840       0xfc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
-                0x9d009840                DisplayCore::drawRGBA(int, int, unsigned short const*, int, int, unsigned short)
+ .text._ZN11Cariad8drawRGBAEiiPKtiit
+                0x9d009840       0xfc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+                0x9d009840                Cariad::drawRGBA(int, int, unsigned short const*, int, int, unsigned short)
 
-.text._ZN11DisplayCore13drawRectangleEiiiit
+.text._ZN11Cariad13drawRectangleEiiiit
                 0x9d00993c       0xfc
- .text._ZN11DisplayCore13drawRectangleEiiiit
-                0x9d00993c       0xfc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
-                0x9d00993c                DisplayCore::drawRectangle(int, int, int, int, unsigned short)
+ .text._ZN11Cariad13drawRectangleEiiiit
+                0x9d00993c       0xfc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+                0x9d00993c                Cariad::drawRectangle(int, int, int, int, unsigned short)
 
-.text._ZN11DisplayCore12drawTriangleEiiiiiit
+.text._ZN11Cariad12drawTriangleEiiiiiit
                 0x9d009a38       0xf8
- .text._ZN11DisplayCore12drawTriangleEiiiiiit
-                0x9d009a38       0xf8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Triangle.cpp.o)
-                0x9d009a38                DisplayCore::drawTriangle(int, int, int, int, int, int, unsigned short)
+ .text._ZN11Cariad12drawTriangleEiiiiiit
+                0x9d009a38       0xf8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Triangle.cpp.o)
+                0x9d009a38                Cariad::drawTriangle(int, int, int, int, int, int, unsigned short)
 
-.text._ZN11DisplayCore7drawRGBEiiPKtii
+.text._ZN11Cariad7drawRGBEiiPKtii
                 0x9d009b30       0xec
- .text._ZN11DisplayCore7drawRGBEiiPKtii
-                0x9d009b30       0xec /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Image.cpp.o)
-                0x9d009b30                DisplayCore::drawRGB(int, int, unsigned short const*, int, int)
+ .text._ZN11Cariad7drawRGBEiiPKtii
+                0x9d009b30       0xec /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Image.cpp.o)
+                0x9d009b30                Cariad::drawRGB(int, int, unsigned short const*, int, int)
 
 .text._Z3Addm   0x9d009c1c       0xe4
  .text._Z3Addm  0x9d009c1c       0xe4 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
                 0x9d009c1c                Add(unsigned long)
 
-.text._ZN11DisplayCore20translateCoordinatesEPiS0_
+.text._ZN11Cariad20translateCoordinatesEPiS0_
                 0x9d009d00       0xe0
- .text._ZN11DisplayCore20translateCoordinatesEPiS0_
-                0x9d009d00       0xe0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
-                0x9d009d00                DisplayCore::translateCoordinates(int*, int*)
+ .text._ZN11Cariad20translateCoordinatesEPiS0_
+                0x9d009d00       0xe0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+                0x9d009d00                Cariad::translateCoordinates(int*, int*)
 
 .text.digitalWrite
                 0x9d009de0       0xdc
@@ -3552,11 +3552,11 @@ LOAD data_init
                 0x9d009de0       0xdc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring_digital.c.o)
                 0x9d009de0                digitalWrite
 
-.text._ZN11DisplayCore13fillRectangleEiiiit
+.text._ZN11Cariad13fillRectangleEiiiit
                 0x9d009ebc       0xd4
- .text._ZN11DisplayCore13fillRectangleEiiiit
-                0x9d009ebc       0xd4 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
-                0x9d009ebc                DisplayCore::fillRectangle(int, int, int, int, unsigned short)
+ .text._ZN11Cariad13fillRectangleEiiiit
+                0x9d009ebc       0xd4 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+                0x9d009ebc                Cariad::fillRectangle(int, int, int, int, unsigned short)
 
 .text._ZN7SSD128913fillRectangleEiiiit
                 0x9d009f90       0xd0
@@ -3564,11 +3564,11 @@ LOAD data_init
                 0x9d009f90       0xd0 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
                 0x9d009f90                SSD1289::fillRectangle(int, int, int, int, unsigned short)
 
-.text._ZN11DisplayCore9map3Dto2DER7point3d
+.text._ZN11Cariad9map3Dto2DER7point3d
                 0x9d00a060       0xcc
- .text._ZN11DisplayCore9map3Dto2DER7point3d
-                0x9d00a060       0xcc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_3D_Mapping.cpp.o)
-                0x9d00a060                DisplayCore::map3Dto2D(point3d&)
+ .text._ZN11Cariad9map3Dto2DER7point3d
+                0x9d00a060       0xcc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_3D_Mapping.cpp.o)
+                0x9d00a060                Cariad::map3Dto2D(point3d&)
 
 .text._Z16SoftPWMServoInitv
                 0x9d00a12c       0xc8
@@ -3582,17 +3582,17 @@ LOAD data_init
                 0x9d00a1f4       0xc8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SoftPWMServo.a(SoftPWMServo.cpp.o)
                 0x9d00a1f4                SoftPWMServoRawWrite(unsigned long, unsigned long, bool)
 
-.text._ZN11DisplayCore3mixEtti
+.text._ZN11Cariad3mixEtti
                 0x9d00a2bc       0xbc
- .text._ZN11DisplayCore3mixEtti
-                0x9d00a2bc       0xbc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
-                0x9d00a2bc                DisplayCore::mix(unsigned short, unsigned short, int)
+ .text._ZN11Cariad3mixEtti
+                0x9d00a2bc       0xbc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+                0x9d00a2bc                Cariad::mix(unsigned short, unsigned short, int)
 
-.text._ZN11DisplayCore11stringWidthEPKc
+.text._ZN11Cariad11stringWidthEPKc
                 0x9d00a378       0xbc
- .text._ZN11DisplayCore11stringWidthEPKc
-                0x9d00a378       0xbc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d00a378                DisplayCore::stringWidth(char const*)
+ .text._ZN11Cariad11stringWidthEPKc
+                0x9d00a378       0xbc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d00a378                Cariad::stringWidth(char const*)
 
 .text._sbrk     0x9d00a434       0xbc
  .text._sbrk    0x9d00a434       0xbc /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libpic32.a(sbrk.o)
@@ -3601,7 +3601,7 @@ LOAD data_init
 .text._GLOBAL__sub_I_tft
                 0x9d00a4f0       0xb8
  .text._GLOBAL__sub_I_tft
-                0x9d00a4f0       0xb8 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+                0x9d00a4f0       0xb8 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
 
 .text._ZN7SSD128916drawVerticalLineEiiit
                 0x9d00a5a8       0xb0
@@ -3627,51 +3627,51 @@ LOAD data_init
 .text._Z15setBorderSinglet
                 0x9d00a864       0xa8
  .text._Z15setBorderSinglet
-                0x9d00a864       0xa8 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+                0x9d00a864       0xa8 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
                 0x9d00a864                setBorderSingle(unsigned short)
 
 .text._Z7silencem
                 0x9d00a90c       0x9c
  .text._Z7silencem
-                0x9d00a90c       0x9c /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+                0x9d00a90c       0x9c /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
                 0x9d00a90c                silence(unsigned long)
 
-.text._ZN11DisplayCoreC2Ev
+.text._ZN11CariadC2Ev
                 0x9d00a9a8       0x9c
- .text._ZN11DisplayCoreC2Ev
-                0x9d00a9a8       0x9c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore.cpp.o)
-                0x9d00a9a8                DisplayCore::DisplayCore()
-                0x9d00a9a8                DisplayCore::DisplayCore()
+ .text._ZN11CariadC2Ev
+                0x9d00a9a8       0x9c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad.cpp.o)
+                0x9d00a9a8                Cariad::Cariad()
+                0x9d00a9a8                Cariad::Cariad()
 
-.text._ZN11DisplayCore18drawHorizontalLineEiiit
+.text._ZN11Cariad18drawHorizontalLineEiiit
                 0x9d00aa44       0x9c
- .text._ZN11DisplayCore18drawHorizontalLineEiiit
-                0x9d00aa44       0x9c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
-                0x9d00aa44                DisplayCore::drawHorizontalLine(int, int, int, unsigned short)
+ .text._ZN11Cariad18drawHorizontalLineEiiit
+                0x9d00aa44       0x9c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+                0x9d00aa44                Cariad::drawHorizontalLine(int, int, int, unsigned short)
 
-.text._ZN11DisplayCore16drawVerticalLineEiiit
+.text._ZN11Cariad16drawVerticalLineEiiit
                 0x9d00aae0       0x9c
- .text._ZN11DisplayCore16drawVerticalLineEiiit
-                0x9d00aae0       0x9c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Line.cpp.o)
-                0x9d00aae0                DisplayCore::drawVerticalLine(int, int, int, unsigned short)
+ .text._ZN11Cariad16drawVerticalLineEiiit
+                0x9d00aae0       0x9c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Line.cpp.o)
+                0x9d00aae0                Cariad::drawVerticalLine(int, int, int, unsigned short)
 
-.text._ZN11DisplayCore10fillScreenEt
+.text._ZN11Cariad10fillScreenEt
                 0x9d00ab7c       0x9c
- .text._ZN11DisplayCore10fillScreenEt
-                0x9d00ab7c       0x9c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Rectangle.cpp.o)
-                0x9d00ab7c                DisplayCore::fillScreen(unsigned short)
+ .text._ZN11Cariad10fillScreenEt
+                0x9d00ab7c       0x9c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Rectangle.cpp.o)
+                0x9d00ab7c                Cariad::fillScreen(unsigned short)
 
-.text._ZN11DisplayCore8setPixelEiiit
+.text._ZN11Cariad8setPixelEiiit
                 0x9d00ac18       0x98
- .text._ZN11DisplayCore8setPixelEiiit
-                0x9d00ac18       0x98 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
-                0x9d00ac18                DisplayCore::setPixel(int, int, int, unsigned short)
+ .text._ZN11Cariad8setPixelEiiit
+                0x9d00ac18       0x98 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+                0x9d00ac18                Cariad::setPixel(int, int, int, unsigned short)
 
-.text._ZN11DisplayCore10windowDataEt
+.text._ZN11Cariad10windowDataEt
                 0x9d00acb0       0x98
- .text._ZN11DisplayCore10windowDataEt
-                0x9d00acb0       0x98 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
-                0x9d00acb0                DisplayCore::windowData(unsigned short)
+ .text._ZN11Cariad10windowDataEt
+                0x9d00acb0       0x98 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+                0x9d00acb0                Cariad::windowData(unsigned short)
 
 .text.attachCoreTimerService
                 0x9d00ad48       0x98
@@ -3706,14 +3706,14 @@ LOAD data_init
 .text._Z10loadHeaderm
                 0x9d00b018       0x80
  .text._Z10loadHeaderm
-                0x9d00b018       0x80 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+                0x9d00b018       0x80 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
                 0x9d00b018                loadHeader(unsigned long)
 
-.text._ZN11DisplayCore5writeEPKhm
+.text._ZN11Cariad5writeEPKhm
                 0x9d00b098       0x80
- .text._ZN11DisplayCore5writeEPKhm
-                0x9d00b098       0x80 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d00b098                DisplayCore::write(unsigned char const*, unsigned long)
+ .text._ZN11Cariad5writeEPKhm
+                0x9d00b098       0x80 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d00b098                Cariad::write(unsigned char const*, unsigned long)
 
 .text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
                 0x9d00b118       0x7c
@@ -3745,11 +3745,11 @@ LOAD data_init
                 0x9d00b2fc       0x70 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
                 0x9d00b2fc                SSD1289::windowData(unsigned short*, int)
 
-.text._ZN11DisplayCore10windowDataEPKti
+.text._ZN11Cariad10windowDataEPKti
                 0x9d00b36c       0x70
- .text._ZN11DisplayCore10windowDataEPKti
-                0x9d00b36c       0x70 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
-                0x9d00b36c                DisplayCore::windowData(unsigned short const*, int)
+ .text._ZN11Cariad10windowDataEPKti
+                0x9d00b36c       0x70 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+                0x9d00b36c                Cariad::windowData(unsigned short const*, int)
 
 .text.__fpclassifyd
                 0x9d00b3dc       0x6c
@@ -3764,7 +3764,7 @@ LOAD data_init
                 0x9d00b448                __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
 
 .text.setup     0x9d00b4b0       0x64
- .text.setup    0x9d00b4b0       0x64 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .text.setup    0x9d00b4b0       0x64 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
                 0x9d00b4b0                setup
 
 .text.strcmp    0x9d00b514       0x64
@@ -3774,7 +3774,7 @@ LOAD data_init
 .text._Z8loadBodym
                 0x9d00b578       0x60
  .text._Z8loadBodym
-                0x9d00b578       0x60 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+                0x9d00b578       0x60 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
                 0x9d00b578                loadBody(unsigned long)
 
 .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
@@ -3793,11 +3793,11 @@ LOAD data_init
  .text.rand     0x9d00b68c       0x58 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libc.a(lib_a-rand.o)
                 0x9d00b68c                rand
 
-.text._ZN11DisplayCore18getPortInformationEhPm
+.text._ZN11Cariad18getPortInformationEhPm
                 0x9d00b6e4       0x54
- .text._ZN11DisplayCore18getPortInformationEhPm
-                0x9d00b6e4       0x54 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
-                0x9d00b6e4                DisplayCore::getPortInformation(unsigned char, unsigned long*)
+ .text._ZN11Cariad18getPortInformationEhPm
+                0x9d00b6e4       0x54 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+                0x9d00b6e4                Cariad::getPortInformation(unsigned char, unsigned long*)
 
 .text.turnOffPWM
                 0x9d00b738       0x54
@@ -3834,7 +3834,7 @@ LOAD data_init
                 0x9d00b91c                delay
 
 .rodata         0x9d00b968       0x48
- .rodata        0x9d00b968       0x48 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .rodata        0x9d00b968       0x48 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
 
 .rodata.digital_pin_to_port_PGM.digital_pin_to_port_PGM
                 0x9d00b9b0       0x48
@@ -3889,14 +3889,14 @@ LOAD data_init
                 0x9d00bc28                setIntVector
 
 .text._Z3clst   0x9d00bc64       0x38
- .text._Z3clst  0x9d00bc64       0x38 /home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
+ .text._Z3clst  0x9d00bc64       0x38 /home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.cpp.o
                 0x9d00bc64                cls(unsigned short)
 
-.text._ZN11DisplayCore12getRectangleEiiiiPt
+.text._ZN11Cariad12getRectangleEiiiiPt
                 0x9d00bc9c       0x38
- .text._ZN11DisplayCore12getRectangleEiiiiPt
-                0x9d00bc9c       0x38 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
-                0x9d00bc9c                DisplayCore::getRectangle(int, int, int, int, unsigned short*)
+ .text._ZN11Cariad12getRectangleEiiiiPt
+                0x9d00bc9c       0x38 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+                0x9d00bc9c                Cariad::getRectangle(int, int, int, int, unsigned short*)
 
 .text._configSystem
                 0x9d00bcd4       0x38
@@ -3918,11 +3918,11 @@ LOAD data_init
  .text.main_entry
                 0x9d00bd80       0x34 /tmp/ccQkghE3.o
 
-.text._ZN11DisplayCore10openWindowEiiii
+.text._ZN11Cariad10openWindowEiiii
                 0x9d00bdb4       0x34
- .text._ZN11DisplayCore10openWindowEiiii
-                0x9d00bdb4       0x34 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
-                0x9d00bdb4                DisplayCore::openWindow(int, int, int, int)
+ .text._ZN11Cariad10openWindowEiiii
+                0x9d00bdb4       0x34 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+                0x9d00bdb4                Cariad::openWindow(int, int, int, int)
 
 .rodata.port_to_tris_PGM.port_to_tris_PGM
                 0x9d00bde8       0x30
@@ -4010,11 +4010,11 @@ LOAD data_init
  .text.memset   0x9d00c048       0x24 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libc.a(lib_a-memset.o)
                 0x9d00c048                memset
 
-.text._ZN11DisplayCore8color565Ehhh
+.text._ZN11Cariad8color565Ehhh
                 0x9d00c06c       0x20
- .text._ZN11DisplayCore8color565Ehhh
-                0x9d00c06c       0x20 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(Color.cpp.o)
-                0x9d00c06c                DisplayCore::color565(unsigned char, unsigned char, unsigned char)
+ .text._ZN11Cariad8color565Ehhh
+                0x9d00c06c       0x20 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Color.cpp.o)
+                0x9d00c06c                Cariad::color565(unsigned char, unsigned char, unsigned char)
 
 .text.getIntVector
                 0x9d00c08c       0x20
@@ -4031,11 +4031,11 @@ LOAD data_init
                 0x9d00c0d0       0x1c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
                 0x9d00c0d0                SSD1289::openWindow(int, int, int, int)
 
-.text._ZN11DisplayCore12stringHeightEPKc
+.text._ZN11Cariad12stringHeightEPKc
                 0x9d00c0ec       0x1c
- .text._ZN11DisplayCore12stringHeightEPKc
-                0x9d00c0ec       0x1c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d00c0ec                DisplayCore::stringHeight(char const*)
+ .text._ZN11Cariad12stringHeightEPKc
+                0x9d00c0ec       0x1c /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d00c0ec                Cariad::stringHeight(char const*)
 
 .text.restoreInterrupts
                 0x9d00c108       0x1c
@@ -4079,23 +4079,23 @@ LOAD data_init
  .text          0x9d00c1d4       0x18 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libpic32.a(default-nmi-handler.o)
                 0x9d00c1d4                _nmi_handler
 
-.text._ZN11DisplayCore9getCursorEh
+.text._ZN11Cariad9getCursorEh
                 0x9d00c1ec       0x14
- .text._ZN11DisplayCore9getCursorEh
-                0x9d00c1ec       0x14 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d00c1ec                DisplayCore::getCursor(unsigned char)
+ .text._ZN11Cariad9getCursorEh
+                0x9d00c1ec       0x14 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d00c1ec                Cariad::getCursor(unsigned char)
 
-.text._ZN11DisplayCore12setTextColorEtt
+.text._ZN11Cariad12setTextColorEtt
                 0x9d00c200       0x14
- .text._ZN11DisplayCore12setTextColorEtt
-                0x9d00c200       0x14 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d00c200                DisplayCore::setTextColor(unsigned short, unsigned short)
+ .text._ZN11Cariad12setTextColorEtt
+                0x9d00c200       0x14 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d00c200                Cariad::setTextColor(unsigned short, unsigned short)
 
-.text._ZN11DisplayCore15invertTextColorEv
+.text._ZN11Cariad15invertTextColorEv
                 0x9d00c214       0x14
- .text._ZN11DisplayCore15invertTextColorEv
-                0x9d00c214       0x14 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d00c214                DisplayCore::invertTextColor()
+ .text._ZN11Cariad15invertTextColorEv
+                0x9d00c214       0x14 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d00c214                Cariad::invertTextColor()
 
 .text._ZSt9terminatev
                 0x9d00c228       0x14
@@ -4114,13 +4114,13 @@ LOAD data_init
                 0x9d00c250                SSD1289::windowData(unsigned short)
 
 .rodata         0x9d00c260       0x10
- .rodata        0x9d00c260       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Bezier.cpp.o)
+ .rodata        0x9d00c260       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Bezier.cpp.o)
 
-.text._ZN11DisplayCore11closeWindowEv
+.text._ZN11Cariad11closeWindowEv
                 0x9d00c270       0x10
- .text._ZN11DisplayCore11closeWindowEv
-                0x9d00c270       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Window.cpp.o)
-                0x9d00c270                DisplayCore::closeWindow()
+ .text._ZN11Cariad11closeWindowEv
+                0x9d00c270       0x10 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Window.cpp.o)
+                0x9d00c270                Cariad::closeWindow()
 
 .text._initCoreTimer
                 0x9d00c280       0x10
@@ -4159,11 +4159,11 @@ LOAD data_init
  .rodata.TWO52.TWO52
                 0x9d00c2e0       0x10 /home/matt/.uecide/compilers/pic32-tools-pre/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/size/fpu64/libm.a(lib_a-s_rint.o)
 
-.text._ZN11DisplayCore9setCursorEii
+.text._ZN11Cariad9setCursorEii
                 0x9d00c2f0        0xc
- .text._ZN11DisplayCore9setCursorEii
-                0x9d00c2f0        0xc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d00c2f0                DisplayCore::setCursor(int, int)
+ .text._ZN11Cariad9setCursorEii
+                0x9d00c2f0        0xc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d00c2f0                Cariad::setCursor(int, int)
 
 .text.millis    0x9d00c2fc        0xc
  .text.millis   0x9d00c2fc        0xc /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/libCore_api.a(wiring.c.o)
@@ -4197,71 +4197,71 @@ LOAD data_init
                 0x9d00c334        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_SSD1289.a(SSD1289.cpp.o)
                 0x9d00c334                SSD1289::closeWindow()
 
-.text._ZN11DisplayCore8getWidthEv
+.text._ZN11Cariad8getWidthEv
                 0x9d00c33c        0x8
- .text._ZN11DisplayCore8getWidthEv
-                0x9d00c33c        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
-                0x9d00c33c                DisplayCore::getWidth()
+ .text._ZN11Cariad8getWidthEv
+                0x9d00c33c        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+                0x9d00c33c                Cariad::getWidth()
 
-.text._ZN11DisplayCore9getHeightEv
+.text._ZN11Cariad9getHeightEv
                 0x9d00c344        0x8
- .text._ZN11DisplayCore9getHeightEv
-                0x9d00c344        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_LowLevel.cpp.o)
-                0x9d00c344                DisplayCore::getHeight()
+ .text._ZN11Cariad9getHeightEv
+                0x9d00c344        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_LowLevel.cpp.o)
+                0x9d00c344                Cariad::getHeight()
 
-.text._ZN11DisplayCore7colorAtEii
+.text._ZN11Cariad7colorAtEii
                 0x9d00c34c        0x8
- .text._ZN11DisplayCore7colorAtEii
-                0x9d00c34c        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Reading.cpp.o)
-                0x9d00c34c                DisplayCore::colorAt(int, int)
+ .text._ZN11Cariad7colorAtEii
+                0x9d00c34c        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Reading.cpp.o)
+                0x9d00c34c                Cariad::colorAt(int, int)
 
-.text._ZN11DisplayCore10setCursorXEi
+.text._ZN11Cariad10setCursorXEi
                 0x9d00c354        0x8
- .text._ZN11DisplayCore10setCursorXEi
-                0x9d00c354        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d00c354                DisplayCore::setCursorX(int)
+ .text._ZN11Cariad10setCursorXEi
+                0x9d00c354        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d00c354                Cariad::setCursorX(int)
 
-.text._ZN11DisplayCore10setCursorYEi
+.text._ZN11Cariad10setCursorYEi
                 0x9d00c35c        0x8
- .text._ZN11DisplayCore10setCursorYEi
-                0x9d00c35c        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d00c35c                DisplayCore::setCursorY(int)
+ .text._ZN11Cariad10setCursorYEi
+                0x9d00c35c        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d00c35c                Cariad::setCursorY(int)
 
-.text._ZN11DisplayCore10getCursorXEv
+.text._ZN11Cariad10getCursorXEv
                 0x9d00c364        0x8
- .text._ZN11DisplayCore10getCursorXEv
-                0x9d00c364        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d00c364                DisplayCore::getCursorX()
+ .text._ZN11Cariad10getCursorXEv
+                0x9d00c364        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d00c364                Cariad::getCursorX()
 
-.text._ZN11DisplayCore10getCursorYEv
+.text._ZN11Cariad10getCursorYEv
                 0x9d00c36c        0x8
- .text._ZN11DisplayCore10getCursorYEv
-                0x9d00c36c        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d00c36c                DisplayCore::getCursorY()
+ .text._ZN11Cariad10getCursorYEv
+                0x9d00c36c        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d00c36c                Cariad::getCursorY()
 
-.text._ZN11DisplayCore12setTextColorEt
+.text._ZN11Cariad12setTextColorEt
                 0x9d00c374        0x8
- .text._ZN11DisplayCore12setTextColorEt
-                0x9d00c374        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d00c374                DisplayCore::setTextColor(unsigned short)
+ .text._ZN11Cariad12setTextColorEt
+                0x9d00c374        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d00c374                Cariad::setTextColor(unsigned short)
 
-.text._ZN11DisplayCore11setTextWrapEh
+.text._ZN11Cariad11setTextWrapEh
                 0x9d00c37c        0x8
- .text._ZN11DisplayCore11setTextWrapEh
-                0x9d00c37c        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d00c37c                DisplayCore::setTextWrap(unsigned char)
+ .text._ZN11Cariad11setTextWrapEh
+                0x9d00c37c        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d00c37c                Cariad::setTextWrap(unsigned char)
 
-.text._ZN11DisplayCore7setFontEPKh
+.text._ZN11Cariad7setFontEPKh
                 0x9d00c384        0x8
- .text._ZN11DisplayCore7setFontEPKh
-                0x9d00c384        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d00c384                DisplayCore::setFont(unsigned char const*)
+ .text._ZN11Cariad7setFontEPKh
+                0x9d00c384        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d00c384                Cariad::setFont(unsigned char const*)
 
-.text._ZN11DisplayCore12getTextColorEv
+.text._ZN11Cariad12getTextColorEv
                 0x9d00c38c        0x8
- .text._ZN11DisplayCore12getTextColorEv
-                0x9d00c38c        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_DisplayCore.a(DisplayCore_Text.cpp.o)
-                0x9d00c38c                DisplayCore::getTextColor()
+ .text._ZN11Cariad12getTextColorEv
+                0x9d00c38c        0x8 /home/matt/.uecide/cache/chipkit/chipkit-wifire-fpu/librepo_Cariad.a(Cariad_Text.cpp.o)
+                0x9d00c38c                Cariad::getTextColor()
 
 .text._ZN5Print5printEPKc
                 0x9d00c394        0x8

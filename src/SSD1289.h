@@ -1,9 +1,9 @@
 #ifndef _SSD1289_H
 #define _SSD1289_H
 
-#include <DisplayCore.h>
+#include <Cariad.h>
 
-class SSD1289 : public DisplayCore {
+class SSD1289 : public Cariad {
     private:
         uint8_t pin_rs;
         uint8_t pin_rd;

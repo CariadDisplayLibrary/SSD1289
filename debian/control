@@ -1,16 +1,17 @@
-Source: libdisplaycore-driver-ssd1289
+Source: libcariad-driver-ssd1289
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-driver-ssd1289
+Package: libcariad-driver-ssd1289
+Replaces: libdisplaycore-driver-ssd1289
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Drivers
 XBSC-Subsubgroup: TFT
-Depends: libdisplaycore-core
+Depends: libcariad-core
 Provides: SSD1289.h
 Description: SSD1289 3.2 inch
  Generic SSD1289 based TFT screen (240x320) such as the

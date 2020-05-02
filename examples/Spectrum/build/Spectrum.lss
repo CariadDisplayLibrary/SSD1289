@@ -1,5 +1,5 @@
 
-/home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/build/Spectrum.elf:     file format elf32-tradlittlemips
+/home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/build/Spectrum.elf:     file format elf32-tradlittlemips
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
@@ -129,7 +129,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  62 .text.initADC 000003f8  9d004b80  9d004b80  00024b80  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 63 .text._ZN11DisplayCore8drawCharEiihtt 000003cc  9d004f78  9d004f78  00024f78  2**2
+ 63 .text._ZN11Cariad8drawCharEiihtt 000003cc  9d004f78  9d004f78  00024f78  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  64 .text.loop    000003c4  9d005344  9d005344  00025344  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -137,15 +137,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  66 .text._ZN7SSD128916initializeDeviceEv 00000314  9d005a9c  9d005a9c  00025a9c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 67 .text._ZN11DisplayCore12fillTriangleEiiiiiit 000002cc  9d005db0  9d005db0  00025db0  2**2
+ 67 .text._ZN11Cariad12fillTriangleEiiiiiit 000002cc  9d005db0  9d005db0  00025db0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 68 .text._ZN11DisplayCore10fillBezierEiiiiiiiiit 000002a4  9d00607c  9d00607c  0002607c  2**2
+ 68 .text._ZN11Cariad10fillBezierEiiiiiiiiit 000002a4  9d00607c  9d00607c  0002607c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 69 .text._ZN11DisplayCore10drawBezierEiiiiiiiiit 00000294  9d006320  9d006320  00026320  2**2
+ 69 .text._ZN11Cariad10drawBezierEiiiiiiiiit 00000294  9d006320  9d006320  00026320  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  70 .text._free_r 00000280  9d0065b4  9d0065b4  000265b4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 71 .text._ZN11DisplayCore10drawCircleEiiit 00000274  9d006834  9d006834  00026834  2**2
+ 71 .text._ZN11Cariad10drawCircleEiiit 00000274  9d006834  9d006834  00026834  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  72 .text         0000024c  9d006aa8  9d006aa8  00026aa8  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -157,25 +157,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  76 .text.__ieee754_sqrt 00000208  9d00738c  9d00738c  0002738c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 77 .text._ZN11DisplayCore16drawCircleHelperEiiiit 000001f0  9d007594  9d007594  00027594  2**2
+ 77 .text._ZN11Cariad16drawCircleHelperEiiiit 000001f0  9d007594  9d007594  00027594  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 78 .text._ZN11DisplayCore13drawRoundRectEiiiiit 000001d0  9d007784  9d007784  00027784  2**2
+ 78 .text._ZN11Cariad13drawRoundRectEiiiiit 000001d0  9d007784  9d007784  00027784  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  79 .text._scheduleTask 000001b0  9d007954  9d007954  00027954  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 80 .text._ZN11DisplayCore16fillCircleHelperEiiiiit 000001a0  9d007b04  9d007b04  00027b04  2**2
+ 80 .text._ZN11Cariad16fillCircleHelperEiiiiit 000001a0  9d007b04  9d007b04  00027b04  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 81 .text._ZN11DisplayCore8drawLineEiiiiit 000001a0  9d007ca4  9d007ca4  00027ca4  2**2
+ 81 .text._ZN11Cariad8drawLineEiiiiit 000001a0  9d007ca4  9d007ca4  00027ca4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 82 .text._ZN11DisplayCore12clipToScreenERiS0_S0_S0_ 0000018c  9d007e44  9d007e44  00027e44  2**2
+ 82 .text._ZN11Cariad12clipToScreenERiS0_S0_S0_ 0000018c  9d007e44  9d007e44  00027e44  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  83 .text.rint    00000188  9d007fd0  9d007fd0  00027fd0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 84 .text._ZN11DisplayCore5writeEh 00000184  9d008158  9d008158  00028158  2**2
+ 84 .text._ZN11Cariad5writeEh 00000184  9d008158  9d008158  00028158  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  85 .text._ZN7SSD1289C2Ehhhhhhhhhhhhhhhhhhhhh 00000180  9d0082dc  9d0082dc  000282dc  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 86 .text._ZN11DisplayCore8drawLineEiiiit 00000170  9d00845c  9d00845c  0002845c  2**2
+ 86 .text._ZN11Cariad8drawLineEiiiit 00000170  9d00845c  9d00845c  0002845c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  87 .text._ZN7SSD128911setRotationEi 0000016c  9d0085cc  9d0085cc  000285cc  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -189,7 +189,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  92 .text._Z21SoftPWMServoPinEnablemb 00000154  9d008cb4  9d008cb4  00028cb4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 93 .text._ZN11DisplayCore10drawBitmapEiiPKhiit 0000014c  9d008e08  9d008e08  00028e08  2**2
+ 93 .text._ZN11Cariad10drawBitmapEiiPKhiit 0000014c  9d008e08  9d008e08  00028e08  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  94 .text.scalbn  00000130  9d008f54  9d008f54  00028f54  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -199,41 +199,41 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  97 .text._ZL11CopyBuffersv 00000120  9d0092d0  9d0092d0  000292d0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
- 98 .text._ZN11DisplayCore13fillRoundRectEiiiiit 0000011c  9d0093f0  9d0093f0  000293f0  2**2
+ 98 .text._ZN11Cariad13fillRoundRectEiiiiit 0000011c  9d0093f0  9d0093f0  000293f0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
  99 .text._malloc_trim_r 0000011c  9d00950c  9d00950c  0002950c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-100 .text._ZN11DisplayCore10fillCircleEiiit 00000118  9d009628  9d009628  00029628  2**2
+100 .text._ZN11Cariad10fillCircleEiiit 00000118  9d009628  9d009628  00029628  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 101 .rodata       00000100  9d009740  9d009740  00029740  2**3
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-102 .text._ZN11DisplayCore8drawRGBAEiiPKtiit 000000fc  9d009840  9d009840  00029840  2**2
+102 .text._ZN11Cariad8drawRGBAEiiPKtiit 000000fc  9d009840  9d009840  00029840  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-103 .text._ZN11DisplayCore13drawRectangleEiiiit 000000fc  9d00993c  9d00993c  0002993c  2**2
+103 .text._ZN11Cariad13drawRectangleEiiiit 000000fc  9d00993c  9d00993c  0002993c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-104 .text._ZN11DisplayCore12drawTriangleEiiiiiit 000000f8  9d009a38  9d009a38  00029a38  2**2
+104 .text._ZN11Cariad12drawTriangleEiiiiiit 000000f8  9d009a38  9d009a38  00029a38  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-105 .text._ZN11DisplayCore7drawRGBEiiPKtii 000000ec  9d009b30  9d009b30  00029b30  2**2
+105 .text._ZN11Cariad7drawRGBEiiPKtii 000000ec  9d009b30  9d009b30  00029b30  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 106 .text._Z3Addm 000000e4  9d009c1c  9d009c1c  00029c1c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-107 .text._ZN11DisplayCore20translateCoordinatesEPiS0_ 000000e0  9d009d00  9d009d00  00029d00  2**2
+107 .text._ZN11Cariad20translateCoordinatesEPiS0_ 000000e0  9d009d00  9d009d00  00029d00  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 108 .text.digitalWrite 000000dc  9d009de0  9d009de0  00029de0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-109 .text._ZN11DisplayCore13fillRectangleEiiiit 000000d4  9d009ebc  9d009ebc  00029ebc  2**2
+109 .text._ZN11Cariad13fillRectangleEiiiit 000000d4  9d009ebc  9d009ebc  00029ebc  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 110 .text._ZN7SSD128913fillRectangleEiiiit 000000d0  9d009f90  9d009f90  00029f90  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-111 .text._ZN11DisplayCore9map3Dto2DER7point3d 000000cc  9d00a060  9d00a060  0002a060  2**2
+111 .text._ZN11Cariad9map3Dto2DER7point3d 000000cc  9d00a060  9d00a060  0002a060  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 112 .text._Z16SoftPWMServoInitv 000000c8  9d00a12c  9d00a12c  0002a12c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 113 .text._Z20SoftPWMServoRawWritemmb 000000c8  9d00a1f4  9d00a1f4  0002a1f4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-114 .text._ZN11DisplayCore3mixEtti 000000bc  9d00a2bc  9d00a2bc  0002a2bc  2**2
+114 .text._ZN11Cariad3mixEtti 000000bc  9d00a2bc  9d00a2bc  0002a2bc  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-115 .text._ZN11DisplayCore11stringWidthEPKc 000000bc  9d00a378  9d00a378  0002a378  2**2
+115 .text._ZN11Cariad11stringWidthEPKc 000000bc  9d00a378  9d00a378  0002a378  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 116 .text._sbrk   000000bc  9d00a434  9d00a434  0002a434  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -251,17 +251,17 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 123 .text._Z7silencem 0000009c  9d00a90c  9d00a90c  0002a90c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-124 .text._ZN11DisplayCoreC2Ev 0000009c  9d00a9a8  9d00a9a8  0002a9a8  2**2
+124 .text._ZN11CariadC2Ev 0000009c  9d00a9a8  9d00a9a8  0002a9a8  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-125 .text._ZN11DisplayCore18drawHorizontalLineEiiit 0000009c  9d00aa44  9d00aa44  0002aa44  2**2
+125 .text._ZN11Cariad18drawHorizontalLineEiiit 0000009c  9d00aa44  9d00aa44  0002aa44  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-126 .text._ZN11DisplayCore16drawVerticalLineEiiit 0000009c  9d00aae0  9d00aae0  0002aae0  2**2
+126 .text._ZN11Cariad16drawVerticalLineEiiit 0000009c  9d00aae0  9d00aae0  0002aae0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-127 .text._ZN11DisplayCore10fillScreenEt 0000009c  9d00ab7c  9d00ab7c  0002ab7c  2**2
+127 .text._ZN11Cariad10fillScreenEt 0000009c  9d00ab7c  9d00ab7c  0002ab7c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-128 .text._ZN11DisplayCore8setPixelEiiit 00000098  9d00ac18  9d00ac18  0002ac18  2**2
+128 .text._ZN11Cariad8setPixelEiiit 00000098  9d00ac18  9d00ac18  0002ac18  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-129 .text._ZN11DisplayCore10windowDataEt 00000098  9d00acb0  9d00acb0  0002acb0  2**2
+129 .text._ZN11Cariad10windowDataEt 00000098  9d00acb0  9d00acb0  0002acb0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 130 .text.attachCoreTimerService 00000098  9d00ad48  9d00ad48  0002ad48  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -275,7 +275,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 135 .text._Z10loadHeaderm 00000080  9d00b018  9d00b018  0002b018  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-136 .text._ZN11DisplayCore5writeEPKhm 00000080  9d00b098  9d00b098  0002b098  2**2
+136 .text._ZN11Cariad5writeEPKhm 00000080  9d00b098  9d00b098  0002b098  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 137 .text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj 0000007c  9d00b118  9d00b118  0002b118  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -287,7 +287,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 141 .text._ZN7SSD128910windowDataEPti 00000070  9d00b2fc  9d00b2fc  0002b2fc  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-142 .text._ZN11DisplayCore10windowDataEPKti 00000070  9d00b36c  9d00b36c  0002b36c  2**2
+142 .text._ZN11Cariad10windowDataEPKti 00000070  9d00b36c  9d00b36c  0002b36c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 143 .text.__fpclassifyd 0000006c  9d00b3dc  9d00b3dc  0002b3dc  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -305,7 +305,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 150 .text.rand    00000058  9d00b68c  9d00b68c  0002b68c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-151 .text._ZN11DisplayCore18getPortInformationEhPm 00000054  9d00b6e4  9d00b6e4  0002b6e4  2**2
+151 .text._ZN11Cariad18getPortInformationEhPm 00000054  9d00b6e4  9d00b6e4  0002b6e4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 152 .text.turnOffPWM 00000054  9d00b738  9d00b738  0002b738  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -343,7 +343,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 169 .text._Z3clst 00000038  9d00bc64  9d00bc64  0002bc64  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-170 .text._ZN11DisplayCore12getRectangleEiiiiPt 00000038  9d00bc9c  9d00bc9c  0002bc9c  2**2
+170 .text._ZN11Cariad12getRectangleEiiiiPt 00000038  9d00bc9c  9d00bc9c  0002bc9c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 171 .text._configSystem 00000038  9d00bcd4  9d00bcd4  0002bcd4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -353,7 +353,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 174 .text.main_entry 00000034  9d00bd80  9d00bd80  0002bd80  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-175 .text._ZN11DisplayCore10openWindowEiiii 00000034  9d00bdb4  9d00bdb4  0002bdb4  2**2
+175 .text._ZN11Cariad10openWindowEiiii 00000034  9d00bdb4  9d00bdb4  0002bdb4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 176 .rodata.port_to_tris_PGM.port_to_tris_PGM 00000030  9d00bde8  9d00bde8  0002bde8  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -387,7 +387,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 191 .text.memset  00000024  9d00c048  9d00c048  0002c048  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-192 .text._ZN11DisplayCore8color565Ehhh 00000020  9d00c06c  9d00c06c  0002c06c  2**2
+192 .text._ZN11Cariad8color565Ehhh 00000020  9d00c06c  9d00c06c  0002c06c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 193 .text.getIntVector 00000020  9d00c08c  9d00c08c  0002c08c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -395,7 +395,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 195 .text._ZN7SSD128910openWindowEiiii 0000001c  9d00c0d0  9d00c0d0  0002c0d0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-196 .text._ZN11DisplayCore12stringHeightEPKc 0000001c  9d00c0ec  9d00c0ec  0002c0ec  2**2
+196 .text._ZN11Cariad12stringHeightEPKc 0000001c  9d00c0ec  9d00c0ec  0002c0ec  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 197 .text.restoreInterrupts 0000001c  9d00c108  9d00c108  0002c108  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -413,11 +413,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 204 .text         00000030  9d00c1bc  9d00c1bc  0002c1bc  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-205 .text._ZN11DisplayCore9getCursorEh 00000014  9d00c1ec  9d00c1ec  0002c1ec  2**2
+205 .text._ZN11Cariad9getCursorEh 00000014  9d00c1ec  9d00c1ec  0002c1ec  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-206 .text._ZN11DisplayCore12setTextColorEtt 00000014  9d00c200  9d00c200  0002c200  2**2
+206 .text._ZN11Cariad12setTextColorEtt 00000014  9d00c200  9d00c200  0002c200  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-207 .text._ZN11DisplayCore15invertTextColorEv 00000014  9d00c214  9d00c214  0002c214  2**2
+207 .text._ZN11Cariad15invertTextColorEv 00000014  9d00c214  9d00c214  0002c214  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 208 .text._ZSt9terminatev 00000014  9d00c228  9d00c228  0002c228  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -427,7 +427,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 211 .rodata       00000010  9d00c260  9d00c260  0002c260  2**3
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-212 .text._ZN11DisplayCore11closeWindowEv 00000010  9d00c270  9d00c270  0002c270  2**2
+212 .text._ZN11Cariad11closeWindowEv 00000010  9d00c270  9d00c270  0002c270  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 213 .text._initCoreTimer 00000010  9d00c280  9d00c280  0002c280  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -443,7 +443,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 219 .rodata.TWO52.TWO52 00000010  9d00c2e0  9d00c2e0  0002c2e0  2**3
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-220 .text._ZN11DisplayCore9setCursorEii 0000000c  9d00c2f0  9d00c2f0  0002c2f0  2**2
+220 .text._ZN11Cariad9setCursorEii 0000000c  9d00c2f0  9d00c2f0  0002c2f0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 221 .text.millis  0000000c  9d00c2fc  9d00c2fc  0002c2fc  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -457,27 +457,27 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 226 .text._ZN7SSD128911closeWindowEv 00000008  9d00c334  9d00c334  0002c334  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-227 .text._ZN11DisplayCore8getWidthEv 00000008  9d00c33c  9d00c33c  0002c33c  2**2
+227 .text._ZN11Cariad8getWidthEv 00000008  9d00c33c  9d00c33c  0002c33c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-228 .text._ZN11DisplayCore9getHeightEv 00000008  9d00c344  9d00c344  0002c344  2**2
+228 .text._ZN11Cariad9getHeightEv 00000008  9d00c344  9d00c344  0002c344  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-229 .text._ZN11DisplayCore7colorAtEii 00000008  9d00c34c  9d00c34c  0002c34c  2**2
+229 .text._ZN11Cariad7colorAtEii 00000008  9d00c34c  9d00c34c  0002c34c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-230 .text._ZN11DisplayCore10setCursorXEi 00000008  9d00c354  9d00c354  0002c354  2**2
+230 .text._ZN11Cariad10setCursorXEi 00000008  9d00c354  9d00c354  0002c354  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-231 .text._ZN11DisplayCore10setCursorYEi 00000008  9d00c35c  9d00c35c  0002c35c  2**2
+231 .text._ZN11Cariad10setCursorYEi 00000008  9d00c35c  9d00c35c  0002c35c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-232 .text._ZN11DisplayCore10getCursorXEv 00000008  9d00c364  9d00c364  0002c364  2**2
+232 .text._ZN11Cariad10getCursorXEv 00000008  9d00c364  9d00c364  0002c364  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-233 .text._ZN11DisplayCore10getCursorYEv 00000008  9d00c36c  9d00c36c  0002c36c  2**2
+233 .text._ZN11Cariad10getCursorYEv 00000008  9d00c36c  9d00c36c  0002c36c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-234 .text._ZN11DisplayCore12setTextColorEt 00000008  9d00c374  9d00c374  0002c374  2**2
+234 .text._ZN11Cariad12setTextColorEt 00000008  9d00c374  9d00c374  0002c374  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-235 .text._ZN11DisplayCore11setTextWrapEh 00000008  9d00c37c  9d00c37c  0002c37c  2**2
+235 .text._ZN11Cariad11setTextWrapEh 00000008  9d00c37c  9d00c37c  0002c37c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-236 .text._ZN11DisplayCore7setFontEPKh 00000008  9d00c384  9d00c384  0002c384  2**2
+236 .text._ZN11Cariad7setFontEPKh 00000008  9d00c384  9d00c384  0002c384  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-237 .text._ZN11DisplayCore12getTextColorEv 00000008  9d00c38c  9d00c38c  0002c38c  2**2
+237 .text._ZN11Cariad12getTextColorEv 00000008  9d00c38c  9d00c38c  0002c38c  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
 238 .text._ZN5Print5printEPKc 00000008  9d00c394  9d00c394  0002c394  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
@@ -1020,7 +1020,7 @@ Disassembly of section .startup:
 
 Disassembly of section .text:
 
-9d001540 <_ZN11DisplayCore11startBufferEv>:
+9d001540 <_ZN11Cariad11startBufferEv>:
          *  In buffered mode, where applicable, any data that would be sent to
          *  the screen is delayed until buffered mode is ended.  This generally
          *  has no effect on most screens, but those that use their own driver
@@ -1030,7 +1030,7 @@ Disassembly of section .text:
 9d001540:03e00008 jrra
 9d001544:00000000 nop
 
-9d001548 <_ZN11DisplayCore9endBufferEv>:
+9d001548 <_ZN11Cariad9endBufferEv>:
         /*! End buffered mode
          *  =================
          *  Any changes that are pending will be pushed out to the screen. See
@@ -1050,7 +1050,7 @@ Disassembly of section .text:
 9d001550:03e00008 jrra
 9d001554:00000000 nop
 
-9d001558 <_ZN11DisplayCore16disableBacklightEv>:
+9d001558 <_ZN11Cariad16disableBacklightEv>:
         /*! Disable Back Light
          *  ==================
          *  For devices with their own backlight control this function will turn
@@ -1060,7 +1060,7 @@ Disassembly of section .text:
 9d001558:03e00008 jrra
 9d00155c:00000000 nop
 
-9d001560 <_ZN11DisplayCore12setBacklightEi>:
+9d001560 <_ZN11Cariad12setBacklightEi>:
         /*! Set Back Light Brightness
          *  =========================
          *  For devices with their own backlight control this function will set the
@@ -1240,7 +1240,7 @@ Disassembly of section .rodata:
 9d00176c <_ZTS7SSD1289>:
 9d00176c:44535337 39383231 00000000              7SSD1289....
 
-9d001778 <_ZTV11DisplayCore>:
+9d001778 <_ZTV11Cariad>:
 9d001778:00000000 9d001860 9d008158 9d00b098     ....`...X.......
 9d001788:9d006834 9d009628 9d00845c 9d007ca4     4h..(...\....|..
 9d001798:9d00993c 9d007784 9d0093f0 9d009a38     <....w......8...
@@ -1258,8 +1258,8 @@ Disassembly of section .rodata:
 9d001858:9d00c33c 9d00c344 9d0018c8 9d00186c     <...D.......l...
 9d001868:9d00187c                                |...
 
-9d00186c <_ZTS11DisplayCore>:
-9d00186c:69443131 616c7073 726f4379 00000065     11DisplayCore...
+9d00186c <_ZTS11Cariad>:
+9d00186c:69443131 616c7073 726f4379 00000065     11Cariad...
 
 9d00187c <_ZTI5Print>:
 9d00187c:9d001898 9d001884 69725035 0000746e     ........5Print..
@@ -4078,15 +4078,15 @@ void initADC(void)
 9d004f70:03e00008 jrra
 9d004f74:00000000 nop
 
-Disassembly of section .text._ZN11DisplayCore8drawCharEiihtt:
+Disassembly of section .text._ZN11Cariad8drawCharEiihtt:
 
-9d004f78 <_ZN11DisplayCore8drawCharEiihtt>:
+9d004f78 <_ZN11Cariad8drawCharEiihtt>:
  *
  *  Example:
  *
  *      tft.drawChar(30, 30, 'Q', Color::Red, Color::Blue);
  */
-int DisplayCore::drawChar(int x, int y, unsigned char c, color_t color, color_t bg) {
+int Cariad::drawChar(int x, int y, unsigned char c, color_t color, color_t bg) {
 9d004f78:27bdffa8 addiusp,sp,-88
 9d004f7c:afbf0054 swra,84(sp)
 9d004f80:afbe0050 sws8,80(sp)
@@ -4564,7 +4564,7 @@ int DisplayCore::drawChar(int x, int y, unsigned char c, color_t color, color_t 
 9d00530c <.LVL98>:
  *      tft.drawChar(30, 30, 'Q', Color::Red, Color::Blue);
  */
-int DisplayCore::drawChar(int x, int y, unsigned char c, color_t color, color_t bg) {
+int Cariad::drawChar(int x, int y, unsigned char c, color_t color, color_t bg) {
 
     if (font == NULL) {
         return 0;
@@ -4639,7 +4639,7 @@ for (int i = 0; i < 2; i++) {
 tft.setCursor(32, 208);
 9d005384:27848338 addiua0,gp,-31944
 9d005388:24050020 lia1,32
-9d00538c:0f4030bc jal9d00c2f0 <_ZN11DisplayCore9setCursorEii>
+9d00538c:0f4030bc jal9d00c2f0 <_ZN11Cariad9setCursorEii>
 9d005390:240600d0 lia2,208
 
 9d005394 <.LVL108>:
@@ -4686,7 +4686,7 @@ tft.setTextColor(Color::Black, Color::White);
 tft.print("K");
 9d0053d0:27848338 addiua0,gp,-31944
 9d0053d4:24050020 lia1,32
-9d0053d8:0f4030bc jal9d00c2f0 <_ZN11DisplayCore9setCursorEii>
+9d0053d8:0f4030bc jal9d00c2f0 <_ZN11Cariad9setCursorEii>
 9d0053dc:240600d0 lia2,208
 
 9d0053e0 <.LVL114>:
@@ -4711,7 +4711,7 @@ delay(500);
 tft.setTextColor(Color::Black, Color::White);
 9d005404:27848338 addiua0,gp,-31944
 9d005408:24050020 lia1,32
-9d00540c:0f4030bc jal9d00c2f0 <_ZN11DisplayCore9setCursorEii>
+9d00540c:0f4030bc jal9d00c2f0 <_ZN11Cariad9setCursorEii>
 9d005410:240600d0 lia2,208
 
 9d005414 <.LVL118>:
@@ -4760,7 +4760,7 @@ tft.setTextColor(Color::White, Color::Black);
 tft.print("L");
 9d005450:27848338 addiua0,gp,-31944
 9d005454:24050020 lia1,32
-9d005458:0f4030bc jal9d00c2f0 <_ZN11DisplayCore9setCursorEii>
+9d005458:0f4030bc jal9d00c2f0 <_ZN11Cariad9setCursorEii>
 9d00545c:240600d0 lia2,208
 
 9d005460 <.LVL124>:
@@ -4793,7 +4793,7 @@ tft.setTextColor(Color::Black, Color::White);
 tft.print("L");
 9d00547c:27848338 addiua0,gp,-31944
 9d005480:24050048 lia1,72
-9d005484:0f4030bc jal9d00c2f0 <_ZN11DisplayCore9setCursorEii>
+9d005484:0f4030bc jal9d00c2f0 <_ZN11Cariad9setCursorEii>
 9d005488:240600d0 lia2,208
 
 9d00548c <.LVL128>:
@@ -4818,7 +4818,7 @@ delay(500);
 tft.setTextColor(Color::Black, Color::White);
 9d0054b0:27848338 addiua0,gp,-31944
 9d0054b4:24050048 lia1,72
-9d0054b8:0f4030bc jal9d00c2f0 <_ZN11DisplayCore9setCursorEii>
+9d0054b8:0f4030bc jal9d00c2f0 <_ZN11Cariad9setCursorEii>
 9d0054bc:240600d0 lia2,208
 
 9d0054c0 <.LVL132>:
@@ -4867,7 +4867,7 @@ tft.setTextColor(Color::White, Color::Black);
 tft.print("L");
 9d0054fc:27848338 addiua0,gp,-31944
 9d005500:24050048 lia1,72
-9d005504:0f4030bc jal9d00c2f0 <_ZN11DisplayCore9setCursorEii>
+9d005504:0f4030bc jal9d00c2f0 <_ZN11Cariad9setCursorEii>
 9d005508:240600d0 lia2,208
 
 9d00550c <.LVL138>:
@@ -4885,7 +4885,7 @@ tft.setTextColor(Color::Black, Color::White);
 tft.print("L");
 9d00551c:27848338 addiua0,gp,-31944
 9d005520:24050050 lia1,80
-9d005524:0f4030bc jal9d00c2f0 <_ZN11DisplayCore9setCursorEii>
+9d005524:0f4030bc jal9d00c2f0 <_ZN11Cariad9setCursorEii>
 9d005528:240600d0 lia2,208
 
 9d00552c <.LVL141>:
@@ -4910,7 +4910,7 @@ delay(500);
 tft.setTextColor(Color::Black, Color::White);
 9d005550:27848338 addiua0,gp,-31944
 9d005554:24050050 lia1,80
-9d005558:0f4030bc jal9d00c2f0 <_ZN11DisplayCore9setCursorEii>
+9d005558:0f4030bc jal9d00c2f0 <_ZN11Cariad9setCursorEii>
 9d00555c:240600d0 lia2,208
 
 9d005560 <.LVL145>:
@@ -4944,7 +4944,7 @@ tft.setTextColor(Color::White, Color::Black);
 tft.print("L");
 9d005594:27848338 addiua0,gp,-31944
 9d005598:24050050 lia1,80
-9d00559c:0f4030bc jal9d00c2f0 <_ZN11DisplayCore9setCursorEii>
+9d00559c:0f4030bc jal9d00c2f0 <_ZN11Cariad9setCursorEii>
 9d0055a0:240600d0 lia2,208
 
 9d0055a4 <.LVL150>:
@@ -4962,7 +4962,7 @@ tft.setTextColor(Color::Black, Color::White);
 tft.print("L");
 9d0055b4:27848338 addiua0,gp,-31944
 9d0055b8:24050058 lia1,88
-9d0055bc:0f4030bc jal9d00c2f0 <_ZN11DisplayCore9setCursorEii>
+9d0055bc:0f4030bc jal9d00c2f0 <_ZN11Cariad9setCursorEii>
 9d0055c0:240600d0 lia2,208
 
 9d0055c4 <.LVL153>:
@@ -4987,7 +4987,7 @@ delay(500);
 
 9d0055e8:27848338 addiua0,gp,-31944
 9d0055ec:24050058 lia1,88
-9d0055f0:0f4030bc jal9d00c2f0 <_ZN11DisplayCore9setCursorEii>
+9d0055f0:0f4030bc jal9d00c2f0 <_ZN11Cariad9setCursorEii>
 9d0055f4:240600d0 lia2,208
 
 9d0055f8 <.LVL157>:
@@ -5051,7 +5051,7 @@ loadBody(3000);
 cls(Color::Black);
 9d005648:27848338 addiua0,gp,-31944
 9d00564c:24050020 lia1,32
-9d005650:0f4030bc jal9d00c2f0 <_ZN11DisplayCore9setCursorEii>
+9d005650:0f4030bc jal9d00c2f0 <_ZN11Cariad9setCursorEii>
 9d005654:24060020 lia2,32
 
 9d005658 <.LVL166>:
@@ -5533,7 +5533,7 @@ void SSD1289::initializeDevice() {
     port_rs = getPortInformation(pin_rs, &mask_rs);
 9d005ba8:02002021 movea0,s0
 9d005bac:920500da lbua1,218(s0)
-9d005bb0:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005bb0:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005bb4:2606013c addiua2,s0,316
 
 9d005bb8 <.LVL41>:
@@ -5541,7 +5541,7 @@ void SSD1289::initializeDevice() {
     port_rd = getPortInformation(pin_rd, &mask_rd);
 9d005bbc:02002021 movea0,s0
 9d005bc0:920500db lbua1,219(s0)
-9d005bc4:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005bc4:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005bc8:26060140 addiua2,s0,320
 
 9d005bcc <.LVL42>:
@@ -5549,7 +5549,7 @@ void SSD1289::initializeDevice() {
     port_wr = getPortInformation(pin_wr, &mask_wr);
 9d005bd0:02002021 movea0,s0
 9d005bd4:920500dc lbua1,220(s0)
-9d005bd8:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005bd8:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005bdc:26060144 addiua2,s0,324
 
 9d005be0 <.LVL43>:
@@ -5557,7 +5557,7 @@ void SSD1289::initializeDevice() {
     port_d0 = getPortInformation(pin_d0, &mask_d0);
 9d005be4:02002021 movea0,s0
 9d005be8:920500df lbua1,223(s0)
-9d005bec:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005bec:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005bf0:26060148 addiua2,s0,328
 
 9d005bf4 <.LVL44>:
@@ -5565,7 +5565,7 @@ void SSD1289::initializeDevice() {
     port_d1 = getPortInformation(pin_d1, &mask_d1);
 9d005bf8:02002021 movea0,s0
 9d005bfc:920500e0 lbua1,224(s0)
-9d005c00:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005c00:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005c04:2606014c addiua2,s0,332
 
 9d005c08 <.LVL45>:
@@ -5573,7 +5573,7 @@ void SSD1289::initializeDevice() {
     port_d2 = getPortInformation(pin_d2, &mask_d2);
 9d005c0c:02002021 movea0,s0
 9d005c10:920500e1 lbua1,225(s0)
-9d005c14:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005c14:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005c18:26060150 addiua2,s0,336
 
 9d005c1c <.LVL46>:
@@ -5581,7 +5581,7 @@ void SSD1289::initializeDevice() {
     port_d3 = getPortInformation(pin_d3, &mask_d3);
 9d005c20:02002021 movea0,s0
 9d005c24:920500e2 lbua1,226(s0)
-9d005c28:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005c28:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005c2c:26060154 addiua2,s0,340
 
 9d005c30 <.LVL47>:
@@ -5589,7 +5589,7 @@ void SSD1289::initializeDevice() {
     port_d4 = getPortInformation(pin_d4, &mask_d4);
 9d005c34:02002021 movea0,s0
 9d005c38:920500e3 lbua1,227(s0)
-9d005c3c:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005c3c:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005c40:26060158 addiua2,s0,344
 
 9d005c44 <.LVL48>:
@@ -5597,7 +5597,7 @@ void SSD1289::initializeDevice() {
     port_d5 = getPortInformation(pin_d5, &mask_d5);
 9d005c48:02002021 movea0,s0
 9d005c4c:920500e4 lbua1,228(s0)
-9d005c50:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005c50:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005c54:2606015c addiua2,s0,348
 
 9d005c58 <.LVL49>:
@@ -5605,7 +5605,7 @@ void SSD1289::initializeDevice() {
     port_d6 = getPortInformation(pin_d6, &mask_d6);
 9d005c5c:02002021 movea0,s0
 9d005c60:920500e5 lbua1,229(s0)
-9d005c64:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005c64:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005c68:26060160 addiua2,s0,352
 
 9d005c6c <.LVL50>:
@@ -5613,7 +5613,7 @@ void SSD1289::initializeDevice() {
     port_d7 = getPortInformation(pin_d7, &mask_d7);
 9d005c70:02002021 movea0,s0
 9d005c74:920500e6 lbua1,230(s0)
-9d005c78:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005c78:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005c7c:26060164 addiua2,s0,356
 
 9d005c80 <.LVL51>:
@@ -5621,7 +5621,7 @@ void SSD1289::initializeDevice() {
     port_d8 = getPortInformation(pin_d8, &mask_d8);
 9d005c84:02002021 movea0,s0
 9d005c88:920500e7 lbua1,231(s0)
-9d005c8c:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005c8c:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005c90:26060168 addiua2,s0,360
 
 9d005c94 <.LVL52>:
@@ -5629,7 +5629,7 @@ void SSD1289::initializeDevice() {
     port_d9 = getPortInformation(pin_d9, &mask_d9);
 9d005c98:02002021 movea0,s0
 9d005c9c:920500e8 lbua1,232(s0)
-9d005ca0:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005ca0:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005ca4:2606016c addiua2,s0,364
 
 9d005ca8 <.LVL53>:
@@ -5637,7 +5637,7 @@ void SSD1289::initializeDevice() {
     port_d10 = getPortInformation(pin_d10, &mask_d10);
 9d005cac:02002021 movea0,s0
 9d005cb0:920500e9 lbua1,233(s0)
-9d005cb4:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005cb4:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005cb8:26060170 addiua2,s0,368
 
 9d005cbc <.LVL54>:
@@ -5645,7 +5645,7 @@ void SSD1289::initializeDevice() {
     port_d11 = getPortInformation(pin_d11, &mask_d11);
 9d005cc0:02002021 movea0,s0
 9d005cc4:920500ea lbua1,234(s0)
-9d005cc8:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005cc8:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005ccc:26060174 addiua2,s0,372
 
 9d005cd0 <.LVL55>:
@@ -5653,7 +5653,7 @@ void SSD1289::initializeDevice() {
     port_d12 = getPortInformation(pin_d12, &mask_d12);
 9d005cd4:02002021 movea0,s0
 9d005cd8:920500eb lbua1,235(s0)
-9d005cdc:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005cdc:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005ce0:26060178 addiua2,s0,376
 
 9d005ce4 <.LVL56>:
@@ -5661,7 +5661,7 @@ void SSD1289::initializeDevice() {
     port_d13 = getPortInformation(pin_d13, &mask_d13);
 9d005ce8:02002021 movea0,s0
 9d005cec:920500ec lbua1,236(s0)
-9d005cf0:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005cf0:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005cf4:2606017c addiua2,s0,380
 
 9d005cf8 <.LVL57>:
@@ -5669,7 +5669,7 @@ void SSD1289::initializeDevice() {
     port_d14 = getPortInformation(pin_d14, &mask_d14);
 9d005cfc:02002021 movea0,s0
 9d005d00:920500ed lbua1,237(s0)
-9d005d04:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005d04:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005d08:26060180 addiua2,s0,384
 
 9d005d0c <.LVL58>:
@@ -5677,7 +5677,7 @@ void SSD1289::initializeDevice() {
     port_d15 = getPortInformation(pin_d15, &mask_d15);
 9d005d10:02002021 movea0,s0
 9d005d14:920500ee lbua1,238(s0)
-9d005d18:0f402db9 jal9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>
+9d005d18:0f402db9 jal9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>
 9d005d1c:26060184 addiua2,s0,388
 
 9d005d20 <.LVL59>:
@@ -5763,7 +5763,7 @@ void SSD1289::initializeDevice() {
 9d005da8:0b401134 j9d0044d0 <_ZN7SSD128912startDisplayEv>
 9d005dac:27bd0018 addiusp,sp,24
 
-Disassembly of section .text._ZN11DisplayCore12fillTriangleEiiiiiit:
+Disassembly of section .text._ZN11Cariad12fillTriangleEiiiiiit:
 
 9d005db0 <L0>:
  *
@@ -5771,7 +5771,7 @@ Disassembly of section .text._ZN11DisplayCore12fillTriangleEiiiiiit:
  *
  *      tft.fillTriangle(40, 10, 60, 30, 20, 30, Color::Cyan);
  */
-void DisplayCore::fillTriangle ( int x0, int y0, int x1, int y1, int x2, int y2, color_t color) {
+void Cariad::fillTriangle ( int x0, int y0, int x1, int y1, int x2, int y2, color_t color) {
 9d005db0:27bdffa0 addiusp,sp,-96
 9d005db4:afbf005c swra,92(sp)
 9d005db8:afbe0058 sws8,88(sp)
@@ -6141,9 +6141,9 @@ static void inline swap(int &i0, int &i1) {
 9d006074:03200008 jrt9
 9d006078:27bd0060 addiusp,sp,96
 
-Disassembly of section .text._ZN11DisplayCore10fillBezierEiiiiiiiiit:
+Disassembly of section .text._ZN11Cariad10fillBezierEiiiiiiiiit:
 
-9d00607c <_ZN11DisplayCore10fillBezierEiiiiiiiiit>:
+9d00607c <_ZN11Cariad10fillBezierEiiiiiiiiit>:
     int x1, int y1,
     int x2, int y2,
     int x3, int y3,
@@ -6469,9 +6469,9 @@ Disassembly of section .text._ZN11DisplayCore10fillBezierEiiiiiiiiit:
 9d006318:03200008 jrt9
 9d00631c:27bd00c0 addiusp,sp,192
 
-Disassembly of section .text._ZN11DisplayCore10drawBezierEiiiiiiiiit:
+Disassembly of section .text._ZN11Cariad10drawBezierEiiiiiiiiit:
 
-9d006320 <_ZN11DisplayCore10drawBezierEiiiiiiiiit>:
+9d006320 <_ZN11Cariad10drawBezierEiiiiiiiiit>:
     int x1, int y1,
     int x2, int y2,
     int x3, int y3,
@@ -6956,7 +6956,7 @@ Disassembly of section .text._free_r:
 9d00682c:03e00008 jrra
 9d006830:27bd0020 addiusp,sp,32
 
-Disassembly of section .text._ZN11DisplayCore10drawCircleEiiit:
+Disassembly of section .text._ZN11Cariad10drawCircleEiiit:
 
 9d006834 <L0>:
  *
@@ -6964,7 +6964,7 @@ Disassembly of section .text._ZN11DisplayCore10drawCircleEiiit:
  *
  *      tft.drawCircle(50, 50, 20, Color::Red);
  */
-void DisplayCore::drawCircle(int x0, int y0, int r, color_t color) {
+void Cariad::drawCircle(int x0, int y0, int r, color_t color) {
 9d006834:27bdffb8 addiusp,sp,-72
 9d006838:afbf0044 swra,68(sp)
 9d00683c:afbe0040 sws8,64(sp)
@@ -8233,15 +8233,15 @@ Disassembly of section .text.__ieee754_sqrt:
 9d00758c:03e00008 jrra
 9d007590:00000000 nop
 
-Disassembly of section .text._ZN11DisplayCore16drawCircleHelperEiiiit:
+Disassembly of section .text._ZN11Cariad16drawCircleHelperEiiiit:
 
-9d007594 <_ZN11DisplayCore16drawCircleHelperEiiiit>:
+9d007594 <_ZN11Cariad16drawCircleHelperEiiiit>:
         }
     }
     endBuffer();
 }
 
-void DisplayCore::drawCircleHelper( int x0, int y0, int r, int cornername, color_t color) {
+void Cariad::drawCircleHelper( int x0, int y0, int r, int cornername, color_t color) {
 9d007594:27bdffb8 addiusp,sp,-72
 9d007598:afbf0044 swra,68(sp)
 9d00759c:afbe0040 sws8,64(sp)
@@ -8486,15 +8486,15 @@ void DisplayCore::drawCircleHelper( int x0, int y0, int r, int cornername, color
 9d00777c:03200008 jrt9
 9d007780:27bd0048 addiusp,sp,72
 
-Disassembly of section .text._ZN11DisplayCore13drawRoundRectEiiiiit:
+Disassembly of section .text._ZN11Cariad13drawRoundRectEiiiiit:
 
-9d007784 <_ZN11DisplayCore13drawRoundRectEiiiiit>:
+9d007784 <_ZN11Cariad13drawRoundRectEiiiiit>:
  *
  *  Example:
  *
  *      tft.drawRoundRect(10, 10, 100, 50, 4, Color::Yellow);
  */
-void DisplayCore::drawRoundRect(int x, int y, int w, int h, int r, color_t color) {
+void Cariad::drawRoundRect(int x, int y, int w, int h, int r, color_t color) {
 9d007784:27bdffb8 addiusp,sp,-72
 9d007788:afbf0044 swra,68(sp)
 9d00778c:afbe0040 sws8,64(sp)
@@ -8588,7 +8588,7 @@ void DisplayCore::drawRoundRect(int x, int y, int w, int h, int r, color_t color
 9d007894:02002021 movea0,s0
 9d007898:02602821 movea1,s3
 9d00789c:02803021 movea2,s4
-9d0078a0:0f401d65 jal9d007594 <_ZN11DisplayCore16drawCircleHelperEiiiit>
+9d0078a0:0f401d65 jal9d007594 <_ZN11Cariad16drawCircleHelperEiiiit>
 9d0078a4:02203821 movea3,s1
 
 9d0078a8 <.LVL40>:
@@ -8601,7 +8601,7 @@ void DisplayCore::drawRoundRect(int x, int y, int w, int h, int r, color_t color
 9d0078bc:02002021 movea0,s0
 9d0078c0:02a02821 movea1,s5
 9d0078c4:02803021 movea2,s4
-9d0078c8:0f401d65 jal9d007594 <_ZN11DisplayCore16drawCircleHelperEiiiit>
+9d0078c8:0f401d65 jal9d007594 <_ZN11Cariad16drawCircleHelperEiiiit>
 9d0078cc:02203821 movea3,s1
 
 9d0078d0 <.LVL41>:
@@ -8614,7 +8614,7 @@ void DisplayCore::drawRoundRect(int x, int y, int w, int h, int r, color_t color
 9d0078e4:02002021 movea0,s0
 9d0078e8:02a02821 movea1,s5
 9d0078ec:02803021 movea2,s4
-9d0078f0:0f401d65 jal9d007594 <_ZN11DisplayCore16drawCircleHelperEiiiit>
+9d0078f0:0f401d65 jal9d007594 <_ZN11Cariad16drawCircleHelperEiiiit>
 9d0078f4:02203821 movea3,s1
 
 9d0078f8 <.LVL42>:
@@ -8625,7 +8625,7 @@ void DisplayCore::drawRoundRect(int x, int y, int w, int h, int r, color_t color
 9d007904:02002021 movea0,s0
 9d007908:02602821 movea1,s3
 9d00790c:02803021 movea2,s4
-9d007910:0f401d65 jal9d007594 <_ZN11DisplayCore16drawCircleHelperEiiiit>
+9d007910:0f401d65 jal9d007594 <_ZN11Cariad16drawCircleHelperEiiiit>
 9d007914:02203821 movea3,s1
 
 9d007918 <.LVL43>:
@@ -8922,13 +8922,13 @@ tmsNextEvent = tmsCur + dtmsNext;
 9d007afc:03e00008 jrra
 9d007b00:27bd0030 addiusp,sp,48
 
-Disassembly of section .text._ZN11DisplayCore16fillCircleHelperEiiiiit:
+Disassembly of section .text._ZN11Cariad16fillCircleHelperEiiiiit:
 
-9d007b04 <_ZN11DisplayCore16fillCircleHelperEiiiiit>:
+9d007b04 <_ZN11Cariad16fillCircleHelperEiiiiit>:
 }
 
 /*! This is a helper function.  It is used to draw segments of a filled circle. */
-void DisplayCore::fillCircleHelper(int x0, int y0, int r, int cornername, int delta, color_t color) {
+void Cariad::fillCircleHelper(int x0, int y0, int r, int cornername, int delta, color_t color) {
 9d007b04:27bdffb0 addiusp,sp,-80
 9d007b08:afbf004c swra,76(sp)
 9d007b0c:afbe0048 sws8,72(sp)
@@ -9132,15 +9132,15 @@ void DisplayCore::fillCircleHelper(int x0, int y0, int r, int cornername, int de
 9d007c9c:03200008 jrt9
 9d007ca0:27bd0050 addiusp,sp,80
 
-Disassembly of section .text._ZN11DisplayCore8drawLineEiiiiit:
+Disassembly of section .text._ZN11Cariad8drawLineEiiiiit:
 
-9d007ca4 <_ZN11DisplayCore8drawLineEiiiiit>:
+9d007ca4 <_ZN11Cariad8drawLineEiiiiit>:
  *  Example:
  *
  *      tft.drawLine(10, 10, 40, 60, 4, Color::Green);
  */
 // bresenham's algorithm - thx wikpedia
-void DisplayCore::drawLine(int x0, int y0, int x1, int y1, int width, color_t color) {
+void Cariad::drawLine(int x0, int y0, int x1, int y1, int width, color_t color) {
 9d007ca4:27bdffb0 addiusp,sp,-80
 9d007ca8:afbf004c swra,76(sp)
 9d007cac:afbe0048 sws8,72(sp)
@@ -9393,15 +9393,15 @@ static void inline swap(int &i0, int &i1) {
 9d007e3c:03200008 jrt9
 9d007e40:27bd0050 addiusp,sp,80
 
-Disassembly of section .text._ZN11DisplayCore12clipToScreenERiS0_S0_S0_:
+Disassembly of section .text._ZN11Cariad12clipToScreenERiS0_S0_S0_:
 
-9d007e44 <_ZN11DisplayCore12clipToScreenERiS0_S0_S0_>:
+9d007e44 <_ZN11Cariad12clipToScreenERiS0_S0_S0_>:
     _clip_y0 = 0;
     _clip_x1 = getWidth() - 1;
     _clip_y1 = getHeight() - 1;
 }
 
-boolean DisplayCore::clipToScreen(int &x, int &y, int &w, int &h) {
+boolean Cariad::clipToScreen(int &x, int &y, int &w, int &h) {
 9d007e44:27bdffd0 addiusp,sp,-48
 9d007e48:afbf002c swra,44(sp)
 9d007e4c:afb50028 sws5,40(sp)
@@ -9416,7 +9416,7 @@ boolean DisplayCore::clipToScreen(int &x, int &y, int &w, int &h) {
 9d007e70:00e0a021 moves4,a3
     if (x < 0) {
 9d007e74:8ca20000 lwv0,0(a1)
-9d007e78:04400006 bltzv0,9d007e94 <_ZN11DisplayCore12clipToScreenERiS0_S0_S0_+0x50>
+9d007e78:04400006 bltzv0,9d007e94 <_ZN11Cariad12clipToScreenERiS0_S0_S0_+0x50>
 9d007e7c:8fb10040 lws1,64(sp)
         if (w <= 0) {
             return false;
@@ -9433,7 +9433,7 @@ boolean DisplayCore::clipToScreen(int &x, int &y, int &w, int &h) {
     _clip_y1 = getHeight() - 1;
 }
 
-boolean DisplayCore::clipToScreen(int &x, int &y, int &w, int &h) {
+boolean Cariad::clipToScreen(int &x, int &y, int &w, int &h) {
     if (x < 0) {
         w += x;
 9d007e94:8ce30000 lwv1,0(a3)
@@ -9443,7 +9443,7 @@ boolean DisplayCore::clipToScreen(int &x, int &y, int &w, int &h) {
 9d007ea0:aca00000 swzero,0(a1)
         if (w <= 0) {
 9d007ea4:8ce20000 lwv0,0(a3)
-9d007ea8:5c40fff6 bgtzlv0,9d007e84 <_ZN11DisplayCore12clipToScreenERiS0_S0_S0_+0x40>
+9d007ea8:5c40fff6 bgtzlv0,9d007e84 <_ZN11Cariad12clipToScreenERiS0_S0_S0_+0x40>
 9d007eac:8e420000 lwv0,0(s2)
 
 9d007eb0 <.LVL6>:
@@ -9579,7 +9579,7 @@ boolean DisplayCore::clipToScreen(int &x, int &y, int &w, int &h) {
 9d007f9c:8e430000 lwv1,0(s2)
 9d007fa0:00431023 subuv0,v0,v1
 9d007fa4:ae220000 swv0,0(s1)
-boolean DisplayCore::clipToScreen(int &x, int &y, int &w, int &h) {
+boolean Cariad::clipToScreen(int &x, int &y, int &w, int &h) {
     if (x < 0) {
         w += x;
         x = 0;
@@ -9710,15 +9710,15 @@ Disassembly of section .text.rint:
 9d008150:03e00008 jrra
 9d008154:27bd0008 addiusp,sp,8
 
-Disassembly of section .text._ZN11DisplayCore5writeEh:
+Disassembly of section .text._ZN11Cariad5writeEh:
 
-9d008158 <_ZN11DisplayCore5writeEh>:
+9d008158 <_ZN11Cariad5writeEh>:
  *  Example:
  *
  *      tft.write('Q');
  */
 #if ARDUINO >= 100
-size_t DisplayCore::write(uint8_t c) {
+size_t Cariad::write(uint8_t c) {
 9d008158:27bdffd0 addiusp,sp,-48
 9d00815c:afbf002c swra,44(sp)
 9d008160:afb40028 sws4,40(sp)
@@ -9868,7 +9868,7 @@ size_t DisplayCore::write(uint8_t c) {
  *      tft.write('Q');
  */
 #if ARDUINO >= 100
-size_t DisplayCore::write(uint8_t c) {
+size_t Cariad::write(uint8_t c) {
     if (font == NULL) {
         return 0;
 9d008294:0b4020af j9d0082bc <.LBE25>
@@ -10063,15 +10063,15 @@ SSD1289::SSD1289(
 9d008454:03e00008 jrra
 9d008458:27bd0070 addiusp,sp,112
 
-Disassembly of section .text._ZN11DisplayCore8drawLineEiiiit:
+Disassembly of section .text._ZN11Cariad8drawLineEiiiit:
 
-9d00845c <_ZN11DisplayCore8drawLineEiiiit>:
+9d00845c <_ZN11Cariad8drawLineEiiiit>:
  *  Example:
  *
  *      tft.drawLine(10, 10, 40, 60, Color::Green);
  */
 // bresenham's algorithm - thx wikpedia
-void DisplayCore::drawLine(int x0, int y0, int x1, int y1, color_t color) {
+void Cariad::drawLine(int x0, int y0, int x1, int y1, color_t color) {
 9d00845c:27bdffc0 addiusp,sp,-64
 9d008460:afbf003c swra,60(sp)
 9d008464:afbe0038 sws8,56(sp)
@@ -11321,15 +11321,15 @@ int32_t SoftPWMServoPinEnable(uint32_t Pin, bool PinType)
 9d008e00:03e00008 jrra
 9d008e04:27bd0028 addiusp,sp,40
 
-Disassembly of section .text._ZN11DisplayCore10drawBitmapEiiPKhiit:
+Disassembly of section .text._ZN11Cariad10drawBitmapEiiPKhiit:
 
-9d008e08 <_ZN11DisplayCore10drawBitmapEiiPKhiit>:
+9d008e08 <_ZN11Cariad10drawBitmapEiiPKhiit>:
  *          0b01000010,
  *          0b01000010,
  *          0b00000000};
  *      tft.drawBitmap(100, 100, letterA, 8, 8, Color::Red);
  */
-void DisplayCore::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, color_t color) {
+void Cariad::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, color_t color) {
 9d008e08:27bdffb0 addiusp,sp,-80
 9d008e0c:afbf004c swra,76(sp)
 9d008e10:afbe0048 sws8,72(sp)
@@ -11362,7 +11362,7 @@ void DisplayCore::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, 
  *          0b00000000};
  *      tft.drawBitmap(100, 100, letterA, 8, 8, Color::Red);
  */
-void DisplayCore::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, color_t color) {
+void Cariad::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, color_t color) {
     int i, j, byteWidth = (w + 7) / 8;
 9d008e5c:26830007 addiuv1,s4,7
 9d008e60:2684000e addiua0,s4,14
@@ -11380,7 +11380,7 @@ void DisplayCore::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, 
 
 9d008e7c <.LVL3>:
  */
-void DisplayCore::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, color_t color) {
+void Cariad::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, color_t color) {
     int i, j, byteWidth = (w + 7) / 8;
 
     startBuffer();
@@ -11395,7 +11395,7 @@ void DisplayCore::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, 
 9d008e90:02424021 addut0,s2,v0
 
 9d008e94 <.LVL4>:
-void DisplayCore::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, color_t color) {
+void Cariad::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, color_t color) {
     int i, j, byteWidth = (w + 7) / 8;
 
     startBuffer();
@@ -11435,7 +11435,7 @@ void DisplayCore::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, 
 9d008f00:8fa30014 lwv1,20(sp)
 
 9d008f04 <.LBE2>:
-void DisplayCore::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, color_t color) {
+void Cariad::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, color_t color) {
     int i, j, byteWidth = (w + 7) / 8;
 
     startBuffer();
@@ -11446,7 +11446,7 @@ void DisplayCore::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, 
 
 9d008f0c <.LBB3>:
  */
-void DisplayCore::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, color_t color) {
+void Cariad::drawBitmap(int x, int y, const uint8_t *bitmap, int w, int h, color_t color) {
     int i, j, byteWidth = (w + 7) / 8;
 
     startBuffer();
@@ -12005,7 +12005,7 @@ static void CopyBuffers(void)
 9d0093e8:03e00008 jrra
 9d0093ec:27bd0030 addiusp,sp,48
 
-Disassembly of section .text._ZN11DisplayCore13fillRoundRectEiiiiit:
+Disassembly of section .text._ZN11Cariad13fillRoundRectEiiiiit:
 
 9d0093f0 <L0>:
  *
@@ -12013,7 +12013,7 @@ Disassembly of section .text._ZN11DisplayCore13fillRoundRectEiiiiit:
  *
  *      tft.fillRoundRect(10, 10, 100, 50, 4, Color::Yellow);
  */
-void DisplayCore::fillRoundRect(int x, int y, int w, int h, int r, color_t color) {
+void Cariad::fillRoundRect(int x, int y, int w, int h, int r, color_t color) {
 9d0093f0:27bdffb8 addiusp,sp,-72
 9d0093f4:afbf0044 swra,68(sp)
 9d0093f8:afbe0040 sws8,64(sp)
@@ -12192,15 +12192,15 @@ Disassembly of section .text._malloc_trim_r:
 9d009620:03e00008 jrra
 9d009624:27bd0028 addiusp,sp,40
 
-Disassembly of section .text._ZN11DisplayCore10fillCircleEiiit:
+Disassembly of section .text._ZN11Cariad10fillCircleEiiit:
 
-9d009628 <_ZN11DisplayCore10fillCircleEiiit>:
+9d009628 <_ZN11Cariad10fillCircleEiiit>:
  *
  *  Example:
  *
  *      tft.fillCircle(50, 50, 20, Color::Red);
  */
-void DisplayCore::fillCircle(int x0, int y0, int radius, color_t color) {
+void Cariad::fillCircle(int x0, int y0, int radius, color_t color) {
 9d009628:27bdffb8 addiusp,sp,-72
 9d00962c:afbf0044 swra,68(sp)
 9d009630:afbe0040 sws8,64(sp)
@@ -12245,7 +12245,7 @@ void DisplayCore::fillCircle(int x0, int y0, int radius, color_t color) {
 9d009684 <.LBE6>:
  *      tft.fillCircle(50, 50, 20, Color::Red);
  */
-void DisplayCore::fillCircle(int x0, int y0, int radius, color_t color) {
+void Cariad::fillCircle(int x0, int y0, int radius, color_t color) {
     startBuffer();
     int32_t r2 = radius * radius;
     for (int y1 = 0-radius; y1 <= 0; y1++) {
@@ -12301,7 +12301,7 @@ void DisplayCore::fillCircle(int x0, int y0, int radius, color_t color) {
 9d0096fc <.LBE4>:
  *      tft.fillCircle(50, 50, 20, Color::Red);
  */
-void DisplayCore::fillCircle(int x0, int y0, int radius, color_t color) {
+void Cariad::fillCircle(int x0, int y0, int radius, color_t color) {
     startBuffer();
     int32_t r2 = radius * radius;
     for (int y1 = 0-radius; y1 <= 0; y1++) {
@@ -12418,15 +12418,15 @@ Disassembly of section .rodata:
 9d009838:00000000 nop
 9d00983c:40000000 mfc0zero,c0_index
 
-Disassembly of section .text._ZN11DisplayCore8drawRGBAEiiPKtiit:
+Disassembly of section .text._ZN11Cariad8drawRGBAEiiPKtiit:
 
-9d009840 <_ZN11DisplayCore8drawRGBAEiiPKtiit>:
+9d009840 <_ZN11Cariad8drawRGBAEiiPKtiit>:
  *
  *  Example:
  *
  *    tft.drawRGBA(10, 30, myImage, 16, 16, Color::Black);
  */
-void DisplayCore::drawRGBA(int x, int y, const color_t *bitmap, int w, int h, color_t trans) {
+void Cariad::drawRGBA(int x, int y, const color_t *bitmap, int w, int h, color_t trans) {
 9d009840:27bdffc0 addiusp,sp,-64
 9d009844:afbf003c swra,60(sp)
 9d009848:afbe0038 sws8,56(sp)
@@ -12494,7 +12494,7 @@ void DisplayCore::drawRGBA(int x, int y, const color_t *bitmap, int w, int h, co
 9d0098e8:8fa20014 lwv0,20(sp)
 
 9d0098ec <.LBE8>:
-void DisplayCore::drawRGBA(int x, int y, const color_t *bitmap, int w, int h, color_t trans) {
+void Cariad::drawRGBA(int x, int y, const color_t *bitmap, int w, int h, color_t trans) {
     startBuffer();
     int i, j;
     color_t col;
@@ -12505,7 +12505,7 @@ void DisplayCore::drawRGBA(int x, int y, const color_t *bitmap, int w, int h, co
 
 9d0098f4 <.LBB9>:
  */
-void DisplayCore::drawRGBA(int x, int y, const color_t *bitmap, int w, int h, color_t trans) {
+void Cariad::drawRGBA(int x, int y, const color_t *bitmap, int w, int h, color_t trans) {
     startBuffer();
     int i, j;
     color_t col;
@@ -12554,15 +12554,15 @@ void DisplayCore::drawRGBA(int x, int y, const color_t *bitmap, int w, int h, co
 9d009934:03200008 jrt9
 9d009938:27bd0040 addiusp,sp,64
 
-Disassembly of section .text._ZN11DisplayCore13drawRectangleEiiiit:
+Disassembly of section .text._ZN11Cariad13drawRectangleEiiiit:
 
-9d00993c <_ZN11DisplayCore13drawRectangleEiiiit>:
+9d00993c <_ZN11Cariad13drawRectangleEiiiit>:
  *
  *  Example:
  * 
  *      tft.drawRectangle(10, 10, 200, 300, Color::Blue);
  */
-void DisplayCore::drawRectangle(int x, int y, int w, int h, color_t color) {
+void Cariad::drawRectangle(int x, int y, int w, int h, color_t color) {
 9d00993c:27bdffc8 addiusp,sp,-56
 9d009940:afbf0034 swra,52(sp)
 9d009944:afb50030 sws5,48(sp)
@@ -12658,7 +12658,7 @@ void DisplayCore::drawRectangle(int x, int y, int w, int h, color_t color) {
 9d009a30:03200008 jrt9
 9d009a34:27bd0038 addiusp,sp,56
 
-Disassembly of section .text._ZN11DisplayCore12drawTriangleEiiiiiit:
+Disassembly of section .text._ZN11Cariad12drawTriangleEiiiiiit:
 
 9d009a38 <L0>:
  *
@@ -12666,7 +12666,7 @@ Disassembly of section .text._ZN11DisplayCore12drawTriangleEiiiiiit:
  *
  *      tft.drawTriangle(40, 10, 60, 30, 20, 30, Color::Cyan);
  */
-void DisplayCore::drawTriangle(int x0, int y0, int x1, int y1, int x2, int y2, color_t color) {
+void Cariad::drawTriangle(int x0, int y0, int x1, int y1, int x2, int y2, color_t color) {
 9d009a38:27bdffc0 addiusp,sp,-64
 9d009a3c:afbf003c swra,60(sp)
 9d009a40:afb70038 sws7,56(sp)
@@ -12749,7 +12749,7 @@ void DisplayCore::drawTriangle(int x0, int y0, int x1, int y1, int x2, int y2, c
 9d009b24:8fb0001c lws0,28(sp)
 
 9d009b28 <.LVL8>:
-void DisplayCore::drawTriangle(int x0, int y0, int x1, int y1, int x2, int y2, color_t color) {
+void Cariad::drawTriangle(int x0, int y0, int x1, int y1, int x2, int y2, color_t color) {
     startBuffer();
     drawLine(x0, y0, x1, y1, color);
     drawLine(x1, y1, x2, y2, color);
@@ -12758,15 +12758,15 @@ void DisplayCore::drawTriangle(int x0, int y0, int x1, int y1, int x2, int y2, c
 9d009b28:03200008 jrt9
 9d009b2c:27bd0040 addiusp,sp,64
 
-Disassembly of section .text._ZN11DisplayCore7drawRGBEiiPKtii:
+Disassembly of section .text._ZN11Cariad7drawRGBEiiPKtii:
 
-9d009b30 <_ZN11DisplayCore7drawRGBEiiPKtii>:
+9d009b30 <_ZN11Cariad7drawRGBEiiPKtii>:
  *
  *  Example:
  *
  *    tft.drawRGB(10, 30, myImage, 16, 16);
  */
-void DisplayCore::drawRGB(int x, int y, const color_t *bitmap, int w, int h) {
+void Cariad::drawRGB(int x, int y, const color_t *bitmap, int w, int h) {
 9d009b30:27bdffc0 addiusp,sp,-64
 9d009b34:afbf003c swra,60(sp)
 9d009b38:afbe0038 sws8,56(sp)
@@ -12821,7 +12821,7 @@ void DisplayCore::drawRGB(int x, int y, const color_t *bitmap, int w, int h) {
 
 9d009bc8 <.LVL20>:
  */
-void DisplayCore::drawRGB(int x, int y, const color_t *bitmap, int w, int h) {
+void Cariad::drawRGB(int x, int y, const color_t *bitmap, int w, int h) {
     startBuffer();
     int i, j;
     for (j = 0; j < h; j++) {
@@ -12835,7 +12835,7 @@ void DisplayCore::drawRGB(int x, int y, const color_t *bitmap, int w, int h) {
 9d009bd4 <.LBB6>:
  *    tft.drawRGB(10, 30, myImage, 16, 16);
  */
-void DisplayCore::drawRGB(int x, int y, const color_t *bitmap, int w, int h) {
+void Cariad::drawRGB(int x, int y, const color_t *bitmap, int w, int h) {
     startBuffer();
     int i, j;
     for (j = 0; j < h; j++) {
@@ -13018,13 +13018,13 @@ void Add(uint32_t Channel)
 9d009cf8:03e00008 jrra
 9d009cfc:aca0001c swzero,28(a1)
 
-Disassembly of section .text._ZN11DisplayCore20translateCoordinatesEPiS0_:
+Disassembly of section .text._ZN11Cariad20translateCoordinatesEPiS0_:
 
-9d009d00 <_ZN11DisplayCore20translateCoordinatesEPiS0_>:
-#include <DisplayCore.h>
+9d009d00 <_ZN11Cariad20translateCoordinatesEPiS0_>:
+#include <Cariad.h>
 #include <stdarg.h>
 
-void DisplayCore::translateCoordinates(int *x, int *y) {
+void Cariad::translateCoordinates(int *x, int *y) {
 9d009d00:27bdffd8 addiusp,sp,-40
 9d009d04:afbf0024 swra,36(sp)
 9d009d08:afb30020 sws3,32(sp)
@@ -13280,15 +13280,15 @@ bit = digitalPinToBitMask(pin);
 9d009eb4:03e00008 jrra
 9d009eb8:27bd0020 addiusp,sp,32
 
-Disassembly of section .text._ZN11DisplayCore13fillRectangleEiiiit:
+Disassembly of section .text._ZN11Cariad13fillRectangleEiiiit:
 
-9d009ebc <_ZN11DisplayCore13fillRectangleEiiiit>:
+9d009ebc <_ZN11Cariad13fillRectangleEiiiit>:
  *      tft.fillRectangle(10, 10, 200, 300, Color::Blue);
  *
  *  It is expected that actual screen drivers will override this function with a high speed
  *  optimized function.
  */
-void DisplayCore::fillRectangle(int x, int y, int w, int h, color_t color) {
+void Cariad::fillRectangle(int x, int y, int w, int h, color_t color) {
 9d009ebc:27bdffc8 addiusp,sp,-56
 9d009ec0:afbf0034 swra,52(sp)
 9d009ec4:afbe0030 sws8,48(sp)
@@ -13337,7 +13337,7 @@ void DisplayCore::fillRectangle(int x, int y, int w, int h, color_t color) {
 9d009f44 <.LBE3>:
  *  optimized function.
  */
-void DisplayCore::fillRectangle(int x, int y, int w, int h, color_t color) {
+void Cariad::fillRectangle(int x, int y, int w, int h, color_t color) {
     startBuffer();
     for (int i = 0; i < h; i++) {
         for (int j = 0; j < w; j++) {
@@ -13346,7 +13346,7 @@ void DisplayCore::fillRectangle(int x, int y, int w, int h, color_t color) {
  *  It is expected that actual screen drivers will override this function with a high speed
  *  optimized function.
  */
-void DisplayCore::fillRectangle(int x, int y, int w, int h, color_t color) {
+void Cariad::fillRectangle(int x, int y, int w, int h, color_t color) {
     startBuffer();
     for (int i = 0; i < h; i++) {
 9d009f4c:0b4027c4 j9d009f10 <.LVL13>
@@ -13491,13 +13491,13 @@ for(x=w; x>0; x--) {
 9d00a058:03e00008 jrra
 9d00a05c:27bd0028 addiusp,sp,40
 
-Disassembly of section .text._ZN11DisplayCore9map3Dto2DER7point3d:
+Disassembly of section .text._ZN11Cariad9map3Dto2DER7point3d:
 
-9d00a060 <_ZN11DisplayCore9map3Dto2DER7point3d>:
-#include <DisplayCore.h>
+9d00a060 <_ZN11Cariad9map3Dto2DER7point3d>:
+#include <Cariad.h>
 #include <stdarg.h>
 
-point2d DisplayCore::map3Dto2D(point3d &d) {
+point2d Cariad::map3Dto2D(point3d &d) {
 9d00a060:27bdffd0 addiusp,sp,-48
 9d00a064:afbf001c swra,28(sp)
 9d00a068:afb20018 sws2,24(sp)
@@ -13845,15 +13845,15 @@ int32_t SoftPWMServoRawWrite(uint32_t Pin, uint32_t Value, bool PinType)
 9d00a2b4:03e00008 jrra
 9d00a2b8:27bd0028 addiusp,sp,40
 
-Disassembly of section .text._ZN11DisplayCore3mixEtti:
+Disassembly of section .text._ZN11Cariad3mixEtti:
 
-9d00a2bc <_ZN11DisplayCore3mixEtti>:
+9d00a2bc <_ZN11Cariad3mixEtti>:
  *
  *  Example:
  *
  *      unsigned int yellow = tft.mix(Color::Red, Color::Green);
  */
-color_t DisplayCore::mix(color_t a, color_t b, int pct) {
+color_t Cariad::mix(color_t a, color_t b, int pct) {
 9d00a2bc:27bdfff0 addiusp,sp,-16
 
 9d00a2c0 <.LBB22>:
@@ -13936,13 +13936,13 @@ color_t DisplayCore::mix(color_t a, color_t b, int pct) {
 9d00a370:03e00008 jrra
 9d00a374:27bd0010 addiusp,sp,16
 
-Disassembly of section .text._ZN11DisplayCore11stringWidthEPKc:
+Disassembly of section .text._ZN11Cariad11stringWidthEPKc:
 
-9d00a378 <_ZN11DisplayCore11stringWidthEPKc>:
+9d00a378 <_ZN11Cariad11stringWidthEPKc>:
  *
  *      int width = tft.stringWidth("The quick brown fox jumped over the lazy dog");
  */
-int DisplayCore::stringWidth(const char *text) {
+int Cariad::stringWidth(const char *text) {
     int w = 0;
     if (font == NULL) {
 9d00a378:8c8400bc lwa0,188(a0)
@@ -14039,7 +14039,7 @@ int DisplayCore::stringWidth(const char *text) {
 9d00a42c <.LBE7>:
  *      int width = tft.stringWidth("The quick brown fox jumped over the lazy dog");
  */
-int DisplayCore::stringWidth(const char *text) {
+int Cariad::stringWidth(const char *text) {
     int w = 0;
     if (font == NULL) {
         return 1;
@@ -14673,9 +14673,9 @@ regularStripes(Color::Red, Color::Cyan, 12, o++);
 9d00a9a0:03e00008 jrra
 9d00a9a4:27bd0028 addiusp,sp,40
 
-Disassembly of section .text._ZN11DisplayCoreC2Ev:
+Disassembly of section .text._ZN11CariadC2Ev:
 
-9d00a9a8 <_ZN11DisplayCoreC1Ev>:
+9d00a9a8 <_ZN11CariadC1Ev>:
     size_t printNumber(unsigned long, uint8_t);
     size_t printFloat(double, uint8_t);
   protected:
@@ -14685,10 +14685,10 @@ Disassembly of section .text._ZN11DisplayCoreC2Ev:
 9d00a9a8:ac800004 swzero,4(a0)
 
 9d00a9ac <.LBE16>:
-#include <DisplayCore.h>
+#include <Cariad.h>
 #include <stdarg.h>
 
-DisplayCore::DisplayCore() {
+Cariad::Cariad() {
 9d00a9ac:3c029d00 luiv0,0x9d00
 9d00a9b0:24421780 addiuv0,v0,6016
 9d00a9b4:ac820000 swv0,0(a0)
@@ -14745,15 +14745,15 @@ DisplayCore::DisplayCore() {
 9d00aa3c:03e00008 jrra
 9d00aa40:ac8200bc swv0,188(a0)
 
-Disassembly of section .text._ZN11DisplayCore18drawHorizontalLineEiiit:
+Disassembly of section .text._ZN11Cariad18drawHorizontalLineEiiit:
 
-9d00aa44 <_ZN11DisplayCore18drawHorizontalLineEiiit>:
+9d00aa44 <_ZN11Cariad18drawHorizontalLineEiiit>:
         }
     }
     endBuffer();
 }
 
-void DisplayCore::drawHorizontalLine(int x, int y, int w, color_t c) {
+void Cariad::drawHorizontalLine(int x, int y, int w, color_t c) {
 9d00aa44:27bdffd0 addiusp,sp,-48
 9d00aa48:afbf002c swra,44(sp)
 9d00aa4c:afb50028 sws5,40(sp)
@@ -14792,7 +14792,7 @@ void DisplayCore::drawHorizontalLine(int x, int y, int w, color_t c) {
     endBuffer();
 }
 
-void DisplayCore::drawHorizontalLine(int x, int y, int w, color_t c) {
+void Cariad::drawHorizontalLine(int x, int y, int w, color_t c) {
     startBuffer();
     for(int z = 0; z < w; z++) {
 9d00aaac:0b402aa2 j9d00aa88 <.LVL65>
@@ -14820,7 +14820,7 @@ void DisplayCore::drawHorizontalLine(int x, int y, int w, color_t c) {
 9d00aad4:8fb00014 lws0,20(sp)
 
 9d00aad8 <.LVL71>:
-void DisplayCore::drawHorizontalLine(int x, int y, int w, color_t c) {
+void Cariad::drawHorizontalLine(int x, int y, int w, color_t c) {
     startBuffer();
     for(int z = 0; z < w; z++) {
         setPixel(x + z, y, c);
@@ -14829,12 +14829,12 @@ void DisplayCore::drawHorizontalLine(int x, int y, int w, color_t c) {
 9d00aad8:03200008 jrt9
 9d00aadc:27bd0030 addiusp,sp,48
 
-Disassembly of section .text._ZN11DisplayCore16drawVerticalLineEiiit:
+Disassembly of section .text._ZN11Cariad16drawVerticalLineEiiit:
 
-9d00aae0 <_ZN11DisplayCore16drawVerticalLineEiiit>:
+9d00aae0 <_ZN11Cariad16drawVerticalLineEiiit>:
 }
 
-void DisplayCore::drawVerticalLine(int x, int y, int h, color_t c) {
+void Cariad::drawVerticalLine(int x, int y, int h, color_t c) {
 9d00aae0:27bdffd0 addiusp,sp,-48
 9d00aae4:afbf002c swra,44(sp)
 9d00aae8:afb50028 sws5,40(sp)
@@ -14873,7 +14873,7 @@ void DisplayCore::drawVerticalLine(int x, int y, int h, color_t c) {
     endBuffer();
 }
 
-void DisplayCore::drawVerticalLine(int x, int y, int h, color_t c) {
+void Cariad::drawVerticalLine(int x, int y, int h, color_t c) {
     startBuffer();
     for(int z = 0; z < h; z++) {
 9d00ab48:0b402ac9 j9d00ab24 <.LVL75>
@@ -14901,7 +14901,7 @@ void DisplayCore::drawVerticalLine(int x, int y, int h, color_t c) {
 9d00ab70:8fb00014 lws0,20(sp)
 
 9d00ab74 <.LVL81>:
-void DisplayCore::drawVerticalLine(int x, int y, int h, color_t c) {
+void Cariad::drawVerticalLine(int x, int y, int h, color_t c) {
     startBuffer();
     for(int z = 0; z < h; z++) {
         setPixel(x, y + z, c);
@@ -14910,15 +14910,15 @@ void DisplayCore::drawVerticalLine(int x, int y, int h, color_t c) {
 9d00ab74:03200008 jrt9
 9d00ab78:27bd0030 addiusp,sp,48
 
-Disassembly of section .text._ZN11DisplayCore10fillScreenEt:
+Disassembly of section .text._ZN11Cariad10fillScreenEt:
 
-9d00ab7c <_ZN11DisplayCore10fillScreenEt>:
+9d00ab7c <_ZN11Cariad10fillScreenEt>:
  * 
  *  Example: 
  *
  *      tft.fillScreen(Color::Black);
  */
-void DisplayCore::fillScreen(color_t color) {
+void Cariad::fillScreen(color_t color) {
 9d00ab7c:27bdffd0 addiusp,sp,-48
 9d00ab80:afbf002c swra,44(sp)
 9d00ab84:afb30028 sws3,40(sp)
@@ -14974,7 +14974,7 @@ void DisplayCore::fillScreen(color_t color) {
 
 9d00ac10 <.LVL30>:
  */
-void DisplayCore::fillScreen(color_t color) {
+void Cariad::fillScreen(color_t color) {
     startBuffer();
     bgColor = color;
     fillRectangle(0, 0, getWidth(), getHeight(), color);
@@ -14982,15 +14982,15 @@ void DisplayCore::fillScreen(color_t color) {
 9d00ac10:03200008 jrt9
 9d00ac14:27bd0030 addiusp,sp,48
 
-Disassembly of section .text._ZN11DisplayCore8setPixelEiiit:
+Disassembly of section .text._ZN11Cariad8setPixelEiiit:
 
-9d00ac18 <_ZN11DisplayCore8setPixelEiiit>:
+9d00ac18 <_ZN11Cariad8setPixelEiiit>:
 
-int DisplayCore::getHeight() {
+int Cariad::getHeight() {
     return _height;
 }
 
-void DisplayCore::setPixel(int x, int y, int z, color_t c) {
+void Cariad::setPixel(int x, int y, int z, color_t c) {
 9d00ac18:27bdff90 addiusp,sp,-112
 9d00ac1c:afbf006c swra,108(sp)
 9d00ac20:afb10068 sws1,104(sp)
@@ -15051,15 +15051,15 @@ void DisplayCore::setPixel(int x, int y, int z, color_t c) {
 9d00aca8:03e00008 jrra
 9d00acac:27bd0070 addiusp,sp,112
 
-Disassembly of section .text._ZN11DisplayCore10windowDataEt:
+Disassembly of section .text._ZN11Cariad10windowDataEt:
 
-9d00acb0 <_ZN11DisplayCore10windowDataEt>:
+9d00acb0 <_ZN11Cariad10windowDataEt>:
  *
  *  Example:
  *
  *      tft.windowData(Color::Red);
  */
-void DisplayCore::windowData(color_t d) {
+void Cariad::windowData(color_t d) {
 9d00acb0:27bdffe8 addiusp,sp,-24
 9d00acb4:afbf0014 swra,20(sp)
 9d00acb8:afb00010 sws0,16(sp)
@@ -15454,15 +15454,15 @@ delay(40);
 9d00b090:03e00008 jrra
 9d00b094:27bd0028 addiusp,sp,40
 
-Disassembly of section .text._ZN11DisplayCore5writeEPKhm:
+Disassembly of section .text._ZN11Cariad5writeEPKhm:
 
-9d00b098 <_ZN11DisplayCore5writeEPKhm>:
+9d00b098 <_ZN11Cariad5writeEPKhm>:
     return header->linesPerCharacter;
 }
         
 
 #if ARDUINO >= 100
-size_t DisplayCore::write(const uint8_t *buffer, size_t size) {
+size_t Cariad::write(const uint8_t *buffer, size_t size) {
 9d00b098:27bdffd8 addiusp,sp,-40
 9d00b09c:afbf0024 swra,36(sp)
 9d00b0a0:afb30020 sws3,32(sp)
@@ -15831,15 +15831,15 @@ void SSD1289::windowData(color_t *d, int l) {
 9d00b364:03e00008 jrra
 9d00b368:27bd0028 addiusp,sp,40
 
-Disassembly of section .text._ZN11DisplayCore10windowDataEPKti:
+Disassembly of section .text._ZN11Cariad10windowDataEPKti:
 
-9d00b36c <_ZN11DisplayCore10windowDataEPKti>:
+9d00b36c <_ZN11Cariad10windowDataEPKti>:
  *
  *  Example:
  *
  *      tft.windowData(myData, 1000);
  */
-void DisplayCore::windowData(const color_t *d, int l) {
+void Cariad::windowData(const color_t *d, int l) {
 9d00b36c:27bdffd8 addiusp,sp,-40
 9d00b370:afbf0024 swra,36(sp)
 9d00b374:afb30020 sws3,32(sp)
@@ -15871,7 +15871,7 @@ void DisplayCore::windowData(const color_t *d, int l) {
  *
  *      tft.windowData(myData, 1000);
  */
-void DisplayCore::windowData(const color_t *d, int l) {
+void Cariad::windowData(const color_t *d, int l) {
     for (int i = 0; i < l; i++) {
 9d00b3b8:0b402ce5 j9d00b394 <.LVL10>
 9d00b3bc:26100001 addius0,s0,1
@@ -16228,15 +16228,15 @@ Disassembly of section .text.rand:
 9d00b6dc:03e00008 jrra
 9d00b6e0:7c42f000 extv0,v0,0x0,0x1f
 
-Disassembly of section .text._ZN11DisplayCore18getPortInformationEhPm:
+Disassembly of section .text._ZN11Cariad18getPortInformationEhPm:
 
-9d00b6e4 <_ZN11DisplayCore18getPortInformationEhPm>:
+9d00b6e4 <_ZN11Cariad18getPortInformationEhPm>:
             break;
     }
 }
 
 #if defined(__PIC32MX__) || defined(__PIC32MZ__)
-p32_ioport *DisplayCore::getPortInformation(uint8_t pin, uint32_t *mask) {
+p32_ioport *Cariad::getPortInformation(uint8_t pin, uint32_t *mask) {
 9d00b6e4:30a500ff andia1,a1,0xff
 
 9d00b6e8 <.LBB8>:
@@ -16889,15 +16889,15 @@ setBorderSingle(Color::White);
 9d00bc94:03e00008 jrra
 9d00bc98:27bd0020 addiusp,sp,32
 
-Disassembly of section .text._ZN11DisplayCore12getRectangleEiiiiPt:
+Disassembly of section .text._ZN11Cariad12getRectangleEiiiiPt:
 
-9d00bc9c <_ZN11DisplayCore12getRectangleEiiiiPt>:
+9d00bc9c <_ZN11Cariad12getRectangleEiiiiPt>:
  */
-color_t DisplayCore::colorAt(int x, int y) {
+color_t Cariad::colorAt(int x, int y) {
     return bgColor;
 }
 
-void DisplayCore::getRectangle(int x, int y, int w, int h, color_t *buf) {
+void Cariad::getRectangle(int x, int y, int w, int h, color_t *buf) {
 9d00bc9c:8fa30014 lwv1,20(sp)
 
 9d00bca0 <.LBB2>:
@@ -16918,11 +16918,11 @@ void DisplayCore::getRectangle(int x, int y, int w, int h, color_t *buf) {
 9d00bcc0:a4a60000 sha2,0(a1)
 
 9d00bcc4 <.LBE2>:
-color_t DisplayCore::colorAt(int x, int y) {
+color_t Cariad::colorAt(int x, int y) {
     return bgColor;
 }
 
-void DisplayCore::getRectangle(int x, int y, int w, int h, color_t *buf) {
+void Cariad::getRectangle(int x, int y, int w, int h, color_t *buf) {
     for (int i = 0; i < w*h; i++) {
 9d00bcc4:0b402f2b j9d00bcac <.LVL4>
 9d00bcc8:24420001 addiuv0,v0,1
@@ -17080,14 +17080,14 @@ Disassembly of section .text.main_entry:
 9d00bdac:1000ffff b9d00bdac <_main_entry+0x2c>
 9d00bdb0:00000000 nop
 
-Disassembly of section .text._ZN11DisplayCore10openWindowEiiii:
+Disassembly of section .text._ZN11Cariad10openWindowEiiii:
 
-9d00bdb4 <_ZN11DisplayCore10openWindowEiiii>:
+9d00bdb4 <_ZN11Cariad10openWindowEiiii>:
  *  Example:
  *  
  *      tft.openWindow(0, 0, 100, 100);
  */
-void DisplayCore::openWindow(int x0, int y0, int x1, int y1) {
+void Cariad::openWindow(int x0, int y0, int x1, int y1) {
     winx0 = x0;
 9d00bdb4:ac8500c0 swa1,192(a0)
     winy0 = y0;
@@ -17412,14 +17412,14 @@ Disassembly of section .text.memset:
 9d00c064:03e00008 jrra
 9d00c068:00000000 nop
 
-Disassembly of section .text._ZN11DisplayCore8color565Ehhh:
+Disassembly of section .text._ZN11Cariad8color565Ehhh:
 
-9d00c06c <_ZN11DisplayCore8color565Ehhh>:
+9d00c06c <_ZN11Cariad8color565Ehhh>:
  *  Example:
  *
  *      unsigned int yellow = tft.color565(255, 255, 0);
  */
-color_t DisplayCore::color565(uint8_t r, uint8_t g, uint8_t b) {
+color_t Cariad::color565(uint8_t r, uint8_t g, uint8_t b) {
     return ((r & 0xF8) << 8) | ((g & 0xFC) << 3) | (b >> 3);
 9d00c06c:30c600fc andia2,a2,0xfc
 
@@ -17492,14 +17492,14 @@ void SSD1289::openWindow(int x0, int y0, int x1, int y1) {
 9d00c0e4:0b4021ce j9d008738 <.LFE192>
 9d00c0e8:24e7ffff addiua3,a3,-1
 
-Disassembly of section .text._ZN11DisplayCore12stringHeightEPKc:
+Disassembly of section .text._ZN11Cariad12stringHeightEPKc:
 
-9d00c0ec <_ZN11DisplayCore12stringHeightEPKc>:
+9d00c0ec <_ZN11Cariad12stringHeightEPKc>:
  *  Example:
  *
  *      int height = stringHeight("The quick brown fox jumped over the lazy dog");
  */
-int DisplayCore::stringHeight(const char *text) {
+int Cariad::stringHeight(const char *text) {
     if (font == NULL) {
 9d00c0ec:8c8200bc lwv0,188(a0)
 9d00c0f0:10400003 beqzv0,9d00c100 <.LBE9>
@@ -17628,15 +17628,15 @@ Disassembly of section .text:
 9d00c1e4:409a6000 mtc0k0,c0_status
 9d00c1e8:42000018 eret
 
-Disassembly of section .text._ZN11DisplayCore9getCursorEh:
+Disassembly of section .text._ZN11Cariad9getCursorEh:
 
-9d00c1ec <_ZN11DisplayCore9getCursorEh>:
+9d00c1ec <_ZN11Cariad9getCursorEh>:
  *  Example:
  *
  *      int x = tft.getCursor(true);
  *      int y = tft.getCursor(false);
  */
-int DisplayCore::getCursor(boolean x) {
+int Cariad::getCursor(boolean x) {
 9d00c1ec:30a500ff andia1,a1,0xff
     if( x )
         return cursor_x;
@@ -17647,15 +17647,15 @@ int DisplayCore::getCursor(boolean x) {
 9d00c1f8:03e00008 jrra
 9d00c1fc:0065100b movnv0,v1,a1
 
-Disassembly of section .text._ZN11DisplayCore12setTextColorEtt:
+Disassembly of section .text._ZN11Cariad12setTextColorEtt:
 
-9d00c200 <_ZN11DisplayCore12setTextColorEtt>:
+9d00c200 <_ZN11Cariad12setTextColorEtt>:
  *
  *  Example:
  *
  *      tft.setTextColor(Color::Red, Color::Blue);
  */
-void DisplayCore::setTextColor(color_t fg, color_t bg) {
+void Cariad::setTextColor(color_t fg, color_t bg) {
 9d00c200:30c6ffff andia2,a2,0xffff
    textcolor = fg;
 9d00c204:a4850012 sha1,18(a0)
@@ -17665,14 +17665,14 @@ void DisplayCore::setTextColor(color_t fg, color_t bg) {
 9d00c20c:03e00008 jrra
 9d00c210:a48600d8 sha2,216(a0)
 
-Disassembly of section .text._ZN11DisplayCore15invertTextColorEv:
+Disassembly of section .text._ZN11Cariad15invertTextColorEv:
 
-9d00c214 <_ZN11DisplayCore15invertTextColorEv>:
+9d00c214 <_ZN11Cariad15invertTextColorEv>:
  *  Example:
  *
  *      tft.invertTextColor();
  */
-void DisplayCore::invertTextColor( ){
+void Cariad::invertTextColor( ){
 setTextColor( textbgcolor, textcolor );
 9d00c214:8c830000 lwv1,0(a0)
 9d00c218:8c790054 lwt9,84(v1)
@@ -17718,14 +17718,14 @@ Disassembly of section .rodata:
 9d00c268:00000000 nop
 9d00c26c:40080000 mfc0t0,c0_index
 
-Disassembly of section .text._ZN11DisplayCore11closeWindowEv:
+Disassembly of section .text._ZN11Cariad11closeWindowEv:
 
-9d00c270 <_ZN11DisplayCore11closeWindowEv>:
+9d00c270 <_ZN11Cariad11closeWindowEv>:
  *
  *      tft.closeWindow();
  */
 
-void DisplayCore::closeWindow() {
+void Cariad::closeWindow() {
     endBuffer();
 9d00c270:8c820000 lwv0,0(a0)
 9d00c274:8c5900c8 lwt9,200(v0)
@@ -17790,14 +17790,14 @@ Disassembly of section .rodata.TWO52.TWO52:
 9d00c2e0 <TWO52>:
 9d00c2e0:00000000 43300000 00000000 c3300000     ......0C......0.
 
-Disassembly of section .text._ZN11DisplayCore9setCursorEii:
+Disassembly of section .text._ZN11Cariad9setCursorEii:
 
-9d00c2f0 <_ZN11DisplayCore9setCursorEii>:
+9d00c2f0 <_ZN11Cariad9setCursorEii>:
  *  Example:
  *
  *      tft.setCursor(0, 100);
  */
-void DisplayCore::setCursor(int x, int y) {
+void Cariad::setCursor(int x, int y) {
     cursor_x = x;
 9d00c2f0:ac850008 swa1,8(a0)
     cursor_y = y;
@@ -17883,130 +17883,130 @@ void SSD1289::closeWindow() {
 9d00c334:03e00008 jrra
 9d00c338:00000000 nop
 
-Disassembly of section .text._ZN11DisplayCore8getWidthEv:
+Disassembly of section .text._ZN11Cariad8getWidthEv:
 
-9d00c33c <_ZN11DisplayCore8getWidthEv>:
+9d00c33c <_ZN11Cariad8getWidthEv>:
 #endif
 
-int DisplayCore::getWidth() {
+int Cariad::getWidth() {
     return _width;
 }
 9d00c33c:03e00008 jrra
 9d00c340:8c820018 lwv0,24(a0)
 
-Disassembly of section .text._ZN11DisplayCore9getHeightEv:
+Disassembly of section .text._ZN11Cariad9getHeightEv:
 
-9d00c344 <_ZN11DisplayCore9getHeightEv>:
+9d00c344 <_ZN11Cariad9getHeightEv>:
 
-int DisplayCore::getHeight() {
+int Cariad::getHeight() {
     return _height;
 }
 9d00c344:03e00008 jrra
 9d00c348:8c82001c lwv0,28(a0)
 
-Disassembly of section .text._ZN11DisplayCore7colorAtEii:
+Disassembly of section .text._ZN11Cariad7colorAtEii:
 
-9d00c34c <_ZN11DisplayCore7colorAtEii>:
+9d00c34c <_ZN11Cariad7colorAtEii>:
  *
  *      unsigned int color = tft.colorAt(100, 100);
  */
-color_t DisplayCore::colorAt(int x, int y) {
+color_t Cariad::colorAt(int x, int y) {
     return bgColor;
 }
 9d00c34c:03e00008 jrra
 9d00c350:948200d8 lhuv0,216(a0)
 
-Disassembly of section .text._ZN11DisplayCore10setCursorXEi:
+Disassembly of section .text._ZN11Cariad10setCursorXEi:
 
-9d00c354 <_ZN11DisplayCore10setCursorXEi>:
+9d00c354 <_ZN11Cariad10setCursorXEi>:
  *  Example:
  *
  *      tft.setCursorX(100);
  */
-void DisplayCore::setCursorX(int x) {
+void Cariad::setCursorX(int x) {
     cursor_x = x;
 9d00c354:03e00008 jrra
 9d00c358:ac850008 swa1,8(a0)
 
-Disassembly of section .text._ZN11DisplayCore10setCursorYEi:
+Disassembly of section .text._ZN11Cariad10setCursorYEi:
 
 9d00c35c <L0>:
  *  Example:
  *
  *      tft.setCursorY(100);
  */
-void DisplayCore::setCursorY(int y) {
+void Cariad::setCursorY(int y) {
     cursor_y = y;
 9d00c35c:03e00008 jrra
 9d00c360:ac85000c swa1,12(a0)
 
-Disassembly of section .text._ZN11DisplayCore10getCursorXEv:
+Disassembly of section .text._ZN11Cariad10getCursorXEv:
 
-9d00c364 <_ZN11DisplayCore10getCursorXEv>:
+9d00c364 <_ZN11Cariad10getCursorXEv>:
  *
  *      int x = tft.getCursorX();
  */
-int DisplayCore::getCursorX() {
+int Cariad::getCursorX() {
     return cursor_x;
 }
 9d00c364:03e00008 jrra
 9d00c368:8c820008 lwv0,8(a0)
 
-Disassembly of section .text._ZN11DisplayCore10getCursorYEv:
+Disassembly of section .text._ZN11Cariad10getCursorYEv:
 
-9d00c36c <_ZN11DisplayCore10getCursorYEv>:
+9d00c36c <_ZN11Cariad10getCursorYEv>:
  *
  *      int y = tft.getCursorY();
  */
-int DisplayCore::getCursorY() {
+int Cariad::getCursorY() {
     return cursor_y;
 }
 9d00c36c:03e00008 jrra
 9d00c370:8c82000c lwv0,12(a0)
 
-Disassembly of section .text._ZN11DisplayCore12setTextColorEt:
+Disassembly of section .text._ZN11Cariad12setTextColorEt:
 
-9d00c374 <_ZN11DisplayCore12setTextColorEt>:
+9d00c374 <_ZN11Cariad12setTextColorEt>:
  *  Example:
  *
  *      tft.setTextColor(Color::Magenta);
  */
-void DisplayCore::setTextColor(color_t c) {
+void Cariad::setTextColor(color_t c) {
     textcolor = c;
 9d00c374:03e00008 jrra
 9d00c378:a4850012 sha1,18(a0)
 
-Disassembly of section .text._ZN11DisplayCore11setTextWrapEh:
+Disassembly of section .text._ZN11Cariad11setTextWrapEh:
 
-9d00c37c <_ZN11DisplayCore11setTextWrapEh>:
+9d00c37c <_ZN11Cariad11setTextWrapEh>:
  *  Example:
  * 
  *      tft.setTextWrap(false);
  */
-void DisplayCore::setTextWrap(boolean w) {
+void Cariad::setTextWrap(boolean w) {
   wrap = w;
 9d00c37c:03e00008 jrra
 9d00c380:a0850010 sba1,16(a0)
 
-Disassembly of section .text._ZN11DisplayCore7setFontEPKh:
+Disassembly of section .text._ZN11Cariad7setFontEPKh:
 
-9d00c384 <_ZN11DisplayCore7setFontEPKh>:
+9d00c384 <_ZN11Cariad7setFontEPKh>:
  *  Example:
  * 
  *      tft.setFont(Fonts::Ubuntu12);
  */
-void DisplayCore::setFont(const uint8_t *f) {
+void Cariad::setFont(const uint8_t *f) {
     font = f;
 9d00c384:03e00008 jrra
 9d00c388:ac8500bc swa1,188(a0)
 
-Disassembly of section .text._ZN11DisplayCore12getTextColorEv:
+Disassembly of section .text._ZN11Cariad12getTextColorEv:
 
 9d00c38c <L0>:
  *
  *      unsigned int color = tft.getTextColor();
  */
-color_t DisplayCore::getTextColor() {
+color_t Cariad::getTextColor() {
     return textcolor;
 }
 9d00c38c:03e00008 jrra

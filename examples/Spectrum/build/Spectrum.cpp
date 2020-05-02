@@ -7,7 +7,7 @@
  ***************************************************/
 
 #include <WProgram.h>
-#line 1 "/home/matt/DC/DisplayCore/Drivers/SSD1289/examples/Spectrum/Spectrum.ino"
+#line 1 "/home/matt/DC/Cariad/Drivers/SSD1289/examples/Spectrum/Spectrum.ino"
 #include <SSD1289.h>
 #include <Sinclair.h>
 
